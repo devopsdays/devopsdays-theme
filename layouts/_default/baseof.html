@@ -42,22 +42,68 @@
                     <li><a href="#">Speaking</a></li>
                     <li><a href="#">Organizing</a></li>
                 </ul>
-                <form class="navbar-form navbar-right">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span> <span class="hidden-sm hidden-md hidden-lg">Search</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+    <!-- Search Modal -->
+    <div id="modalSearch" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Search DevOpsDays</h4>
+                </div>
+                <div class="modal-body">
+                    <script>
+                        (function() {
+                            var cx = '008769174023796316711:pj3syggtkz0';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
+                    <!-- These styles fix CSE and Bootstrap 3 conflict -->
+                    <style type="text/css">
+                        .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
+                        {
+                            -webkit-box-sizing: content-box;
+                            -moz-box-sizing: content-box;
+                            box-sizing: content-box;
+                        }
+                        input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
+                        {
+                            box-sizing: content-box;
+                            line-height: normal;
+                        }
+                    </style>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2">
-                EVENTS NEAR ME<br />
-                PAST EVENTS<br />
+                EVENTS NEAR ME<br /> PAST EVENTS<br />
                 <h4>2016</h4>
                 <h5>October</h5>
             </div>
@@ -128,6 +174,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+    <script>
+        (function() {
+            var cx = '008769174023796316711:pj3syggtkz0';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
 </body>
 
 </html>
