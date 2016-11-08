@@ -1,85 +1,133 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ .Hugo.Generator }}
-<title>
-  {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-  {{ if eq $url "/" }}
-      {{ .Site.Title }}
-  {{ else }}
-      {{ if .Params.Heading }} {{ .Params.Heading }} {{ else }} {{ .Title }} {{ end }}
-  {{ end }}
-</title>
-<link rel="canonical" href="{{ .Permalink }}">
-<!-- Bootstrap -->
-<link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
-<link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
-<link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {{ .Hugo.Generator }}
+    <title>
+        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "/" }} {{ .Site.Title }} {{ else }} {{ if .Params.Heading }} {{ .Params.Heading }} {{ else }} {{ .Title }} {{ end }} {{ end }}
+    </title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <!-- Bootstrap -->
+    <link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
-  <body lang="{{ .Site.Params.Lang }}">
+
+<body lang="{{ .Site.Params.Lang }}">
     <!-- do the nav, do the nav! -->
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="pull-left" href="#">
-        <img alt="DevOpsDays logo" src = "/img/devopsdays-brain.png" width="75px"/></a>
+                <a class="pull-left" href="#">
+                    <img alt="DevOpsDays logo" src="/img/devopsdays-brain.png" width="75px" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">Speaking</a></li>
+                    <li><a href="#">Organizing</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                EVENTS NEAR ME<br />
+                PAST EVENTS<br />
+                <h4>2016</h4>
+                <h5>October</h5>
+            </div>
+            <div class="col-md-8">
+                <!-- Main Content -->
+                {{- block "main" . }} {{- end -}}
+            </div>
+            <div class="col-md-2">
+                {{ block "right-col" . }} {{ end }}
+            </div>
+        </div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+    <div class="navbar navbar-default navbar-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                    <h3>EVENTS NEAR ME</h3></br>
+                    PAST</br>
+                    CURRENT</br>
+                    UPCOMING</br>
+                </div>
+                <div class="col-md-2">
+                    <h3>FEATURED</h3>
+                    <b>Chicago 2017</b>
+                    <i>Summit West - 15 October 2017</i>
+                </div>
+                <div class="col-md-2">
+                    <h3>BLOG</h3>
+                    <b>Some Blog Title</b>
+                    <i>by Somebody - 18 October 2017</i>
+                    <p>
+                        Something blah blah blah blah...<i><b>more</b></i>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h3>@DEVOPSDAYS</h3>
+                    <div>
+                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/devopsdays/lists/devopsdays" data-chrome="noheader" height="440"></a>
+
+                        <script>
+                            ! function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                        </script>
+                    </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    {{- block "main" . }}
-    {{- end -}}
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-  </body>
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+</body>
+
 </html>
