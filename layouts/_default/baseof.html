@@ -13,6 +13,7 @@
     <link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}css/jquery.oembed.css" rel="stylesheet">
 </head>
 
 <body lang="{{ .Site.Params.Lang }}">
@@ -80,14 +81,21 @@
                     <gcse:search></gcse:search>
                     <!-- These styles fix CSE and Bootstrap 3 conflict -->
                     <style type="text/css">
-                        .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
-                        {
+                        .reset-box-sizing,
+                        .reset-box-sizing *,
+                        .reset-box-sizing *:before,
+                        .reset-box-sizing *:after,
+                        .gsc-inline-block {
                             -webkit-box-sizing: content-box;
                             -moz-box-sizing: content-box;
                             box-sizing: content-box;
                         }
-                        input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
-                        {
+
+                        input.gsc-input,
+                        .gsc-input-box,
+                        .gsc-input-box-hover,
+                        .gsc-input-box-focus,
+                        .gsc-search-button {
                             box-sizing: content-box;
                             line-height: normal;
                         }
@@ -174,6 +182,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.oembed.js"></script>
+    <script>
+        $(function() {
+            $("a.embed").oembed();
+        });
+    </script>
     <script>
         (function() {
             var cx = '008769174023796316711:pj3syggtkz0';
