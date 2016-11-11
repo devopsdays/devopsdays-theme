@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<div class = "row">
+  <div class = "col-md-8">
+    <h2>{{ title .Title }}</h2>
+
+    {{ if isset .Params "youtube" }}
+      {{ if ne .Params.youtube "" }}
+        <div class="row">
+            <div class="col-md-12 youtube-video">
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .Params.youtube }}">
+              </iframe>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+    {{ end }}
+
+    <h3>Talk Abstract</h3>
+
+      <div>
+        {{ .Content }}
+      </div>
+      {{ if isset .Params "speakerdeck" }}
+        {{ if ne .Params.speakerdeck ""}}
+          <div>
+            <h2>Speakerdeck</h2>
+            <a href="{{ .Params.speakerdeck}}" class="embed"></a>
+          </div>
+        {{ end }}
+      {{ end }}
+
+      {{ if isset .Params "slideshare" }}
+        {{ if ne .Params.slideshare ""}}
+          <div>
+            <h2>Slideshare</h2>
+            <a href="{{ .Params.slideshare }}" class="embed"></a>
+          </div>
+        {{ end }}
+      {{ end }}
+
+      {{ if isset .Params "slides" }}
+        {{ if ne .Params.slides ""}}
+        <div>
+          <h2>Slides</h2>
+          <a href = "{{ .Params.slides }}">Link to Slides</a>
+        </div>
+        {{ end }}
+      {{ end }}
+
+  </div>
+<div class = "col-md-4">
+  <h2>Bio</h2>
+  <img src = "/events/2016-chicago/speakers/adam-jacob.jpg" class="img-responsive" width = "250px" />
+  <br />
+  Adam Jacob is the creator of Chef and co-founder of Chef, Inc. in 2008 and currently serves as its Chief Technology Officer. Prior to Chef, Inc. Adam founded HJK Solutions, an automated infrastructure consultancy. During two years at HJK, Adam built new infrastructures for 15 different startups. Including Adam's time at HJK, Adam has 13 years of experience as a systems administrator, systems architect, and tools developer.
+</div>
+</div>
+
+{{ end }}
