@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - master
+
+install: go get -v github.com/spf13/hugo
+
+before_script: cd exampleSite
+script:
+  - hugo
