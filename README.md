@@ -7,4 +7,8 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 # devopsdays-theme
 devopsdays-theme is a the Hugo theme the [DevOpsDays](https://www.devopsdays.org) website.
 
-add some stuff here
+# dev examples
+This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
+- [Home Page](http://devopsdays-sample.netlify.com/)
+- [Event Page](http://devopsdays-sample.netlify.com/events/2016-chicago/welcome/)
+- [Talk Page](http://devopsdays-sample.netlify.com/events/2016-chicago/program/adam-jacob/)
