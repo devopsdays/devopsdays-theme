@@ -1,3 +1,3 @@
 cd exampleSite
-../bin/hugo version:wq
+../bin/hugo -v --theme=devopsdays-theme --buildDrafts=false --baseURL=$URL
 
