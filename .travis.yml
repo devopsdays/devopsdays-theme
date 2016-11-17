@@ -13,7 +13,10 @@ before_install:
 
 install: go get -v github.com/spf13/hugo
 
-before_script: cd exampleSite
+before_script:
+  - cd exampleSite
+  - npm install -g casperjs
+  - phantomjs --version; casperjs --version
 script:
   - hugo
   - npm version
