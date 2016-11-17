@@ -85,6 +85,8 @@ Customize the labels on the map
         </div>
 
     </div>
+  </div>
+    {{ $.Scratch.Add "i" 1 }}
     <div class="row">
         {{ range sort $.Site.Data.events "startdate" }}
           {{ if and ( eq .status "current") ( .startdate ) }}
@@ -106,8 +108,12 @@ Customize the labels on the map
                   {{ end }}
                 {{ end }}
             </div>
+            {{ if modBool ($.Scratch.Get "i") 4 }}
+                </div>
+                <div class = "row">
+            {{ end }}
+            {{ $.Scratch.Add "i" 1 }}
           {{ end }}
         {{ end }}
     </div>
-</div>
 {{ end }}
