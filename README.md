@@ -9,6 +9,6 @@ devopsdays-theme is a the Hugo theme the [DevOpsDays](https://www.devopsdays.org
 
 # dev examples
 This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
-- [Home Page](http://devopsdays-sample.netlify.com/)
-- [Event Page](http://devopsdays-sample.netlify.com/events/2016-chicago/welcome/)
-- [Talk Page](http://devopsdays-sample.netlify.com/events/2016-chicago/program/adam-jacob/)
+- [Home Page](http://devopsdays-theme.netlify.com/)
+- [Event Page](http://devopsdays-theme.netlify.com/events/2016-chicago/welcome/)
+- [Talk Page](http://devopsdays-theme.netlify.com/events/2016-chicago/program/adam-jacob/)
