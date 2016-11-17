@@ -15,8 +15,12 @@ install: go get -v github.com/spf13/hugo
 
 before_script:
   - cd exampleSite
+  - npm install mocha
+  - npm install chai
   - npm install -g casperjs
-  - phantomjs --version; casperjs --version
+  - npm install -g mocha-casperjs
+  - npm install -g casper-chai
+
 script:
   - hugo
   - npm version
