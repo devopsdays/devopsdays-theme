@@ -195,6 +195,12 @@
 		"oAP": "\/exampleSite\/data\/events\/.gitkeep",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2016-berlin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-berlin.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2016-chicago.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -207,6 +213,18 @@
 		"oAP": "\/exampleSite\/data\/events\/2016-minneapolis.yml",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2016-paris.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-paris.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-warsaw.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-warsaw.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2017-chicago.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -217,6 +235,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2017-minneapolis.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-seattle.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-seattle.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/speakers\/.gitkeep": {
@@ -6807,6 +6831,14 @@
 		"oA": 2,
 		"oAP": "\/exampleSite\/static\/events\/.gitkeep",
 		"oF": 0
+		},
+	"\/exampleSite\/static\/events\/2016-berlin\/homepage-logo.png": {
+		"ft": 32768,
+		"iS": 191019,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-berlin\/homepage-logo.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/exampleSite\/static\/events\/2016-chicago\/speakers\/adam-jacob-tn.jpg": {
 		"ft": 16384,

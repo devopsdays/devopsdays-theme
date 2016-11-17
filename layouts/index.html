@@ -1,4 +1,5 @@
 {{ define "main" }}
+
 <div class="row">
     <div class="col-md-12">
         <!--
@@ -85,73 +86,28 @@ Customize the labels on the map
 
     </div>
     <div class="row">
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br />
-            <span>Cape Town</span><br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Chicago<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br />
-            <span>Cape Town</span><br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br />
-            <span>Cape Town</span><br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
-        <div class="col-md-3">
-            <img src="/img/event-logo-default.png" class="img-responsive" />
-            <br />
-            <time datetime="2016-11-07">NOVEMBER 7-8</time><br /> Cape Town<br /> Cortado big data user story co-working minimum viable <b>...more</b>
-        </div>
+        {{ range sort $.Site.Data.events "startdate" }}
+          {{ if and ( eq .status "current") ( .startdate ) }}
+            <div class="col-md-3">
+              {{ if .logo }}
+                {{ if ne .logo ""}}
+                  <img src = "{{ .logo }}" class="img-responsive" />
+                  {{ end }}
+                {{ else }}
+                  <img src="/img/event-logo-default.png" class="img-responsive" />
+                {{ end }}
+                <br />
+                {{ dateFormat "January 2" .startdate }} - {{  dateFormat "2, 2006" .enddate }}<br />
+                <span>{{ .city }}</span>
+                <br />
+                {{ if .description }}
+                  {{ if ne .description "" }}
+                    {{ .description | markdownify }}
+                  {{ end }}
+                {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
     </div>
 </div>
 {{ end }}

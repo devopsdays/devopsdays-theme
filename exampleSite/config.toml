@@ -10,6 +10,9 @@ dataDir = "data"
 archetypedir = "archetypes"
 PaginatePath = "blog"
 buildDrafts = false
+# Set to "/" on *nix and Mac, "\\" on Windows
+# Refer to https://github.com/spf13/hugo/issues/2394 for more information
+PathSeperator = "/"
 
 [permalinks]
 	page = "/:filename/"
