@@ -7580,6 +7580,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2016-brasilia\/logo-square.png": {
+		"ft": 32768,
+		"iS": 129952,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-brasilia\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2016-chicago\/speakers\/adam-jacob-tn.jpg": {
 		"ft": 16384,
 		"iS": 23370,
@@ -7596,6 +7604,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2016-telaviv\/logo-square.png": {
+		"ft": 32768,
+		"iS": 195696,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-telaviv\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2016-warsaw\/logo-square.png": {
 		"ft": 32768,
 		"iS": 280110,
@@ -7604,11 +7620,59 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2017-austin\/logo-square.png": {
+		"ft": 32768,
+		"iS": 152136,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-austin\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-baltimore\/logo-square.png": {
+		"ft": 32768,
+		"iS": 225240,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-baltimore\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-charlotte\/logo-square.png": {
+		"ft": 32768,
+		"iS": 199251,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-charlotte\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2017-minneapolis\/logo-square.png": {
 		"ft": 32768,
 		"iS": 418821,
 		"oA": 1,
 		"oAP": "\/exampleSite\/static\/events\/2017-minneapolis\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-moscow\/logo-square.png": {
+		"ft": 32768,
+		"iS": 239681,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-moscow\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-seattle\/logo-square.png": {
+		"ft": 32768,
+		"iS": 43931,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-seattle\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-zurich\/logo-square.png": {
+		"ft": 32768,
+		"iS": 151864,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-zurich\/logo-square.png",
 		"oF": 0,
 		"opt": 0
 		},
