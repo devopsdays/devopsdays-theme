@@ -195,10 +195,508 @@
 		"oAP": "\/exampleSite\/data\/events\/.gitkeep",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2009-ghent.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2009-ghent.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2010-brazil.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2010-brazil.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2010-europe.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2010-europe.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2010-sydney.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2010-sydney.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2010-us.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2010-us.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-bangalore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-bangalore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-boston.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-boston.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-goteborg.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-goteborg.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-manila.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-manila.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-melbourne.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-melbourne.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2011-mountainview.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2011-mountainview.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-india.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-india.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-italy.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-italy.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-mountainview.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-mountainview.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-newyork.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-newyork.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2012-tokyo.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2012-tokyo.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-amsterdam.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-amsterdam.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-atlanta.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-atlanta.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-barcelona.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-barcelona.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-berlin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-berlin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-downunder.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-downunder.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-india.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-india.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-london-spring.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-london-spring.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-london.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-london.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-mountainview.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-mountainview.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-newyork.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-newyork.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-newzealand.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-newzealand.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-paris.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-paris.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-portland.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-portland.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-telaviv.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-telaviv.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-tokyo.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-tokyo.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2013-vancouver.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2013-vancouver.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-amsterdam.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-amsterdam.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-bangalore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-bangalore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-belgium.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-belgium.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-berlin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-berlin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-boston.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-boston.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-brisbane.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-brisbane.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-chicago.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-chicago.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-helsinki.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-helsinki.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-ljubljana.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-ljubljana.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-minneapolis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-minneapolis.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-nairobi.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-nairobi.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-newyork.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-newyork.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-pittsburgh.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-pittsburgh.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-siliconvalley.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-siliconvalley.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-telaviv.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-telaviv.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-toronto.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-toronto.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-vancouver.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-vancouver.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2014-warsaw.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2014-warsaw.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-amsterdam.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-amsterdam.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-bangalore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-bangalore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-berlin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-berlin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-boston.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-boston.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-charlotte.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-charlotte.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-chicago.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-chicago.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-denver.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-denver.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-detroit.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-detroit.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-ljubljana.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-ljubljana.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-melbourne.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-melbourne.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-minneapolis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-minneapolis.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-newyork.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-newyork.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-ohio.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-ohio.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-paris.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-paris.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-pittsburgh.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-pittsburgh.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-siliconvalley.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-siliconvalley.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-singapore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-singapore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-telaviv.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-telaviv.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-toronto.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-toronto.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-warsaw.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-warsaw.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2015-washington-dc.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2015-washington-dc.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-amsterdam.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-amsterdam.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-atlanta.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-atlanta.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-bangalore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-bangalore.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2016-berlin.yml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2016-berlin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-boise.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-boise.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-boston.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-boston.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-brasilia.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-brasilia.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-capetown.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-capetown.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/events\/2016-chicago.yml": {
@@ -207,10 +705,106 @@
 		"oAP": "\/exampleSite\/data\/events\/2016-chicago.yml",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2016-cuba.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-cuba.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-dallas.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-dallas.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-denver.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-denver.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-detroit.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-detroit.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-ghent.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-ghent.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-istanbul.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-istanbul.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-kansascity.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-kansascity.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-kiel.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-kiel.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-london.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-london.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-losangeles-1day.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-losangeles-1day.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-madison.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-madison.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2016-minneapolis.yml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2016-minneapolis.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-nashville.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-nashville.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-newyork.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-newyork.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-newzealand.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-newzealand.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-ohio.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-ohio.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-oslo.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-oslo.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/events\/2016-paris.yml": {
@@ -219,10 +813,112 @@
 		"oAP": "\/exampleSite\/data\/events\/2016-paris.yml",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2016-philadelphia.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-philadelphia.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-portland.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-portland.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-portoalegre.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-portoalegre.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-raleigh.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-raleigh.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-saltlakecity.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-saltlakecity.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-seattle.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-seattle.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-siliconvalley.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-siliconvalley.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-singapore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-singapore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-sydney.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-sydney.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-telaviv.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-telaviv.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-toronto.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-toronto.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-vancouver.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-vancouver.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2016-warsaw.yml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2016-warsaw.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2016-washington-dc.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2016-washington-dc.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-amsterdam.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-amsterdam.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-austin.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-austin.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-baltimore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-baltimore.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-charlotte.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-charlotte.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/events\/2017-chicago.yml": {
@@ -237,10 +933,46 @@
 		"oAP": "\/exampleSite\/data\/events\/2017-minneapolis.yml",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2017-moscow.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-moscow.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-paris.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-paris.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-portland.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-portland.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-salt-lake-city.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-salt-lake-city.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2017-seattle.yml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2017-seattle.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-toronto.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-toronto.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-zurich.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-zurich.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/speakers\/.gitkeep": {
@@ -6861,6 +7593,22 @@
 		"iS": 88927,
 		"oA": 1,
 		"oAP": "\/exampleSite\/static\/events\/2016-chicago\/speakers\/adam-jacob.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2016-warsaw\/logo-square.png": {
+		"ft": 32768,
+		"iS": 280110,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-warsaw\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-minneapolis\/logo-square.png": {
+		"ft": 32768,
+		"iS": 418821,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-minneapolis\/logo-square.png",
 		"oF": 0,
 		"opt": 0
 		},

@@ -1,130 +1,159 @@
 {{ define "main" }}
-
-<div class="row">
-    <div class="col-md-12">
-        <!--
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Debug</h2>
+            {{ range where $.Site.Data.events "status" "current" }}
+                {{ .city }}
+                {{ .startdate }}
+                <br/>
+            {{ end }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!--
 Customize the labels on the map
 
 *References*
 - http://code.google.com/apis/maps/documentation/javascript/maptypes.html#StyledMaps
 - http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1/examples/basic.html
 -->
-        <link href="/css/googlemaps.css" rel="stylesheet">
-        <script type="text/javascript" language="javascript">
-            function initialize() {
-                var map;
-                var bounds = new google.maps.LatLngBounds();
-                var mapOptions = {
-                    mapTypeId: 'roadmap'
-                };
+            <link href="/css/googlemaps.css" rel="stylesheet">
+            <script type="text/javascript" language="javascript">
+                function initialize() {
+                    var map;
+                    var bounds = new google.maps.LatLngBounds();
+                    var mapOptions = {
+                        mapTypeId: 'roadmap'
+                    };
 
-                // Display a map on the page
-                map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-                map.setTilt(45);
+                    // Display a map on the page
+                    map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+                    map.setTilt(45);
 
-                // Add upcoming events here
-                // Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
-                var markers = [
-                    ['Berlin', 52.524332, 13.389849, 'Nov 16', '/events/2016-berlin'],
-                    ['Brasília', -15.7951612, -47.8934636, 'Nov 18', '/events/2016-brasilia'],
-                    ['Cape Town', -33.935600, 18.457423, 'Nov 7', '/events/2016-capetown'],
-                    ['Nashville', 36.160606, -86.7746752, 'Nov 10', '/events/2016-nashville'],
-                    ['Paris', 48.871047, 2.345704, 'Nov 28', '/events/2016-paris'],
-                    ['Sydney', -33.8688, 151.2093, 'Dec 1', '/events/2016-sydney'],
-                    ['Tel Aviv', 32.1052681, 34.8072141, 'Dec 12', '/events/2016-telaviv'],
-                    ['Warsaw', 52.1800879, 20.9766055, 'Nov 22', '/events/2016-warsaw'],
-                    ['Amsterdam', 52.376862, 4.922078, 'Jun 28', '/events/2017-amsterdam'],
-                    ['Austin', 30.284901, -97.732391, 'May 4', '/events/2017-austin'],
-                    ['Baltimore', 39.286400, -76.605606, 'Mar 7', '/events/2017-baltimore'],
-                    ['Charlotte', 35.2271, -80.8431, 'Feb 6', '/events/2017-charlotte'],
-                    ['Minneapolis', 44.972610, -93.272960, 'Jul 25', '/events/2017-minneapolis'],
-                    ['Salt Lake City', 40.552756, -111.901249, 'May 16', '/events/2017-salt-lake-city'],
-                    ['Seattle', 47.606209, -122.332071, 'Apr 26', '/events/2017-seattle'],
-                    ['Zürich', 47.497854, 8.731663, 'May 3', '/events/2017-zurich'],
+                    // Add upcoming events here Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
+                    var markers = [
+                        [
+                            'Berlin', 52.524332, 13.389849, 'Nov 16', '/events/2016-berlin'
+                        ],
+                        [
+                            'Brasília', -15.7951612, -47.8934636, 'Nov 18', '/events/2016-brasilia'
+                        ],
+                        [
+                            'Cape Town', -33.935600, 18.457423, 'Nov 7', '/events/2016-capetown'
+                        ],
+                        [
+                            'Nashville', 36.160606, -86.7746752, 'Nov 10', '/events/2016-nashville'
+                        ],
+                        [
+                            'Paris', 48.871047, 2.345704, 'Nov 28', '/events/2016-paris'
+                        ],
+                        [
+                            'Sydney', -33.8688, 151.2093, 'Dec 1', '/events/2016-sydney'
+                        ],
+                        [
+                            'Tel Aviv', 32.1052681, 34.8072141, 'Dec 12', '/events/2016-telaviv'
+                        ],
+                        [
+                            'Warsaw', 52.1800879, 20.9766055, 'Nov 22', '/events/2016-warsaw'
+                        ],
+                        [
+                            'Amsterdam', 52.376862, 4.922078, 'Jun 28', '/events/2017-amsterdam'
+                        ],
+                        [
+                            'Austin', 30.284901, -97.732391, 'May 4', '/events/2017-austin'
+                        ],
+                        [
+                            'Baltimore', 39.286400, -76.605606, 'Mar 7', '/events/2017-baltimore'
+                        ],
+                        [
+                            'Charlotte', 35.2271, -80.8431, 'Feb 6', '/events/2017-charlotte'
+                        ],
+                        [
+                            'Minneapolis', 44.972610, -93.272960, 'Jul 25', '/events/2017-minneapolis'
+                        ],
+                        [
+                            'Salt Lake City', 40.552756, -111.901249, 'May 16', '/events/2017-salt-lake-city'
+                        ],
+                        [
+                            'Seattle', 47.606209, -122.332071, 'Apr 26', '/events/2017-seattle'
+                        ],
+                        ['Zürich', 47.497854, 8.731663, 'May 3', '/events/2017-zurich']
+                    ];
 
-                ];
-
-                // Display multiple markers on a map
-                // var infoWindow = new google.maps.InfoWindow(), marker, i;
-
-                // Loop through our array of markers & place each one on the map
-                for (i = 0; i < markers.length; i++) {
-                    var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
-                    bounds.extend(position);
-                    marker = new MarkerWithLabel({
-                        position: position,
-                        map: map,
-                        labelContent: markers[i][0] + "<br>" + markers[i][3],
-                        labelAnchor: new google.maps.Point(25, 50),
-                        labelClass: "labels",
-                        labelStyle: {
-                            opacity: 1
-                        }
-                    });
-                    // cityLink = markers[i][4]
-                    // This isn't working right now btw
-                    // google.maps.event.addListener(marker, "click", function (e) { location.href=cityLink});
-
-                    // refocus
-                    map.fitBounds(bounds);
+                    // Display multiple markers on a map var infoWindow = new google.maps.InfoWindow(), marker, i; Loop through our array of markers & place each one on the map
+                    for (i = 0; i < markers.length; i++) {
+                        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+                        bounds.extend(position);
+                        marker = new MarkerWithLabel({position: position, map: map, labelContent: markers[i][0] + "<br>" + markers[i][3],
+                            labelAnchor: new google.maps.Point(25, 50),
+                            labelClass: "labels",
+                            labelStyle: {
+                                opacity: 1
+                            }
+                        });
+                        // cityLink = markers[i][4] This isn't working right now btw google.maps.event.addListener(marker, "click", function (e) { location.href=cityLink}); refocus
+                        map.fitBounds(bounds);
+                    }
                 }
-            }
-        </script>
+            </script>
 
-        <script type="text/javascript" language="javascript">
-            window.onload = function() {
-                initialize();
-            };
-        </script>
+            <script type="text/javascript" language="javascript">
+                window.onload = function () {
+                    initialize();
+                };
+            </script>
 
-        <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew"></script>
-        <script type="text/javascript" src="/js/googlemaps_label.js"></script>
-        <!-- <script type="text/javascript" src="/js/googlemaps_content.js"></script> -->
-        <div class="embed-responsive embed-responsive-16by9">
-            <div id="map_canvas" class="embed-responsive-item"></div>
+            <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew"></script>
+            <script type="text/javascript" src="/js/googlemaps_label.js"></script>
+            <!-- <script type="text/javascript" src="/js/googlemaps_content.js"></script> -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <div id="map_canvas" class="embed-responsive-item"></div>
+            </div>
+
         </div>
-
     </div>
-  </div>
     {{ $.Scratch.Add "i" 1 }}
     <div class="row">
         {{ range sort $.Site.Data.events "startdate" }}
-          {{ if and ( eq .status "current") ( .startdate ) }}
-            {{ $.Scratch.Set "city" .city }}
-            {{ $.Scratch.Set "year" .year }}
-            {{ $.Scratch.Set "logo" "unset" }}
-            <div class="col-md-3">
-              {{ $.Scratch.Set "subdir" (printf "%s-%s" ($.Scratch.Get "year") ($.Scratch.Get "city" | lower)) }}
-              {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
-              {{ range (readDir "static/events") }}
-                {{ if eq .Name ($.Scratch.Get "subdir") }}
-                    {{ range (readDir ($.Scratch.Get "contentdir"))}}
-                      {{ if eq .Name "logo-square.png" }}
-                        <img src = "{{ printf ("/events/%s/logo-square.png") ($.Scratch.Get "subdir")}}" class="img-responsive" />
-                        {{ $.Scratch.Set "logo" "set" }}
-                      {{ end }}
+            {{ if and ( eq .status "current") ( .startdate ) }}
+                {{ $.Scratch.Set "city" .city }}
+                {{ $.Scratch.Set "year" .year }}
+                {{ $.Scratch.Set "logo" "unset" }}
+                <div class="col-md-3">
+                    {{ $.Scratch.Set "subdir" (printf "%s-%s" ($.Scratch.Get "year") ($.Scratch.Get "city" | lower)) }}
+                    {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
+                    {{ range (readDir "static/events") }}
+                        {{ if eq .Name ($.Scratch.Get "subdir") }}
+                            {{ range (readDir ($.Scratch.Get "contentdir"))}}
+                                {{ if eq .Name "logo-square.png" }}
+                                    <img src="{{ printf ("/events/%s/logo-square.png") ($.Scratch.Get "subdir")}}" class="img-responsive"/>
+                                    {{ $.Scratch.Set "logo" "set" }}
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-              {{ end }}
-              {{ if ne ($.Scratch.Get "logo") "set" }}
-                  <img src="/img/event-logo-default.png" class="img-responsive" />
-                {{ end }}
-                <br />
-                {{ dateFormat "January 2" .startdate }} - {{  dateFormat "2, 2006" .enddate }}<br />
-                <span>{{ .city }}</span>
-                <br />
-                {{ if .description }}
-                  {{ if ne .description "" }}
-                    {{ .description | markdownify }}
-                  {{ end }}
-                {{ end }}
-            </div>
-            {{ if modBool ($.Scratch.Get "i") 4 }}
+                    {{ if ne ($.Scratch.Get "logo") "set" }}
+                        <img src="/img/event-logo-default.png" class="img-responsive"/>
+                    {{ end }}
+                    <br/>
+                    {{ dateFormat "January 2" .startdate }}
+                    -
+                    {{  dateFormat "2, 2006" .enddate }}<br/>
+                    <span>{{ .city }}</span>
+                    <br/>
+                    {{ if .description }}
+                        {{ if ne .description "" }}
+                            {{ .description | markdownify }}
+                        {{ end }}
+                    {{ end }}
                 </div>
-                <div class = "row">
+                {{ if modBool ($.Scratch.Get "i") 4 }}
+                </div>
+                <div class="row">
+                {{ end }}
+                {{ $.Scratch.Add "i" 1 }}
             {{ end }}
-            {{ $.Scratch.Add "i" 1 }}
-          {{ end }}
         {{ end }}
     </div>
 {{ end }}
