@@ -1,5 +1,9 @@
 {{ define "main" }}
-
+    {{ range where $.Site.Data.events ".status" "current" }}
+        {{ .city }}
+        {{ .startdate }}
+        <br/>
+    {{ end }}
     <div class="row">
         <div class="col-md-12">
             <!--
