@@ -1,4 +1,5 @@
 {{ define "main" }}
+Debug
     {{ range where $.Site.Data.events ".status" "current" }}
         {{ .city }}
         {{ .startdate }}
