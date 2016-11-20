@@ -1,13 +1,43 @@
+{{/* site data query copypasta */}}
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
+
 <div class="row">
   <div class="col-md-4 col-sm-push-8">
-      <img src="https://www.devopsdays.org/events/2016-kansascity/logo.png" class="img-responsive" />
+    {{ $.Scratch.Set "subdir" $e.name }}
+    {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
+    {{ $.Scratch.Set "city" (chomp $e.city) }}
+    {{ range (readDir "static/events") }}
+        {{ if eq .Name ($.Scratch.Get "subdir") }}
+            {{ range (readDir ($.Scratch.Get "contentdir"))}}
+                {{ if eq .Name "logo.png" }}
+                    <img src="{{ printf ("/events/%s/logo.png") ($.Scratch.Get "subdir")}}" class="img-responsive"/>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
   </div>
     <div class="col-md-8 col-sm-pull-4">
-        <h2>DevOpsDays Kansas City</h2> OCTOBER 20-21, 2016<br /> Musical Theater Heritage
-        <p>
-            {{ .Content }}
-        </p>
-        <i>Past Events in Kansas City</i>
+        <h2>DevOpsDays {{ $e.city }}</h2> {{- dateFormat "January 2" $e.startdate -}} - {{- dateFormat "2, 2006" $e.enddate -}}
+        <br />
+        <span>{{- $e.location -}}</span>
+        <br />
+        {{- $.Scratch.Set "past-counter" 0 -}}
+        {{- range sort $.Site.Data.events "startdate" -}}
+        {{- if ne $e.city "Chicago" -}} <!-- for some reason, it bails on the city Chicago, and also Paris -->
+            {{- if eq (lower .city) (lower $e.city) -}}
+              {{- $.Scratch.Add "past-counter" 1 -}}
+              {{- if eq ($.Scratch.Get "past-counter") 1 -}}
+                <i>Past Events in {{ ($.Scratch.Get "city") }}</i><br />
+              {{- end -}}
+              {{- if ne .startdate $e.startdate -}}
+                <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> <br />
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
         <br />
         <button type="button" class="btn btn-default">Register</button>
         <button type="button" class="btn btn-default">Follow</button>
