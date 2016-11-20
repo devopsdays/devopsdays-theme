@@ -7588,6 +7588,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2016-brasilia\/logo.png": {
+		"ft": 32768,
+		"iS": 36238,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-brasilia\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2016-chicago\/speakers\/adam-jacob-tn.jpg": {
 		"ft": 16384,
 		"iS": 23370,
@@ -7612,11 +7620,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2016-telaviv\/logo.png": {
+		"ft": 32768,
+		"iS": 123919,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-telaviv\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2016-warsaw\/logo-square.png": {
 		"ft": 32768,
 		"iS": 280110,
 		"oA": 1,
 		"oAP": "\/exampleSite\/static\/events\/2016-warsaw\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2016-warsaw\/logo.png": {
+		"ft": 32768,
+		"iS": 4602592,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2016-warsaw\/logo.png",
 		"oF": 0,
 		"opt": 0
 		},

@@ -5,4 +5,9 @@
   margin-bottom: 20px;
   margin-top: 10px;
 }
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  max-width: 1600px;
+  /* or 950px */
+}
 /*# sourceMappingURL=site.css.map */
