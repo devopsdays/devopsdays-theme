@@ -113,6 +113,7 @@ Customize the labels on the map
                 {{ $.Scratch.Set "year" .year }}
                 {{ $.Scratch.Set "logo" "unset" }}
                 <div class="col-md-3">
+                  <a href = "/events/{{ .name }}">
                     {{ $.Scratch.Set "subdir" .name }}
                     {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
                     {{ range (readDir "static/events") }}
@@ -128,10 +129,11 @@ Customize the labels on the map
                     {{ if ne ($.Scratch.Get "logo") "set" }}
                         <img src="/img/event-logo-default.png" class="img-responsive"/>
                     {{ end }}
+                  </a>
                     <br/>
-                    {{ dateFormat "January 2" .startdate }}
+                    {{- dateFormat "January 2" .startdate -}}
                     -
-                    {{  dateFormat "2, 2006" .enddate }}<br/>
+                    {{-  dateFormat "2, 2006" .enddate -}}<br/>
                     <span>{{ .city }}</span>
                     <br/>
                     {{ if .description }}
