@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+{{/* site data query copypasta */}}
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
+
 <div class="row">
     <!-- enclosing div -->
     <div class="col-md-12">
@@ -9,27 +15,6 @@
         {{ end }}
         <!-- need to add else statement for the rest of the content types -->
 
-        <div class="row">
-            <!--first sponsor row-->
-            <div class="col-md-12">
-                <h4>Gold Sponsors</h4><i>Become a Gold Sponsor!</i>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class = "row">
           <div class = "col-md-12">
             <h4>Speakers</h4>
@@ -57,6 +42,73 @@
             <i>The Evolution of Automation</i>
           </div>
         </div>
+
+        <div class = "row">
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+        </div>
+
+        <div class = "row">
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+          <div class = "col-md-3">
+            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
+            <b>Adam Jacob</b><br />
+            <i>The Evolution of Automation</i>
+          </div>
+        </div>
+        <div class="row">
+            <!--first sponsor row-->
+            <div class="col-md-12">
+                <h4>Gold Sponsors</h4><i>Become a Gold Sponsor!</i>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/img/sponsors/chef.png" />
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/img/sponsors/chef.png" />
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/img/sponsors/chef.png" />
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/img/sponsors/chef.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <!--first sponsor row-->
             <div class="col-md-12">
@@ -78,28 +130,6 @@
                 </div>
             </div>
         </div>
-        <div class = "row">
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-        </div>
         <div class="row">
             <!--first sponsor row-->
             <div class="col-md-12">
@@ -120,28 +150,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
         </div>
         <div class="row">
             <!--first sponsor row-->
