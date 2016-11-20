@@ -1,10 +1,5 @@
 {{ define "main" }}
-Debug
-    {{ range where $.Site.Data.events ".status" "current" }}
-        {{ .city }}
-        {{ .startdate }}
-        <br/>
-    {{ end }}
+
     <div class="row">
         <div class="col-md-12">
             <!--
@@ -112,7 +107,8 @@ Customize the labels on the map
     {{ $.Scratch.Add "i" 1 }}
     <div class="row">
         {{ range sort $.Site.Data.events "startdate" }}
-            {{ if and ( eq .status "current") ( .startdate ) }}
+          {{ if .startdate }}
+            {{ if ge (dateFormat "2006-01-02" .startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) }}
                 {{ $.Scratch.Set "city" .city }}
                 {{ $.Scratch.Set "year" .year }}
                 {{ $.Scratch.Set "logo" "unset" }}
@@ -145,11 +141,12 @@ Customize the labels on the map
                     {{ end }}
                 </div>
                 {{ if modBool ($.Scratch.Get "i") 4 }}
-                </div>
-                <div class="row">
+                  </div>
+                  <div class="row">
                 {{ end }}
                 {{ $.Scratch.Add "i" 1 }}
             {{ end }}
+        {{ end }}
         {{ end }}
     </div>
 {{ end }}
