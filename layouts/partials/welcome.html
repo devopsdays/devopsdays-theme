@@ -26,7 +26,7 @@
         <br />
         {{- $.Scratch.Set "past-counter" 0 -}}
         {{- range sort $.Site.Data.events "startdate" -}}
-        {{- if ne $e.city "Chicago" -}} <!-- for some reason, it bails on the city Chicago, and also Paris -->
+        {{- if .startdate -}} <!-- for some reason, it bails on the city Chicago, and also Paris -->
             {{- if eq (lower .city) (lower $e.city) -}}
               {{- $.Scratch.Add "past-counter" 1 -}}
               {{- if eq ($.Scratch.Get "past-counter") 1 -}}
