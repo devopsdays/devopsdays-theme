@@ -21,6 +21,12 @@
 		"oAP": "\/.travis.yml",
 		"oF": 0
 		},
+	"\/appveyor.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/appveyor.yml",
+		"oF": 0
+		},
 	"\/archetypes\/default.md": {
 		"cS": 0,
 		"eF": 1,
@@ -133,6 +139,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/exampleSite\/content\/events\/2016-chicago\/debug.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2016-chicago\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2016-chicago\/program.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -13520,6 +13544,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/welcome.html",
+		"oF": 0
+		},
+	"\/layouts\/program\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/program\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/talk\/single.html": {

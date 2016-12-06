@@ -14,6 +14,7 @@
     <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/jquery.oembed.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body lang="{{ .Site.Params.Lang }}">
@@ -182,6 +183,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
     <script src="{{ .Site.BaseURL }}js/jquery.oembed.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $( "#accordion" ).accordion();
+    </script>
+
     <script>
         $(function() {
             $("a.embed").oembed();
