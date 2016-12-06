@@ -1,5 +1,11 @@
 version: 1.0.{build}
 
+branches:
+  # whitelist
+  only:
+    - master
+
+install:
 # Change the Path seperator to a Windows version (backslash)
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
