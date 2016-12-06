@@ -19,9 +19,10 @@ install:
     $content | Set-Content ($buildRoot + '\exampleSite\config.toml')
 
 build_script:
-#  Build the devopsdays-web site once
+# Build the devopsdays-web site once
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
+    
     Invoke-Expression "$buildRoot\bin\hugo version"
 
 test: off
