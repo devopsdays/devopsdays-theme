@@ -20,9 +20,7 @@ install:
 
 build_script:
 # Build the devopsdays-web site once
-- ps: >-
-    $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
-    
-    Invoke-Expression "$buildRoot\bin\hugo version"
+- cmd: >-
+    %APPVEYOR_BUILD_FOLDER%\bin\hugo.exe version
 
 test: off
