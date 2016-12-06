@@ -2,7 +2,7 @@
 City = "Chicago"
 Year = "2016"
 date = "2016-07-15T22:06:24-06:00"
-title = "The Evolution of Automation"
+title = "Chicago 2016 Program"
 type = "program"
 +++
 
