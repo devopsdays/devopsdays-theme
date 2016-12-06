@@ -22,7 +22,7 @@ before_script:
   - npm install -g casper-chai
 
 script:
-  - bin/hugo version
-  - bin/hugo
+  - $TRAVIS_BUILD_DIR/bin/hugo version
+  - $TRAVIS_BUILD_DIR/bin/hugo
   - npm version
   - phantomjs --version; casperjs --version
