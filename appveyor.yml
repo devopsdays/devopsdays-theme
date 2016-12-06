@@ -21,6 +21,7 @@ install:
 build_script:
 # Build the devopsdays-web site once
 - cmd: >-
+    cd exampleSite
     
     %APPVEYOR_BUILD_FOLDER%\bin\hugo.exe -v
 
