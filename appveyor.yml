@@ -10,13 +10,13 @@ install:
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
 
-    $content = (Get-Content ($buildRoot + 'exampleSite\config.toml')) -join "`n"
+    $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
 
     $content = $content -replace 'PathSeperator = "/"','PathSeperator = "\\"'
 
     Write-Output "config.toml content changed to:`n----`n$($content)"
 
-    $content | Set-Content ($buildRoot + 'exampleSite\config.toml')
+    $content | Set-Content ($buildRoot + '\exampleSite\config.toml')
 
 build_script:
 #  Build the devopsdays-web site once
