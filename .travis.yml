@@ -22,6 +22,7 @@ before_script:
   - npm install -g casper-chai
 
 script:
+  - hugo version
   - hugo
   - npm version
   - phantomjs --version; casperjs --version
