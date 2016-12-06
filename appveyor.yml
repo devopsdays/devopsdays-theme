@@ -22,6 +22,6 @@ build_script:
 #  Build the devopsdays-web site once
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
-    $buildRoot\bin\hugo version
+    Invoke-Expression "$buildRoot\bin\hugo version"
 
 test: off
