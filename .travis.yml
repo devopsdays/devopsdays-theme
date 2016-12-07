@@ -21,7 +21,7 @@ script:
 
 before_deploy:
 - cd $TRAVIS_BUILD_DIR
-- zip -r bitvolution.zip bitvolution -x \*.git\* \*exampleSite\*
+- zip -r devopsdays-theme.zip . -x \*.git\* \*exampleSite\* appveyor.yml \*.travis.ci\* \*tests\* \*bin\* \*build\* config.codekit3
 
 deploy:
   provider: releases
