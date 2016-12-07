@@ -1,1 +1,3 @@
 node_modules
+# released binaries
+release/

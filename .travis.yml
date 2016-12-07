@@ -21,7 +21,8 @@ script:
 
 before_deploy:
 - cd $TRAVIS_BUILD_DIR
-- zip -r devopsdays-theme.zip . -x \*.git\* \*exampleSite\* appveyor.yml \*.travis.ci\* \*tests\* \*bin\* \*build\* config.codekit3
+- mkdir -p release
+- zip -r release/devopsdays-theme.zip . -x \*.git\* \*exampleSite\* appveyor.yml \*.travis.ci\* \*tests\* \*bin\* \*build\* \*release\* config.codekit3
 
 deploy:
   provider: releases
