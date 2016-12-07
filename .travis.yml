@@ -31,3 +31,4 @@ deploy:
   file: 'devopsdays-theme.zip'
   on:
     repo: devopsdays/devopsdays-theme
+    tags: true
