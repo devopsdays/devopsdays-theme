@@ -1,0 +1,26 @@
+{{- range sort $.Site.Data.events "startdate" -}}
+  {{- if .startdate -}}
+    {{- if ge (dateFormat "2006-01-02" .startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
+      {{- if ne ($.Scratch.Get "year") (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year" (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year-displayed" "false" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "month") (dateFormat "January" .startdate ) -}}
+        {{- $.Scratch.Set "month" (dateFormat "January" .startdate ) -}}
+        {{- $.Scratch.Set "month-displayed" "false" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "year-displayed") "true" -}}
+        <h3>{{ dateFormat "2006" .startdate }}</h3>
+        {{- $.Scratch.Set "year-displayed" "true" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "month-displayed") "true" -}}
+        <h4>{{ dateFormat "January" .startdate }}</h4>
+        {{- $.Scratch.Set "month-displayed" "true" -}}
+      {{- end -}}
+      <a href = "/events/{{ .name }}/welcome">
+        {{ dateFormat "2" .startdate }}-{{ dateFormat "2" .enddate }}
+        {{ .city }}
+      </a><br />
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
