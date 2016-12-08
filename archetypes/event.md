@@ -5,4 +5,5 @@ speaker = ""
 images = [""]
 aliases = [""]
 type = "event"
+PublishDate = ""
 +++
