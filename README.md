@@ -51,12 +51,16 @@ All changes are built by Netlify to http://devopsdays-theme.netlify.com
 
 To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:
 
+1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
+1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
+
+Once the Travis build has succeeded, update the changelog:
+
 1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system
 1. Inside the repository, run `github_changelog_generator`.
 1. Run `git add CHANGELOG.md`
 1. Commit the changed file
-1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, withonly numbers (that is, `1.1.31` vs `v1.1.31`)
-1. Push to origin master, including tags (if you don't know how to do this, ask!)
+1. Push to `origin master`
 
 
 # dev examples
