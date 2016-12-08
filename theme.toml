@@ -9,6 +9,7 @@ homepage = "http://siteforthistheme.com/"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.16
+theme_version = 0.2.5
 
 [author]
   name = "Matt Stratton"

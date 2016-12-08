@@ -51,6 +51,7 @@ All changes are built by Netlify to http://devopsdays-theme.netlify.com
 
 To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:
 
+1. Update the `theme_version` key in `theme.toml` to the new version.
 1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
 1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
 
