@@ -45,6 +45,8 @@ You will need to modify your watch command to use this new binary; use something
 ## Continuous Integration
 The `devopsdays-theme` repo has hooks into Travis, Appveyor and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
 
+All changes are built by Netlify to http://devopsdays-theme.netlify.com
+
 # Releasing `devopsdays-theme`
 
 To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:

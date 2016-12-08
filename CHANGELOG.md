@@ -1,8 +1,16 @@
 # Change Log
 
-## [Unreleased](https://github.com/devopsdays/devopsdays-theme/tree/HEAD)
+## [0.2.4](https://github.com/devopsdays/devopsdays-theme/tree/0.2.4) (2016-12-08)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.3...0.2.4)
 
-[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.1.20...HEAD)
+## [0.2.3](https://github.com/devopsdays/devopsdays-theme/tree/0.2.3) (2016-12-08)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.2...0.2.3)
+
+## [0.2.2](https://github.com/devopsdays/devopsdays-theme/tree/0.2.2) (2016-12-08)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.1...0.2.2)
+
+## [0.2.1](https://github.com/devopsdays/devopsdays-theme/tree/0.2.1) (2016-12-08)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.1.20...0.2.1)
 
 **Closed issues:**
 
