@@ -45,6 +45,17 @@ You will need to modify your watch command to use this new binary; use something
 ## Continuous Integration
 The `devopsdays-theme` repo has hooks into Travis, Appveyor and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
 
+# Releasing `devopsdays-theme`
+
+To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:
+
+1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system
+1. Inside the repository, run `github_changelog_generator`.
+1. Run `git add CHANGELOG.md`
+1. Commit the changed file
+1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, withonly numbers (that is, `1.1.31` vs `v1.1.31`)
+1. Push to origin master, including tags (if you don't know how to do this, ask!)
+
 
 # dev examples
 This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
