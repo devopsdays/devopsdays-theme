@@ -35,17 +35,39 @@ themesdir = "../.."
 
 This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or better. V0.18 of Hugo is scheduled to be released on Dec 19, 2016, but in the meantime, you will need to build the site using the version of Hugo installed in the `bin` directory of `devopsdays-theme`. The binary `bin/hugo` is compiled for Linux, the binary `bin/hugo-osx` is compiled for OS X, and the binary `bin/hugo.exe` is compiled for Windows.
 
-
 You will need to modify your watch command to use this new binary; use something like this:
 
 ```
 ~/src/devopsdays-theme/bin/hugo-osx server -b="http://localhost:1313" -w
 ```
 
+## Contributing
+Please submit your proposed changes as a Pull Request against this repository. If the PR will resolve an issue, please add `Fixes #123` to the PR.
+
+## v3 Design
+The design and layout can be found in [here](https://drive.google.com/file/d/0BzljU_vIF4BoOHhLV2Yzd2xicEk/view?usp=sharing). A style guide will be added shortly.
+
+## Design Principles
+
+### Blocks
+All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
+
+### CSS and LESS
+All CSS must be generated with LESS. The LESS files are located in `static/less`, with two exceptions, `static/site_variables.less` and `static/site.less`.
+
+#### `site_variables.less`
+This is the only place you should declare custom LESS variables that our LESS files will use. Currently, `static/less/bootstrapp.less` has a single modification, which is to include `@import "../site_variables.less";`. If the version of Bootstrap is ever updated, this change must be re-added.
+
+#### `site.less`
+This is the only place you should declare custom LESS or CSS code.
+
 ## Continuous Integration
 The `devopsdays-theme` repo has hooks into Travis, Appveyor and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
 
 All changes are built by Netlify to http://devopsdays-theme.netlify.com
+
+### Asset Pipeline
+There is no current asset processing in place, but the intent is to add some, to provide HTML minification as well as image optimization. This is currently an outstanding task, tracked in [Issue #10](https://github.com/devopsdays/devopsdays-theme/issues/10) and [Issue #11](https://github.com/devopsdays/devopsdays-theme/issues/11).
 
 # Releasing `devopsdays-theme`
 
