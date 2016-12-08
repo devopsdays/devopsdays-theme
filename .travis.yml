@@ -34,3 +34,6 @@ deploy:
   on:
     repo: devopsdays/devopsdays-theme
     tags: true
+
+after_deploy:
+  - rake after_deploy
