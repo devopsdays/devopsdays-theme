@@ -89,6 +89,6 @@ Once the Travis build has succeeded, update the changelog:
 # dev examples
 This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
 - [Home Page](http://devopsdays-theme.netlify.com/)
-- [Event Page](http://devopsdays-theme.netlify.com/events/2016-chicago/welcome/)
-- [Talk Page](http://devopsdays-theme.netlify.com/events/2016-chicago/program/adam-jacob/)
-- [Program Page](http://devopsdays-theme.netlify.com/events/2016-chicago/program/)
+- [Event Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/welcome/)
+- [Talk Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/adam-jacob/)
+- [Program Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/)
