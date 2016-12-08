@@ -142,12 +142,19 @@
                     <i>Summit West - 15 October 2017</i>
                 </div>
                 <div class="col-md-2">
-                    <h3>BLOG</h3>
-                    <b>Some Blog Title</b>
-                    <i>by Somebody - 18 October 2017</i>
+                  <h3>BLOG</h3>
+                  {{- range first 1 (where .Data.Pages "Type" "blog") -}}
+                    <b><a href = "{{ .Permalink }}">{{ .Title }}</a></b><br />
+                    {{- if isset .Params "author" -}}
+                      <i>by {{ .Params.author }} - {{ dateFormat "02 January, 2006" .Date }}</i>
+                    {{- else -}}
+                      <i>{{ dateFormat "02 January, 2006" .Date }}</i>
+                    {{- end -}}
                     <p>
-                        Something blah blah blah blah...<i><b>more</b></i>
+                        {{ .Summary }}
                     </p>
+                  {{- end -}}
+
                 </div>
                 <div class="col-md-2">
                     <h3>@DEVOPSDAYS</h3>

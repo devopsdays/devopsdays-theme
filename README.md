@@ -26,6 +26,21 @@ A new template is being created to generate a program page. A work in progress e
 
 This is an opt-in feature; the page will need to be set for the type of program in order to generate it.
 
+## Blog
+Blog posts now support setting an "author" name in the frontmatter; for example, like this:
+
+```
++++
+Title = "Minneapolis 2016 in review"
+Date = "2016-08-08T15:59:27-05:00"
+Tags = ["2016"]
+Author = "Bridget Kromhout"
++++
+```
+
+If an author is not specified, attempts to display it are ignored.
+
+
 # Developing devopsdays-theme
 Working with a Hugo theme outside of a content-based repo has a few challenges. The `devopsdays-theme` repo contains a directory called `exampleSite`, which is what is used for testing theme development. The `config.toml` for the `exampleSite` contains the following value:
 
