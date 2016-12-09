@@ -56,10 +56,14 @@
 
   </div>
 <div class = "col-md-4">
-  {{- if gt (.Params.speakers | len) 1 -}}
-    <h2>Speakers</h2>
-  {{- else -}}
-    <h2>Speaker</h2>
+  {{- if isset .Params "speakers" -}}
+    {{- if ne .Params.speakers "" -}}
+      {{- if gt (.Params.speakers | len) 1 -}}
+        <h2>Speakers</h2>
+      {{- else -}}
+        <h2>Speaker</h2>
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 
   {{ range .Params.speakers }}
