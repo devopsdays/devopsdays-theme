@@ -10,9 +10,9 @@
 <div class = "row">
 
 {{- range where $.Site.Pages "Type" "speaker" -}}
-  {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
-  {{- $talk_slug := index $talk_path 1 -}}
-  {{- if eq $talk_slug $event_slug -}}
+  {{- $speaker_path := split .File.Path .Site.Params.pathseperator -}}
+  {{- $speaker_slug := index $speaker_path 1 -}}
+  {{- if eq $speaker_slug $event_slug -}}
     <!-- Now we can display stuff! -->
     <div class="col-md-3">
       <a href = "{{ .Permalink }}">
@@ -31,7 +31,7 @@
       <div class="row">
     {{ end }}
     {{ $.Scratch.Add "i" 1 }}
-  {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+  {{- end -}} <!-- end if eq $speaker_slug $event_slug -->
 {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
 
 </div>
