@@ -4,6 +4,7 @@ Title = "Twilight Sparkle"
 Twitter = "twilightsparkle"
 date = "2016-12-08T20:55:58-06:00"
 PublishDate = "2016-12-08T20:55:58-06:00"
+Image = "twilight-sparkle.png"
 type = "speaker"
 +++
 

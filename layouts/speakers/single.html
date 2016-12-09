@@ -16,7 +16,13 @@
     <!-- Now we can display stuff! -->
     <div class="col-md-3">
       <a href = "{{ .Permalink }}">
-        <img src = "/events/{{ $event_slug }}/speakers/{{ .File.BaseFileName }}.png" class="img-responsive" /><br />
+        {{ if isset .Params "image" }}
+          {{ if ne .Params.image "" }}
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-responsive" /><br />
+          {{ end }}
+          {{ else }}
+            <img src = "/img/speaker-default.png" class="img-responsive" /><br />
+        {{ end }}
         {{ .Title }}
       </a>
     </div>

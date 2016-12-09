@@ -5,6 +5,7 @@ Website = ""
 Facebook = ""
 Linkedin = ""
 Pronouns = ""
+Image = ""
 PublishDate = ""
 kind = "speaker"
 +++
