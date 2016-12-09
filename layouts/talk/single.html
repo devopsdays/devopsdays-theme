@@ -56,7 +56,11 @@
 
   </div>
 <div class = "col-md-4">
-  <h2>Bio</h2>
+  {{- if gt (.Params.speakers | len) 1 -}}
+    <h2>Speakers</h2>
+  {{- else -}}
+    <h2>Speaker</h2>
+  {{- end -}}
 
   {{ range .Params.speakers }}
     {{ $.Scratch.Set "speakername" . }}
