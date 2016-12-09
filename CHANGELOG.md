@@ -1,5 +1,18 @@
 # Change Log
 
+## [0.2.7](https://github.com/devopsdays/devopsdays-theme/tree/0.2.7) (2016-12-09)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.6...0.2.7)
+
+**Implemented enhancements:**
+
+- Create sponsors partial [\#64](https://github.com/devopsdays/devopsdays-theme/issues/64)
+- Change "bio" to "speaker\[s\]" on the talk page [\#60](https://github.com/devopsdays/devopsdays-theme/issues/60)
+
+**Fixed bugs:**
+
+- Handle left event nav sidebar on small displays [\#46](https://github.com/devopsdays/devopsdays-theme/issues/46)
+- Sponsors should be two across on small screens [\#30](https://github.com/devopsdays/devopsdays-theme/issues/30)
+
 ## [0.2.6](https://github.com/devopsdays/devopsdays-theme/tree/0.2.6) (2016-12-09)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.5...0.2.6)
 
