@@ -12,5 +12,4 @@ speakerdeck = ""
 slideshare = ""
 slides = ""
 type = "talk"
-PublishDate = ""
 +++
