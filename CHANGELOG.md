@@ -1,34 +1,47 @@
 # Change Log
 
-## [Unreleased](https://github.com/devopsdays/devopsdays-theme/tree/HEAD)
-
-[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.5...HEAD)
+## [0.2.6](https://github.com/devopsdays/devopsdays-theme/tree/0.2.6) (2016-12-09)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.5...0.2.6)
 
 **Implemented enhancements:**
 
+- Create template for individual speakers [\#52](https://github.com/devopsdays/devopsdays-theme/issues/52)
+- Create speakers page template [\#51](https://github.com/devopsdays/devopsdays-theme/issues/51)
+- Speaker bio should display default if none is specified [\#44](https://github.com/devopsdays/devopsdays-theme/issues/44)
 - Add latest blog to footer [\#34](https://github.com/devopsdays/devopsdays-theme/issues/34)
+- Create left sidebar for event dates [\#32](https://github.com/devopsdays/devopsdays-theme/issues/32)
 - Create skeleton blog template [\#25](https://github.com/devopsdays/devopsdays-theme/issues/25)
+- Speaker images need a thumbnail [\#7](https://github.com/devopsdays/devopsdays-theme/issues/7)
+- Add speaker info to the frontmatter on the talk page [\#5](https://github.com/devopsdays/devopsdays-theme/issues/5)
+
+**Fixed bugs:**
+
+- Add publishdate to archetypes [\#12](https://github.com/devopsdays/devopsdays-theme/issues/12)
 
 **Closed issues:**
 
 - Create actual sample content [\#41](https://github.com/devopsdays/devopsdays-theme/issues/41)
-- Create left sidebar for event dates [\#32](https://github.com/devopsdays/devopsdays-theme/issues/32)
-- Speaker images need a thumbnail [\#7](https://github.com/devopsdays/devopsdays-theme/issues/7)
 
 **Merged pull requests:**
 
 - Add sample pony cities [\#42](https://github.com/devopsdays/devopsdays-theme/pull/42) ([mattstratton](https://github.com/mattstratton))
 
 ## [0.2.5](https://github.com/devopsdays/devopsdays-theme/tree/0.2.5) (2016-12-08)
+**Implemented enhancements:**
+
+- Create skeleton program page template  [\#24](https://github.com/devopsdays/devopsdays-theme/issues/24)
+
+**Fixed bugs:**
+
+- Some cities don't work with the "previous events" on welcome.html [\#29](https://github.com/devopsdays/devopsdays-theme/issues/29)
+- Refactor event page image logic to use path separator key [\#28](https://github.com/devopsdays/devopsdays-theme/issues/28)
+- Using container-fluid makes everything huge on a huge viewport [\#23](https://github.com/devopsdays/devopsdays-theme/issues/23)
+
 **Closed issues:**
 
 - Create instructions for releasing thieme [\#40](https://github.com/devopsdays/devopsdays-theme/issues/40)
 - Transfer Google Doc to README [\#39](https://github.com/devopsdays/devopsdays-theme/issues/39)
 - test issue [\#36](https://github.com/devopsdays/devopsdays-theme/issues/36)
-- Some cities don't work with the "previous events" on welcome.html [\#29](https://github.com/devopsdays/devopsdays-theme/issues/29)
-- Refactor event page image logic to use path separator key [\#28](https://github.com/devopsdays/devopsdays-theme/issues/28)
-- Create skeleton program page template  [\#24](https://github.com/devopsdays/devopsdays-theme/issues/24)
-- Using container-fluid makes everything huge on a huge viewport [\#23](https://github.com/devopsdays/devopsdays-theme/issues/23)
 - Populate exampleSite with sample data [\#19](https://github.com/devopsdays/devopsdays-theme/issues/19)
 - Optimize codekit settings [\#14](https://github.com/devopsdays/devopsdays-theme/issues/14)
 
