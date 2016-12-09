@@ -111,16 +111,14 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2">
-                EVENTS NEAR ME<br />
-                PAST EVENTS<br />
-                {{- partial "future.html" . -}}
-            </div>
-            <div class="col-md-8">
+            <div class="col-smd-6 col-md-10 col-md-push-2">
                 <!-- Main Content -->
                 {{- block "main" . }} {{- end -}}
             </div>
-            <div class="col-md-2">
+            <div class="col-smd-6 col-md-2 col-md-pull-10">
+                EVENTS NEAR ME<br />
+                PAST EVENTS<br />
+                {{- partial "future.html" . -}}
             </div>
         </div>
     </div>
