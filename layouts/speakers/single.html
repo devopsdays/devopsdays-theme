@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+
+{{- $path := split $.Source.File.Path .Site.Params.pathseperator -}}
+{{- $event_slug := index $path 1 -}}
+{{- $e :=  (index $.Site.Data.events $event_slug) -}}
+{{- $city_slug := substr $e.name 5 -}}
+{{ $.Scratch.Set "i" 1 }}
+
+<div class = "row">
+
+{{- range where $.Site.Pages "Type" "speaker" -}}
+  {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+  {{- $talk_slug := index $talk_path 1 -}}
+  {{- if eq $talk_slug $event_slug -}}
+    <!-- Now we can display stuff! -->
+    <div class="col-md-3">
+      <a href = "{{ .Permalink }}">
+        <img src = "/events/{{ $event_slug }}/speakers/{{ .File.BaseFileName }}.png" class="img-responsive" /><br />
+        {{ .Title }}
+      </a>
+    </div>
+    {{ if modBool ($.Scratch.Get "i") 4 }}
+      </div>
+      <div class="row">
+    {{ end }}
+    {{ $.Scratch.Add "i" 1 }}
+  {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+{{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+
+</div>
+{{ end }}

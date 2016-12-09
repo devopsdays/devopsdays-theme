@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{ $city_slug := substr $e.name 5 }}
+
 <div class = "row">
   <div class = "col-md-8">
     <h2>{{ title .Title }}</h2>
@@ -52,9 +57,23 @@
   </div>
 <div class = "col-md-4">
   <h2>Bio</h2>
-  <img src = "/events/2016-chicago/speakers/adam-jacob.jpg" class="img-responsive" width = "250px" />
-  <br />
-  Adam Jacob is the creator of Chef and co-founder of Chef, Inc. in 2008 and currently serves as its Chief Technology Officer. Prior to Chef, Inc. Adam founded HJK Solutions, an automated infrastructure consultancy. During two years at HJK, Adam built new infrastructures for 15 different startups. Including Adam's time at HJK, Adam has 13 years of experience as a systems administrator, systems architect, and tools developer.
+
+  {{ range .Params.speakers }}
+    {{ $.Scratch.Set "speakername" . }}
+    {{- range where $.Site.Pages "Type" "speaker" -}}
+      {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+      {{- $talk_slug := index $talk_path 1 -}}
+      {{- if eq $talk_slug $event_slug -}}
+        {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}
+          <img src = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}.png" class="img-responsive" width = "250px" />
+          <br />
+          <a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}"><b>{{ .Title }}</a></b><br />
+          {{ .Content }}
+        {{ end }}
+
+      {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+    {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+  {{ end }}
 </div>
 </div>
 
