@@ -1,5 +1,58 @@
 {{ define "main" }}
 
+<h2>Program Data Test</h2>
+
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+
+{{- range where $.Site.Pages "Type" "talk" -}}
+  {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+  {{- $talk_slug := index $talk_path 1 -}}
+  {{- if eq $talk_slug $event_slug -}}
+    {{- $.Scratch.Set "base_file_name" .File.BaseFileName }}
+    {{- $.Scratch.Set .File.BaseFileName .Title -}}
+    {{ if isset .Params "speakers" }}
+      {{ if ne .Params.speakers ""}}
+        {{ $.Scratch.Set "speaker_len" (.Params.speakers | len) }}
+        {{ $.Scratch.Set "speaker_count" 0 }}
+      {{ end }}
+    {{ end }}
+    {{- range .Params.speakers -}}
+      {{ $.Scratch.Set "speaker_count" (add ($.Scratch.Get "speaker_count") 1)}}
+      {{ $.Scratch.Set "speakername" . }}
+      {{- range where $.Site.Pages "Type" "speaker" -}}
+        {{- $speaker_path := split .File.Path .Site.Params.pathseperator -}}
+        {{- $speaker_slug := index $speaker_path 1 -}}
+        {{- if eq $speaker_slug $event_slug -}}
+          {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}
+            {{- $.Scratch.Add (printf "%s-speaker" ($.Scratch.Get "base_file_name")) .Title -}}
+            {{- if ne ($.Scratch.Get "speaker_count") ($.Scratch.Get "speaker_len") -}}
+              {{- $.Scratch.Add (printf "%s-speaker" ($.Scratch.Get "base_file_name")) ", " -}}
+            {{- end -}}
+          {{ end }}
+        {{- end -}} <!-- end if eq $speaker_slug $event_slug -->
+      {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+    {{- end -}}<!-- end ranging over speakers -->
+
+  {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+{{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+
+
+{{ with $e }}
+  {{ range .program }}
+    {{ .start_time }} - {{ .end_time }}
+    {{ if eq .type "custom" }}
+      {{ .title }}<br />
+    {{ else }}
+    <a href = "/events/{{ $event_slug}}/program/{{ .title }}">
+      {{ $.Scratch.Get (printf "%s-speaker" .title) }}<br />
+      {{ $.Scratch.Get .title }}
+    </a><br />
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 <div id="accordion"> <!-- the main program -->
   <h3>August 30, 2016</h3>
   <div>
