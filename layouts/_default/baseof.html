@@ -12,7 +12,10 @@
     <!-- Bootstrap -->
     <link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:100,300,300i,400,700,900" rel="stylesheet">
     <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- jquery fancy pants -->
     <link href="{{ .Site.BaseURL }}css/jquery.oembed.css" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
@@ -36,7 +39,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav global-navigation">
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/events">Events</a></li>
                     <li><a href="/blog">Blog</a></li>
@@ -116,8 +119,9 @@
                 {{- block "main" . }} {{- end -}}
             </div>
             <div class="col-smd-6 col-md-2 col-md-pull-10">
-                EVENTS NEAR ME<br />
-                PAST EVENTS<br />
+                <!-- Removing Events Near Me for now -->
+                <!-- EVENTS NEAR ME<br /> -->
+                <a href = "/past" class="left-nav-navs">PAST EVENTS</a><br />
                 {{- partial "future.html" . -}}
             </div>
         </div>
@@ -129,33 +133,33 @@
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-2">
-                    <h3>EVENTS NEAR ME</h3></br>
+                    <h3 class="footer-nav">Events</h3></br>
                     PAST</br>
                     CURRENT</br>
                     UPCOMING</br>
                 </div>
                 <div class="col-md-2">
-                    <h3>FEATURED</h3>
+                    <h3 class="footer-nav">FEATURED</h3>
                     <b>Chicago 2017</b>
                     <i>Summit West - 15 October 2017</i>
                 </div>
                 <div class="col-md-2">
-                  <h3>BLOG</h3>
+                  <h3 class="footer-nav">BLOG</h3>
                   {{- range first 1 (where .Site.Pages "Type" "blog") -}}
-                    <b><a href = "{{ .Permalink }}">{{ .Title }}</a></b><br />
+                    <a href = "{{ .Permalink }}"><h1 class = "footer-heading">{{ .Title }}</h1></a>
                     {{- if isset .Params "author" -}}
-                      <i>by {{ .Params.author }} - {{ dateFormat "02 January, 2006" .Date }}</i>
+                      <h2 class="footer-heading">by {{ .Params.author }} - {{ dateFormat "02 January, 2006" .Date }}</h2>
                     {{- else -}}
-                      <i>{{ dateFormat "02 January, 2006" .Date }}</i>
+                      <h2 class="footer-heading">{{ dateFormat "02 January, 2006" .Date }}</h2>
                     {{- end -}}
-                    <p>
+                    <p class="footer-content">
                         {{ .Summary }}
                     </p>
                   {{- end -}}
 
                 </div>
                 <div class="col-md-2">
-                    <h3>@DEVOPSDAYS</h3>
+                    <h3 class="footer-nav">@DEVOPSDAYS</h3>
                     <div>
                         <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/devopsdays/lists/devopsdays" data-chrome="noheader" height="440"></a>
 
