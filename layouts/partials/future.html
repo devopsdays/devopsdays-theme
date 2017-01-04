@@ -10,14 +10,14 @@
         {{- $.Scratch.Set "month-displayed" "false" -}}
       {{- end -}}
       {{- if ne ($.Scratch.Get "year-displayed") "true" -}}
-        <h3>{{ dateFormat "2006" .startdate }}</h3>
+        <h3 class="left-nav-year">{{ dateFormat "2006" .startdate }}</h3>
         {{- $.Scratch.Set "year-displayed" "true" -}}
       {{- end -}}
       {{- if ne ($.Scratch.Get "month-displayed") "true" -}}
-        <h4>{{ dateFormat "January" .startdate }}</h4>
+        <h4 class="left-nav-months">{{ dateFormat "January" .startdate }}</h4>
         {{- $.Scratch.Set "month-displayed" "true" -}}
       {{- end -}}
-      <a href = "/events/{{ .name }}/welcome">
+      <a href = "/events/{{ .name }}/welcome" class = "left-nav-event">
         {{ dateFormat "2" .startdate }}-{{ dateFormat "2" .enddate }}
         {{ .city }}
       </a><br />
