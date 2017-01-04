@@ -7,7 +7,7 @@
 		"uuidString": "E3C4E44D-7016-46F9-B7E7-F0DAD416E2AB"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -27,24 +27,6 @@
 		"oAP": "\/appveyor.yml",
 		"oF": 0
 		},
-	"\/archetypes\/default.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/archetypes\/default.html",
-		"oF": 0,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/archetypes\/event.md": {
 		"cS": 0,
 		"eF": 1,
@@ -55,6 +37,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/archetypes\/event.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/archetypes\/speaker.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/archetypes\/speaker.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -111,6 +111,24 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/exampleSite\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -128,6 +146,294 @@
 		"oA": 2,
 		"oAP": "\/exampleSite\/content\/.gitkeep",
 		"oF": 0
+		},
+	"\/exampleSite\/content\/blog\/2016-minneapolis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/2016-minneapolis.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/announcing-devopsdays-mountainview-2011.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/announcing-devopsdays-mountainview-2011.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/boston-devopsdays-7-8-march-2011.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/boston-devopsdays-7-8-march-2011.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/call-for-proposals-devops-us-opens.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/call-for-proposals-devops-us-opens.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/devopsday-brazil-2010-devops-go-samba.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/devopsday-brazil-2010-devops-go-samba.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/devopsdays-2009-belgium-was-a-great-succes.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/devopsdays-2009-belgium-was-a-great-succes.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/devopsdays-2010-hamburg.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/devopsdays-2010-hamburg.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/devopsdays-belgium-videos-and-presentations-are-online.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/devopsdays-belgium-videos-and-presentations-are-online.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/devopsdays-europe-2010-call-for-speakers-open.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/devopsdays-europe-2010-call-for-speakers-open.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/dod-barcelona-2013.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/dod-barcelona-2013.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/dod-paris-2013.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/dod-paris-2013.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/final-speakers-rome-2012.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/final-speakers-rome-2012.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/hockey-stick-growth.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/hockey-stick-growth.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/mountainview-t-shirt-contest.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/mountainview-t-shirt-contest.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/the-panel-experiment-and-ignite-devops.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/the-panel-experiment-and-ignite-devops.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/blog\/velocity.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/blog\/velocity.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/exampleSite\/content\/events\/2016-chicago\/debug.md": {
 		"cS": 0,
@@ -219,6 +525,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/exampleSite\/content\/events\/2016-telaviv\/speakers.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2016-telaviv\/speakers.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/exampleSite\/content\/events\/2016-telaviv\/welcome.md": {
 		"cS": 0,
 		"eF": 1,
@@ -229,6 +553,366 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/exampleSite\/content\/events\/2016-telaviv\/welcome.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/program.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/program\/adam-jacob.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/program\/adam-jacob.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/program\/matt-stratton.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/program\/matt-stratton.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/program\/twilight-sparkle.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/program\/twilight-sparkle.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/speakers.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/speakers.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/speakers\/twilight-sparkle.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/speakers\/twilight-sparkle.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-hoofington\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-hoofington\/welcome.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/program.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/program\/adam-jacob.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/program\/adam-jacob.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/program\/matt-stratton.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/program\/matt-stratton.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/program\/rainbow-dash.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/program\/rainbow-dash.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers\/apple-jack.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers\/apple-jack.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers\/fluttershy.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers\/fluttershy.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers\/rainbow-dash.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers\/rainbow-dash.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers\/rarity.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers\/rarity.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/speakers\/twilight-sparkle.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/speakers\/twilight-sparkle.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/events\/2017-ponyville\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/events\/2017-ponyville\/welcome.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/page\/about.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/page\/about.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/exampleSite\/content\/page\/contact.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/content\/page\/contact.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -981,6 +1665,12 @@
 		"oAP": "\/exampleSite\/data\/events\/2017-chicago.yml",
 		"oF": 0
 		},
+	"\/exampleSite\/data\/events\/2017-hoofington.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-hoofington.yml",
+		"oF": 0
+		},
 	"\/exampleSite\/data\/events\/2017-minneapolis.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -997,6 +1687,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/exampleSite\/data\/events\/2017-paris.yml",
+		"oF": 0
+		},
+	"\/exampleSite\/data\/events\/2017-ponyville.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/data\/events\/2017-ponyville.yml",
 		"oF": 0
 		},
 	"\/exampleSite\/data\/events\/2017-portland.yml": {
@@ -5379,6 +6075,12 @@
 		"oAP": "\/exampleSite\/public\/404.html",
 		"oF": 1
 		},
+	"\/exampleSite\/public\/about\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/about\/index.html",
+		"oF": 0
+		},
 	"\/exampleSite\/public\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 31970,
@@ -5515,11 +6217,125 @@
 		"oF": 1,
 		"opt": 0
 		},
+	"\/exampleSite\/public\/blog\/2009\/11\/11\/devopsdays-2009-belgium-a-great-success\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2009\/11\/11\/devopsdays-2009-belgium-a-great-success\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2009\/12\/21\/devopsdays-2009-belgium---videos-and-presentations\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2009\/12\/21\/devopsdays-2009-belgium---videos-and-presentations\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/02\/13\/devopsday-2010-us---call-for-proposals\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/02\/13\/devopsday-2010-us---call-for-proposals\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/05\/16\/the-panel-experiment-and-ignite-devops\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/05\/16\/the-panel-experiment-and-ignite-devops\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/06\/09\/velocity\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/06\/09\/velocity\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/08\/02\/devopsdays-europe-2010---call-for-speakers-open\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/08\/02\/devopsdays-europe-2010---call-for-speakers-open\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/10\/04\/devopsdays-2010-hamburg---final-program-published\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/10\/04\/devopsdays-2010-hamburg---final-program-published\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2010\/11\/04\/devopsday-brazil-2010---devops-go-samba\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2010\/11\/04\/devopsday-brazil-2010---devops-go-samba\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2011\/01\/08\/boston-devopsdays-7-8-march-2011-call-for-papers\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2011\/01\/08\/boston-devopsdays-7-8-march-2011-call-for-papers\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2011\/04\/13\/devopsdays-2011---mountain-view-announcement\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2011\/04\/13\/devopsdays-2011---mountain-view-announcement\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2011\/04\/26\/devopsdays-2011---mountain-view-t-shirt-design-contest\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2011\/04\/26\/devopsdays-2011---mountain-view-t-shirt-design-contest\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2012\/08\/30\/devopsdays-2012---rome-final-speakerslist\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2012\/08\/30\/devopsdays-2012---rome-final-speakerslist\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2013\/03\/08\/devopsdays-paris-2013\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2013\/03\/08\/devopsdays-paris-2013\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2013\/08\/26\/devopsdays-barcelona-2013\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2013\/08\/26\/devopsdays-barcelona-2013\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2015\/03\/15\/hockey-stick-growth\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2015\/03\/15\/hockey-stick-growth\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/2016\/08\/08\/minneapolis-2016-in-review\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/2016\/08\/08\/minneapolis-2016-in-review\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/blog\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/blog\/index.xml",
+		"oF": 0
+		},
 	"\/exampleSite\/public\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/exampleSite\/public\/browserconfig.xml",
 		"oF": 1
+		},
+	"\/exampleSite\/public\/contact\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/contact\/index.html",
+		"oF": 0
 		},
 	"\/exampleSite\/public\/css\/bootstrap.css": {
 		"aP": 0,
@@ -5595,6 +6411,38 @@
 		"oAP": "\/exampleSite\/public\/events\/.gitkeep",
 		"oF": 1
 		},
+	"\/exampleSite\/public\/events\/2016-berlin\/homepage-logo.png": {
+		"ft": 32768,
+		"iS": 191019,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-berlin\/homepage-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-berlin\/logo-square.png": {
+		"ft": 32768,
+		"iS": 191019,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-berlin\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-brasilia\/logo-square.png": {
+		"ft": 32768,
+		"iS": 129952,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-brasilia\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-brasilia\/logo.png": {
+		"ft": 32768,
+		"iS": 36238,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-brasilia\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/public\/events\/2016-chicago\/debug\/index.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -5618,6 +6466,12 @@
 		"oA": 1,
 		"oAP": "\/exampleSite\/public\/events\/2016-chicago\/program\/adamjacob\/index.html",
 		"oF": 1
+		},
+	"\/exampleSite\/public\/events\/2016-chicago\/program\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2016-chicago\/program\/index.html",
+		"oF": 0
 		},
 	"\/exampleSite\/public\/events\/2016-chicago\/program\/matt-stratton\/index.html": {
 		"ft": 8192,
@@ -5652,6 +6506,172 @@
 		"oA": 1,
 		"oAP": "\/exampleSite\/public\/events\/2016-chicago\/welcome\/index.html",
 		"oF": 1
+		},
+	"\/exampleSite\/public\/events\/2016-telaviv\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2016-telaviv\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2016-telaviv\/logo-square.png": {
+		"ft": 32768,
+		"iS": 195696,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-telaviv\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-telaviv\/logo.png": {
+		"ft": 32768,
+		"iS": 123919,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-telaviv\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-telaviv\/welcome\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2016-telaviv\/welcome\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2016-warsaw\/logo-square.png": {
+		"ft": 32768,
+		"iS": 280110,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-warsaw\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2016-warsaw\/logo.png": {
+		"ft": 32768,
+		"iS": 4602592,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2016-warsaw\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-austin\/logo-square.png": {
+		"ft": 32768,
+		"iS": 152136,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-austin\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-baltimore\/logo-square.png": {
+		"ft": 32768,
+		"iS": 225240,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-baltimore\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-charlotte\/logo-square.png": {
+		"ft": 32768,
+		"iS": 199251,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-charlotte\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-hoofington\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-hoofington\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-hoofington\/program\/adam-jacob\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-hoofington\/program\/adam-jacob\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-hoofington\/program\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-hoofington\/program\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-hoofington\/program\/matt-stratton\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-hoofington\/program\/matt-stratton\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-hoofington\/welcome\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-hoofington\/welcome\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-minneapolis\/logo-square.png": {
+		"ft": 32768,
+		"iS": 418821,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-minneapolis\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-moscow\/logo-square.png": {
+		"ft": 32768,
+		"iS": 239681,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-moscow\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/program\/adam-jacob\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/program\/adam-jacob\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/program\/adamjacob\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/program\/adamjacob\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/program\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/program\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/program\/matt-stratton\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/program\/matt-stratton\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-ponyville\/welcome\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/events\/2017-ponyville\/welcome\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/events\/2017-seattle\/logo-square.png": {
+		"ft": 32768,
+		"iS": 43931,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-seattle\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/events\/2017-zurich\/logo-square.png": {
+		"ft": 32768,
+		"iS": 151864,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/events\/2017-zurich\/logo-square.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/exampleSite\/public\/events\/index.html": {
 		"ft": 8192,
@@ -5704,12 +6724,6 @@
 		"oAP": "\/exampleSite\/public\/font-awesome\/css\/font-awesome-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/exampleSite\/public\/font-awesome\/css\/font-awesome.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/exampleSite\/public\/font-awesome\/css\/font-awesome.css.map",
-		"oF": 0
 		},
 	"\/exampleSite\/public\/font-awesome\/css\/font-awesome.min.css": {
 		"aP": 0,
@@ -6237,11 +7251,3099 @@
 		"oF": 1,
 		"opt": 0
 		},
+	"\/exampleSite\/public\/img\/speaker-default.png": {
+		"ft": 32768,
+		"iS": 201388,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/speaker-default.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/public\/img\/sponsors\/.gitkeep": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/exampleSite\/public\/img\/sponsors\/.gitkeep",
 		"oF": 1
+		},
+	"\/exampleSite\/public\/img\/sponsors\/10thmagnitude.png": {
+		"ft": 32768,
+		"iS": 5125,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/10thmagnitude.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2010-itt.png": {
+		"ft": 32768,
+		"iS": 8039,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2010-itt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2010-opscode.png": {
+		"ft": 32768,
+		"iS": 5783,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2010-opscode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2010-puppetlabs.png": {
+		"ft": 32768,
+		"iS": 9654,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2010-puppetlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2010-thoughtworks.png": {
+		"ft": 32768,
+		"iS": 21581,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2010-thoughtworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-accentureph.png": {
+		"ft": 32768,
+		"iS": 10769,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-accentureph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-agilemanagement.png": {
+		"ft": 32768,
+		"iS": 19275,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-agilemanagement.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-appdynamics.png": {
+		"ft": 32768,
+		"iS": 7808,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-appdynamics.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-basho.png": {
+		"ft": 32768,
+		"iS": 7317,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-basho.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-brightcove.png": {
+		"ft": 32768,
+		"iS": 7288,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-brightcove.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-canonical.png": {
+		"ft": 32768,
+		"iS": 6671,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-canonical.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-carbonite.png": {
+		"ft": 32768,
+		"iS": 2600,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-carbonite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-computerworldph.png": {
+		"ft": 32768,
+		"iS": 5363,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-computerworldph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-constantconstant.png": {
+		"ft": 32768,
+		"iS": 17979,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-constantconstant.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-creativoices.png": {
+		"ft": 32768,
+		"iS": 14374,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-creativoices.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-dell.png": {
+		"ft": 32768,
+		"iS": 5484,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-dell.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-devcon.png": {
+		"ft": 32768,
+		"iS": 13594,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-devcon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-diabol.png": {
+		"ft": 32768,
+		"iS": 6240,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-diabol.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-dto.png": {
+		"ft": 32768,
+		"iS": 15538,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-dto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-engineyard.png": {
+		"ft": 32768,
+		"iS": 15480,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-engineyard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-exist.png": {
+		"ft": 32768,
+		"iS": 9584,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-exist.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-ftph.png": {
+		"ft": 32768,
+		"iS": 4147,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-ftph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-globelabs.png": {
+		"ft": 32768,
+		"iS": 13655,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-globelabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-google.png": {
+		"ft": 32768,
+		"iS": 22396,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-google.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-guardian.png": {
+		"ft": 32768,
+		"iS": 15426,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-guardian.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-hp.png": {
+		"ft": 32768,
+		"iS": 21371,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-hp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-ibmph.png": {
+		"ft": 32768,
+		"iS": 10955,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-ibmph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-linkedin.png": {
+		"ft": 32768,
+		"iS": 4001,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-linkedin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-maestrodev.png": {
+		"ft": 32768,
+		"iS": 9947,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-maestrodev.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-microsoftnerd.png": {
+		"ft": 32768,
+		"iS": 7029,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-microsoftnerd.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-microsoftph.png": {
+		"ft": 32768,
+		"iS": 11389,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-microsoftph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-morphlabs.png": {
+		"ft": 32768,
+		"iS": 13770,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-morphlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-newrelic.png": {
+		"ft": 32768,
+		"iS": 2699,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-newrelic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-nokia.png": {
+		"ft": 32768,
+		"iS": 7338,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-nokia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-nokiaph.png": {
+		"ft": 32768,
+		"iS": 8160,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-nokiaph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-nolio.png": {
+		"ft": 32768,
+		"iS": 10048,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-nolio.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-opscode.png": {
+		"ft": 32768,
+		"iS": 5783,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-opscode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-orangeandbronze.png": {
+		"ft": 32768,
+		"iS": 12438,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-orangeandbronze.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-oreilly.png": {
+		"ft": 32768,
+		"iS": 6087,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-oreilly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-pagerduty.png": {
+		"ft": 32768,
+		"iS": 6242,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-pagerduty.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-phildev.png": {
+		"ft": 32768,
+		"iS": 10412,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-phildev.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-puppetlabs.png": {
+		"ft": 32768,
+		"iS": 9654,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-puppetlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-reactor8.png": {
+		"ft": 32768,
+		"iS": 12166,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-reactor8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-redbridge.png": {
+		"ft": 32768,
+		"iS": 3268,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-redbridge.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-redpill.png": {
+		"ft": 32768,
+		"iS": 9175,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-redpill.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-serverdensity.png": {
+		"ft": 32768,
+		"iS": 7892,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-serverdensity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-solidhosting.png": {
+		"ft": 32768,
+		"iS": 10501,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-solidhosting.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-sourcepad.png": {
+		"ft": 32768,
+		"iS": 3961,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-sourcepad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-splunk.png": {
+		"ft": 32768,
+		"iS": 6451,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-splunk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-streamstep.png": {
+		"ft": 32768,
+		"iS": 4501,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-streamstep.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-thoughtworks.png": {
+		"ft": 32768,
+		"iS": 21581,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-thoughtworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-urbancode.png": {
+		"ft": 32768,
+		"iS": 13917,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-urbancode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-usenix.png": {
+		"ft": 32768,
+		"iS": 13484,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-usenix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-webgeekph.png": {
+		"ft": 32768,
+		"iS": 6576,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-webgeekph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2011-xebialabs.png": {
+		"ft": 32768,
+		"iS": 11287,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2011-xebialabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-appfirst.png": {
+		"ft": 32768,
+		"iS": 8792,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-appfirst.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-apress.png": {
+		"ft": 32768,
+		"iS": 11257,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-apress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-atlassian.png": {
+		"ft": 32768,
+		"iS": 9734,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-atlassian.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-basho.png": {
+		"ft": 32768,
+		"iS": 7317,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-basho.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-bazaarvoice.png": {
+		"ft": 32768,
+		"iS": 18311,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-bazaarvoice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-bmc.png": {
+		"ft": 32768,
+		"iS": 14757,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-bmc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-canonical.png": {
+		"ft": 32768,
+		"iS": 6671,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-canonical.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-catchpoint.png": {
+		"ft": 32768,
+		"iS": 19517,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-catchpoint.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-cfengine.png": {
+		"ft": 32768,
+		"iS": 5920,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-cfengine.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-cisco.png": {
+		"ft": 32768,
+		"iS": 43289,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-cisco.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-collabnet.png": {
+		"ft": 32768,
+		"iS": 8150,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-collabnet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-copperegg.png": {
+		"ft": 32768,
+		"iS": 7819,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-copperegg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-couchbase.png": {
+		"ft": 32768,
+		"iS": 6146,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-couchbase.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-creationline.png": {
+		"ft": 32768,
+		"iS": 11161,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-creationline.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-ctct.png": {
+		"ft": 32768,
+		"iS": 11512,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-ctct.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-cyberagent.png": {
+		"ft": 32768,
+		"iS": 6282,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-cyberagent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-datadog.png": {
+		"ft": 32768,
+		"iS": 17298,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-datadog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-dell.png": {
+		"ft": 32768,
+		"iS": 5484,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-dell.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-dishcrawl.png": {
+		"ft": 32768,
+		"iS": 6620,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-dishcrawl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-djaa.png": {
+		"ft": 32768,
+		"iS": 17825,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-djaa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-dto.png": {
+		"ft": 32768,
+		"iS": 15538,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-dto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-dzone.png": {
+		"ft": 32768,
+		"iS": 13487,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-dzone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-electriccloud.png": {
+		"ft": 32768,
+		"iS": 20785,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-electriccloud.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-enstratus.png": {
+		"ft": 32768,
+		"iS": 14219,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-enstratus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-etsy.png": {
+		"ft": 32768,
+		"iS": 14263,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-etsy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-github.png": {
+		"ft": 32768,
+		"iS": 8016,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-github.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-gmocloud.png": {
+		"ft": 32768,
+		"iS": 3736,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-gmocloud.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-gmomedia.png": {
+		"ft": 32768,
+		"iS": 8104,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-gmomedia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-grandsla.png": {
+		"ft": 32768,
+		"iS": 21392,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-grandsla.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-ibm.png": {
+		"ft": 32768,
+		"iS": 31003,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-ibm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-immobilienscoutde.png": {
+		"ft": 32768,
+		"iS": 32183,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-immobilienscoutde.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-intentmedia.png": {
+		"ft": 32768,
+		"iS": 8738,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-intentmedia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-knewton.png": {
+		"ft": 32768,
+		"iS": 10180,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-knewton.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-librato.png": {
+		"ft": 32768,
+		"iS": 8725,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-librato.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-livestream.png": {
+		"ft": 32768,
+		"iS": 7040,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-livestream.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-logicmonitor.png": {
+		"ft": 32768,
+		"iS": 5393,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-logicmonitor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-midvision.png": {
+		"ft": 32768,
+		"iS": 10015,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-midvision.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-morphlab.png": {
+		"ft": 32768,
+		"iS": 16823,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-morphlab.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-morphlabs.png": {
+		"ft": 32768,
+		"iS": 13770,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-morphlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-newrelic.png": {
+		"ft": 32768,
+		"iS": 18747,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-newrelic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-ni.png": {
+		"ft": 32768,
+		"iS": 23508,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-ni.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-nyupoly.png": {
+		"ft": 32768,
+		"iS": 14269,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-nyupoly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-onamae.png": {
+		"ft": 32768,
+		"iS": 20685,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-onamae.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-opnet.png": {
+		"ft": 32768,
+		"iS": 24052,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-opnet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-opscode.png": {
+		"ft": 32768,
+		"iS": 5783,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-opscode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-pagerduty.png": {
+		"ft": 32768,
+		"iS": 7672,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-pagerduty.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-papertrail.png": {
+		"ft": 32768,
+		"iS": 5770,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-papertrail.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-puppetlabs.png": {
+		"ft": 32768,
+		"iS": 9654,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-puppetlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-schubergphilis.png": {
+		"ft": 32768,
+		"iS": 4988,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-schubergphilis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-serena.png": {
+		"ft": 32768,
+		"iS": 10774,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-serena.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-serverdensity.png": {
+		"ft": 32768,
+		"iS": 7121,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-serverdensity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-softserve.png": {
+		"ft": 32768,
+		"iS": 14499,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-softserve.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-splunk.png": {
+		"ft": 32768,
+		"iS": 6498,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-splunk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-stackify.png": {
+		"ft": 32768,
+		"iS": 8542,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-stackify.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-stormpath.png": {
+		"ft": 32768,
+		"iS": 9451,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-stormpath.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-sumologic.png": {
+		"ft": 32768,
+		"iS": 13521,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-sumologic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-thoughtworks.png": {
+		"ft": 32768,
+		"iS": 21581,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-thoughtworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-timgroup.png": {
+		"ft": 32768,
+		"iS": 19113,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-timgroup.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-uc4.png": {
+		"ft": 32768,
+		"iS": 7649,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-uc4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-ultimate.png": {
+		"ft": 32768,
+		"iS": 8740,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-ultimate.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-urbancode.png": {
+		"ft": 32768,
+		"iS": 13917,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-urbancode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-varalogix.png": {
+		"ft": 32768,
+		"iS": 6033,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-varalogix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-whalesharkmedia.png": {
+		"ft": 32768,
+		"iS": 1978,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-whalesharkmedia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-xebialabs.png": {
+		"ft": 32768,
+		"iS": 11573,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-xebialabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-yammer.png": {
+		"ft": 32768,
+		"iS": 14739,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-yammer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-zenoss.png": {
+		"ft": 32768,
+		"iS": 13814,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-zenoss.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2012-zeroturnaround.png": {
+		"ft": 32768,
+		"iS": 9079,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2012-zeroturnaround.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-apigee.png": {
+		"ft": 32768,
+		"iS": 26097,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-apigee.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-apress.png": {
+		"ft": 32768,
+		"iS": 11257,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-apress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-axelerant.png": {
+		"ft": 32768,
+		"iS": 2150,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-axelerant.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-basho.png": {
+		"ft": 32768,
+		"iS": 22493,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-basho.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-codeignition.png": {
+		"ft": 32768,
+		"iS": 2188,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-codeignition.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-codemancers.png": {
+		"ft": 32768,
+		"iS": 4951,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-codemancers.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-datadog.png": {
+		"ft": 32768,
+		"iS": 17298,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-datadog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-dzone.png": {
+		"ft": 32768,
+		"iS": 13487,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-dzone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-enstratus.png": {
+		"ft": 32768,
+		"iS": 14219,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-enstratus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-github.png": {
+		"ft": 32768,
+		"iS": 8016,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-github.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-grandsla.png": {
+		"ft": 32768,
+		"iS": 21392,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-grandsla.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-ibm.png": {
+		"ft": 32768,
+		"iS": 6746,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-ibm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-immobilienscout.png": {
+		"ft": 32768,
+		"iS": 32183,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-immobilienscout.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-mavenhive.png": {
+		"ft": 32768,
+		"iS": 2559,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-mavenhive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-nilenso.png": {
+		"ft": 32768,
+		"iS": 2539,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-nilenso.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-olindata.png": {
+		"ft": 32768,
+		"iS": 2136,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-olindata.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-opscode.png": {
+		"ft": 32768,
+		"iS": 10787,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-opscode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-relevancelab.jpg": {
+		"ft": 16384,
+		"iS": 5390,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-relevancelab.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-schubergphilis.png": {
+		"ft": 32768,
+		"iS": 8536,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-schubergphilis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-serena.png": {
+		"ft": 32768,
+		"iS": 12357,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-serena.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-serverdensity.png": {
+		"ft": 32768,
+		"iS": 7121,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-serverdensity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-thoughtworks.png": {
+		"ft": 32768,
+		"iS": 6571,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-thoughtworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-urbancode.png": {
+		"ft": 32768,
+		"iS": 23183,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-urbancode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-velocity.png": {
+		"ft": 32768,
+		"iS": 4476,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-velocity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-xebialabs.png": {
+		"ft": 32768,
+		"iS": 3878,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-xebialabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-yahoo.png": {
+		"ft": 32768,
+		"iS": 4694,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-yahoo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2013-yammer.png": {
+		"ft": 32768,
+		"iS": 14739,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2013-yammer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2014-chef.png": {
+		"ft": 32768,
+		"iS": 39522,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2014-chef.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2014-govdelivery.png": {
+		"ft": 32768,
+		"iS": 44793,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2014-govdelivery.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-10th-magnitude.png": {
+		"ft": 32768,
+		"iS": 20915,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-10th-magnitude.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-advizex.png": {
+		"ft": 32768,
+		"iS": 7124,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-advizex.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-ansible.png": {
+		"ft": 32768,
+		"iS": 42218,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-ansible.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-arista.png": {
+		"ft": 32768,
+		"iS": 19960,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-arista.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-autoscout24.png": {
+		"ft": 32768,
+		"iS": 8133,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-autoscout24.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-aws.png": {
+		"ft": 32768,
+		"iS": 14998,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-aws.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-babbel.png": {
+		"ft": 32768,
+		"iS": 26763,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-babbel.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-bazaarvoice.png": {
+		"ft": 32768,
+		"iS": 104155,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-bazaarvoice.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-bitbrains.png": {
+		"ft": 32768,
+		"iS": 21740,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-bitbrains.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-bmc.png": {
+		"ft": 32768,
+		"iS": 5991,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-bmc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-bol.png": {
+		"ft": 32768,
+		"iS": 11491,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-bol.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-cardinalsolutions.png": {
+		"ft": 32768,
+		"iS": 5478,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-cardinalsolutions.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-chef.png": {
+		"ft": 32768,
+		"iS": 43725,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-chef.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-cloudbees.png": {
+		"ft": 32768,
+		"iS": 14470,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-cloudbees.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-cloudstack.png": {
+		"ft": 32768,
+		"iS": 14918,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-cloudstack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-codecentric.png": {
+		"ft": 32768,
+		"iS": 21293,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-codecentric.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-columntechnologies.png": {
+		"ft": 32768,
+		"iS": 6155,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-columntechnologies.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-container-solutions.png": {
+		"ft": 32768,
+		"iS": 22796,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-container-solutions.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-coscale.png": {
+		"ft": 32768,
+		"iS": 18106,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-coscale.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-covermymeds.png": {
+		"ft": 32768,
+		"iS": 5285,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-covermymeds.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-datarobot.png": {
+		"ft": 32768,
+		"iS": 13160,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-datarobot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-delphix.png": {
+		"ft": 32768,
+		"iS": 8197,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-delphix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-devopscom.png": {
+		"ft": 32768,
+		"iS": 31449,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-devopscom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-devoteam.png": {
+		"ft": 32768,
+		"iS": 18053,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-devoteam.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-do-consultants.png": {
+		"ft": 32768,
+		"iS": 21319,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-do-consultants.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-docker.png": {
+		"ft": 32768,
+		"iS": 36667,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-docker.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-dynatrace.png": {
+		"ft": 32768,
+		"iS": 27097,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-dynatrace.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-e-post.png": {
+		"ft": 32768,
+		"iS": 264965,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-e-post.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-egym.png": {
+		"ft": 32768,
+		"iS": 9107,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-egym.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-elastic.png": {
+		"ft": 32768,
+		"iS": 18228,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-elastic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-elasticsearch.png": {
+		"ft": 32768,
+		"iS": 30104,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-elasticsearch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-endocode.png": {
+		"ft": 32768,
+		"iS": 15218,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-endocode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-exact.png": {
+		"ft": 32768,
+		"iS": 9752,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-exact.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-fuse.png": {
+		"ft": 32768,
+		"iS": 8857,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-fuse.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-github.png": {
+		"ft": 32768,
+		"iS": 8016,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-github.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-go.png": {
+		"ft": 32768,
+		"iS": 17215,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-go.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-govdelivery.png": {
+		"ft": 32768,
+		"iS": 3601,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-govdelivery.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-hired.png": {
+		"ft": 32768,
+		"iS": 8144,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-hired.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-hp.png": {
+		"ft": 32768,
+		"iS": 5393,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-hp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-idealo.png": {
+		"ft": 32768,
+		"iS": 11975,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-idealo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-immobilienscout24.png": {
+		"ft": 32768,
+		"iS": 32183,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-immobilienscout24.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-implicit-explicit.png": {
+		"ft": 32768,
+		"iS": 13102,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-implicit-explicit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-ing.png": {
+		"ft": 32768,
+		"iS": 18369,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-ing.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-internap.png": {
+		"ft": 32768,
+		"iS": 39905,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-internap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-inuits.png": {
+		"ft": 32768,
+		"iS": 14930,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-inuits.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-jut.png": {
+		"ft": 32768,
+		"iS": 8647,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-jut.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-keycdn.png": {
+		"ft": 32768,
+		"iS": 22905,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-keycdn.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-leankit.png": {
+		"ft": 32768,
+		"iS": 33317,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-leankit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-leaseweb.png": {
+		"ft": 32768,
+		"iS": 10502,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-leaseweb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-marktplaats.png": {
+		"ft": 32768,
+		"iS": 24250,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-marktplaats.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-microsoft.png": {
+		"ft": 32768,
+		"iS": 7537,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-microsoft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-netways-gmbh.png": {
+		"ft": 32768,
+		"iS": 9120,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-netways-gmbh.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-new-iron.png": {
+		"ft": 32768,
+		"iS": 16346,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-new-iron.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-new-relic.png": {
+		"ft": 32768,
+		"iS": 18747,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-new-relic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-nexinto.png": {
+		"ft": 32768,
+		"iS": 73365,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-nexinto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-noris-network-ag.png": {
+		"ft": 32768,
+		"iS": 17879,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-noris-network-ag.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-oreilly.png": {
+		"ft": 32768,
+		"iS": 24205,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-oreilly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-pagerduty.png": {
+		"ft": 32768,
+		"iS": 11737,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-pagerduty.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-payback.png": {
+		"ft": 32768,
+		"iS": 9135,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-payback.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-pcextreme.png": {
+		"ft": 32768,
+		"iS": 10438,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-pcextreme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-perforce.png": {
+		"ft": 32768,
+		"iS": 7336,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-perforce.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-pivotal.png": {
+		"ft": 32768,
+		"iS": 15189,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-pivotal.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-puppetlabs.png": {
+		"ft": 32768,
+		"iS": 35095,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-puppetlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-quint.png": {
+		"ft": 32768,
+		"iS": 24088,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-quint.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-rackspace.png": {
+		"ft": 32768,
+		"iS": 23985,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-rackspace.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-rancher.png": {
+		"ft": 32768,
+		"iS": 15658,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-rancher.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-redhat.png": {
+		"ft": 32768,
+		"iS": 5344,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-redhat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-schuberg-philis.png": {
+		"ft": 32768,
+		"iS": 13584,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-schuberg-philis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-scrumorg.png": {
+		"ft": 32768,
+		"iS": 8615,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-scrumorg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-sdl.png": {
+		"ft": 32768,
+		"iS": 8943,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-sdl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-sentia.png": {
+		"ft": 32768,
+		"iS": 19155,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-sentia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-servicenow.png": {
+		"ft": 32768,
+		"iS": 5819,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-servicenow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-shomi.png": {
+		"ft": 32768,
+		"iS": 3803,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-shomi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-snap.png": {
+		"ft": 32768,
+		"iS": 14656,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-snap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-solarwinds.png": {
+		"ft": 32768,
+		"iS": 4713,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-solarwinds.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-sonatype.png": {
+		"ft": 32768,
+		"iS": 13650,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-sonatype.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-sontaype.png": {
+		"ft": 32768,
+		"iS": 20962,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-sontaype.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-stackengine.png": {
+		"ft": 32768,
+		"iS": 55614,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-stackengine.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-startup-amsterdam.png": {
+		"ft": 32768,
+		"iS": 29377,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-startup-amsterdam.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-sumo-logic.png": {
+		"ft": 32768,
+		"iS": 24992,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-sumo-logic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-teksystems.png": {
+		"ft": 32768,
+		"iS": 8610,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-teksystems.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-tellki.png": {
+		"ft": 32768,
+		"iS": 18289,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-tellki.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-thoughtworks.png": {
+		"ft": 32768,
+		"iS": 6571,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-thoughtworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-victorops.png": {
+		"ft": 32768,
+		"iS": 56363,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-victorops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-vmware.png": {
+		"ft": 32768,
+		"iS": 11353,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-vmware.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-wpengine.png": {
+		"ft": 32768,
+		"iS": 10510,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-wpengine.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2015-xebia.png": {
+		"ft": 32768,
+		"iS": 13078,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2015-xebia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-aeroinfo.png": {
+		"ft": 32768,
+		"iS": 4996,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-aeroinfo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-akeles.png": {
+		"ft": 32768,
+		"iS": 7945,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-akeles.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-apitalent.png": {
+		"ft": 32768,
+		"iS": 10545,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-apitalent.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-appneta.png": {
+		"ft": 32768,
+		"iS": 6142,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-appneta.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-assurity.png": {
+		"ft": 32768,
+		"iS": 5619,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-assurity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-athenahealth.png": {
+		"ft": 32768,
+		"iS": 6587,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-athenahealth.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-atplanet.png": {
+		"ft": 32768,
+		"iS": 62525,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-atplanet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-aws-cape-town.png": {
+		"ft": 32768,
+		"iS": 7931,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-aws-cape-town.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-blacksintechnology.png": {
+		"ft": 32768,
+		"iS": 3881,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-blacksintechnology.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-bnz.png": {
+		"ft": 32768,
+		"iS": 7519,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-bnz.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-brainshark.png": {
+		"ft": 32768,
+		"iS": 35030,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-brainshark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-broadbandtv.png": {
+		"ft": 32768,
+		"iS": 8674,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-broadbandtv.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-brocade.png": {
+		"ft": 32768,
+		"iS": 4870,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-brocade.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-canonical-and-friends.png": {
+		"ft": 32768,
+		"iS": 6026,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-canonical-and-friends.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-canonical.png": {
+		"ft": 32768,
+		"iS": 5841,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-canonical.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-carsdotcom.png": {
+		"ft": 32768,
+		"iS": 27068,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-carsdotcom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-catalyst.png": {
+		"ft": 32768,
+		"iS": 2928,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-catalyst.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-centriq.png": {
+		"ft": 32768,
+		"iS": 14363,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-centriq.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-cisco.png": {
+		"ft": 32768,
+		"iS": 13808,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-cisco.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-clearpoint.png": {
+		"ft": 32768,
+		"iS": 3867,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-clearpoint.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-codero.png": {
+		"ft": 32768,
+		"iS": 8446,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-codero.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-compuware.png": {
+		"ft": 32768,
+		"iS": 12669,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-compuware.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-concur.png": {
+		"ft": 32768,
+		"iS": 17821,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-concur.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-constantcontact.png": {
+		"ft": 32768,
+		"iS": 37379,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-constantcontact.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-d4k_usa.png": {
+		"ft": 32768,
+		"iS": 11386,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-d4k_usa.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-demonware.png": {
+		"ft": 32768,
+		"iS": 380661,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-demonware.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-devopsbr.png": {
+		"ft": 32768,
+		"iS": 25676,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-devopsbr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-devopsdotcom.png": {
+		"ft": 32768,
+		"iS": 817,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-devopsdotcom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-dockerbr.png": {
+		"ft": 32768,
+		"iS": 14078,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-dockerbr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-dzone.png": {
+		"ft": 32768,
+		"iS": 13487,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-dzone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-enernoc.png": {
+		"ft": 32768,
+		"iS": 3986,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-enernoc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-g2-tech-group.png": {
+		"ft": 32768,
+		"iS": 7128,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-g2-tech-group.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-gitmsp.png": {
+		"ft": 32768,
+		"iS": 98022,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-gitmsp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-idealo.png": {
+		"ft": 32768,
+		"iS": 18005,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-idealo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-intimetec.png": {
+		"ft": 32768,
+		"iS": 3864,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-intimetec.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-inuits.png": {
+		"ft": 32768,
+		"iS": 7561,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-inuits.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-kctechcouncil.png": {
+		"ft": 32768,
+		"iS": 19834,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-kctechcouncil.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-kctne.png": {
+		"ft": 32768,
+		"iS": 25196,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-kctne.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-ku.png": {
+		"ft": 32768,
+		"iS": 34489,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-ku.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-linuxjournal.png": {
+		"ft": 32768,
+		"iS": 11520,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-linuxjournal.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-linuxpromagazine.png": {
+		"ft": 32768,
+		"iS": 7340,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-linuxpromagazine.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-microsoft.png": {
+		"ft": 32768,
+		"iS": 1604,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-microsoft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-mobify.png": {
+		"ft": 32768,
+		"iS": 3681,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-mobify.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-monitis.png": {
+		"ft": 32768,
+		"iS": 21311,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-monitis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-newrelic.png": {
+		"ft": 32768,
+		"iS": 10689,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-newrelic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-norisnetwork.png": {
+		"ft": 32768,
+		"iS": 14117,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-norisnetwork.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-ns1.png": {
+		"ft": 32768,
+		"iS": 9293,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-ns1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-offerzen-cape-town.png": {
+		"ft": 32768,
+		"iS": 2432,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-offerzen-cape-town.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-olx-cape-town.png": {
+		"ft": 32768,
+		"iS": 20068,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-olx-cape-town.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-omniti.png": {
+		"ft": 32768,
+		"iS": 5062,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-omniti.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-onpage.png": {
+		"ft": 32768,
+		"iS": 18793,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-onpage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-oreilly.png": {
+		"ft": 32768,
+		"iS": 5634,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-oreilly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-oss.png": {
+		"ft": 32768,
+		"iS": 8910,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-oss.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-otsi.png": {
+		"ft": 32768,
+		"iS": 12184,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-otsi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-pivotal.png": {
+		"ft": 32768,
+		"iS": 3446,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-pivotal.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-platform9.png": {
+		"ft": 32768,
+		"iS": 24752,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-platform9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-puppetbr.png": {
+		"ft": 32768,
+		"iS": 35561,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-puppetbr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-puppetlabs.png": {
+		"ft": 32768,
+		"iS": 9037,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-puppetlabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-pushpay.png": {
+		"ft": 32768,
+		"iS": 3087,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-pushpay.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-salesforce.png": {
+		"ft": 32768,
+		"iS": 21582,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-salesforce.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-samsung.png": {
+		"ft": 32768,
+		"iS": 5676,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-samsung.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-sendachi.png": {
+		"ft": 32768,
+		"iS": 6847,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-sendachi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-shomi.png": {
+		"ft": 32768,
+		"iS": 4976,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-shomi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-solarisbank.png": {
+		"ft": 32768,
+		"iS": 14638,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-solarisbank.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-solnet.png": {
+		"ft": 32768,
+		"iS": 6038,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-solnet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-splunk.png": {
+		"ft": 32768,
+		"iS": 6292,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-splunk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-spotify.png": {
+		"ft": 32768,
+		"iS": 12094,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-spotify.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-spreedly.png": {
+		"ft": 32768,
+		"iS": 35965,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-spreedly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-statsearchanalytics.png": {
+		"ft": 32768,
+		"iS": 8740,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-statsearchanalytics.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-stickergiant.png": {
+		"ft": 32768,
+		"iS": 26964,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-stickergiant.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-sumologic.png": {
+		"ft": 32768,
+		"iS": 6937,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-sumologic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-takealot-cape-town.png": {
+		"ft": 32768,
+		"iS": 17384,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-takealot-cape-town.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-techriotkc.png": {
+		"ft": 32768,
+		"iS": 24188,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-techriotkc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-techtowntraining.png": {
+		"ft": 32768,
+		"iS": 1576,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-techtowntraining.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-trinimbus.png": {
+		"ft": 32768,
+		"iS": 12725,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-trinimbus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-usenix.png": {
+		"ft": 32768,
+		"iS": 2733,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-usenix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-verizon.png": {
+		"ft": 32768,
+		"iS": 3592,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-verizon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-viawest.png": {
+		"ft": 32768,
+		"iS": 7724,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-viawest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-victorops.png": {
+		"ft": 32768,
+		"iS": 11428,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-victorops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-visioncritical.png": {
+		"ft": 32768,
+		"iS": 7621,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-visioncritical.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-vistaprint.png": {
+		"ft": 32768,
+		"iS": 8031,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-vistaprint.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-visualstudio.png": {
+		"ft": 32768,
+		"iS": 13773,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-visualstudio.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-vml.png": {
+		"ft": 32768,
+		"iS": 5414,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-vml.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-wayfair.png": {
+		"ft": 32768,
+		"iS": 6788,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-wayfair.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-westpac.png": {
+		"ft": 32768,
+		"iS": 23137,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-westpac.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-xero.png": {
+		"ft": 32768,
+		"iS": 17809,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-xero.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/2016-zappistore-cape-town.png": {
+		"ft": 32768,
+		"iS": 7711,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/2016-zappistore-cape-town.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/6connect.png": {
+		"ft": 32768,
+		"iS": 3084,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/6connect.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/academicwork.png": {
+		"ft": 32768,
+		"iS": 6674,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/academicwork.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/accenture.png": {
+		"ft": 32768,
+		"iS": 18976,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/accenture.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/accessidaho.png": {
+		"ft": 32768,
+		"iS": 4794,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/accessidaho.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/activestate.png": {
+		"ft": 32768,
+		"iS": 37559,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/activestate.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ado.png": {
+		"ft": 32768,
+		"iS": 85994,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ado.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/adorable.png": {
+		"ft": 32768,
+		"iS": 10017,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/adorable.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/adzerk.png": {
+		"ft": 32768,
+		"iS": 11910,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/adzerk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/agile-singapore.png": {
+		"ft": 32768,
+		"iS": 22757,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/agile-singapore.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/agile42.png": {
+		"ft": 32768,
+		"iS": 12844,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/agile42.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ahead.png": {
+		"ft": 32768,
+		"iS": 4767,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ahead.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ais.png": {
+		"ft": 32768,
+		"iS": 10274,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ais.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/alienvault.png": {
+		"ft": 32768,
+		"iS": 59605,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/alienvault.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ally.png": {
+		"ft": 32768,
+		"iS": 8662,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ally.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/amazon.png": {
+		"ft": 32768,
+		"iS": 20145,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/amazon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ansible.png": {
+		"ft": 32768,
+		"iS": 4161,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ansible.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/aol.png": {
+		"ft": 32768,
+		"iS": 3540,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/aol.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/appdynamics.png": {
+		"ft": 32768,
+		"iS": 2134,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/appdynamics.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/appneta.png": {
+		"ft": 32768,
+		"iS": 11664,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/appneta.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/apprenda.png": {
+		"ft": 32768,
+		"iS": 11415,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/apprenda.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/appsflyer.png": {
+		"ft": 32768,
+		"iS": 11408,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/appsflyer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/arresteddevops.png": {
+		"ft": 32768,
+		"iS": 10800,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/arresteddevops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/aspe.png": {
+		"ft": 32768,
+		"iS": 12677,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/aspe.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/aspose.png": {
+		"ft": 32768,
+		"iS": 10545,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/aspose.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/athenahealth.png": {
+		"ft": 32768,
+		"iS": 6080,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/athenahealth.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/atlassian.png": {
+		"ft": 32768,
+		"iS": 4714,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/atlassian.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/automic-singapore.png": {
+		"ft": 32768,
+		"iS": 28509,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/automic-singapore.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/automic.png": {
+		"ft": 32768,
+		"iS": 27451,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/automic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/autotrader.png": {
+		"ft": 32768,
+		"iS": 16508,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/autotrader.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/aweber.png": {
+		"ft": 32768,
+		"iS": 10327,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/aweber.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/aws.png": {
+		"ft": 32768,
+		"iS": 17988,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/aws.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/barclays.png": {
+		"ft": 32768,
+		"iS": 112588,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/barclays.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/battery_ventures.png": {
+		"ft": 32768,
+		"iS": 45787,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/battery_ventures.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bekk.png": {
+		"ft": 32768,
+		"iS": 5427,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bekk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/belgiandevcorp.png": {
+		"ft": 32768,
+		"iS": 12219,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/belgiandevcorp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bertramcapital.png": {
+		"ft": 32768,
+		"iS": 314071,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bertramcapital.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/beslist.png": {
+		"ft": 32768,
+		"iS": 16260,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/beslist.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/betamore.png": {
+		"ft": 32768,
+		"iS": 18390,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/betamore.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bigpanda.png": {
+		"ft": 32768,
+		"iS": 4556,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bigpanda.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bilgeadam.png": {
+		"ft": 32768,
+		"iS": 11506,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bilgeadam.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/blacksintechnology.png": {
+		"ft": 32768,
+		"iS": 3881,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/blacksintechnology.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/blendedperspectives.png": {
+		"ft": 32768,
+		"iS": 11555,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/blendedperspectives.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bmc.png": {
+		"ft": 32768,
+		"iS": 23167,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bmc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bodybuilding.png": {
+		"ft": 32768,
+		"iS": 9240,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bodybuilding.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/booz_allen_hamilton.png": {
+		"ft": 32768,
+		"iS": 12161,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/booz_allen_hamilton.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/borsaistanbul.png": {
+		"ft": 32768,
+		"iS": 17511,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/borsaistanbul.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/brainshark.png": {
+		"ft": 32768,
+		"iS": 8804,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/brainshark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/breakfreesolutions.png": {
+		"ft": 32768,
+		"iS": 9390,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/breakfreesolutions.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bsidespdx.png": {
+		"ft": 32768,
+		"iS": 10986,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bsidespdx.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/buzzfeed.png": {
+		"ft": 32768,
+		"iS": 4155,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/buzzfeed.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/bw_tech.png": {
+		"ft": 32768,
+		"iS": 20106,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/bw_tech.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ca.png": {
+		"ft": 32768,
+		"iS": 35641,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ca.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ca_tech.png": {
+		"ft": 32768,
+		"iS": 3596,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ca_tech.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cagedata.png": {
+		"ft": 32768,
+		"iS": 25023,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cagedata.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/capitalone.png": {
+		"ft": 32768,
+		"iS": 8547,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/capitalone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/careerbuilder.png": {
+		"ft": 32768,
+		"iS": 21321,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/careerbuilder.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cegeka.png": {
+		"ft": 32768,
+		"iS": 10654,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cegeka.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/centurylink.png": {
+		"ft": 32768,
+		"iS": 4796,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/centurylink.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/changehealthcare.png": {
+		"ft": 32768,
+		"iS": 3643,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/changehealthcare.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/chef-before-20160714.png": {
+		"ft": 32768,
+		"iS": 17586,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/chef-before-20160714.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/exampleSite\/public\/img\/sponsors\/chef.png": {
 		"ft": 32768,
@@ -6250,6 +10352,2662 @@
 		"oAP": "\/exampleSite\/public\/img\/sponsors\/chef.png",
 		"oF": 1,
 		"opt": 1
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cimpress.png": {
+		"ft": 32768,
+		"iS": 8292,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cimpress.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/civitas.png": {
+		"ft": 32768,
+		"iS": 59833,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/civitas.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudbees-before-20161025.png": {
+		"ft": 32768,
+		"iS": 14688,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudbees-before-20161025.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudbees.png": {
+		"ft": 32768,
+		"iS": 20583,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudbees.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudian.png": {
+		"ft": 32768,
+		"iS": 52577,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudian.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudify.png": {
+		"ft": 32768,
+		"iS": 114391,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudify.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudinary.png": {
+		"ft": 32768,
+		"iS": 13918,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudinary.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cloudpassage.png": {
+		"ft": 32768,
+		"iS": 2411,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cloudpassage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/collabnet.png": {
+		"ft": 32768,
+		"iS": 23607,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/collabnet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/columbia.png": {
+		"ft": 32768,
+		"iS": 3530,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/columbia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/columnpuppet.png": {
+		"ft": 32768,
+		"iS": 54753,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/columnpuppet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/columntech.png": {
+		"ft": 32768,
+		"iS": 18981,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/columntech.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/combell.png": {
+		"ft": 32768,
+		"iS": 31780,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/combell.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/comcast.png": {
+		"ft": 32768,
+		"iS": 5840,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/comcast.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/comparex-tr.png": {
+		"ft": 32768,
+		"iS": 18915,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/comparex-tr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/compuware.png": {
+		"ft": 32768,
+		"iS": 52454,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/compuware.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/concurrency.png": {
+		"ft": 32768,
+		"iS": 9132,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/concurrency.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/conjur.png": {
+		"ft": 32768,
+		"iS": 4053,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/conjur.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cons3rt.png": {
+		"ft": 32768,
+		"iS": 11064,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cons3rt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/constantcontact.png": {
+		"ft": 32768,
+		"iS": 73471,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/constantcontact.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/containership.png": {
+		"ft": 32768,
+		"iS": 26560,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/containership.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/coreadmin.png": {
+		"ft": 32768,
+		"iS": 10412,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/coreadmin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/coscale.png": {
+		"ft": 32768,
+		"iS": 10491,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/coscale.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/coxautomotive.png": {
+		"ft": 32768,
+		"iS": 13741,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/coxautomotive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cprime.png": {
+		"ft": 32768,
+		"iS": 13164,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cprime.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/csra.png": {
+		"ft": 32768,
+		"iS": 5080,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/csra.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cumulus.png": {
+		"ft": 32768,
+		"iS": 16379,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cumulus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/customink.png": {
+		"ft": 32768,
+		"iS": 5702,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/customink.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/cwdevs.png": {
+		"ft": 32768,
+		"iS": 84279,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/cwdevs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/datadog.png": {
+		"ft": 32768,
+		"iS": 11076,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/datadog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/datalex.png": {
+		"ft": 32768,
+		"iS": 17336,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/datalex.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dataloop.png": {
+		"ft": 32768,
+		"iS": 13395,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dataloop.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/deis.png": {
+		"ft": 32768,
+		"iS": 6152,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/deis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dell.png": {
+		"ft": 32768,
+		"iS": 33267,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dell.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dellemc.png": {
+		"ft": 32768,
+		"iS": 19589,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dellemc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/deloitte.png": {
+		"ft": 32768,
+		"iS": 6306,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/deloitte.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/delphix.png": {
+		"ft": 32768,
+		"iS": 2478,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/delphix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/developpez.png": {
+		"ft": 32768,
+		"iS": 43840,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/developpez.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/devopsconferences.png": {
+		"ft": 32768,
+		"iS": 9654,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/devopsconferences.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/devopsdotcom.png": {
+		"ft": 32768,
+		"iS": 8535,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/devopsdotcom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/devopslive.png": {
+		"ft": 32768,
+		"iS": 7538,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/devopslive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/devoteam.png": {
+		"ft": 32768,
+		"iS": 48333,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/devoteam.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/digitalocean.png": {
+		"ft": 32768,
+		"iS": 89854,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/digitalocean.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dlt.png": {
+		"ft": 32768,
+		"iS": 4216,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dlt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/docker.png": {
+		"ft": 32768,
+		"iS": 78933,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/docker.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dramafever.png": {
+		"ft": 32768,
+		"iS": 38479,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dramafever.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/drw.png": {
+		"ft": 32768,
+		"iS": 5421,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/drw.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dstsystems.png": {
+		"ft": 32768,
+		"iS": 41320,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dstsystems.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/dynatrace.png": {
+		"ft": 32768,
+		"iS": 56255,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/dynatrace.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/e-core.png": {
+		"ft": 32768,
+		"iS": 44104,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/e-core.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/eglobaltech.png": {
+		"ft": 32768,
+		"iS": 5857,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/eglobaltech.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/elastic.png": {
+		"ft": 32768,
+		"iS": 6322,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/elastic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/emc.png": {
+		"ft": 32768,
+		"iS": 2867,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/emc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ena.png": {
+		"ft": 32768,
+		"iS": 46128,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ena.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/endocode.png": {
+		"ft": 32768,
+		"iS": 11816,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/endocode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/engineyard.png": {
+		"ft": 32768,
+		"iS": 5501,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/engineyard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/etsy.png": {
+		"ft": 32768,
+		"iS": 2138,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/etsy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/eventbrite.png": {
+		"ft": 32768,
+		"iS": 15244,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/eventbrite.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/evident.png": {
+		"ft": 32768,
+		"iS": 3503,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/evident.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/example42.png": {
+		"ft": 32768,
+		"iS": 20428,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/example42.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/excella.png": {
+		"ft": 32768,
+		"iS": 6601,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/excella.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/expedia.jpg": {
+		"ft": 16384,
+		"iS": 6352,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/expedia.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/expedia.png": {
+		"ft": 32768,
+		"iS": 4195,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/expedia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/extrahop.png": {
+		"ft": 32768,
+		"iS": 19852,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/extrahop.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/facebook.png": {
+		"ft": 32768,
+		"iS": 18326,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/facebook.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/fanniemae.png": {
+		"ft": 32768,
+		"iS": 9123,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/fanniemae.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/fearless.png": {
+		"ft": 32768,
+		"iS": 8540,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/fearless.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/foodfight.png": {
+		"ft": 32768,
+		"iS": 51622,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/foodfight.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/forest_technologies.png": {
+		"ft": 32768,
+		"iS": 9240,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/forest_technologies.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/forgerock.png": {
+		"ft": 32768,
+		"iS": 4503,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/forgerock.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/fortrust.png": {
+		"ft": 32768,
+		"iS": 15499,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/fortrust.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/forty8fifty-labs.png": {
+		"ft": 32768,
+		"iS": 12480,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/forty8fifty-labs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/foxpass.png": {
+		"ft": 32768,
+		"iS": 11793,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/foxpass.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/frenchweb.png": {
+		"ft": 32768,
+		"iS": 41528,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/frenchweb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/g2.png": {
+		"ft": 32768,
+		"iS": 11286,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/g2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/gcp.png": {
+		"ft": 32768,
+		"iS": 24312,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/gcp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/gft.png": {
+		"ft": 32768,
+		"iS": 89123,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/gft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/github.png": {
+		"ft": 32768,
+		"iS": 3503,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/github.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/gitlab.png": {
+		"ft": 32768,
+		"iS": 29221,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/gitlab.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/gitmsp.png": {
+		"ft": 32768,
+		"iS": 19936,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/gitmsp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/glenfis.png": {
+		"ft": 32768,
+		"iS": 23919,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/glenfis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/govdelivery.png": {
+		"ft": 32768,
+		"iS": 32610,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/govdelivery.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/govready.png": {
+		"ft": 32768,
+		"iS": 3622,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/govready.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/gradwerk.png": {
+		"ft": 32768,
+		"iS": 6945,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/gradwerk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/groundfloor.png": {
+		"ft": 32768,
+		"iS": 44568,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/groundfloor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/grubhub.png": {
+		"ft": 32768,
+		"iS": 11355,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/grubhub.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hackthegap.png": {
+		"ft": 32768,
+		"iS": 123234,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hackthegap.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/halvik.png": {
+		"ft": 32768,
+		"iS": 3529,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/halvik.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/harbor_launch.png": {
+		"ft": 32768,
+		"iS": 34627,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/harbor_launch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/harmonia.png": {
+		"ft": 32768,
+		"iS": 5137,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/harmonia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hays.png": {
+		"ft": 32768,
+		"iS": 115577,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hays.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/healthcatalyst.png": {
+		"ft": 32768,
+		"iS": 4991,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/healthcatalyst.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/healthfinch.png": {
+		"ft": 32768,
+		"iS": 29124,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/healthfinch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/herzum.png": {
+		"ft": 32768,
+		"iS": 11850,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/herzum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hired.png": {
+		"ft": 32768,
+		"iS": 3842,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hired.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hp.png": {
+		"ft": 32768,
+		"iS": 11533,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hpe-tr.png": {
+		"ft": 32768,
+		"iS": 7765,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hpe-tr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/hpe.png": {
+		"ft": 32768,
+		"iS": 7765,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/hpe.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ibm.png": {
+		"ft": 32768,
+		"iS": 21666,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ibm.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/icc.png": {
+		"ft": 32768,
+		"iS": 8966,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/icc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/icemobile.png": {
+		"ft": 32768,
+		"iS": 7572,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/icemobile.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/icinga.png": {
+		"ft": 32768,
+		"iS": 10834,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/icinga.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/idahotechcouncil.png": {
+		"ft": 32768,
+		"iS": 58590,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/idahotechcouncil.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/igtcloud.png": {
+		"ft": 32768,
+		"iS": 21607,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/igtcloud.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ihub.png": {
+		"ft": 32768,
+		"iS": 5916,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ihub.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/indigo.png": {
+		"ft": 32768,
+		"iS": 50646,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/indigo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/infodsi.png": {
+		"ft": 32768,
+		"iS": 29545,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/infodsi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/infozen.png": {
+		"ft": 32768,
+		"iS": 16021,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/infozen.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/inneractive.png": {
+		"ft": 32768,
+		"iS": 12151,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/inneractive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/instruct.png": {
+		"ft": 32768,
+		"iS": 7187,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/instruct.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/interactive-intelligence.png": {
+		"ft": 32768,
+		"iS": 16096,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/interactive-intelligence.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/interactive-resources.png": {
+		"ft": 32768,
+		"iS": 8490,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/interactive-resources.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/intility.png": {
+		"ft": 32768,
+		"iS": 3723,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/intility.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/iphouse.png": {
+		"ft": 32768,
+		"iS": 48947,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/iphouse.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ipswitch.png": {
+		"ft": 32768,
+		"iS": 10015,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ipswitch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ipt.png": {
+		"ft": 32768,
+		"iS": 8008,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ipt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/itrevolution.png": {
+		"ft": 32768,
+		"iS": 95160,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/itrevolution.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/iyzico.png": {
+		"ft": 32768,
+		"iS": 8604,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/iyzico.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/jfrog.png": {
+		"ft": 32768,
+		"iS": 11820,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/jfrog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/jhc.png": {
+		"ft": 32768,
+		"iS": 6993,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/jhc.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/jiraservicedesk.png": {
+		"ft": 32768,
+		"iS": 20257,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/jiraservicedesk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kalitek.png": {
+		"ft": 32768,
+		"iS": 11626,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kalitek.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/karsun.png": {
+		"ft": 32768,
+		"iS": 6452,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/karsun.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kartar.png": {
+		"ft": 32768,
+		"iS": 12467,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kartar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kickstarter.png": {
+		"ft": 32768,
+		"iS": 5929,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kickstarter.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kili.png": {
+		"ft": 32768,
+		"iS": 6770,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kili.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kiwi.png": {
+		"ft": 32768,
+		"iS": 7273,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kiwi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kloia.png": {
+		"ft": 32768,
+		"iS": 8179,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kloia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kms-technology.png": {
+		"ft": 32768,
+		"iS": 3649,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kms-technology.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kn.png": {
+		"ft": 32768,
+		"iS": 6087,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kn.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/knowit.png": {
+		"ft": 32768,
+		"iS": 12501,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/knowit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/konsalt.png": {
+		"ft": 32768,
+		"iS": 7213,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/konsalt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/kontena.png": {
+		"ft": 32768,
+		"iS": 24041,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/kontena.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/leankit.png": {
+		"ft": 32768,
+		"iS": 78723,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/leankit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/lemondeinformatique.png": {
+		"ft": 32768,
+		"iS": 29184,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/lemondeinformatique.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/linkit.png": {
+		"ft": 32768,
+		"iS": 99370,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/linkit.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/linuxmagazin.png": {
+		"ft": 32768,
+		"iS": 13822,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/linuxmagazin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/logicmonitor.png": {
+		"ft": 32768,
+		"iS": 28537,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/logicmonitor.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/logz-before-20160101.png": {
+		"ft": 32768,
+		"iS": 8457,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/logz-before-20160101.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/logz.png": {
+		"ft": 32768,
+		"iS": 14385,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/logz.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/luckyfins.png": {
+		"ft": 32768,
+		"iS": 45501,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/luckyfins.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/luxoft.png": {
+		"ft": 32768,
+		"iS": 704,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/luxoft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/mailchimp.png": {
+		"ft": 32768,
+		"iS": 6761,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/mailchimp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/merrill.png": {
+		"ft": 32768,
+		"iS": 13459,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/merrill.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/metova.png": {
+		"ft": 32768,
+		"iS": 2378,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/metova.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/microsoft.png": {
+		"ft": 32768,
+		"iS": 25010,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/microsoft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/mirantis.png": {
+		"ft": 32768,
+		"iS": 20333,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/mirantis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/moog.png": {
+		"ft": 32768,
+		"iS": 31766,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/moog.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/morpheus.png": {
+		"ft": 32768,
+		"iS": 369970,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/morpheus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/morpheus_data.png": {
+		"ft": 32768,
+		"iS": 9140,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/morpheus_data.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/motus.png": {
+		"ft": 32768,
+		"iS": 5802,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/motus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/nagios.png": {
+		"ft": 32768,
+		"iS": 16404,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/nagios.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/nashdevops.png": {
+		"ft": 32768,
+		"iS": 8569,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/nashdevops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ness.png": {
+		"ft": 32768,
+		"iS": 24481,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ness.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/netapp.png": {
+		"ft": 32768,
+		"iS": 3771,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/netapp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/netflix.png": {
+		"ft": 32768,
+		"iS": 3037,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/netflix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/netuitive.png": {
+		"ft": 32768,
+		"iS": 10712,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/netuitive.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/netways.png": {
+		"ft": 32768,
+		"iS": 9441,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/netways.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/newiron.png": {
+		"ft": 32768,
+		"iS": 26884,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/newiron.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/newrelic.png": {
+		"ft": 32768,
+		"iS": 14057,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/newrelic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/nextpoint.png": {
+		"ft": 32768,
+		"iS": 6873,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/nextpoint.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/normation.png": {
+		"ft": 32768,
+		"iS": 32772,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/normation.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ns1.png": {
+		"ft": 32768,
+		"iS": 9507,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ns1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/nuagenetworks.png": {
+		"ft": 32768,
+		"iS": 10487,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/nuagenetworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/nutanix.png": {
+		"ft": 32768,
+		"iS": 5323,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/nutanix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/odecee.png": {
+		"ft": 32768,
+		"iS": 20457,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/odecee.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/omniti.png": {
+		"ft": 32768,
+		"iS": 3496,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/omniti.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/openminds.png": {
+		"ft": 32768,
+		"iS": 6069,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/openminds.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/openshift.png": {
+		"ft": 32768,
+		"iS": 8062,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/openshift.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/opensky.png": {
+		"ft": 32768,
+		"iS": 6262,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/opensky.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/openstack.png": {
+		"ft": 32768,
+		"iS": 12845,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/openstack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/opentext.png": {
+		"ft": 32768,
+		"iS": 18656,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/opentext.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/opsclarity.png": {
+		"ft": 32768,
+		"iS": 23972,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/opsclarity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/opsgenie.png": {
+		"ft": 32768,
+		"iS": 7119,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/opsgenie.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/optum.png": {
+		"ft": 32768,
+		"iS": 24594,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/optum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/oracle.png": {
+		"ft": 32768,
+		"iS": 3293,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/oracle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ordina.png": {
+		"ft": 32768,
+		"iS": 16369,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ordina.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/oreilly.png": {
+		"ft": 32768,
+		"iS": 5634,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/oreilly.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/outbrain.png": {
+		"ft": 32768,
+		"iS": 32071,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/outbrain.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/overnest.png": {
+		"ft": 32768,
+		"iS": 18141,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/overnest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/overops.png": {
+		"ft": 32768,
+		"iS": 585719,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/overops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pagerduty.png": {
+		"ft": 32768,
+		"iS": 4226,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pagerduty.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/panopta.png": {
+		"ft": 32768,
+		"iS": 7288,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/panopta.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pantheon.png": {
+		"ft": 32768,
+		"iS": 2346,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pantheon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/parasoft.png": {
+		"ft": 32768,
+		"iS": 20140,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/parasoft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pcextreme.png": {
+		"ft": 32768,
+		"iS": 8866,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pcextreme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/perficient.png": {
+		"ft": 32768,
+		"iS": 23947,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/perficient.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/phishme.png": {
+		"ft": 32768,
+		"iS": 14470,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/phishme.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pindrop.png": {
+		"ft": 32768,
+		"iS": 12631,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pindrop.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pingidentity.png": {
+		"ft": 32768,
+		"iS": 25033,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pingidentity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pivotal.png": {
+		"ft": 32768,
+		"iS": 4433,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pivotal.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/praecipio.png": {
+		"ft": 32768,
+		"iS": 5091,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/praecipio.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/praqma.png": {
+		"ft": 32768,
+		"iS": 16425,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/praqma.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/programmez.png": {
+		"ft": 32768,
+		"iS": 29656,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/programmez.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/prologism.png": {
+		"ft": 32768,
+		"iS": 9510,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/prologism.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/promptworks.png": {
+		"ft": 32768,
+		"iS": 9083,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/promptworks.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/proquest.png": {
+		"ft": 32768,
+		"iS": 11443,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/proquest.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/prowareness.png": {
+		"ft": 32768,
+		"iS": 28097,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/prowareness.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/puppet.png": {
+		"ft": 32768,
+		"iS": 3572,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/puppet.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/puppetlabs.jpg": {
+		"ft": 16384,
+		"iS": 37986,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/puppetlabs.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/pure-storage.png": {
+		"ft": 32768,
+		"iS": 3738,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/pure-storage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/que-technology-group.png": {
+		"ft": 32768,
+		"iS": 12705,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/que-technology-group.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/qwinix.png": {
+		"ft": 32768,
+		"iS": 15560,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/qwinix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rackspace.png": {
+		"ft": 32768,
+		"iS": 11378,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rackspace.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/radicaltech.png": {
+		"ft": 32768,
+		"iS": 75395,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/radicaltech.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/raindance.png": {
+		"ft": 32768,
+		"iS": 8575,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/raindance.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rancher.png": {
+		"ft": 32768,
+		"iS": 14843,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rancher.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/raventools.png": {
+		"ft": 32768,
+		"iS": 20289,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/raventools.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rea-group.png": {
+		"ft": 32768,
+		"iS": 13430,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rea-group.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/reactive-ops.png": {
+		"ft": 32768,
+		"iS": 20734,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/reactive-ops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/recompiler.png": {
+		"ft": 32768,
+		"iS": 31871,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/recompiler.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/redhat.png": {
+		"ft": 32768,
+		"iS": 5344,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/redhat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/redislabs.png": {
+		"ft": 32768,
+		"iS": 14338,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/redislabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/regis.png": {
+		"ft": 32768,
+		"iS": 39068,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/regis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rei.png": {
+		"ft": 32768,
+		"iS": 6002,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rei.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rightbrain.png": {
+		"ft": 32768,
+		"iS": 3349,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rightbrain.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rightstar.png": {
+		"ft": 32768,
+		"iS": 5666,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rightstar.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/roundtowertechnologies.png": {
+		"ft": 32768,
+		"iS": 12479,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/roundtowertechnologies.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rt.png": {
+		"ft": 32768,
+		"iS": 31785,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/rtop.png": {
+		"ft": 32768,
+		"iS": 18292,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/rtop.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/salesforcepardot.png": {
+		"ft": 32768,
+		"iS": 15494,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/salesforcepardot.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/saltstack.png": {
+		"ft": 32768,
+		"iS": 4290,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/saltstack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/saucelabs.png": {
+		"ft": 32768,
+		"iS": 25906,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/saucelabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/schubergphilis.png": {
+		"ft": 32768,
+		"iS": 12055,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/schubergphilis.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/scout.png": {
+		"ft": 32768,
+		"iS": 3187,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/scout.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sdl.png": {
+		"ft": 32768,
+		"iS": 7823,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sdl.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sdtp.png": {
+		"ft": 32768,
+		"iS": 28352,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sdtp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/seekatv.png": {
+		"ft": 32768,
+		"iS": 19560,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/seekatv.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sendachi.png": {
+		"ft": 32768,
+		"iS": 20895,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sendachi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/servercentral.png": {
+		"ft": 32768,
+		"iS": 4724,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/servercentral.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/serverdensity.png": {
+		"ft": 32768,
+		"iS": 8186,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/serverdensity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/servicenow.png": {
+		"ft": 32768,
+		"iS": 5819,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/servicenow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/shadow-soft.png": {
+		"ft": 32768,
+		"iS": 7234,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/shadow-soft.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/shopify.png": {
+		"ft": 32768,
+		"iS": 12478,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/shopify.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/showpad.png": {
+		"ft": 32768,
+		"iS": 15911,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/showpad.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/signalfx.png": {
+		"ft": 32768,
+		"iS": 2376,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/signalfx.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/signalsciences.png": {
+		"ft": 32768,
+		"iS": 4901,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/signalsciences.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/similarweb.png": {
+		"ft": 32768,
+		"iS": 16076,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/similarweb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/simple.png": {
+		"ft": 32768,
+		"iS": 5205,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/simple.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/singapore-devops-community.png": {
+		"ft": 32768,
+		"iS": 20598,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/singapore-devops-community.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/singapore-devsecops-community.png": {
+		"ft": 32768,
+		"iS": 12093,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/singapore-devsecops-community.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/singapore-spring-community.png": {
+		"ft": 32768,
+		"iS": 21698,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/singapore-spring-community.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/slalom.png": {
+		"ft": 32768,
+		"iS": 5364,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/slalom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/smartx.png": {
+		"ft": 32768,
+		"iS": 29751,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/smartx.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/softwaredefinedtalk.png": {
+		"ft": 32768,
+		"iS": 4417,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/softwaredefinedtalk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/solarwinds.png": {
+		"ft": 32768,
+		"iS": 35774,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/solarwinds.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/solidfire.png": {
+		"ft": 32768,
+		"iS": 7956,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/solidfire.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/soluto.png": {
+		"ft": 32768,
+		"iS": 40307,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/soluto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/solvinity.png": {
+		"ft": 32768,
+		"iS": 9091,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/solvinity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sonatype.png": {
+		"ft": 32768,
+		"iS": 8884,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sonatype.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sony-tr.png": {
+		"ft": 32768,
+		"iS": 2880,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sony-tr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/soprasteria.png": {
+		"ft": 32768,
+		"iS": 5077,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/soprasteria.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/spark.png": {
+		"ft": 32768,
+		"iS": 11710,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/spark.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/split-software.png": {
+		"ft": 32768,
+		"iS": 5867,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/split-software.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/splunk.png": {
+		"ft": 32768,
+		"iS": 2593,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/splunk.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sps_commerce.png": {
+		"ft": 32768,
+		"iS": 6262,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sps_commerce.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/stackiq.png": {
+		"ft": 32768,
+		"iS": 6534,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/stackiq.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/stackstate.png": {
+		"ft": 32768,
+		"iS": 86148,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/stackstate.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/startupidaho.png": {
+		"ft": 32768,
+		"iS": 16147,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/startupidaho.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/statuspage.png": {
+		"ft": 32768,
+		"iS": 86916,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/statuspage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/stickermule.png": {
+		"ft": 32768,
+		"iS": 7836,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/stickermule.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/stratasan.png": {
+		"ft": 32768,
+		"iS": 32134,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/stratasan.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/stsi.png": {
+		"ft": 32768,
+		"iS": 8789,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/stsi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sumologic.png": {
+		"ft": 32768,
+		"iS": 5925,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sumologic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/swisscom.png": {
+		"ft": 32768,
+		"iS": 6857,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/swisscom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/symantec.png": {
+		"ft": 32768,
+		"iS": 12264,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/symantec.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/sysdig.png": {
+		"ft": 32768,
+		"iS": 3905,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/sysdig.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/takipi.png": {
+		"ft": 32768,
+		"iS": 4801,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/takipi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/taos.png": {
+		"ft": 32768,
+		"iS": 29568,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/taos.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/target.png": {
+		"ft": 32768,
+		"iS": 14937,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/target.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/techfednashville.png": {
+		"ft": 32768,
+		"iS": 22526,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/techfednashville.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/techlifecolumbus.png": {
+		"ft": 32768,
+		"iS": 18688,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/techlifecolumbus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/techwhileblack.png": {
+		"ft": 32768,
+		"iS": 8315,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/techwhileblack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tek-systems.png": {
+		"ft": 32768,
+		"iS": 61397,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tek-systems.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/telenor-digital.png": {
+		"ft": 32768,
+		"iS": 12264,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/telenor-digital.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/telus.png": {
+		"ft": 32768,
+		"iS": 8666,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/telus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tesora.png": {
+		"ft": 32768,
+		"iS": 6714,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tesora.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/thenewstack.png": {
+		"ft": 32768,
+		"iS": 9728,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/thenewstack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/theodo.png": {
+		"ft": 32768,
+		"iS": 51605,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/theodo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/thoughtworks-products-before-20160602.png": {
+		"ft": 32768,
+		"iS": 9784,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/thoughtworks-products-before-20160602.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/thoughtworks-products-before-20160908.png": {
+		"ft": 32768,
+		"iS": 19280,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/thoughtworks-products-before-20160908.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/thoughtworks-products.png": {
+		"ft": 32768,
+		"iS": 5921,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/thoughtworks-products.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/thoughtworks-services.png": {
+		"ft": 32768,
+		"iS": 12298,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/thoughtworks-services.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/threatstack.png": {
+		"ft": 32768,
+		"iS": 5958,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/threatstack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tintri.png": {
+		"ft": 32768,
+		"iS": 15210,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tintri.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/toolinux.png": {
+		"ft": 32768,
+		"iS": 97706,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/toolinux.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/trace3.png": {
+		"ft": 32768,
+		"iS": 78009,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/trace3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/trinimbus.png": {
+		"ft": 32768,
+		"iS": 15910,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/trinimbus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tripletex.png": {
+		"ft": 32768,
+		"iS": 7976,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tripletex.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tropo.png": {
+		"ft": 32768,
+		"iS": 41764,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tropo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/tuliva.png": {
+		"ft": 32768,
+		"iS": 23444,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/tuliva.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ubuntu-before-20160929.png": {
+		"ft": 32768,
+		"iS": 24699,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ubuntu-before-20160929.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ubuntu.png": {
+		"ft": 32768,
+		"iS": 27748,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ubuntu.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/uci.png": {
+		"ft": 32768,
+		"iS": 31120,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/uci.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/uhg_optum.png": {
+		"ft": 32768,
+		"iS": 6023,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/uhg_optum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/upengroup.png": {
+		"ft": 32768,
+		"iS": 4886,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/upengroup.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/upguard.png": {
+		"ft": 32768,
+		"iS": 3982,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/upguard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/uspto.png": {
+		"ft": 32768,
+		"iS": 15485,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/uspto.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/ust.png": {
+		"ft": 32768,
+		"iS": 142999,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/ust.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/velocity.png": {
+		"ft": 32768,
+		"iS": 5755,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/velocity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/venafi.png": {
+		"ft": 32768,
+		"iS": 6428,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/venafi.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/veracode.png": {
+		"ft": 32768,
+		"iS": 79816,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/veracode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/veritas.png": {
+		"ft": 32768,
+		"iS": 2841,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/veritas.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/versionone.png": {
+		"ft": 32768,
+		"iS": 7655,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/versionone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/via.png": {
+		"ft": 32768,
+		"iS": 22610,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/via.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/victorops.png": {
+		"ft": 32768,
+		"iS": 13757,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/victorops.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vincentbenjamin.png": {
+		"ft": 32768,
+		"iS": 68076,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vincentbenjamin.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vistarmedia.png": {
+		"ft": 32768,
+		"iS": 3405,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vistarmedia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vlired.png": {
+		"ft": 32768,
+		"iS": 71472,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vlired.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vliruos.png": {
+		"ft": 32768,
+		"iS": 22770,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vliruos.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vmware-tr.png": {
+		"ft": 32768,
+		"iS": 3458,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vmware-tr.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vmware.png": {
+		"ft": 32768,
+		"iS": 3458,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vmware.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vngrs.png": {
+		"ft": 32768,
+		"iS": 4949,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vngrs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/volt.png": {
+		"ft": 32768,
+		"iS": 3313,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/volt.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/voyages-sncf.png": {
+		"ft": 32768,
+		"iS": 54359,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/voyages-sncf.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/vshn.png": {
+		"ft": 32768,
+		"iS": 16220,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/vshn.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/wavefront.png": {
+		"ft": 32768,
+		"iS": 7145,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/wavefront.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/waycom.png": {
+		"ft": 32768,
+		"iS": 7105,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/waycom.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/wehkamp.png": {
+		"ft": 32768,
+		"iS": 12058,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/wehkamp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/wheniwork.png": {
+		"ft": 32768,
+		"iS": 32986,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/wheniwork.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/widen.png": {
+		"ft": 32768,
+		"iS": 39942,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/widen.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/wix.png": {
+		"ft": 32768,
+		"iS": 8525,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/wix.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/wobe.png": {
+		"ft": 32768,
+		"iS": 4260,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/wobe.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/workday.png": {
+		"ft": 32768,
+		"iS": 5794,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/workday.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/workiva.png": {
+		"ft": 32768,
+		"iS": 6276,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/workiva.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/writespeakcode.png": {
+		"ft": 32768,
+		"iS": 11917,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/writespeakcode.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/xebia.png": {
+		"ft": 32768,
+		"iS": 21352,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/xebia.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/xebialabs.png": {
+		"ft": 32768,
+		"iS": 11429,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/xebialabs.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/yelp.png": {
+		"ft": 32768,
+		"iS": 7469,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/yelp.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/yotpo.png": {
+		"ft": 32768,
+		"iS": 18185,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/yotpo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/zenoss.png": {
+		"ft": 32768,
+		"iS": 44452,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/zenoss.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/public\/img\/sponsors\/zocodesign.png": {
+		"ft": 32768,
+		"iS": 6881,
+		"oA": 1,
+		"oAP": "\/exampleSite\/public\/img\/sponsors\/zocodesign.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/exampleSite\/public\/index.html": {
 		"ft": 8192,
@@ -7566,6 +14324,18 @@
 		"oF": 1,
 		"opt": 0
 		},
+	"\/exampleSite\/public\/page\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/page\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/page\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/page\/index.xml",
+		"oF": 0
+		},
 	"\/exampleSite\/public\/site.less": {
 		"aP": 0,
 		"bl": 0,
@@ -7605,6 +14375,198 @@
 		"oA": 1,
 		"oAP": "\/exampleSite\/public\/sitemap.xml",
 		"oF": 1
+		},
+	"\/exampleSite\/public\/tags\/2010-brazil\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-brazil\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2010-brazil\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-brazil\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2010-europe\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-europe\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2010-europe\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-europe\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2010-us\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-us\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2010-us\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2010-us\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2012\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2012\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2012\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2012\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2013\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2013\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2013\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2013\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2015\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2015\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2015\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2015\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2016\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2016\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/2016\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/2016\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/barcelona\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/barcelona\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/barcelona\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/barcelona\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/boston-2011\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/boston-2011\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/boston-2011\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/boston-2011\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/devops\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/devops\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/devops\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/devops\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/devopsdays\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/devopsdays\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/devopsdays\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/devopsdays\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/ignite\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/ignite\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/ignite\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/ignite\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/mountainview-2011\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/mountainview-2011\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/mountainview-2011\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/mountainview-2011\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/paris\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/paris\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/paris\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/paris\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/uncategorized\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/uncategorized\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/uncategorized\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/uncategorized\/index.xml",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/velocity\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/velocity\/index.html",
+		"oF": 0
+		},
+	"\/exampleSite\/public\/tags\/velocity\/index.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/exampleSite\/public\/tags\/velocity\/index.xml",
+		"oF": 0
 		},
 	"\/exampleSite\/public\/theme.toml": {
 		"ft": 8192,
@@ -7722,6 +14684,46 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/exampleSite\/static\/events\/2017-hoofington\/speakers\/apple-jack.png": {
+		"ft": 32768,
+		"iS": 382061,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-hoofington\/speakers\/apple-jack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-hoofington\/speakers\/fluttershy.png": {
+		"ft": 32768,
+		"iS": 383216,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-hoofington\/speakers\/fluttershy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-hoofington\/speakers\/rainbow-dash.png": {
+		"ft": 32768,
+		"iS": 606444,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-hoofington\/speakers\/rainbow-dash.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-hoofington\/speakers\/rarity.png": {
+		"ft": 32768,
+		"iS": 467065,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-hoofington\/speakers\/rarity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-hoofington\/speakers\/twilight-sparkle.png": {
+		"ft": 32768,
+		"iS": 313543,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-hoofington\/speakers\/twilight-sparkle.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/exampleSite\/static\/events\/2017-minneapolis\/logo-square.png": {
 		"ft": 32768,
 		"iS": 418821,
@@ -7735,6 +14737,46 @@
 		"iS": 239681,
 		"oA": 1,
 		"oAP": "\/exampleSite\/static\/events\/2017-moscow\/logo-square.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-ponyville\/speakers\/apple-jack.png": {
+		"ft": 32768,
+		"iS": 382061,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-ponyville\/speakers\/apple-jack.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-ponyville\/speakers\/fluttershy.png": {
+		"ft": 32768,
+		"iS": 383216,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-ponyville\/speakers\/fluttershy.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-ponyville\/speakers\/rainbow-dash.png": {
+		"ft": 32768,
+		"iS": 606444,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-ponyville\/speakers\/rainbow-dash.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-ponyville\/speakers\/rarity.png": {
+		"ft": 32768,
+		"iS": 467065,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-ponyville\/speakers\/rarity.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/exampleSite\/static\/events\/2017-ponyville\/speakers\/twilight-sparkle.png": {
+		"ft": 32768,
+		"iS": 313543,
+		"oA": 1,
+		"oAP": "\/exampleSite\/static\/events\/2017-ponyville\/speakers\/twilight-sparkle.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -13528,6 +20570,12 @@
 		"oAP": "\/layouts\/_default\/single.html",
 		"oF": 0
 		},
+	"\/layouts\/blog\/summary.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/blog\/summary.html",
+		"oF": 0
+		},
 	"\/layouts\/event\/single.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -13540,6 +20588,24 @@
 		"oAP": "\/layouts\/index.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/blog_pagination.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/blog_pagination.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/future.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/future.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/sponsors.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/sponsors.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/welcome.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -13550,6 +20616,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/program\/single.html",
+		"oF": 0
+		},
+	"\/layouts\/section\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/section\/blog.html",
+		"oF": 0
+		},
+	"\/layouts\/speaker\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/speaker\/single.html",
+		"oF": 0
+		},
+	"\/layouts\/speakers\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/speakers\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/talk\/single.html": {
@@ -13875,6 +20959,14 @@
 		"iS": 199806,
 		"oA": 1,
 		"oAP": "\/static\/img\/event-logo-default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/static\/img\/speaker-default.png": {
+		"ft": 32768,
+		"iS": 201388,
+		"oA": 1,
+		"oAP": "\/static\/img\/speaker-default.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -15215,6 +22307,24 @@
 		"oAP": "\/static\/theme.toml",
 		"oF": 0
 		},
+	"\/STYLE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/STYLE.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/tests\/homepage-test.js": {
 		"ft": 64,
 		"mi": 1,
@@ -15223,6 +22333,12 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/theme.toml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/theme.toml",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -15234,7 +22350,7 @@
 	"displayValue": "devopsdays-theme",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-wonka",
-	"lastBuiltDate": 501092138
+	"lastBuiltDate": 505244562
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -15678,6 +22794,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -15841,6 +22961,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -16206,6 +23330,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -16437,6 +23565,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -17270,6 +24402,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
