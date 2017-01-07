@@ -2,3 +2,4 @@ node_modules
 # released binaries
 release/
 config.codekit3
+dist
