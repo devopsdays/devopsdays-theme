@@ -21,19 +21,12 @@
         {{- end -}}
 
             <div class="row">
-            {{ $.Scratch.Set "i" 0 }}
             {{- range where $e.sponsors "level" $level.id -}}
               {{ $s := (index $.Site.Data.sponsors .id) }}
               {{ if isset $.Site.Data.sponsors .id }}
-                {{ $.Scratch.Add $level.id 1 }}
-                {{ $.Scratch.Add "i" 1 }}
-                <div class = "col-md-3 col-sm-6 col-xs-6">
+                <div class = "col-lg-2 col-md-3 col-sm-6 col-xs-6">
                   <a href = "{{ $s.url }}"><img alt = "{{ $s.name }}" title = "{{ $s.name }}" src = "/img/sponsors/{{ .id }}.png" class="img-responsive"></a>
                 </div>
-                {{ if modBool ($.Scratch.Get "i") 4 }}
-                  </div>
-                  <div class="row">
-                {{ end }}
               {{- end -}}
             {{- end -}}
             </div>
