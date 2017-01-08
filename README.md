@@ -10,10 +10,10 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 [![Throughput Graph](https://graphs.waffle.io/devopsdays/devopsdays-theme/throughput.svg)](https://waffle.io/devopsdays/devopsdays-theme/metrics)
 
 # devopsdays-theme
-devopsdays-theme is a the Hugo theme the [DevOpsDays](https://www.devopsdays.org) website.
+devopsdays-theme is the Hugo theme for the [DevOpsDays](https://www.devopsdays.org) website.
 
 # Theme Layout
-Bear in mind that theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
+Bear in mind that this theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
 
 # New Features
 
