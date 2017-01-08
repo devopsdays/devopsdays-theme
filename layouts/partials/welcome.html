@@ -19,7 +19,7 @@
             {{- if eq (lower .city) (lower $e.city) -}}
               {{- $.Scratch.Add "past-counter" 1 -}}
               {{- if eq ($.Scratch.Get "past-counter") 1 -}}
-                <i>Past Events in {{ ($.Scratch.Get "city") }}</i><br />
+                <i>Past {{ $e.city }} Events</i><br />
               {{- end -}}
               {{- if ne .startdate $e.startdate -}}
                 <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> <br />
