@@ -10,16 +10,16 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 [![Throughput Graph](https://graphs.waffle.io/devopsdays/devopsdays-theme/throughput.svg)](https://waffle.io/devopsdays/devopsdays-theme/metrics)
 
 # devopsdays-theme
-devopsdays-theme is a the Hugo theme the [DevOpsDays](https://www.devopsdays.org) website.
+devopsdays-theme is the Hugo theme for the [DevOpsDays](https://www.devopsdays.org) website.
 
 # Theme Layout
-Bear in mind that theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
+Bear in mind that this theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
 
 # New Features
 
 ## Frontpage Logo
 
-On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the brain logo is displayed instead.
+On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the default logo is displayed instead.
 
 ## Program Page
 A new template is being created to generate a program page. A work in progress example can be seen at http://devopsdays-theme.netlify.com/events/2016-chicago/program/
@@ -48,12 +48,12 @@ Working with a Hugo theme outside of a content-based repo has a few challenges. 
 themesdir = "../.."
 ```
 
-This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or better. V0.18 of Hugo is scheduled to be released on Dec 19, 2016, but in the meantime, you will need to build the site using the version of Hugo installed in the `bin` directory of `devopsdays-theme`. The binary `bin/hugo` is compiled for Linux, the binary `bin/hugo-osx` is compiled for OS X, and the binary `bin/hugo.exe` is compiled for Windows.
+This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or later.
 
-You will need to modify your watch command to use this new binary; use something like this:
+You will need to run your watch command from the `exampleSite` directory; use something like this:
 
 ```
-~/src/devopsdays-theme/bin/hugo-osx server -b="http://localhost:1313" -w
+hugo server -w --baseUrl="http://localhost:1313"
 ```
 
 ## Contributing
