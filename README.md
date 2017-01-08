@@ -19,7 +19,7 @@ Bear in mind that this theme lives in a separate repo from the main [devopsdays-
 
 ## Frontpage Logo
 
-On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the brain logo is displayed instead.
+On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the default logo is displayed instead.
 
 ## Program Page
 A new template is being created to generate a program page. A work in progress example can be seen at http://devopsdays-theme.netlify.com/events/2016-chicago/program/
