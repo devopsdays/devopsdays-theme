@@ -48,12 +48,12 @@ Working with a Hugo theme outside of a content-based repo has a few challenges. 
 themesdir = "../.."
 ```
 
-This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or better. V0.18 of Hugo is scheduled to be released on Dec 19, 2016, but in the meantime, you will need to build the site using the version of Hugo installed in the `bin` directory of `devopsdays-theme`. The binary `bin/hugo` is compiled for Linux, the binary `bin/hugo-osx` is compiled for OS X, and the binary `bin/hugo.exe` is compiled for Windows.
+This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or later.
 
-You will need to modify your watch command to use this new binary; use something like this:
+You will need to run your watch command from the `exampleSite` directory; use something like this:
 
 ```
-~/src/devopsdays-theme/bin/hugo-osx server -b="http://localhost:1313" -w
+hugo server -w --baseUrl="http://localhost:1313"
 ```
 
 ## Contributing
