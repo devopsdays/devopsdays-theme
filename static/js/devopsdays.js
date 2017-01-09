@@ -1,3 +1,8 @@
+// @codekit-prepend '../../bower_components/jquery/dist/jquery.js'
+// @codekit-prepend '../../bower_components/bootstrap/dist/js/bootstrap.js'
+// @codekit-prepend '../../bower_components/jquery-oembed-all/jquery.oembed.js'
+// @codekit-prepend '../../bower_components/jquery-ui/jquery-ui.js'
+
 // accordion
 $( "#accordion" ).accordion(); // TODO: should only be included on program pages
 
