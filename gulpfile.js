@@ -12,12 +12,31 @@ var gulp = require('gulp'),
 
 gulp.task('useref', function(){
   return gulp.src('public/**/*.html')
-      .pipe(useref({ searchPath: ['public/css', 'public/font-awesome'] }))
+      .pipe(useref({ searchPath: ['../static/']}))
       .pipe(gulpif('*.js', uglify()))
       .pipe(gulpif('*.css', minifyCss()))
       .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
       .pipe(gulp.dest('staging'));
 });
+
+gulp.task('min-js', function(){
+  return gulp.src('public/**/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('staging'));
+});
+
+gulp.task('min-css', function(){
+  return gulp.src('public/**/*.css')
+    .pipe(minifyCss())
+    .pipe(gulp.dest('staging'));
+});
+
+gulp.task('min-html', function(){
+  return gulp.src('public/**/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('staging'));
+});
+
 
 // The process-images task took about 6 minutes for just sponsors; for now we probably
 // will just copy the images and not optimize them
@@ -60,7 +79,7 @@ gulp.task('copy-icons', function(){
 });
 
 gulp.task('default', function (callback) {
-  runSequence('useref', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons',
+  runSequence('min-js', 'min-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons',
     callback
   )
 })
