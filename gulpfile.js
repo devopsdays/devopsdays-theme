@@ -31,7 +31,7 @@ gulp.task('copy-js', function(){
 })
 
 gulp.task('copy-css', function(){
-  return gulp.src('public/css/*')
+  return gulp.src('public/css/*.css')
   .pipe(gulp.dest('staging/css'))
 })
 
@@ -62,6 +62,11 @@ gulp.task('copy-images', function(){
   .pipe(gulp.dest('staging'))
 });
 
+gulp.task('copy-fonts', function(){
+  return gulp.src('public/fonts/*.*')
+  .pipe(gulp.dest('dist/fonts/'))
+});
+
 gulp.task('process-files', function(){
   return gulp.src(['staging/**/*.+(png|jpg|gif|svg|js|css)','!staging/favicon*', '!staging/apple-icon*', '!staging/android-icon*', '!staging/ms-icon*'])
   .pipe(rev())
@@ -89,7 +94,7 @@ gulp.task('copy-icons', function(){
 });
 
 gulp.task('default', function (callback) {
-  runSequence('copy-js', 'copy-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons',
+  runSequence('copy-js', 'copy-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
     callback
   )
 })
