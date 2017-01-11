@@ -25,6 +25,16 @@ gulp.task('min-js', function(){
     .pipe(gulp.dest('staging'));
 });
 
+gulp.task('copy-js', function(){
+  return gulp.src('public/js/devopsdays-min.js')
+  .pipe(gulp.dest('staging/js'))
+})
+
+gulp.task('copy-css', function(){
+  return gulp.src('public/css/*')
+  .pipe(gulp.dest('staging/css'))
+})
+
 gulp.task('min-css', function(){
   return gulp.src('public/**/*.css')
     .pipe(minifyCss())
@@ -79,7 +89,7 @@ gulp.task('copy-icons', function(){
 });
 
 gulp.task('default', function (callback) {
-  runSequence('min-js', 'min-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons',
+  runSequence('copy-js', 'copy-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons',
     callback
   )
 })
