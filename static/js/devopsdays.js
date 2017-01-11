@@ -1,14 +1,10 @@
-// @codekit-prepend '../../bower_components/jquery/dist/jquery.js'
-// @codekit-prepend '../../bower_components/bootstrap/dist/js/bootstrap.js'
-// @codekit-prepend '../../bower_components/jquery-oembed-all/jquery.oembed.js'
-// @codekit-prepend '../../bower_components/jquery-ui/jquery-ui.js'
-// @codekit-prepend '../../bower_components/markerwithlabel-v3/markerwithlabel.js'
 
 // accordion
-$(document).ready(function(){
-  "use strict";
- jQuery( "#accordion" ).accordion();
- });
+
+$( function() {
+  $( "#accordion" ).accordion();
+} );
+
 
 // embed stuff for talks
 
