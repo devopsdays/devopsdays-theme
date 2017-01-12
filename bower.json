@@ -37,7 +37,6 @@
     "bootstrap": "^3.3.7",
     "jquery-oembed-all": "*",
     "markerwithlabel-v3": "^1.1.10",
-    "jquery-ui": "^1.12.1",
     "font-awesome": "fontawesome#^4.7.0"
   }
 }

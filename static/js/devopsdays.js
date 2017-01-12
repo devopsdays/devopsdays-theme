@@ -1,10 +1,29 @@
+// @codekit-prepend '../../bower_components/jquery/dist/jquery.js'
+// @codekit-prepend '../../bower_components/bootstrap/dist/js/bootstrap.js'
+// @codekit-prepend '../../bower_components/jquery-oembed-all/jquery.oembed.js'
+// @codekit-prepend './google-maps.js'
+// @codekit-prepend '../../bower_components/markerwithlabel-v3/markerwithlabel.js'
 
 // accordion
 
-$( function() {
-  $( "#accordion" ).accordion();
-} );
+// $( function() {
+//   $( "#accordion" ).accordion();
+// } );
 
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+	  if (panel.style.maxHeight){
+  	  panel.style.maxHeight = null;
+    } else {
+  	  panel.style.maxHeight = panel.scrollHeight + 'px';
+    }
+  }
+}
 
 // embed stuff for talks
 

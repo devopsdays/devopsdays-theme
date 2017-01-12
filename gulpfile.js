@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('responsive-images', function () {
-  return gulp.src(['public/**/*.png','!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/css/images/*.png'])
+  return gulp.src(['public/**/*.png','!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*'])
     .pipe(responsive({
       // produce multiple images from one source
       '**/*.png': [
