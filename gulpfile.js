@@ -9,6 +9,35 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin');
     cache = require('gulp-cache');
     runSequence = require('run-sequence');
+    responsive = require('gulp-responsive');
+
+
+gulp.task('responsive-images', function () {
+  return gulp.src('public/**/logo-square.png')
+    .pipe(responsive({
+      // produce multiple images from one source
+      '**/*.png': [
+        {
+          width: '50%'
+        },{
+          width: '100%',
+          rename: {
+            suffix: '@2x'
+          }
+        },{
+          width: '150%',
+          rename: {
+            suffix: '@3x'
+          }
+        }
+      ]},{
+        // global configuration
+        errorOnEnlargement: false,
+        withoutEnlargement: false,
+        progressive: true,
+    }))
+    .pipe(gulp.dest('staging'));
+});
 
 gulp.task('useref', function(){
   return gulp.src('public/**/*.html')
