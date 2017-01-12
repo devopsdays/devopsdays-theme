@@ -9020,15 +9020,6 @@
 		"oAP": "\/build\/exampleSite",
 		"oF": 0
 		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/gulpfile-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/layouts\/404.html": {
 		"ft": 8192,
 		"oA": 2,

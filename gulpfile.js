@@ -10,10 +10,11 @@ var gulp = require('gulp'),
     cache = require('gulp-cache');
     runSequence = require('run-sequence');
     responsive = require('gulp-responsive');
+    imgRetina = require('gulp-img-retina');
 
 
 gulp.task('responsive-images', function () {
-  return gulp.src('public/**/logo-square.png')
+  return gulp.src(['public/**/*.png','!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/css/images/*.png'])
     .pipe(responsive({
       // produce multiple images from one source
       '**/*.png': [
@@ -35,17 +36,25 @@ gulp.task('responsive-images', function () {
         errorOnEnlargement: false,
         withoutEnlargement: false,
         progressive: true,
+        silent: true,
     }))
     .pipe(gulp.dest('staging'));
 });
 
-gulp.task('useref', function(){
-  return gulp.src('public/**/*.html')
-      .pipe(useref({ searchPath: ['../static/']}))
-      .pipe(gulpif('*.js', uglify()))
-      .pipe(gulpif('*.css', minifyCss()))
-      .pipe(gulpif('*.html', htmlmin({collapseWhitespace: true})))
-      .pipe(gulp.dest('staging'));
+var retinaOpts = {
+    // Your options here.
+};
+
+gulp.task('process-html', function() {
+
+  return gulp.src(['public/**/*.html','!public/blog/**/*.html'])
+    .pipe(imgRetina(retinaOpts))
+    .on('error', function(e) {
+      console.log(e.message);
+    })
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('staging'));
+
 });
 
 gulp.task('min-js', function(){
@@ -123,7 +132,7 @@ gulp.task('copy-icons', function(){
 });
 
 gulp.task('default', function (callback) {
-  runSequence('copy-js', 'copy-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
+  runSequence('copy-js', 'copy-css', 'responsive-images', 'process-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
     callback
   )
 })
