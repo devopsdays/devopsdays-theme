@@ -1,8 +1,14 @@
 {{ define "main" }}
 
-<div id="accordion"> <!-- the main program -->
-  <h3>August 30, 2016</h3>
-  <div>
+{{/* site data query copypasta */}}
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
+
+<!-- the main program -->
+  <button class="accordion">{{- dateFormat "January 2, 2006" $e.startdate -}}</button>
+  <div class="panel">
     <div class = "row">
       <div class = "col-md-4"><!-- first column -->
         <div class = "row">
@@ -92,8 +98,8 @@
       </div>
     </div>
   </div>
-  <h3>August 31, 2016</h3>
-  <div>
+  <button class="accordion">{{- dateFormat "January 2, 2006" $e.enddate -}}</button>
+  <div class="panel">
     <div class = "row">
       <div class = "col-md-4"><!-- first column -->
         <div class = "row">
@@ -183,7 +189,6 @@
       </div>
     </div>
   </div>
-</div>
 <div class = "row">
   <div class = "col-md-12">
     <h3>Ignite Sessions</h3>
