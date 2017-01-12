@@ -13,7 +13,7 @@
                 {{ $.Scratch.Set "city" .city }}
                 {{ $.Scratch.Set "year" .year }}
                 {{ $.Scratch.Set "logo" "unset" }}
-                <div class="col-md-3">
+                <div class="col-md-3 homepage-grid-col">
                   <a href = "/events/{{ .name }}">
                     {{ $.Scratch.Set "subdir" .name }}
                     {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
@@ -32,14 +32,16 @@
                     {{ end }}
                   </a>
                     <br/>
-                    {{- dateFormat "Jan 2" .startdate -}}
+                    <span class = "homepage-grid-date">
+                      {{- dateFormat "Jan 2" .startdate -}}
                     &nbsp;-&nbsp;
                     {{-  dateFormat "Jan 2, 2006" .enddate -}}<br/>
-                    <span>{{ .city }}</span>
+                  </span>
+                    <span class="homepage-grid-city">{{ .city }}</span>
                     <br/>
                     {{ if .description }}
                         {{ if ne .description "" }}
-                            {{ .description | markdownify }}
+                            <span class="homepage-grid-desc">{{ .description | markdownify }}</span>
                         {{ end }}
                     {{ end }}
                 </div>
