@@ -8,9 +8,8 @@ $( function() {
 
 // embed stuff for talks
 
- jQuery(function() {
-   "use strict";
-    $("a.embed").oembed();
+$(function(){
+   $("a.embed").oembed();
 });
 
 // google maps

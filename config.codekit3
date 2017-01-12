@@ -2371,7 +2371,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery-oembed-all\/jquery.oembed.css",
 		"oF": 0,
 		"oS": 0
@@ -42099,6 +42099,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/static\/js\/jquery.oembed.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/static\/js\/jquery.oembed-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/static\/js\/util-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -42111,9 +42120,9 @@
 	"\/static\/js\/util.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/static\/js\/util-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
