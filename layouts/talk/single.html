@@ -75,10 +75,10 @@
         {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-responsive" /><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-responsive"  alt="speaker image"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.png" class="img-responsive" /><br />
+            <img src = "/img/speaker-default.png" class="img-responsive"  alt="speaker image"/><br />
         {{ end }}
           <a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}"><b>{{ .Title }}</a></b><br />
           {{ .Content }}
