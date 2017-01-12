@@ -18,7 +18,7 @@
         {{- $.Scratch.Set "month-displayed" "true" -}}
       {{- end -}}
       <a href = "/events/{{ .name }}/welcome" class = "left-nav-event">
-        {{ dateFormat "2" .startdate }}-{{ dateFormat "2" .enddate }}
+        {{ dateFormat "Jan 2" .startdate }} - {{ dateFormat "Jan 2" .enddate }}
         {{ .city }}
       </a><br />
     {{- end -}}
