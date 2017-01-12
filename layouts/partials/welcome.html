@@ -5,10 +5,7 @@
 {{/* end site data query */}}
 
 <div class="row">
-  <div class="col-md-4 col-sm-push-8">
-    {{ .Content }}
-  </div>
-    <div class="col-md-8 col-sm-pull-4">
+    <div class="col-xs-12 col-md-8">
         <h2>DevOpsDays {{ $e.city }}</h2> {{- dateFormat "January 2" $e.startdate -}} - {{- dateFormat "2, 2006" $e.enddate -}}
         <br />
         <span>{{- $e.location -}}</span>
@@ -17,10 +14,12 @@
         {{- range sort $.Site.Data.events "startdate" -}}
         {{- if .startdate -}} <!-- for some reason, it bails on the city Chicago, and also Paris -->
             {{- if eq (lower .city) (lower $e.city) -}}
-              {{- $.Scratch.Add "past-counter" 1 -}}
-              {{- if eq ($.Scratch.Get "past-counter") 1 -}}
+              {{- if ne .startdate $e.startdate -}}
                 <i>Past {{ $e.city }} Events</i><br />
+                {{- $.Scratch.Set "past-counter" 1 -}}
               {{- end -}}
+            {{- end -}}
+            {{- if eq (lower .city) (lower $e.city)}}
               {{- if ne .startdate $e.startdate -}}
                 <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> <br />
               {{- end -}}
@@ -30,6 +29,9 @@
         <br />
         <button type="button" class="btn btn-default">Register</button>
         <button type="button" class="btn btn-default">Follow</button>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      {{ .Content }}
     </div>
 
 </div>
