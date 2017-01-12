@@ -9101,6 +9101,12 @@
 		"oAP": "\/layouts\/partials\/head_includes.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/map.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/meta.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -9602,6 +9608,15 @@
 		"oA": 0,
 		"oAP": "\/static\/js\/devopsdays-min.js",
 		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/static\/js\/google-maps.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/static\/js\/google-maps-min.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
