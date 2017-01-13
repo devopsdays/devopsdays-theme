@@ -70,7 +70,7 @@ gulp.task('process-html', function() {
       console.log(e.message);
     })
     .pipe(critical({
-      base: 'public/',
+      base: 'staging/',
       inline: true,
       css: ['public/css/googlemaps.css','public/css/site.css'],
       ignore: ['@font-face',/url\(/],
@@ -82,7 +82,8 @@ gulp.task('process-html', function() {
       {
         width: 500,
         height: 900
-      }]
+      }],
+      timeout: 300000 // 5 min timeout
     }))
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('staging'));
