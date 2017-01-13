@@ -11,6 +11,23 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
     responsive = require('gulp-responsive');
     imgRetina = require('gulp-img-retina');
+    critical = require('critical').stream;
+    gutil = require('gulp-util');
+
+// Generate & Inline Critical-path CSS
+gulp.task('critical', function () {
+    return gulp.src('public/**/*.html')
+        .pipe(critical({
+          base: 'staging/',
+        inline: true,
+        css: ['public/css/googlemaps.css','public/css/site.css'],
+        ignore: ['@font-face',/url\(/],
+        minify: true,
+        timeout: 300000 // 5 min timeout
+      }))
+        .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+        .pipe(gulp.dest('staging'));
+});
 
 
 gulp.task('responsive-images', function () {
@@ -52,6 +69,21 @@ gulp.task('process-html', function() {
     .on('error', function(e) {
       console.log(e.message);
     })
+    .pipe(critical({
+      base: 'public/',
+      inline: true,
+      css: ['public/css/googlemaps.css','public/css/site.css'],
+      ignore: ['@font-face',/url\(/],
+      minify: true,
+      dimensions: [{
+        width: 1300,
+        height: 900
+      },
+      {
+        width: 500,
+        height: 900
+      }]
+    }))
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('staging'));
 
