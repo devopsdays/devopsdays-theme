@@ -1,8 +1,6 @@
 +++
 Description = ""
-title = ""
-speaker = ""
-images = [""]
-aliases = [""]
-type = "event"
+Title = ""
+Aliases = [""]
+Type = "event"
 +++
