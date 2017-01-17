@@ -1,5 +1,28 @@
 # Change Log
 
+## [0.4.0](https://github.com/devopsdays/devopsdays-theme/tree/0.4.0) (2017-01-17)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.3.1...0.4.0)
+
+**Implemented enhancements:**
+
+- Add critical to gulp workflow to optmize css [\#103](https://github.com/devopsdays/devopsdays-theme/issues/103)
+- Standardize speaker and talk frontmatter [\#95](https://github.com/devopsdays/devopsdays-theme/issues/95)
+- Make javascript load async [\#102](https://github.com/devopsdays/devopsdays-theme/pull/102) ([mattstratton](https://github.com/mattstratton))
+
+**Fixed bugs:**
+
+- Show "past events in CITY" displays blank if there were none [\#53](https://github.com/devopsdays/devopsdays-theme/issues/53)
+
+**Merged pull requests:**
+
+- Clean up some of the existing data [\#108](https://github.com/devopsdays/devopsdays-theme/pull/108) ([mattstratton](https://github.com/mattstratton))
+- Change to bootstrap 4 [\#107](https://github.com/devopsdays/devopsdays-theme/pull/107) ([mattstratton](https://github.com/mattstratton))
+- Add critical process\#103 [\#104](https://github.com/devopsdays/devopsdays-theme/pull/104) ([mattstratton](https://github.com/mattstratton))
+- Add a bunch more styles [\#101](https://github.com/devopsdays/devopsdays-theme/pull/101) ([mattstratton](https://github.com/mattstratton))
+
+## [0.3.1](https://github.com/devopsdays/devopsdays-theme/tree/0.3.1) (2017-01-12)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.3.0...0.3.1)
+
 ## [0.3.0](https://github.com/devopsdays/devopsdays-theme/tree/0.3.0) (2017-01-12)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.2.7...0.3.0)
 
