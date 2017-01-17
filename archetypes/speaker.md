@@ -6,5 +6,5 @@ Facebook = ""
 Linkedin = ""
 Pronouns = ""
 Image = ""
-kind = "speaker"
+Type = "speaker"
 +++
