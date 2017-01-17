@@ -21,14 +21,14 @@
                         {{ if eq .Name ($.Scratch.Get "subdir") }}
                             {{ range (readDir ($.Scratch.Get "contentdir"))}}
                                 {{ if eq .Name "logo-square.png" }}
-                                    <img src="{{ printf ("/events/%s/logo-square.png") ($.Scratch.Get "subdir")}}" class="img-responsive"/>
+                                    <img src="{{ printf ("/events/%s/logo-square.png") ($.Scratch.Get "subdir")}}" class="img-fluid"/>
                                     {{ $.Scratch.Set "logo" "set" }}
                                 {{ end }}
                             {{ end }}
                         {{ end }}
                     {{ end }}
                     {{ if ne ($.Scratch.Get "logo") "set" }}
-                        <img src="/img/event-logo-default.png" class="img-responsive"/>
+                        <img src="/img/event-logo-default.png" class="img-fluid"/>
                     {{ end }}
                   </a>
                     <br/>

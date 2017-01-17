@@ -6,172 +6,22 @@
 </head>
 
 <body lang="{{ .Site.Params.Lang }}">
-    <!-- do the nav, do the nav! -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-                <a class="pull-left" href="/">
-                    <img alt="DevOpsDays logo" src="/img/devopsdays-brain.png" width="75px" />
-                </a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav global-navigation">
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/events">Events</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/sponsor">Sponsor</a></li>
-                    <li><a href="/speaking">Speaking</a></li>
-                    <li><a href="/organizing">Organizing</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span> <span class="hidden-sm hidden-md hidden-lg">Search</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Search Modal -->
-    <div id="modalSearch" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Search DevOpsDays</h4>
-                </div>
-                <div class="modal-body">
-                    <script>
-                        (function() {
-                            var cx = '008769174023796316711:pj3syggtkz0';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                        })();
-                    </script>
-                    <gcse:search></gcse:search>
-                    <!-- These styles fix CSE and Bootstrap 3 conflict -->
-                    <style type="text/css">
-                        .reset-box-sizing,
-                        .reset-box-sizing *,
-                        .reset-box-sizing *:before,
-                        .reset-box-sizing *:after,
-                        .gsc-inline-block {
-                            -webkit-box-sizing: content-box;
-                            -moz-box-sizing: content-box;
-                            box-sizing: content-box;
-                        }
-
-                        input.gsc-input,
-                        .gsc-input-box,
-                        .gsc-input-box-hover,
-                        .gsc-input-box-focus,
-                        .gsc-search-button {
-                            box-sizing: content-box;
-                            line-height: normal;
-                        }
-                    </style>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container-fluid">
+  {{- partial "global_navbar.html" . -}}
+  <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-md-10 col-md-push-2">
+            <div class="col-md-8 push-md-2">
                 <!-- Main Content -->
                 {{- block "main" . }} {{- end -}}
             </div>
-            <div class="col-xs-12 col-md-2 col-md-pull-10">
-                <!-- Removing Events Near Me for now -->
-                <!-- EVENTS NEAR ME<br /> -->
+            <div class="col-md-2 pull-md-8">
                 <a href = "/past" class="left-nav-navs">PAST EVENTS</a><br />
                 {{- partial "future.html" . -}}
             </div>
         </div>
     </div>
 
-    <div class="navbar navbar-default navbar-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-2">
-                    <h3 class="footer-nav">Events</h3></br>
-                    PAST</br>
-                    CURRENT</br>
-                    UPCOMING</br>
-                </div>
-                <div class="col-md-2">
-                    <h3 class="footer-nav">FEATURED</h3>
-                    <b>Chicago 2017</b>
-                    <i>Summit West - 15 October 2017</i>
-                </div>
-                <div class="col-md-2">
-                  <h3 class="footer-nav">BLOG</h3>
-                  {{- range first 1 (where .Site.Pages "Type" "blog") -}}
-                    <a href = "{{ .Permalink }}"><h1 class = "footer-heading">{{ .Title }}</h1></a>
-                    {{- if isset .Params "author" -}}
-                      <h2 class="footer-heading">by {{ .Params.author }} - {{ dateFormat "02 January, 2006" .Date }}</h2>
-                    {{- else -}}
-                      <h2 class="footer-heading">{{ dateFormat "02 January, 2006" .Date }}</h2>
-                    {{- end -}}
-                    <p class="footer-content">
-                        {{ .Summary }}
-                    </p>
-                  {{- end -}}
-
-                </div>
-                <div class="col-md-2">
-                    <h3 class="footer-nav">@DEVOPSDAYS</h3>
-                    <div>
-                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/devopsdays/lists/devopsdays" data-chrome="noheader" height="440"></a>
-
-                        <script>
-                            ! function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0],
-                                    p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = p + "://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
-                </div>
-                <!-- <div class="col-md-2 hidden-sm">
-
-                </div> -->
-            </div>
-
-        </div>
-
-
-    </div>
-    {{- partial "footer_scripts.html" . -}}
+    {{- partial "footer.html" . -}}
 </body>
 
 </html>
