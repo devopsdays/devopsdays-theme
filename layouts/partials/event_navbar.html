@@ -1,0 +1,24 @@
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto event-navigation">
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/program">Program</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/register">Register</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/speakers">Speakers</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/sponsor">Sponsor</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/volunteer">Volunteer</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/location">Location</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/contact">Contact</a></li>
+      <li class="nav-item"><a class="nav-link" href="/events/{{ $event_slug }}/conduct">Conduct</a></li>
+
+
+    </ul>
+  </div>
+</nav>

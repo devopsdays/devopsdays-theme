@@ -6,33 +6,7 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 
-<nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand event-navigation" href="#">Welcome</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-    <ul class="nav navbar-nav event-navigation">
-      <li><a href="/events/{{ $event_slug }}/program">Program</a></li>
-      <li><a href="/events/{{ $event_slug }}/register">Register</a></li>
-      <li><a href="/events/{{ $event_slug }}/speakers">Speakers</a></li>
-      <li><a href="/events/{{ $event_slug }}/sponsor">Sponsor</a></li>
-      <li><a href="/events/{{ $event_slug }}/volunteer">Volunteer</a></li>
-      <li><a href="/events/{{ $event_slug }}/location">Location</a></li>
-      <li><a href="/events/{{ $event_slug }}/contact">Contact</a></li>
-      <li><a href="/events/{{ $event_slug }}/conduct">Conduct</a></li>
-
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
+{{- partial "event_navbar.html" . -}}
 
 <div class="row">
     <!-- enclosing div -->
