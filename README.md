@@ -22,7 +22,7 @@ Bear in mind that this theme lives in a separate repo from the main [devopsdays-
 On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the default logo is displayed instead.
 
 ## Program Page
-A new template is being created to generate a program page. A work in progress example can be seen at http://devopsdays-theme.netlify.com/events/2016-chicago/program/
+A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
 This is an opt-in feature; the page will need to be set for the type of program in order to generate it.
 
@@ -67,22 +67,25 @@ The design and layout can be found in [here](https://drive.google.com/file/d/0Bz
 ### Blocks
 All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
 
-### CSS and LESS
-All CSS must be generated with LESS. The LESS files are located in `static/less`, with two exceptions, `static/site_variables.less` and `static/site.less`.
+### CSS and SCSS
+All CSS must be generated with SCSS. The LESS files are located in `static/scss`.
 
-#### `site_variables.less`
-This is the only place you should declare custom LESS variables that our LESS files will use. Currently, `static/less/bootstrapp.less` has a single modification, which is to include `@import "../site_variables.less";`. If the version of Bootstrap is ever updated, this change must be re-added.
+#### `site.scss`
+This is the file that imports all the other SCSS files, including Bootstrap, font-awesome (TBD; it seems that BS 4 brings this in for us), and the jquery oembed. It also imports our custom variables and any other customizations.
 
-#### `site.less`
-This is the only place you should declare custom LESS or CSS code.
+#### `custom-variables.scss`
+Use this to set any SCSS variables, or to over-ride any variables used by Bootstrap.
+
+#### `custom.scss`
+This is the only place you should declare custom SCSS or CSS code.
 
 ## Continuous Integration
-The `devopsdays-theme` repo has hooks into Travis, Appveyor and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
+The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
 
-All changes are built by Netlify to http://devopsdays-theme.netlify.com
+All changes are built by Netlify to https://dev.devopsdays.org
 
 ### Asset Pipeline
-There is no current asset processing in place, but the intent is to add some, to provide HTML minification as well as image optimization. This is currently an outstanding task, tracked in [Issue #10](https://github.com/devopsdays/devopsdays-theme/issues/10) and [Issue #11](https://github.com/devopsdays/devopsdays-theme/issues/11).
+Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp is only called when changes are merged to master. Pull requests, and local changes will not trigger gulp.
 
 # Releasing `devopsdays-theme`
 
