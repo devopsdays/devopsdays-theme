@@ -31,6 +31,7 @@ body {
 .nav-link {
   color: #0082AB;
 }
+
 .global-navigation {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -39,12 +40,24 @@ body {
   text-transform: uppercase;
 }
 
+.navbar>li>a{
+  color: red;
+}
+
 .event-navigation {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   font-size: 9pt;
-  color: #000000;
+  // color: #000000;
+  color: green;
   text-transform: uppercase;
+}
+
+.navbar-light {
+  background-color:transparent !important;
+  border-color:transparent;
+  background-image:none;
+  box-shadow:none;
 }
 
 /* Left navigation */
@@ -178,11 +191,4 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
-
-.navbar-light {
-  background-color:transparent !important;
- border-color:transparent;
- background-image:none;
- box-shadow:none;
 }
