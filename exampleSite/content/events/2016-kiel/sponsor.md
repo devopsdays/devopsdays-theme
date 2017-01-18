@@ -59,7 +59,7 @@ If we have money left after the conference, it will be given to a social project
 
 </table>
 <hr/>
-If you are interested in special sponsorships, you can't find in the list below, or have a creative idea about how you can support the event, <a href="mailto:<%= render(:partial => "/#{@eventhome}/_email_organizers") %>?subject=Sponsor devopsdays <%= @eventid %>">send us an email</a>.
+If you are interested in special sponsorships, you can't find in the list below, or have a creative idea about how you can support the event, send us an email.
 <br/>
 <br/>
 </div>
