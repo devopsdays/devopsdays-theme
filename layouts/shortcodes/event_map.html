@@ -6,6 +6,9 @@
 {{ $lat := index $coords 0 }}
 {{ $lng := index $coords 1 }}
 
+lat is {{ $lat }}
+long is {{ $lng }}
+
 <link href="/css/googlemaps.css" rel="stylesheet">
 
 <div id="map_canvas" style="width: 550px; height: 265px"></div>
@@ -13,7 +16,7 @@
 <script type="text/javascript" language="javascript">
   function initMap() {
     var mapDiv = document.getElementById("map_canvas");
-    var position = new google.maps.LatLng({{ $lat | safeJS }}, {{ $lng | safeJS }});
+    var position = new google.maps.LatLng({{ $lat }}, {{ $lng }});
 
     var map = new google.maps.Map(mapDiv, {
       center: position,
@@ -24,7 +27,7 @@
     var marker = new google.maps.Marker({
       position: position,
       map: map,
-      title: "{{ $e.location | safeJS }}",
+      title: "{{ $e.location }}",
     });
   }
 

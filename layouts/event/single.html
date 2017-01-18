@@ -14,17 +14,18 @@
         <!-- main content -->
         {{ if eq .File.BaseFileName "welcome"}}
           {{- partial "welcome.html" . -}}
+        {{ else }}
+          {{ .Content }}
         {{ end }}
-        {{ .Content }}
         <!-- need to add else statement for the rest of the content types -->
         {{ partial "sponsors.html" . }}
 
 
-    </div>
-    <!-- close the content -->
+    </div>{{ "<!-- close the content -->" | safeHTML }}
 
-</div>
-<!-- whole big thing -->
+
+</div>{{ "<!-- whole big thing -->" | safeHTML }}
+
 
 
 {{ end }}
