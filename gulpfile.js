@@ -64,11 +64,11 @@ var retinaOpts = {
 
 gulp.task('process-html', function() {
 
-  return gulp.src(['public/**/*.html','!public/blog/**/*.html'])
-    .pipe(imgRetina(retinaOpts))
-    .on('error', function(e) {
-      console.log(e.message);
-    })
+  return gulp.src(['public/**/*.html'])
+    // .pipe(imgRetina(retinaOpts))
+    // .on('error', function(e) {
+    //   console.log(e.message);
+    // })
     .pipe(critical({
       base: 'staging/',
       inline: true,
@@ -164,8 +164,9 @@ gulp.task('copy-icons', function(){
   .pipe(gulp.dest('dist'));
 });
 
+// Removing the call to responsive-images
 gulp.task('default', function (callback) {
-  runSequence('copy-js', 'copy-css', 'responsive-images', 'process-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
+  runSequence('copy-js', 'copy-css', 'process-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
     callback
   )
 })
