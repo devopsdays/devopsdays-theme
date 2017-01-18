@@ -24,7 +24,7 @@ Rather than burying ourselves in tools and devices, software and search engines,
 Using the research of MIT researcher Sherry Turkle and others, this presentation uses the power of conversation to illustrate how we can improve our testing practices and results, for the good of all stakeholders.  It illustrates how our conversations can be more powerful and directed than any software tool in determining and delivering on application quality and performance.  Last, it examines the role of ChatOps tools in supplementing conversation with actionable ideas and automated responses
 to be a true real time response environment.
 <br>          
-Main takeaways:<br<
+Main takeaways:<br />
 <ol>
 <li>How a search for the perfect software tools may be preventing us from using our fundamental communication skills in a devops context.</li>
 <li>How talking to people in our project work is becoming a lost art.</li>
