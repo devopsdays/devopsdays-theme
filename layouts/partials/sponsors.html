@@ -2,7 +2,6 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 
-
   {{- if $e.sponsor_levels -}}
     {{- range $index, $level := $e.sponsor_levels -}}
       {{ $.Scratch.Set $level.id 0 }}
