@@ -2,37 +2,42 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 
-{{- if $e.sponsors -}}
-  {{- range $index, $level := $e.sponsor_levels -}}
-    {{ $.Scratch.Set $level.id 0 }}
 
-    <div class="row">
-        <!--first sponsor row-->
-        <div class="col-md-12">
-          <h4>{{ $level.label }} Sponsors</h4>
-          {{- if ge (dateFormat "2006-01-02" $e.startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
-            {{- if ne $e.sponsors_accepted "no" -}}
-              {{- if or (not $level.max) (lt ($.Scratch.Get $level.id) $level.max) -}}
-                <a href = "/events/{{ $e.name }}/sponsor">
-                  <i>Become a {{ $level.label }} Sponsor!</i>
-                </a>
-              {{- end -}}
-            {{- end -}}
-        {{- end -}}
+  {{- if $e.sponsor_levels -}}
+    {{- range $index, $level := $e.sponsor_levels -}}
+      {{ $.Scratch.Set $level.id 0 }}
 
-            <div class="row">
-            {{- range where $e.sponsors "level" $level.id -}}
-              {{ $s := (index $.Site.Data.sponsors .id) }}
-              {{ if isset $.Site.Data.sponsors .id }}
-                <div class = "col-lg-2 col-md-3 col-sm-6 col-xs-6">
-                  <a href = "{{ $s.url }}"><img src = "/img/sponsors/{{ .id }}.png" alt = "{{ $s.name }}" title = "{{ $s.name }}" class="img-fluid"></a>
-                </div>
+      <div class="row cta-row">
+          <!--first sponsor row-->
+          <div class="col-md-12">
+            <h4>{{ $level.label }} Sponsors</h4>
+            {{- if (not $e.startdate) or (ge (dateFormat "2006-01-02" $e.startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02"))) -}}
+              {{- if ne $e.sponsors_accepted "no" -}}
+                {{- if or (not $level.max) (lt ($.Scratch.Get $level.id) $level.max) -}}
+                  <a href = "/events/{{ $e.name }}/sponsor">
+                    <i>Become a {{ $level.label }} Sponsor!</i>
+                  </a>
+                  {{ $.Scratch.Add $level.id 1 }}
+                {{- end -}}
               {{- end -}}
-            {{- end -}}
             </div>
-        </div>
-    </div>
+          </div>
+        {{- if $e.sponsors -}}
+          <div class="row sponsor-row">
+          {{- range where $e.sponsors "level" $level.id -}}
+            {{ $s := (index $.Site.Data.sponsors .id) }}
+
+            {{ if isset $.Site.Data.sponsors .id }}
+
+              <div class = "col-lg-2 col-md-3 col-sm-6 col-xs-6">
+                <a href = "{{ $s.url }}"><img src = "/img/sponsors/{{ .id }}.png" alt = "{{ $s.name }}" title = "{{ $s.name }}" class="img-fluid"></a>
+              </div>
+            {{- end -}}
+          {{- end -}}
+          </div>
 
 
+    {{- end -}}
   {{- end -}}
+{{- end -}}
 {{- end -}}
