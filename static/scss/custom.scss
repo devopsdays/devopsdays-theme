@@ -179,3 +179,10 @@ div.panel {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.navbar-light {
+  background-color:transparent !important;
+ border-color:transparent;
+ background-image:none;
+ box-shadow:none;
+}

@@ -4386,12 +4386,6 @@
 		"oAP": "\/layouts\/event\/single.html",
 		"oF": 0
 		},
-	"\/layouts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/index.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/blog_pagination.html": {
 		"ft": 8192,
 		"oA": 2,
