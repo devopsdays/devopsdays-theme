@@ -45,6 +45,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/archetypes\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/archetypes\/program.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/archetypes\/speaker.md": {
 		"cS": 0,
 		"eF": 1,
@@ -3405,7 +3423,7 @@
 	"\/bower_components\/markerwithlabel-v3\/markerwithlabel.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/markerwithlabel-v3\/markerwithlabel.js",
 		"oF": 0,
 		"sC": 0,
@@ -3563,7 +3581,7 @@
 	"\/bower_components\/tether\/dist\/js\/tether.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/tether\/dist\/js\/tether.js",
 		"oF": 0,
 		"sC": 0,
@@ -4386,6 +4404,12 @@
 		"oAP": "\/layouts\/event\/single.html",
 		"oF": 0
 		},
+	"\/layouts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/index.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/blog_pagination.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4851,7 +4875,7 @@
 		},
 	"\/static\/js\/devopsdays.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/static\/js\/devopsdays-min.js",
 		"oF": 1,
@@ -4867,6 +4891,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/static\/js\/googlemaps_label.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/static\/js\/googlemaps_label-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/static\/js\/jquery.oembed.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4875,46 +4908,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"\/static\/less\/.gitkeep": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/less\/.gitkeep",
-		"oF": 0
-		},
-	"\/static\/less\/site.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/static\/css\/site.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/static\/less\/site_variables.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/static\/css\/site_variables.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
 		},
 	"\/static\/manifest.json": {
 		"ft": 524288,
