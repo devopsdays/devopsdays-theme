@@ -2,14 +2,28 @@
 City = "Chicago"
 Year = "2016"
 date = "2016-07-15T22:06:24-06:00"
-title = "The Evolution of Automation"
+title = "Adam Jacob"
 type = "talk"
 aliases = ["/events/2016-chicago/program/adamjacob/"]
-youtube = "emGKB8TABvI"
-vimeo = ""
-speakerdeck = "https://speakerdeck.com/mattstratton/shifting-left-securely"
-slideshare = "http://www.slideshare.net/mattstratton/the-five-love-languages-of-devops-54549536"
-slides = ""
+
 +++
 
+<div class="span-15  ">
+  <div class="span-15  last ">
+  <p><strong>Title:</strong>
+The Evolution of Automation
+</p>
+
+<p><strong>Description:</strong></p>
+
+<p>
 We’ll talk about the fundamentals of automation, what we’ve learned over multiple generations of tooling and research, and discuss the path forward.
+</p>
+<p>
+{{< youtube emGKB8TABvI >}}
+
+</p>
+
+
+  </div>
+</div>
