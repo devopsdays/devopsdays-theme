@@ -166,7 +166,7 @@ gulp.task('copy-icons', function(){
 
 // Removing the call to responsive-images
 gulp.task('default', function (callback) {
-  runSequence('copy-js', 'copy-css', 'process-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
+  runSequence('copy-js', 'copy-css', 'min-html', 'copy-images', 'process-files', 'update-files', 'copy-other-files', 'copy-icons', 'copy-fonts',
     callback
   )
 })
