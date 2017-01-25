@@ -21,7 +21,7 @@ function initialize() {
     // Add upcoming events here
     // Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
     var markers = [
-      {{ range $.Site.Data.events }}
+      {{- range $.Site.Data.events -}}
 
       // if there is a startdate set
         {{ if .startdate }}
@@ -41,7 +41,7 @@ function initialize() {
 
       // if both dates in one month, show startdate with month & enddate without month
               ['{{ .city}}', {{ .coordinates | safeJS }}, '{{ dateFormat "Jan 2" .startdate }}-{{ dateFormat "2" .enddate }}', '/events/{{ .name }}'],
-            {{ end }} // end of same month
+            {{- end -}} // end of same month
 
             {{ end }} // end of different month
           {{ end }} // end of "ge dateformat"
@@ -83,7 +83,3 @@ function initialize() {
 
 <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew"></script>
 <script type="text/javascript" src="/js/googlemaps_label-min.js"></script>
-<!-- <script type="text/javascript" src="/js/googlemaps_content.js"></script> -->
-<div class="embed-responsive embed-responsive-16by9">
-    <div id="map_canvas" class="embed-responsive-item"></div>
-</div>
