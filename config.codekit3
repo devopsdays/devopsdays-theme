@@ -7,7 +7,7 @@
 		"uuidString": "E3C4E44D-7016-46F9-B7E7-F0DAD416E2AB"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -4452,6 +4452,36 @@
 		"oAP": "\/layouts\/partials\/head.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/head\/seo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/head\/seo.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/head\/seo\/google_news.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/head\/seo\/google_news.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/head\/seo\/open_graph.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/head\/seo\/open_graph.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/head\/seo\/schema.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/head\/seo\/schema.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/head\/seo\/twitter_cards.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/head\/seo\/twitter_cards.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/head_includes.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4498,6 +4528,96 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/section\/blog.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/cfp_dates.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/cfp_dates.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/email_organizers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/email_organizers.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/email_proposals.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/email_proposals.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_end.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_end.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_link.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_location.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_location.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_logo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_logo.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_map.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_start.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_start.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/event_twitter.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_twitter.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/list_core.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/list_core.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/list_organizers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/list_organizers.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/privacy_policy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/privacy_policy.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/program_entry.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/program_entry.html",
+		"oF": 0
+		},
+	"\/layouts\/shortcodes\/program_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/program_link.html",
 		"oF": 0
 		},
 	"\/layouts\/speaker\/single.html": {
@@ -4887,6 +5007,15 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/static\/js\/google-maps-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/static\/js\/googlemaps_label-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/static\/js\/googlemaps_label-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -5685,6 +5814,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -6224,6 +6357,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
