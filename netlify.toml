@@ -1,6 +1,6 @@
 # Global settings applied to the whole site.
 [build]
-  publish = "exampleSite/dist/"
+  publish = "exampleSite/public/"
   command = "bin/netlify.sh"
 
 # Production context: All deploys to the main
@@ -12,5 +12,5 @@
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
 [context.deploy-preview]
-  publish = "exampleSite/dist/"
+  publish = "exampleSite/public/"
   command = "bin/netlify.sh"
