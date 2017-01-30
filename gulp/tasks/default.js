@@ -2,10 +2,12 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence');
 
 gulp.task('default', function (callback) {
-  runSequence('optimize-images','responsive-images', 'copy-js', 'copy-css', 'process-html', 'revision', 'revision-update', 'copy-static-files',
+  runSequence('responsive-images', 'copy-js', 'copy-css', 'process-html', 'revision', 'revision-update', 'copy-static-files',
     callback
   )
 })
+
+// removing optimize-images from the sequence as it causes netlify to timeout
 
 // first retina-ready all non-icon images and copy to the staging directory *
 // optimize all images in the staging directory (try to use cache) * (maybe do this first?)

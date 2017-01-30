@@ -5119,6 +5119,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/static\/js\/googlemaps_label-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/static\/js\/googlemaps_label-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/static\/js\/googlemaps_label.js": {
 		"ft": 64,
 		"mi": 0,
