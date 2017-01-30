@@ -3,7 +3,9 @@ var gulp = require('gulp'),
     cache = require('gulp-cache');
 
     gulp.task('optimize-images', function(){
-      return gulp.src(['staging/**/*.+(png|jpg|gif|svg)','!staging/favicon*', '!staging/apple-icon*', '!staging/android-icon*', '!staging/ms-icon*'])
+      return gulp.src(['public/**/*.+(png|jpg|gif|svg)','!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*'])
       .pipe(cache(imagemin()))
-      .pipe(gulp.dest('staging'))
+      .pipe(gulp.dest('public'))
     });
+
+// this takes 11 minutes on Matt's MacBook
