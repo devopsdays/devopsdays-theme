@@ -10,6 +10,8 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 [![Throughput Graph](https://graphs.waffle.io/devopsdays/devopsdays-theme/throughput.svg)](https://waffle.io/devopsdays/devopsdays-theme/metrics)
 
 # devopsdays-theme
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/devopsdays/devopsdays-theme.svg)](https://greenkeeper.io/)
 devopsdays-theme is the Hugo theme for the [DevOpsDays](https://www.devopsdays.org) website.
 
 # QA Testing the New Theme
