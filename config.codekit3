@@ -4422,6 +4422,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/gulp\/tasks\/development\/local-imagemin.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/development\/local-imagemin-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/gulp\/tasks\/hugo.js": {
 		"ft": 64,
 		"mi": 1,

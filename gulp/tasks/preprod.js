@@ -2,7 +2,7 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence');
 
 gulp.task('preprod', function (callback) {
-  runSequence('optimize-images','responsive-images', 'copy-js', 'copy-css', 'process-html', 'revision', 'revision-update', 'copy-static-files',
+  runSequence('responsive-images', 'copy-js', 'copy-css', 'process-html', 'revision', 'revision-update', 'copy-static-files',
     callback
   )
 })
