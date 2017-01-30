@@ -270,7 +270,7 @@
 	"\/bower_components\/bootstrap\/dist\/js\/bootstrap.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/bootstrap\/dist\/js\/bootstrap.js",
 		"oF": 0,
 		"sC": 0,
@@ -639,7 +639,7 @@
 	"\/bower_components\/bootstrap\/js\/src\/tooltip.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/bootstrap\/js\/src\/tooltip.js",
 		"oF": 0,
 		"sC": 0,
@@ -648,7 +648,7 @@
 	"\/bower_components\/bootstrap\/js\/src\/util.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/bootstrap\/js\/src\/util.js",
 		"oF": 0,
 		"sC": 0,
@@ -2348,7 +2348,7 @@
 	"\/bower_components\/jquery-oembed-all\/jquery.oembed.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/jquery-oembed-all\/jquery.oembed.js",
 		"oF": 0,
 		"sC": 0,
@@ -2388,7 +2388,7 @@
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
 		"oF": 0,
 		"sC": 0,
@@ -3581,7 +3581,7 @@
 	"\/bower_components\/tether\/dist\/js\/tether.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/tether\/dist\/js\/tether.js",
 		"oF": 0,
 		"sC": 0,
@@ -4359,6 +4359,132 @@
 		"oAP": "\/build\/exampleSite",
 		"oF": 0
 		},
+	"\/gulp\/config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/config-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/build.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/build-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/copy-css.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/copy-css-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/copy-js.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/copy-js-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/copy-static-files.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/copy-static-files-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/default.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/default-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/delete.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/delete-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/development\/local-imagemin.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/development\/local-imagemin-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/hugo.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/hugo-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/optimize-images.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/optimize-images-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/preprod.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/preprod-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/process-html.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/process-html-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/responsive-images.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/responsive-images-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/gulp\/tasks\/revision.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulp\/tasks\/revision-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4995,19 +5121,10 @@
 		},
 	"\/static\/js\/devopsdays.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/static\/js\/devopsdays-min.js",
 		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/static\/js\/google-maps.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/static\/js\/google-maps-min.js",
-		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -5022,19 +5139,10 @@
 		},
 	"\/static\/js\/googlemaps_label.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/static\/js\/googlemaps_label-min.js",
 		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/static\/js\/jquery.oembed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/static\/js\/jquery.oembed-min.js",
-		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -6914,7 +7022,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
