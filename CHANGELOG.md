@@ -1,5 +1,60 @@
 # Change Log
 
+## [Unreleased](https://github.com/devopsdays/devopsdays-theme/tree/HEAD)
+
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.5.1...HEAD)
+
+**Implemented enhancements:**
+
+- Allow for non-square sponsor images [\#139](https://github.com/devopsdays/devopsdays-theme/issues/139)
+- Refactor homepage event grid [\#31](https://github.com/devopsdays/devopsdays-theme/issues/31)
+
+**Closed issues:**
+
+- Add Travis build step [\#17](https://github.com/devopsdays/devopsdays-theme/issues/17)
+
+## [0.5.1](https://github.com/devopsdays/devopsdays-theme/tree/0.5.1) (2017-01-30)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.4.1...0.5.1)
+
+**Implemented enhancements:**
+
+- Add social graph data [\#68](https://github.com/devopsdays/devopsdays-theme/issues/68)
+
+**Fixed bugs:**
+
+- Move google maps javascript to the footer [\#121](https://github.com/devopsdays/devopsdays-theme/issues/121)
+- Retina workflow blows up if no alt set [\#115](https://github.com/devopsdays/devopsdays-theme/issues/115)
+
+**Closed issues:**
+
+- remove node\_modules from released code [\#110](https://github.com/devopsdays/devopsdays-theme/issues/110)
+
+**Merged pull requests:**
+
+- Add a lot of gulp stuff [\#125](https://github.com/devopsdays/devopsdays-theme/pull/125) ([mattstratton](https://github.com/mattstratton))
+- Move map script to footer [\#124](https://github.com/devopsdays/devopsdays-theme/pull/124) ([mattstratton](https://github.com/mattstratton))
+- Change to use hugo 0.18 from netlify [\#122](https://github.com/devopsdays/devopsdays-theme/pull/122) ([mattstratton](https://github.com/mattstratton))
+- Add basic social metadata [\#120](https://github.com/devopsdays/devopsdays-theme/pull/120) ([mattstratton](https://github.com/mattstratton))
+
+## [0.4.1](https://github.com/devopsdays/devopsdays-theme/tree/0.4.1) (2017-01-18)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.4.0...0.4.1)
+
+**Fixed bugs:**
+
+- Incomplete template errors on current content [\#112](https://github.com/devopsdays/devopsdays-theme/issues/112)
+- program\_entry shortcode needed [\#111](https://github.com/devopsdays/devopsdays-theme/issues/111)
+- Weird breakpoint on event page [\#8](https://github.com/devopsdays/devopsdays-theme/issues/8)
+
+**Closed issues:**
+
+- Authentication errors on the google maps api [\#109](https://github.com/devopsdays/devopsdays-theme/issues/109)
+
+**Merged pull requests:**
+
+- Fix regressions [\#119](https://github.com/devopsdays/devopsdays-theme/pull/119) ([mattstratton](https://github.com/mattstratton))
+- Add current events [\#118](https://github.com/devopsdays/devopsdays-theme/pull/118) ([mattstratton](https://github.com/mattstratton))
+- Add more styles [\#113](https://github.com/devopsdays/devopsdays-theme/pull/113) ([mattstratton](https://github.com/mattstratton))
+
 ## [0.4.0](https://github.com/devopsdays/devopsdays-theme/tree/0.4.0) (2017-01-17)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.3.1...0.4.0)
 
