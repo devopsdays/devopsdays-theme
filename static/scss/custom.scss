@@ -192,3 +192,16 @@ div.panel {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+// old googlemaps.css content
+.labels {
+  color: black;
+  background-color: white;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+
+  border: 1px solid gray;
+  white-space: nowrap;
+}

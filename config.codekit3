@@ -4995,7 +4995,7 @@
 		},
 	"\/static\/js\/devopsdays.js": {
 		"ft": 64,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "\/static\/js\/devopsdays-min.js",
 		"oF": 1,
