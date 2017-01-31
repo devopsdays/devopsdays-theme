@@ -11,6 +11,7 @@ cfp_date_start:  # start accepting talk proposals.
 cfp_date_end:  # close your call for proposals.
 cfp_date_announce: # inform proposers of status
 
+
 # Location
 #
 coordinates: "34.149276,-118.142252"
