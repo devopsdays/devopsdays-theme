@@ -13,6 +13,7 @@ cfp_date_announce: 2017-02-28 # inform proposers of status
 event_logo_square: 'logo-square.jpg'
 
 
+
 # Location
 #
 coordinates: "43.644489,-79.388044" # The corrodinates of your venue. Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html

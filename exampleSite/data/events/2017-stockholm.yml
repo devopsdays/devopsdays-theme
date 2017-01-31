@@ -13,6 +13,7 @@ cfp_date_announce:  # inform proposers of status
 event_logo_square: 'logo-square.jpg'
 
 
+
 # Location
 #
 coordinates: "59.290555, 18.084346" # The coordinates of your city. Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html

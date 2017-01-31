@@ -18,6 +18,7 @@
                     {{- if .event_logo_square }}
                       {{- if ne .event_logo_square "" }}
                         <img src = "/events/{{ .name }}/{{ .event_logo_square }}" class="img-fluid"/>
+
                       {{- end -}}
                       {{- else -}}
                         <img src="/img/event-logo-default.png" class="img-fluid"/>
