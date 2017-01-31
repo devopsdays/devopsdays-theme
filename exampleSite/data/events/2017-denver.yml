@@ -18,6 +18,8 @@ nav_elements: # List of pages you want to show up in the navigation of your page
   - name: contact
   - name: conduct
   - name: location
+  - name: tickets
+    url: https://www.eventbrite.com/e/devopsdays-denver-2017-tickets-31187069364
 
 # These are the same people you have on the mailing list and Slack channel.
 team_members: # Name is the only required field for team members.
@@ -35,6 +37,10 @@ proposal_email: "proposals-denver-2017@devopsdays.org" # Put your proposal email
 sponsors: # List all of your sponsors here along with what level of sponsorship they have.
   - id: victorops
     level: social
+  - id: netapp
+    level: gold
+  - id: signalsciences
+    level: community
 
 sponsor_levels: # In this section, list the level of sponsorships and the label to use.
   - id: social
@@ -47,4 +53,6 @@ sponsor_levels: # In this section, list the level of sponsorships and the label 
   - id: silver
     label: Silver
   - id: bronze
-    lable: Bronze
+    label: Bronze
+  - id: community
+    label: Community

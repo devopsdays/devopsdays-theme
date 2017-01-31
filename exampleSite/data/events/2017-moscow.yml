@@ -44,9 +44,11 @@ proposal_email: "proposals-moscow-2016@devopsdays.org" # Put your proposal email
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
 # media
+  - id: Logrocon
+    level: media
   - id: Express42
     level: media
-  - id: Logrocon
+  - id: YEx
     level: media
   - id: superjob
     level: media
@@ -66,8 +68,16 @@ sponsors:
     level: media
   - id: globalcio
     level: media
+  - id: probusiness
+    level: media
+  - id: expomap
+    level: media
   - id: hh
     level: hrsponsor
+  - id: meyou
+    level: Networking
+  - id: technopolis
+    level: venuesponsor
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 
@@ -84,6 +94,10 @@ sponsor_levels:
   - id: silver
     label: Silver
     max: 0 # This is the same as omitting the max limit.
+  - id: Networking
+    label: Networking
+  - id: venuesponsor
+    label: Venue
   - id: hrsponsor
     label: HR
   - id: media
