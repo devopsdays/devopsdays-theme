@@ -7,29 +7,19 @@
           </div>
         </div>
     </div>
+
     {{ $.Scratch.Add "i" 1 }}
     <div class="row">
         {{- range sort $.Site.Data.events "startdate" -}}
           {{- if .startdate -}}
             {{- if ge (dateFormat "2006-01-02" .startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
-                {{ $.Scratch.Set "city" .city }}
-                {{ $.Scratch.Set "year" .year }}
-                {{ $.Scratch.Set "logo" "unset" }}
                 <div class="col-md-3 homepage-grid-col">
                   <a href = "/events/{{ .name }}">
-                    {{ $.Scratch.Set "subdir" .name }}
-                    {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
-                    {{- range (readDir "static/events") -}}
-                        {{- if eq .Name ($.Scratch.Get "subdir") -}}
-                            {{- range (readDir ($.Scratch.Get "contentdir")) -}}
-                                {{- if eq .Name "logo-square.png" -}}
-                                    <img src="{{ printf ("/events/%s/logo-square.png") ($.Scratch.Get "subdir")}}" class="img-fluid"/>
-                                    {{ $.Scratch.Set "logo" "set" }}
-                                {{- end -}}
-                            {{- end -}}
-                        {{- end -}}
-                    {{- end -}}
-                    {{- if ne ($.Scratch.Get "logo") "set" -}}
+                    {{- if .homepage_image }}
+                      {{- if ne .homepage_image "" }}
+                        <img src = "/events/{{ .name }}/{{ .homepage_image }}" class="img-fluid"/>
+                      {{- end -}}
+                      {{- else -}}
                         <img src="/img/event-logo-default.png" class="img-fluid"/>
                     {{- end -}}
                   </a>
