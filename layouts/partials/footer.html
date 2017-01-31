@@ -23,7 +23,13 @@
                   <h2 class="footer-heading">{{ dateFormat "02 January, 2006" .Date }}</h2>
                 {{- end -}}
                 <p class="footer-content">
+                  {{ if isset .Params "description" }}
+                    {{ if ne .Params.descripton "" }}
+                      {{ .Params.description | markdownify }}
+                    {{ end }}
+                  {{ else }}
                     {{ .Summary }}
+                  {{ end }}
                 </p>
               {{- end -}}
 
