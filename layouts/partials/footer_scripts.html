@@ -1,5 +1,6 @@
-{{ partial "map.html" . }}
-
+{{ if .IsHome }}
+  {{ partial "map.html" . }}
+{{ end }}
 <script src="/js/devopsdays-min.js"></script>
 <!-- <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew&callback=initMap">
