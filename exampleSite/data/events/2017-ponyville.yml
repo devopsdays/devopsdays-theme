@@ -11,7 +11,8 @@ cfp_date_announce: 2017-01-01
 coordinates: "41.882219, -87.640530"
 location: "Applejack House"
 newnav: "yes"
-homepage_image: 'logo-square.jpg'
+event_logo_square: 'logo-square.jpg'
+
 # navigationelements: ["welcome", "contact", "location", "program", "propose", "proposals", "conduct", "sponsor"]
 nav_elements:
   - name: welcome

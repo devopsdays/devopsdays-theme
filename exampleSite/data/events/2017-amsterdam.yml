@@ -10,7 +10,8 @@ enddate:  2017-06-30
 cfp_date_start: 2017-01-15  # start accepting talk proposals.
 cfp_date_end:  2017-04-01 # close your call for proposals.
 cfp_date_announce: 2017-05-15 # inform proposers of status
-homepage_image: 'logo-square.jpg'
+event_logo_square: 'logo-square.jpg'
+
 
 
 # Location
