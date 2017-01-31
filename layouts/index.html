@@ -30,7 +30,7 @@
                     &nbsp;-&nbsp;
                     {{-  dateFormat "Jan 2, 2006" .enddate -}}<br/>
                   </span>
-                    <span class="homepage-grid-city">{{ .city }}</span>
+                    <span class="homepage-grid-city"><a href = "/events/{{ .name }}">{{ .city }}</a></span>
                     <br/>
                     {{- if .description -}}
                         {{- if ne .description "" -}}
