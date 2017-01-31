@@ -10,7 +10,7 @@ cfp_date_end: 2016-12-30
 cfp_date_announce: 2017-01-01
 coordinates: "-22.242517, 25.859375"
 location: "Hoofington Palace"
-homepage_image: 'logo-square.png'
+event_logo_square: 'logo-square.png'
 newnav: "yes"
 # navigationelements: ["welcome", "contact", "location", "program", "propose", "proposals", "conduct", "sponsor"]
 nav_elements:
