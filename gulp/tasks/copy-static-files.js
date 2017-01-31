@@ -8,12 +8,12 @@ gulp.task('copy-misc-files', function() {
 
 gulp.task('copy-fonts', function() {
     return gulp.src('public/fonts/**/*.*')
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/fonts'));
 })
 
 gulp.task('copy-css-maps', function() {
     return gulp.src('public/css/**/*.map')
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('dist/css'));
 })
 
 gulp.task('copy-static-files', function(callback) {
