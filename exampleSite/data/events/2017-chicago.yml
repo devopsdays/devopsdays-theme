@@ -10,6 +10,8 @@ enddate:  # The end date of your event. Leave blank if you don't have a venue re
 cfp_date_start:  # start accepting talk proposals.
 cfp_date_end:  # close your call for proposals.
 cfp_date_announce:  # inform proposers of status
+homepage_image: 'logo-square.jpg'
+
 
 # Location
 #
