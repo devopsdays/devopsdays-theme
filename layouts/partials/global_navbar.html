@@ -7,16 +7,16 @@
   </button>
   <a class="navbar-brand" href="/">
   <img src="/img/devopsdays-brain.png" width="30" height="30" class="d-inline-block align-top" alt="">
-  DevOpsDays
+  {{ .Site.Title}}
 </a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/contact">Contact</a></li>
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/events">Events</a></li>
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/blog">Blog</a></li>
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/sponsor">Sponsor</a></li>
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/speaking">Speaking</a></li>
-      <li class="nav-item global-navigation"><a class = "nav-link" href="/organizing">Organizing</a></li>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+
+        <li class="nav-item global-navigation"><a class = "nav-link" href="{{.URL}}">{{ .Name }}</a></li>
+      {{ end }}
+
     </ul>
   </div>
 </nav>
