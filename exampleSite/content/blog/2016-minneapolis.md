@@ -5,7 +5,7 @@ Tags = ["2016"]
 Author = "Bridget Kromhout"
 +++
 
-<img src="https://raw.githubusercontent.com/devopsdays/devopsdays-web/master/static/events/2016-minneapolis/logo.png" style="max-width: 90%;" />
+<img src="https://raw.githubusercontent.com/devopsdays/devopsdays-web/master/static/events/2016-minneapolis/logo.png" alt="" style="max-width: 90%;" />
 
 <br>
 

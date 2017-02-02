@@ -1,0 +1,21 @@
+{
+  "name": "markerwithlabel-v3",
+  "version": "1.1.10",
+  "main": [
+    "markerwithlabel.js"
+  ],
+  "authors": [
+    "Danilo Recchia"
+  ],
+  "keywords": [
+    "markerwithlabel",
+    "gmap",
+    "bower"
+  ],
+  "license": "CC BY 3.0 -- http://creativecommons.org/licenses/by/3.0/",
+  "ignore": [
+  	"README.md",
+  	"bower.json",
+  	"LICENSE"
+  ]
+}

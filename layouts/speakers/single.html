@@ -6,6 +6,8 @@
 {{- $e :=  (index $.Site.Data.events $event_slug) -}}
 {{- $city_slug := substr $e.name 5 -}}
 {{ $.Scratch.Set "i" 1 }}
+{{- partial "event_navbar.html" . -}}
+
 
 <div class = "row">
 
@@ -18,10 +20,10 @@
       <a href = "{{ .Permalink }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-responsive" /><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="speaker image"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.png" class="img-responsive" /><br />
+            <img src = "/img/speaker-default.png" class="img-fluid"  alt="speaker image"/><br />
         {{ end }}
         {{ .Title }}
       </a>
@@ -35,4 +37,7 @@
 {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
 
 </div>
+
+{{ partial "sponsors.html" . }}
+
 {{ end }}

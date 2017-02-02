@@ -5,11 +5,72 @@ themesdir = "../.."
 languageCode = "en-us"
 GoogleAnalytics = "UA-9713393-1"
 title = "DevOpsDays"
-canonifyurls = true
+canonifyurls = false
 dataDir = "data"
 archetypedir = "archetypes"
 PaginatePath = "blog"
 buildDrafts = false
+# Language support
+defaultContentLanguage = "en"
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[[languages.en.menu.main]]
+  name = "contact"
+  url = "/contact"
+  weight = -150
+[[languages.en.menu.main]]
+  name = "events"
+  url = "/events"
+  weight = -140
+[[languages.en.menu.main]]
+  name = "blog"
+  url = "/blog"
+  weight = -130
+[[languages.en.menu.main]]
+  name = "sponsor"
+  url = "/sponsor"
+  weight = -120
+[[languages.en.menu.main]]
+  name = "speaking"
+  url = "/speaking"
+  weight = -110
+[[languages.en.menu.main]]
+  name = "organizing"
+  url = "/organizing"
+  weight = -100
+
+[languages.es]
+weight = 10
+languageName = "español"
+title = "los dias de devops"
+
+[[languages.es.menu.main]]
+  name = "contact"
+  url = "/contact"
+  weight = -150
+[[languages.es.menu.main]]
+  name = "events"
+  url = "/events"
+  weight = -140
+[[languages.es.menu.main]]
+  name = "blog"
+  url = "/blog"
+  weight = -130
+[[languages.es.menu.main]]
+  name = "sponsor"
+  url = "/sponsor"
+  weight = -120
+[[languages.es.menu.main]]
+  name = "speaking"
+  url = "/speaking"
+  weight = -110
+[[languages.es.menu.main]]
+  name = "organizing"
+  url = "/organizing"
+  weight = -100
 # Set to "/" on *nix and Mac, "\\" on Windows
 # Refer to https://github.com/spf13/hugo/issues/2394 for more information
 

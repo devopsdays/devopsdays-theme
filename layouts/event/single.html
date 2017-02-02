@@ -6,33 +6,7 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 
-<nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Welcome</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-    <ul class="nav navbar-nav">
-      <li><a href="/events/{{ $event_slug }}/program">Program</a></li>
-      <li><a href="/events/{{ $event_slug }}/register">Register</a></li>
-      <li><a href="/events/{{ $event_slug }}/speakers">Speakers</a></li>
-      <li><a href="/events/{{ $event_slug }}/sponsor">Sponsor</a></li>
-      <li><a href="/events/{{ $event_slug }}/volunteer">Volunteer</a></li>
-      <li><a href="/events/{{ $event_slug }}/location">Location</a></li>
-      <li><a href="/events/{{ $event_slug }}/contact">Contact</a></li>
-      <li><a href="/events/{{ $event_slug }}/conduct">Conduct</a></li>
-
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
+{{- partial "event_navbar.html" . -}}
 
 <div class="row">
     <!-- enclosing div -->
@@ -40,171 +14,18 @@
         <!-- main content -->
         {{ if eq .File.BaseFileName "welcome"}}
           {{- partial "welcome.html" . -}}
+        {{ else }}
+          {{ .Content }}
         {{ end }}
         <!-- need to add else statement for the rest of the content types -->
+        {{ partial "sponsors.html" . }}
 
-        <div class = "row">
-          <div class = "col-md-12">
-            <h4>Speakers</h4>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-        </div>
 
-        <div class = "row">
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-        </div>
+    </div>{{ "<!-- close the content -->" | safeHTML }}
 
-        <div class = "row">
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-          <div class = "col-md-3">
-            <img src="/events/2016-chicago/speakers/adam-jacob-tn.jpg" class = "img-responsive" /><br />
-            <b>Adam Jacob</b><br />
-            <i>The Evolution of Automation</i>
-          </div>
-        </div>
-        <div class="row">
-            <!--first sponsor row-->
-            <div class="col-md-12">
-                <h4>Gold Sponsors</h4><i>Become a Gold Sponsor!</i>
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!--first sponsor row-->
-            <div class="col-md-12">
-                <h4>Silver Sponsors</h4><i>Become a Silver Sponsor!</i>
+</div>{{ "<!-- whole big thing -->" | safeHTML }}
 
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!--first sponsor row-->
-            <div class="col-md-12">
-                <h4>Bronze Sponsors</h4><i>Become a Bronze Sponsor!</i>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <!--first sponsor row-->
-            <div class="col-md-12">
-                <h4>Community Sponsors</h4><i>Become a Community Sponsor!</i>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                    <div class="col-md-3">
-                        <img src="/img/sponsors/chef.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- close the content -->
-
-</div>
-<!-- whole big thing -->
 
 
 {{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+{{/* site data query copypasta */}}
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
+
+<div>
+      {{ .Content }}
+</div>
+
+{{ partial "future.html" . }}
+{{ partial "past.html" . }}
+
+{{ end }}

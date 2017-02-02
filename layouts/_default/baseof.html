@@ -2,215 +2,48 @@
 <html lang="{{ .Site.LanguageCode }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> {{ .Hugo.Generator }}
-    <title>
-        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "/" }} {{ .Site.Title }} {{ else }} {{ if .Params.Heading }} {{ .Params.Heading }} {{ else }} {{ .Title }} {{ end }} {{ end }}
-    </title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    <!-- Bootstrap -->
-    <link href="{{ .Site.BaseURL }}css/bootstrap.css" rel="stylesheet">
-    <link href="{{ .Site.BaseURL }}css/site.css" rel="stylesheet">
-    <link href="{{ .Site.BaseURL }}font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ .Site.BaseURL }}css/jquery.oembed.css" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    {{- partial "head.html" . -}}
 </head>
 
 <body lang="{{ .Site.Params.Lang }}">
-    <!-- do the nav, do the nav! -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-                <a class="pull-left" href="/">
-                    <img alt="DevOpsDays logo" src="/img/devopsdays-brain.png" width="75px" />
-                </a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/events">Events</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/sponsor">Sponsor</a></li>
-                    <li><a href="/speaking">Speaking</a></li>
-                    <li><a href="/organizing">Organizing</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span> <span class="hidden-sm hidden-md hidden-lg">Search</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Search Modal -->
-    <div id="modalSearch" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Search DevOpsDays</h4>
-                </div>
-                <div class="modal-body">
-                    <script>
-                        (function() {
-                            var cx = '008769174023796316711:pj3syggtkz0';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                        })();
-                    </script>
-                    <gcse:search></gcse:search>
-                    <!-- These styles fix CSE and Bootstrap 3 conflict -->
-                    <style type="text/css">
-                        .reset-box-sizing,
-                        .reset-box-sizing *,
-                        .reset-box-sizing *:before,
-                        .reset-box-sizing *:after,
-                        .gsc-inline-block {
-                            -webkit-box-sizing: content-box;
-                            -moz-box-sizing: content-box;
-                            box-sizing: content-box;
-                        }
-
-                        input.gsc-input,
-                        .gsc-input-box,
-                        .gsc-input-box-hover,
-                        .gsc-input-box-focus,
-                        .gsc-search-button {
-                            box-sizing: content-box;
-                            line-height: normal;
-                        }
-                    </style>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container-fluid">
+  {{- partial "global_navbar.html" . -}}
+  <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2">
-                EVENTS NEAR ME<br />
-                PAST EVENTS<br />
-                {{- partial "future.html" . -}}
-            </div>
-            <div class="col-md-8">
+          {{ if .IsPage }}
+
+            {{ $url_path := split $.Permalink "/" }}
+            {{ if eq (index $url_path 3) "events" }}
+              <div class="col-md-12">
+                  <!-- Main Content -->
+                  {{- block "main" . }} {{- end -}}
+              </div>
+            {{ else }}
+              <div class="col-md-8 push-md-2">
+                  <!-- Main Content -->
+                  {{- block "main" . }} {{- end -}}
+              </div>
+              <div class="col-md-2 pull-md-8">
+                  <a href = "/past" class="left-nav-navs">PAST EVENTS</a><br />
+                  {{- partial "future.html" . -}}
+              </div>
+            {{ end }}
+          {{ else }}
+            <div class="col-md-8 push-md-2">
                 <!-- Main Content -->
                 {{- block "main" . }} {{- end -}}
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 pull-md-8">
+                <a href = "/events" class="left-nav-navs">PAST EVENTS</a><br />
+                {{- partial "future.html" . -}}
             </div>
+        {{ end }}
         </div>
     </div>
 
-    <div class="navbar navbar-default navbar-bottom">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-2">
-                    <h3>EVENTS NEAR ME</h3></br>
-                    PAST</br>
-                    CURRENT</br>
-                    UPCOMING</br>
-                </div>
-                <div class="col-md-2">
-                    <h3>FEATURED</h3>
-                    <b>Chicago 2017</b>
-                    <i>Summit West - 15 October 2017</i>
-                </div>
-                <div class="col-md-2">
-                  <h3>BLOG</h3>
-                  {{- range first 1 (where .Site.Pages "Type" "blog") -}}
-                    <b><a href = "{{ .Permalink }}">{{ .Title }}</a></b><br />
-                    {{- if isset .Params "author" -}}
-                      <i>by {{ .Params.author }} - {{ dateFormat "02 January, 2006" .Date }}</i>
-                    {{- else -}}
-                      <i>{{ dateFormat "02 January, 2006" .Date }}</i>
-                    {{- end -}}
-                    <p>
-                        {{ .Summary }}
-                    </p>
-                  {{- end -}}
+    {{- partial "footer.html" . -}}
+    {{- partial "footer_scripts.html" . -}}
 
-                </div>
-                <div class="col-md-2">
-                    <h3>@DEVOPSDAYS</h3>
-                    <div>
-                        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/devopsdays/lists/devopsdays" data-chrome="noheader" height="440"></a>
-
-                        <script>
-                            ! function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0],
-                                    p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = p + "://platform.twitter.com/widgets.js";
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
-                </div>
-                <div class="col-md-2">
-
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-    <script src="{{ .Site.BaseURL }}js/jquery.oembed.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-      $( "#accordion" ).accordion(); // TODO: should only be included on program pages
-    </script>
-
-    <script>
-        $(function() {
-            $("a.embed").oembed();
-        });
-    </script>
-    <script>
-        (function() {
-            var cx = '008769174023796316711:pj3syggtkz0';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    </script>
 </body>
 
 </html>

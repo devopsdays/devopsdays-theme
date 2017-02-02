@@ -1,5 +1,3 @@
 ln -s /opt/build/repo /opt/build/devopsdays-theme
 cd exampleSite
-../bin/hugo version
-../bin/hugo -v --theme=devopsdays-theme --buildDrafts=false --baseURL="/"
-
+hugo_0.18 --theme=devopsdays-theme --buildDrafts=false --baseURL="/"

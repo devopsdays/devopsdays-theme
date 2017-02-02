@@ -8,10 +8,10 @@ talk_end_time = ""
 title = "Magic in Your Pipeline"
 type = "talk"
 speakers = ["twilight-sparkle"]
-youtube = ""
+youtube = "emGKB8TABvI"
 vimeo = ""
-speakerdeck = ""
-slideshare = ""
+speakerdeck = "http://speakerdeck.com/mattstratton/shifting-left-securely"
+slideshare = "http://www.slideshare.net/mattstratton/the-five-love-languages-of-devops-54549536"
 slides = ""
 +++
 

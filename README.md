@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/devopsdays/devopsdays-theme.svg?branch=master)](https://travis-ci.org/devopsdays/devopsdays-theme)
 [![GitHub release](https://img.shields.io/github/release/devopsdays/devopsdays-theme.svg)](https://github.com/qubyte/rubidium/releases)
 [![license](https://img.shields.io/github/license/devopsdays/devopsdays-theme.svg)]()
+[![Greenkeeper badge](https://badges.greenkeeper.io/devopsdays/devopsdays-theme.svg)](https://greenkeeper.io/)
 
 [![Stories in Ready](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=ready&title=Ready)](http://waffle.io/devopsdays/devopsdays-theme) [![Stories in Progress](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=in%progress&title=In%20Progress)](http://waffle.io/devopsdays/devopsdays-theme) [![Needs Review](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=needs-review&title=Needs%20Review)](http://waffle.io/devopsdays/devopsdays-theme)
 
@@ -10,19 +11,23 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 [![Throughput Graph](https://graphs.waffle.io/devopsdays/devopsdays-theme/throughput.svg)](https://waffle.io/devopsdays/devopsdays-theme/metrics)
 
 # devopsdays-theme
-devopsdays-theme is a the Hugo theme the [DevOpsDays](https://www.devopsdays.org) website.
+
+devopsdays-theme is the Hugo theme for the [DevOpsDays](https://www.devopsdays.org) website.
+
+# QA Testing the New Theme
+While we are in development, your help is appreciated in identifying outstanding issues or defects. Please browse through the example site at https://dev.devopsdays.org, and if you idenfity something that is broken or missing, please [log an issue](https://github.com/devopsdays/devopsdays-theme/issues). We may mark it as a duplicate, etc, but log anything you find that seems wrong or broken.
 
 # Theme Layout
-Bear in mind that theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
+Bear in mind that this theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
 
 # New Features
 
 ## Frontpage Logo
 
-On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the brain logo is displayed instead.
+On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the default logo is displayed instead.
 
 ## Program Page
-A new template is being created to generate a program page. A work in progress example can be seen at http://devopsdays-theme.netlify.com/events/2016-chicago/program/
+A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
 This is an opt-in feature; the page will need to be set for the type of program in order to generate it.
 
@@ -48,41 +53,44 @@ Working with a Hugo theme outside of a content-based repo has a few challenges. 
 themesdir = "../.."
 ```
 
-This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or better. V0.18 of Hugo is scheduled to be released on Dec 19, 2016, but in the meantime, you will need to build the site using the version of Hugo installed in the `bin` directory of `devopsdays-theme`. The binary `bin/hugo` is compiled for Linux, the binary `bin/hugo-osx` is compiled for OS X, and the binary `bin/hugo.exe` is compiled for Windows.
+This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or later.
 
-You will need to modify your watch command to use this new binary; use something like this:
+You will need to run your watch command from the `exampleSite` directory; use something like this:
 
 ```
-~/src/devopsdays-theme/bin/hugo-osx server -b="http://localhost:1313" -w
+hugo server -w --baseUrl="http://localhost:1313"
 ```
 
 ## Contributing
 Please submit your proposed changes as a Pull Request against this repository. If the PR will resolve an issue, please add `Fixes #123` to the PR.
 
 ## v3 Design
-The design and layout can be found in [here](https://drive.google.com/file/d/0BzljU_vIF4BoOHhLV2Yzd2xicEk/view?usp=sharing). A style guide will be added shortly.
+The design and layout can be found in [here](https://drive.google.com/file/d/0BzljU_vIF4BoOHhLV2Yzd2xicEk/view?usp=sharing). Please refer to the [Style Guide](https://github.com/devopsdays/devopsdays-theme/blob/master/STYLE.md) for all colors, fonts, and sizes of text elements, etc.
 
 ## Design Principles
 
 ### Blocks
 All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
 
-### CSS and LESS
-All CSS must be generated with LESS. The LESS files are located in `static/less`, with two exceptions, `static/site_variables.less` and `static/site.less`.
+### CSS and SCSS
+All CSS must be generated with SCSS. The LESS files are located in `static/scss`.
 
-#### `site_variables.less`
-This is the only place you should declare custom LESS variables that our LESS files will use. Currently, `static/less/bootstrapp.less` has a single modification, which is to include `@import "../site_variables.less";`. If the version of Bootstrap is ever updated, this change must be re-added.
+#### `site.scss`
+This is the file that imports all the other SCSS files, including Bootstrap, font-awesome (TBD; it seems that BS 4 brings this in for us), and the jquery oembed. It also imports our custom variables and any other customizations.
 
-#### `site.less`
-This is the only place you should declare custom LESS or CSS code.
+#### `custom-variables.scss`
+Use this to set any SCSS variables, or to over-ride any variables used by Bootstrap.
+
+#### `custom.scss`
+This is the only place you should declare custom SCSS or CSS code.
 
 ## Continuous Integration
-The `devopsdays-theme` repo has hooks into Travis, Appveyor and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
+The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
 
-All changes are built by Netlify to http://devopsdays-theme.netlify.com
+All changes are built by Netlify to https://dev.devopsdays.org
 
 ### Asset Pipeline
-There is no current asset processing in place, but the intent is to add some, to provide HTML minification as well as image optimization. This is currently an outstanding task, tracked in [Issue #10](https://github.com/devopsdays/devopsdays-theme/issues/10) and [Issue #11](https://github.com/devopsdays/devopsdays-theme/issues/11).
+Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp is only called when changes are merged to master. Pull requests, and local changes will not trigger gulp.
 
 # Releasing `devopsdays-theme`
 
@@ -105,5 +113,7 @@ Once the Travis build has succeeded, update the changelog:
 This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
 - [Home Page](http://devopsdays-theme.netlify.com/)
 - [Event Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/welcome/)
-- [Talk Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/adam-jacob/)
+- [Talk Page with Single Speaker](http://devopsdays-theme.netlify.com/events/2017-hoofington/program/twilight-sparkle/)
+- [Talk Page With Multiple Speakers](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/rainbow-dash/)
+- [Speaker Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/speakers/fluttershy/)
 - [Program Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/)

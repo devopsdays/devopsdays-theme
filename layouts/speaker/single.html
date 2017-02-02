@@ -4,7 +4,7 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{ $city_slug := substr $e.name 5 }}
-<br />
+{{- partial "event_navbar.html" . -}}
 
 <div class = "row">
   <div class = "col-md-12">
@@ -41,7 +41,7 @@
     {{- end -}}
   </div>
   <div class = "col-md-6">
-    <img src = "/events/{{ $event_slug }}/speakers/{{ .File.BaseFileName }}.png" class="img-responsive" />
+    <img src = "/events/{{ $event_slug }}/speakers/{{ .File.BaseFileName }}.png" class="img-fluid" alt = "{{ .Title }}"/>
   </div>
 </div>
 <div class = "row">
@@ -66,6 +66,8 @@
     {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
   </div>
 </div>
+
+{{ partial "sponsors.html" . }}
 
 
 
