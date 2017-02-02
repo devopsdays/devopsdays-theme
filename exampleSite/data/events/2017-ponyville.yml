@@ -153,44 +153,54 @@ sponsor_levels:
   - id: lanyard
     label: Lanyard
 
-speakers:
-  - id: "abejide-ayodele"
-    level: talk
-  - id: "adam-jacob"
-    level: talk
-  - id: "alison-stanton"
-    level: talk
-  - id: "allie-richards"
-    level: talk
-  - id: "angela-dugan"
-    level: talk
-  - id: "brian-henerey"
-    level: talk
-  - id: "heidi-waterhouse"
-    level: talk
-  - id: "jamesha-fisher"
-    level: talk
-  - id: "jeff-smith"
-    level: talk
-  - id: "jeremy-edberg"
-    level: talk
-  - id: "jill-jubinski"
-    level: talk
-  - id: "joel-vasallo"
-    level: talk
-  - id: "joshua-zimmerman"
-    level: talk
-  - id: "ken-mugrage"
-    level: talk
-  - id: "michael-stahnke"
-    level: talk
-  - id: "morgan-rhodes"
-    level: talk
-  - id: "nell-shamrell-harrington"
-    level: talk
-  - id: "rebecca-miller-webster"
-    level: talk
-
-speaker_levels:
-  - id: talk
-    label: Talk
+program:
+  - title: "Registration, Breakfast, and Sponsor Booths Open"
+    type: custom
+    date: 2017-02-12
+    start_time: "08:00"
+    end_time: "09:00"
+  - title: "Opening Welcome"
+    type: custom
+    date: 2017-02-12
+    start_time: "09:15"
+    end_time: "09:00"
+  - title: "rainbow-dash"
+    type: talk
+    date: 2017-02-12
+    start_time: "09:15"
+    end_time: "09:45"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-02-12
+    start_time: "09:45"
+    end_time: "09:55"
+  - title: "apple-jack"
+    type: talk
+    date: 2017-02-12
+    start_time: "09:55"
+    end_time: "10:25"
+  - title: "Break"
+    type: custom
+    date: 2017-02-12
+    start_time: "10:25"
+    end_time: "10:40"
+  - title: "fluttershy"
+    type: talk
+    date: 2017-02-12
+    start_time: "10:40"
+    end_time: "11:10"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-02-12
+    start_time: "11:10"
+    end_time: "11:20"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-02-12
+    start_time: "11:20"
+    end_time: "11:50"
+  - title: "Lunch (catered)"
+    type: custom
+    date: 2017-02-12
+    start_time: "11:50"
+    end_time: "13:00"

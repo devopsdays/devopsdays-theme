@@ -1,194 +1,121 @@
 {{ define "main" }}
 
-{{/* site data query copypasta */}}
+<h2>Program Data Test</h2>
+
 {{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
-{{/* end site data query */}}
 
-<!-- the main program -->
+{{- range where $.Site.Pages "Type" "talk" -}}
+  {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+  {{- $talk_slug := index $talk_path 1 -}}
+  {{- if eq $talk_slug $event_slug -}}
+    {{- $.Scratch.Set "base_file_name" .File.BaseFileName }}
+    {{- $.Scratch.Set .File.BaseFileName .Title -}}
+    {{ if isset .Params "speakers" }}
+      {{ if ne .Params.speakers ""}}
+        {{ $.Scratch.Set "speaker_len" (.Params.speakers | len) }}
+        {{ $.Scratch.Set "speaker_count" 0 }}
+      {{ end }}
+    {{ end }}
+    {{- range .Params.speakers -}}
+      {{ $.Scratch.Set "speaker_count" (add ($.Scratch.Get "speaker_count") 1)}}
+      {{ $.Scratch.Set "speakername" . }}
+      {{- range where $.Site.Pages "Type" "speaker" -}}
+        {{- $speaker_path := split .File.Path .Site.Params.pathseperator -}}
+        {{- $speaker_slug := index $speaker_path 1 -}}
+        {{- if eq $speaker_slug $event_slug -}}
+          {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}
+            {{- $.Scratch.Add (printf "%s-speaker" ($.Scratch.Get "base_file_name")) .Title -}}
+            {{- if ne ($.Scratch.Get "speaker_count") ($.Scratch.Get "speaker_len") -}}
+              {{- $.Scratch.Add (printf "%s-speaker" ($.Scratch.Get "base_file_name")) ", " -}}
+            {{- end -}}
+          {{ end }}
+        {{- end -}} <!-- end if eq $speaker_slug $event_slug -->
+      {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+    {{- end -}}<!-- end ranging over speakers -->
+
+  {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+{{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+
   <button class="accordion">{{- dateFormat "January 2, 2006" $e.startdate -}}</button>
-  <div class="panel">
+  <div class = "panel">
+
     <div class = "row">
-      <div class = "col-md-4"><!-- first column -->
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:00-09:15AM
-          </div>
-          <div class = "col-md-6">
-            Opening Welcome
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:15-09:45AM
-          </div>
-          <div class = "col-md-6">
-            <b>Session 1 Title</b><br />
-            <i>Speaker Name</i>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-      </div>
-      <div class = "col-md-4">
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:00-09:15AM
-          </div>
-          <div class = "col-md-6">
-            Opening Welcome
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:15-09:45AM
-          </div>
-          <div class = "col-md-6">
-            <b>Session 1 Title</b><br />
-            <i>Speaker Name</i>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
+      <div class = "col-md-6"><!-- first column -->
+          {{ with $e }}
+          {{ if .program }}
+              {{- $.Scratch.Set "program_len" (.program | len) -}}
+              {{- $.Scratch.Set "program_counter" 0 -}}
+              {{- range where .program "date" $e.startdate -}}
+                {{- $.Scratch.Set "program_counter" (add ($.Scratch.Get "program_counter") 1) }}
+                <div class = "row">
+                  <div class = "col-md-6">
+                    {{ .start_time }} - {{ .end_time }}
+                  </div>
+                  <div class = "col-md-6">
+                    {{ if eq .type "custom" }}
+                      {{ .title }}<br />
+                    {{ else }}
+                    <a href = "/events/{{ $event_slug}}/program/{{ .title }}">
+                      {{ $.Scratch.Get (printf "%s-speaker" .title) }} -
+                      {{ $.Scratch.Get .title }}
+                    </a><br />
+                    {{ end }}
+                  </div>
+                </div>
+                {{- if eq (div ($.Scratch.Get "program_len") 2) ($.Scratch.Get "program_counter") }}
+                </div>
+                <div class = "col-md-6">
+                {{- end -}}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
       </div>
     </div>
   </div>
+  <!--show second page if not a one-day event -->
+  {{ if ne $e.startdate $e.enddate}}
   <button class="accordion">{{- dateFormat "January 2, 2006" $e.enddate -}}</button>
-  <div class="panel">
+  <div class = "panel">
+
     <div class = "row">
-      <div class = "col-md-4"><!-- first column -->
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:00-09:15AM
-          </div>
-          <div class = "col-md-6">
-            Opening Welcome
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:15-09:45AM
-          </div>
-          <div class = "col-md-6">
-            <b>Session 1 Title</b><br />
-            <i>Speaker Name</i>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-      </div>
-      <div class = "col-md-4">
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:00-09:15AM
-          </div>
-          <div class = "col-md-6">
-            Opening Welcome
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            09:15-09:45AM
-          </div>
-          <div class = "col-md-6">
-            <b>Session 1 Title</b><br />
-            <i>Speaker Name</i>
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
-        <div class = "row">
-          <div class = "col-md-6">
-            08:00-09:00AM
-          </div>
-          <div class = "col-md-6">
-            Registration, Breakfast, Booths Open
-          </div>
-        </div>
+      <div class = "col-md-6"><!-- first column -->
+          {{ with $e }}
+          {{ if .program }}
+              {{- $.Scratch.Set "program_len" (.program | len) -}}
+              {{- $.Scratch.Set "program_counter" 0 -}}
+              {{- range where .program "date" $e.enddate -}}
+                {{- $.Scratch.Set "program_counter" (add ($.Scratch.Get "program_counter") 1) }}
+                <div class = "row">
+                  <div class = "col-md-6">
+                    {{ .start_time }} - {{ .end_time }}
+                  </div>
+                  <div class = "col-md-6">
+                    {{ if eq .type "custom" }}
+                      {{ .title }}<br />
+                    {{ else }}
+                    <a href = "/events/{{ $event_slug}}/program/{{ .title }}">
+                      {{ $.Scratch.Get (printf "%s-speaker" .title) }} -
+                      {{ $.Scratch.Get .title }}
+                    </a><br />
+                    {{ end }}
+                  </div>
+                </div>
+                {{- if eq (div ($.Scratch.Get "program_len") 2) ($.Scratch.Get "program_counter") }}
+                </div>
+                <div class = "col-md-6">
+                {{- end -}}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
       </div>
     </div>
   </div>
+{{ end }}
+
 <div class = "row">
   <div class = "col-md-12">
     <h3>Ignite Sessions</h3>
