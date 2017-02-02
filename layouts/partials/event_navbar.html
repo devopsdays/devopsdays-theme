@@ -1,6 +1,8 @@
+{{/* site data query copypasta */}}
 {{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
 {{ $event_slug := index $path 1 }}
-
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
 
 <nav class="navbar navbar-toggleable-md navbar-light">
 
@@ -9,6 +11,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/index">{{ $e.city }}</a></li>
       <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/program">Program</a></li>
       <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/register">Register</a></li>
       <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/speakers">Speakers</a></li>
