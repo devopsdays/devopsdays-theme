@@ -5,10 +5,10 @@
 {{/* end site data query */}}
 
 <div class="row">
+
     <div class="col-xs-12 col-md-8">
-        {{ if $e.city }}
-          <h2>DevOpsDays {{ $e.city }}</h2>
-        {{ end }}
+
+
         {{ if $e.startdate }}
           {{- if ne $e.startdate $e.enddate }}
             {{- dateFormat "January 2" $e.startdate -}} - {{- dateFormat "2, 2006" $e.enddate -}}
@@ -17,33 +17,44 @@
           {{- end }}
         {{ end }}
         <br />
+
         {{if $e.location }}
           <span>{{- $e.location -}}</span>
           <br />
         {{ end }}
+
+        {{ if $e.description }}
+          {{ $e.description | markdownify }}
+           <br /><br />
+        {{ end }}
+</div>
+
+ <div class="col-xs-12 col-md-4">
+        {{ partial "events/cta.html" . }}
+    </div>
+
+ <div class="col-xs-12 col-md-8">
+
         {{if $e.city }}
           {{- $.Scratch.Set "past-counter" 0 -}}
           {{- range sort $.Site.Data.events "startdate" -}}
           {{- if .startdate -}} <!-- for some reason, it bails on the city Chicago, and also Paris -->
               {{- if eq (lower .city) (lower $e.city) -}}
                 {{- if ne .startdate $e.startdate -}}
-                  <i>Past {{ $e.city }} Events</i><br />
+<i>Past {{ $e.city }} Events</i><br />
                   {{- $.Scratch.Set "past-counter" 1 -}}
                 {{- end -}}
-              {{- end -}}
               {{- if eq (lower .city) (lower $e.city)}}
                 {{- if ne .startdate $e.startdate -}}
-                  <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> <br />
+                  <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> &nbsp;&nbsp; 
                 {{- end -}}
+              {{- end -}}
               {{- end -}}
             {{- end -}}
           {{- end -}}
-          <br />
+          <br /><br />
         {{ end }}
-        {{ partial "events/cta.html" . }}
-        {{ if $e.description }}
-          {{ $e.description | markdownify }}
-        {{ end }}
+
 
     </div>
     <div class="col-xs-12 col-md-4">
