@@ -2,7 +2,7 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence');
 
 gulp.task('default', function (callback) {
-  runSequence('responsive-images', 'copy-js', 'copy-css', 'process-html', 'revision', 'revision-update', 'copy-static-files',
+  runSequence('copy-js', 'copy-css', 'copy-html', 'revision', 'revision-update', 'copy-static-files',
     callback
   )
 })
