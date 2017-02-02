@@ -21,3 +21,10 @@ gulp.task('copy-static-files', function(callback) {
         callback
     )
 })
+
+gulp.task('copy-images', function(callback) {
+    return gulp.src(['public/**/*.png', 'public/**/*.jpg',
+            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*'
+        ])
+        .pipe(gulp.dest('staging'));
+})
