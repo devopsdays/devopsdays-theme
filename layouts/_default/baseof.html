@@ -12,8 +12,8 @@
         <div class="row">
           {{ if .IsPage }}
 
-            {{ $my_path := split $.Source.File.Path .Site.Params.pathseperator }}
-            {{ if eq (index $my_path 0) "events" }}
+            {{ $url_path := split $.Permalink "/" }}
+            {{ if eq (index $url_path 3) "events" }}
               <div class="col-md-12">
                   <!-- Main Content -->
                   {{- block "main" . }} {{- end -}}
