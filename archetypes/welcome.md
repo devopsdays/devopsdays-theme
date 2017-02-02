@@ -1,5 +1,5 @@
 +++
 Description = ""
 Title = ""
-Type = "event"
+Type = "welcome"
 +++
