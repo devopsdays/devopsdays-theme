@@ -18,10 +18,17 @@
         <h4 class="left-nav-months">{{ dateFormat "January" .startdate }}</h4>
         {{- $.Scratch.Set "month-displayed" "true" -}}
       {{- end -}}
+      {{- if ne .startdate .enddate }}
       <a href = "/events/{{ .name }}/welcome" class = "left-nav-event">
         {{ dateFormat "Jan 2" .startdate }} - {{ dateFormat "Jan 2" .enddate }}
         {{ .city }}
       </a><br />
+      {{- else -}}
+      <a href = "/events/{{ .name }}/welcome" class = "left-nav-event">
+        {{ dateFormat "Jan 2" .startdate }}
+        {{ .city }}
+      </a><br />
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

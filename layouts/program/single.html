@@ -40,6 +40,7 @@
 
   <button class="accordion">{{- dateFormat "January 2, 2006" $e.startdate -}}</button>
   <div class = "panel">
+
     <div class = "row">
       <div class = "col-md-6"><!-- first column -->
           {{ with $e }}
@@ -78,6 +79,7 @@
   {{ if ne $e.startdate $e.enddate}}
   <button class="accordion">{{- dateFormat "January 2, 2006" $e.enddate -}}</button>
   <div class = "panel">
+
     <div class = "row">
       <div class = "col-md-6"><!-- first column -->
           {{ with $e }}
@@ -113,7 +115,6 @@
     </div>
   </div>
 {{ end }}
-
 
 <div class = "row">
   <div class = "col-md-12">
