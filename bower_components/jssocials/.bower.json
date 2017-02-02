@@ -1,0 +1,40 @@
+{
+  "name": "jssocials",
+  "version": "1.4.0",
+  "main": [
+    "dist/jssocials.js",
+    "dist/jssocials.css",
+    "dist/jssocials-theme-flat.css"
+  ],
+  "ignore": [
+    "demo",
+    "test",
+    ".editorconfig",
+    ".gitignore",
+    ".jshintrc",
+    ".travis.yml",
+    "bower.json",
+    "contributing.md",
+    "Gruntfile.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": ">=1.10.2"
+  },
+  "devDependencies": {
+    "qunit": ">=1.12.0"
+  },
+  "homepage": "https://github.com/tabalinas/jssocials",
+  "_release": "1.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.4.0",
+    "commit": "0ea13a483f9a9781b7339a875f5feacf7ae18b74"
+  },
+  "_source": "https://github.com/tabalinas/jssocials.git",
+  "_target": "^1.4.0",
+  "_originalSource": "jssocials",
+  "_direct": true
+}

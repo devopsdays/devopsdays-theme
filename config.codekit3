@@ -3612,6 +3612,192 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/bower_components\/jssocials\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jssocials\/.npmignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/.npmignore",
+		"oF": 0
+		},
+	"\/bower_components\/jssocials\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials-theme-classic.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials-theme-classic.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials-theme-flat.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials-theme-flat.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials-theme-minima.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials-theme-minima.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials-theme-plain.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials-theme-plain.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/jssocials\/dist\/jssocials.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/dist\/jssocials.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/jssocials\/src\/jssocials.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/src\/jssocials.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/jssocials\/src\/jssocials.shares.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/src\/jssocials.shares.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/jssocials\/styles\/_shares.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/jssocials\/styles\/_shares.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/jssocials\/styles\/jssocials-theme-classic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/styles\/jssocials-theme-classic.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/jssocials\/styles\/jssocials-theme-flat.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/jssocials\/styles\/jssocials-theme-flat.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/jssocials\/styles\/jssocials-theme-minima.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/styles\/jssocials-theme-minima.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/jssocials\/styles\/jssocials-theme-plain.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jssocials\/styles\/jssocials-theme-plain.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/bower_components\/jssocials\/styles\/jssocials.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/jssocials\/styles\/jssocials.scss",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/bower_components\/markerwithlabel-v3\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -8015,6 +8201,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/LICENSES\/BOOSTRAP-SORTABLE-MIT-LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSES\/BOOSTRAP-SORTABLE-MIT-LICENSE",
+		"oF": 0
+		},
+	"\/LICENSES\/BOOTSTRAP-MIT-LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSES\/BOOTSTRAP-MIT-LICENSE",
+		"oF": 0
+		},
+	"\/LICENSES\/HUGO-SNIPPETS-MIT-LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSES\/HUGO-SNIPPETS-MIT-LICENSE",
+		"oF": 0
+		},
+	"\/LICENSES\/MOMENT-MIT-LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/LICENSES\/MOMENT-MIT-LICENSE",
 		"oF": 0
 		},
 	"\/netlify.toml": {
