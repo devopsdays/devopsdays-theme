@@ -41,6 +41,9 @@
           <br />
         {{ end }}
         {{ partial "events/cta.html" . }}
+        {{ if $e.description }}
+          {{ $e.description | markdownify }}
+        {{ end }}
 
     </div>
     <div class="col-xs-12 col-md-4">
