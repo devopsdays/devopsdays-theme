@@ -156,51 +156,51 @@ sponsor_levels:
 program:
   - title: "Registration, Breakfast, and Sponsor Booths Open"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "08:00"
     end_time: "09:00"
   - title: "Opening Welcome"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "09:15"
     end_time: "09:00"
   - title: "rainbow-dash"
     type: talk
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "09:15"
     end_time: "09:45"
   - title: "Sponsors"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "09:45"
     end_time: "09:55"
   - title: "apple-jack"
     type: talk
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "09:55"
     end_time: "10:25"
   - title: "Break"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "10:25"
     end_time: "10:40"
   - title: "fluttershy"
     type: talk
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "10:40"
     end_time: "11:10"
   - title: "Sponsors"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "11:10"
     end_time: "11:20"
   - title: "twilight-sparkle"
     type: talk
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "11:20"
     end_time: "11:50"
   - title: "Lunch (catered)"
     type: custom
-    date: 2016-01-01
+    date: 2017-02-12
     start_time: "11:50"
     end_time: "13:00"
