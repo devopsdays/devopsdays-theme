@@ -17,6 +17,7 @@ registration_open: "true"
 registration_link: ""
 cfp_open: "true"
 cfp_link: ""
+description: "It's time for more DevOpsDays at Ponyville!"
 
 # navigationelements: ["welcome", "contact", "location", "program", "propose", "proposals", "conduct", "sponsor"]
 nav_elements:
