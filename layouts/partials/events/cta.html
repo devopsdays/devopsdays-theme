@@ -1,0 +1,47 @@
+{{/* site data query copypasta */}}
+{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $event_slug := index $path 1 }}
+{{ $e :=  (index $.Site.Data.events $event_slug) }}
+{{/* end site data query */}}
+<!-- register button -->
+{{ if $e.registration_open }}
+  {{ if eq $e.registration_open "true" }}
+    {{ if $e.registration_link }}
+      {{ if eq $e.registration_link "" }}
+        {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
+      {{ else }}
+        {{ $.Scratch.Set "registration_link" $e.registration_link }}
+      {{ end }}
+    {{ else }}
+      {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
+
+  {{ end }}
+    <a href="{{ $.Scratch.Get "registration_link" }}" class="btn btn-primary active" role="button" aria-pressed="true">Register</a>
+  {{ end }}
+{{ end }}
+
+<!-- propose button -->
+<!-- register button -->
+{{ if $e.cfp_open }}
+  {{ if eq $e.cfp_open "true" }}
+    {{ if $e.cfp_link }}
+      {{ if eq $e.cfp_link "" }}
+        {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
+      {{ else }}
+        {{ $.Scratch.Set "cfp_link" $e.cfp_link }}
+      {{ end }}
+    {{ else }}
+      {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
+
+  {{ end }}
+    <a href="{{ $.Scratch.Get "cfp_link" }}" class="btn btn-primary active" role="button" aria-pressed="true">Propose</a>
+  {{ end }}
+{{ end }}
+
+<!-- follow on twitter button -->
+{{ if $e.event_twitter }}
+  {{ if ne $e.event.twitter "" }}
+  <a href="https://twitter.com/{{$e.event_twitter}}" class="btn btn-primary active" role="button" aria-pressed="true">Follow</a>
+  {{ end }}
+{{ end }}
+<div id="share"></div>
