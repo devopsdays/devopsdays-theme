@@ -4,12 +4,15 @@
 // @codekit-prepend '../../bower_components/jquery-oembed-all/jquery.oembed.js'
 // @codekit-prepend '../../bower_components/bootstrap-sortable/bootstrap-sortable.js'
 // @codekit-prepend '../../bower_components/moment/moment.js'
+// @codekit-prepend '../../bower_components/jssocials/dist/jssocials.js'
+
 
 // accordion
 
 // $( function() {
 //   $( "#accordion" ).accordion();
 // } );
+
 
 var acc = document.getElementsByClassName("accordion");
 var i;
