@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h2>Program Data Test</h2>
+<h2>Program</h2>
 
 {{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
 {{ $event_slug := index $path 1 }}
@@ -52,7 +52,9 @@
       <div class = "col-md-6"><!-- first column -->
           {{ with $e }}
           {{ if .program }}
-              {{- $.Scratch.Set "program_len" (.program | len) -}}
+              {{ $program := (where .program "date" $e.startdate) }}
+              {{ $program_len := (len $program) }}
+              {{- $.Scratch.Set "program_len" $program_len -}}
               {{- $.Scratch.Set "program_counter" 0 -}}
               {{- range where .program "date" $e.startdate -}}
                 {{- $.Scratch.Set "program_counter" (add ($.Scratch.Get "program_counter") 1) }}
@@ -91,7 +93,9 @@
       <div class = "col-md-6"><!-- first column -->
           {{ with $e }}
           {{ if .program }}
-              {{- $.Scratch.Set "program_len" (.program | len) -}}
+              {{ $program := (where .program "date" $e.startdate) }}
+              {{ $program_len := (len $program) }}
+              {{- $.Scratch.Set "program_len" $program_len -}}
               {{- $.Scratch.Set "program_counter" 0 -}}
               {{- range where .program "date" $e.enddate -}}
                 {{- $.Scratch.Set "program_counter" (add ($.Scratch.Get "program_counter") 1) }}
@@ -130,9 +134,17 @@
 </div>
 <div class = "row">
   <div class = "col-md-6">
-    <h4>August 30, 2016</h4>
+    <h4>{{- dateFormat "January 2, 2006" $e.startdate -}}</h4>
     <div class = "row">
       <div class = "col-md-4">
+        {{ with $e }}
+        {{ if .program }}
+            {{ $program := where (.program "date" $e.startdate) }}
+            {{ $ignites := where ($program "type" "ignite") }}
+            {{ $program_len := (len $ignites) }}
+            {{ $program_len }}
+          {{ end }}
+        {{ end }}
         <ul>
           <li>
             Ignite number 1<br />
