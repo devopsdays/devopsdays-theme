@@ -8,6 +8,7 @@
       {{- if ne ($.Scratch.Get "month") (dateFormat "January" .startdate ) -}}
         {{- $.Scratch.Set "month" (dateFormat "January" .startdate ) -}}
         {{- $.Scratch.Set "month-displayed" "false" -}}
+<br />
       {{- end -}}
       {{- if ne ($.Scratch.Get "year-displayed") "true" -}}
         <h3 class="left-nav-year">{{ dateFormat "2006" .startdate }}</h3>
