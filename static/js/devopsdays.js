@@ -2,6 +2,8 @@
 // @codekit-prepend '../../bower_components/tether/dist/js/tether.js'
 // @codekit-prepend '../../bower_components/bootstrap/dist/js/bootstrap.js'
 // @codekit-prepend '../../bower_components/jquery-oembed-all/jquery.oembed.js'
+// @codekit-prepend '../../bower_components/bootstrap-sortable/bootstrap-sortable.js'
+// @codekit-prepend '../../bower_components/moment/moment.js'
 
 // accordion
 

@@ -37,7 +37,9 @@
     "bootstrap": "4.0.0-alpha.6",
     "jquery-oembed-all": "*",
     "markerwithlabel-v3": "^1.1.10",
-    "font-awesome": "fontawesome#^4.7.0"
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap-sortable": "^2.0.1",
+    "moment": "momentjs#^2.17.1"
   },
   "resolutions": {
     "bootstrap": "4.0.0-alpha.6"
