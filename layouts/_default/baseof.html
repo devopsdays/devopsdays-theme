@@ -10,6 +10,25 @@
   {{- partial "global_navbar.html" . -}}
   <div class="container-fluid">
         <div class="row">
+          {{ if .IsPage }}
+
+            {{ $my_path := split $.Source.File.Path .Site.Params.pathseperator }}
+            {{ if eq (index $my_path 0) "events" }}
+              <div class="col-md-12">
+                  <!-- Main Content -->
+                  {{- block "main" . }} {{- end -}}
+              </div>
+            {{ else }}
+              <div class="col-md-8 push-md-2">
+                  <!-- Main Content -->
+                  {{- block "main" . }} {{- end -}}
+              </div>
+              <div class="col-md-2 pull-md-8">
+                  <a href = "/past" class="left-nav-navs">PAST EVENTS</a><br />
+                  {{- partial "future.html" . -}}
+              </div>
+            {{ end }}
+          {{ else }}
             <div class="col-md-8 push-md-2">
                 <!-- Main Content -->
                 {{- block "main" . }} {{- end -}}
@@ -18,6 +37,7 @@
                 <a href = "/past" class="left-nav-navs">PAST EVENTS</a><br />
                 {{- partial "future.html" . -}}
             </div>
+        {{ end }}
         </div>
     </div>
 
