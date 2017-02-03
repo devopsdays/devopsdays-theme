@@ -2,10 +2,14 @@
 <meta property="og:title" content="{{ title .Title }}" />
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-{{- with .Params.images -}}{{- range first 1 . -}}
-	<meta property="og:image" content="{{ . }}" />
-{{- end -}}{{- end -}}
+<meta property="og:url" content="{{ $.Site.Params.weburl }}{{ .Permalink }}" />
+{{ if .IsHome }}
+  <meta property="og:image" content="{{ $.Site.Params.weburl }}/img/event-logo-default.png" />
+{{ else }}
+  {{- with .Params.images -}}{{- range first 1 . -}}
+  	<meta property="og:image" content="{{ $.Site.Params.weburl }}/{{ . }}" />
+  {{- end -}}{{- end -}}
+{{- end -}}
 
 <!-- Optional Open Graph Markup -->
 <meta property="og:updated_time" content="{{ .Date }}"/>
@@ -30,6 +34,3 @@
 {{- with .Params.tags -}}{{- range first 6 . -}}
 	<meta property="article:tag" content="{{ . }}" />
 {{- end -}}{{- end -}}
-
-<!-- Facebook Page Admin ID for Domain Insights -->
-{{- with .Site.Params.social.facebook_admin -}}<meta property="fb:admins" content="{{ . }}" />{{- end -}}
