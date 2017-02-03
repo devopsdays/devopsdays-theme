@@ -255,6 +255,44 @@ program:
     date: 2017-02-13
     start_time: "11:50"
     end_time: "13:00"
-  - title: "My ignite"
-    type: ignite
+ignites:
+  - title: "spike"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-12
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
+    date: 2017-02-13
+  - title: "Something about something"
     date: 2017-02-13

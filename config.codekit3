@@ -7945,28 +7945,10 @@
 		"oAP": "\/layouts\/blog\/summary.html",
 		"oF": 0
 		},
-	"\/layouts\/event\/single.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/event\/single.html",
-		"oF": 0
-		},
-	"\/layouts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/index.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/blog_pagination.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/blog_pagination.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/event_navbar.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/event_navbar.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/footer.html": {
@@ -8057,18 +8039,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/speaking.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/sponsors.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/sponsors.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/welcome.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/welcome.html",
 		"oF": 0
 		},
 	"\/layouts\/section\/blog.html": {
