@@ -12,6 +12,7 @@ PaginatePath = "blog"
 buildDrafts = false
 # Language support
 defaultContentLanguage = "en"
+weburl = "https://dev.devopsdays.org"
 
 [languages.en]
 weight = 0
