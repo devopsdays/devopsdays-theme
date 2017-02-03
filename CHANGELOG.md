@@ -2,16 +2,84 @@
 
 ## [Unreleased](https://github.com/devopsdays/devopsdays-theme/tree/HEAD)
 
-[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.5.1...HEAD)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.0...HEAD)
 
 **Implemented enhancements:**
 
+- Add google analytics support [\#136](https://github.com/devopsdays/devopsdays-theme/issues/136)
+
+## [0.6.0](https://github.com/devopsdays/devopsdays-theme/tree/0.6.0) (2017-02-03)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.5.1...0.6.0)
+
+**Implemented enhancements:**
+
+- Add dynamic CTA buttons to event hompages [\#162](https://github.com/devopsdays/devopsdays-theme/issues/162)
+- consolidate JS & CSS from speaking page [\#158](https://github.com/devopsdays/devopsdays-theme/issues/158)
 - Allow for non-square sponsor images [\#139](https://github.com/devopsdays/devopsdays-theme/issues/139)
+- Add social sharing buttons for pages [\#138](https://github.com/devopsdays/devopsdays-theme/issues/138)
+- Add event twitter handle to data file [\#132](https://github.com/devopsdays/devopsdays-theme/issues/132)
+- Optimize social graph data in headers [\#128](https://github.com/devopsdays/devopsdays-theme/issues/128)
+- Update speaking page [\#117](https://github.com/devopsdays/devopsdays-theme/issues/117)
+- Create events page [\#116](https://github.com/devopsdays/devopsdays-theme/issues/116)
+- Create sponsor info page [\#74](https://github.com/devopsdays/devopsdays-theme/issues/74)
+- Add structured metadata for events [\#69](https://github.com/devopsdays/devopsdays-theme/issues/69)
+- Remove dependency on "welcome.md" [\#63](https://github.com/devopsdays/devopsdays-theme/issues/63)
+- add a description element to the frontmatter for a blog post [\#54](https://github.com/devopsdays/devopsdays-theme/issues/54)
+- Make program page template dynamic [\#37](https://github.com/devopsdays/devopsdays-theme/issues/37)
 - Refactor homepage event grid [\#31](https://github.com/devopsdays/devopsdays-theme/issues/31)
+
+**Fixed bugs:**
+
+- fix aspect ratio for brain in header [\#177](https://github.com/devopsdays/devopsdays-theme/issues/177)
+- Add support for ignites in data file [\#171](https://github.com/devopsdays/devopsdays-theme/issues/171)
+- Event images don't center on mobile devices  [\#154](https://github.com/devopsdays/devopsdays-theme/issues/154)
+- Make homepage grid depend upon value in data file [\#149](https://github.com/devopsdays/devopsdays-theme/issues/149)
+- Event level nav menu doesn't collapse [\#146](https://github.com/devopsdays/devopsdays-theme/issues/146)
+- single-day events don't display properly [\#135](https://github.com/devopsdays/devopsdays-theme/issues/135)
+- process-html gulp task takes a really long time [\#130](https://github.com/devopsdays/devopsdays-theme/issues/130)
+- Need bottom padding on all navs [\#106](https://github.com/devopsdays/devopsdays-theme/issues/106)
 
 **Closed issues:**
 
+- Consider adding bower\_component to .gitignore [\#172](https://github.com/devopsdays/devopsdays-theme/issues/172)
+- make city name as well as image linkable on front page [\#133](https://github.com/devopsdays/devopsdays-theme/issues/133)
+- Have global nav driven from config.toml menu [\#126](https://github.com/devopsdays/devopsdays-theme/issues/126)
 - Add Travis build step [\#17](https://github.com/devopsdays/devopsdays-theme/issues/17)
+
+**Merged pull requests:**
+
+- Add basic GA tracking [\#190](https://github.com/devopsdays/devopsdays-theme/pull/190) ([mattstratton](https://github.com/mattstratton))
+- Add social graph headers [\#188](https://github.com/devopsdays/devopsdays-theme/pull/188) ([mattstratton](https://github.com/mattstratton))
+- Add structured metadata to events [\#187](https://github.com/devopsdays/devopsdays-theme/pull/187) ([mattstratton](https://github.com/mattstratton))
+- Remove collapse from event level navbar [\#186](https://github.com/devopsdays/devopsdays-theme/pull/186) ([mattstratton](https://github.com/mattstratton))
+- Fix aspect ration on brain header [\#184](https://github.com/devopsdays/devopsdays-theme/pull/184) ([mattstratton](https://github.com/mattstratton))
+- Tweak program page\#171 [\#183](https://github.com/devopsdays/devopsdays-theme/pull/183) ([mattstratton](https://github.com/mattstratton))
+- Changing to logo squares to jpg [\#178](https://github.com/devopsdays/devopsdays-theme/pull/178) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Event updates [\#176](https://github.com/devopsdays/devopsdays-theme/pull/176) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Untrack bower\_components [\#175](https://github.com/devopsdays/devopsdays-theme/pull/175) ([mattstratton](https://github.com/mattstratton))
+- Removes dependency on welcome.md filename [\#174](https://github.com/devopsdays/devopsdays-theme/pull/174) ([mattstratton](https://github.com/mattstratton))
+- Mattstratton/add dynamic program [\#173](https://github.com/devopsdays/devopsdays-theme/pull/173) ([mattstratton](https://github.com/mattstratton))
+- Display single-day events correctly [\#170](https://github.com/devopsdays/devopsdays-theme/pull/170) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Make sidebar not show up on events page [\#169](https://github.com/devopsdays/devopsdays-theme/pull/169) ([mattstratton](https://github.com/mattstratton))
+- Add dynamic CTA buttons on welcome pages [\#168](https://github.com/devopsdays/devopsdays-theme/pull/168) ([mattstratton](https://github.com/mattstratton))
+- Event page [\#166](https://github.com/devopsdays/devopsdays-theme/pull/166) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Disable sidebar on event pages [\#165](https://github.com/devopsdays/devopsdays-theme/pull/165) ([mattstratton](https://github.com/mattstratton))
+- Make social sharing less obnoxious [\#164](https://github.com/devopsdays/devopsdays-theme/pull/164) ([mattstratton](https://github.com/mattstratton))
+- Add social sharing capability [\#163](https://github.com/devopsdays/devopsdays-theme/pull/163) ([mattstratton](https://github.com/mattstratton))
+- add copy images task [\#161](https://github.com/devopsdays/devopsdays-theme/pull/161) ([mattstratton](https://github.com/mattstratton))
+- Squish js css speaking\#158 [\#160](https://github.com/devopsdays/devopsdays-theme/pull/160) ([mattstratton](https://github.com/mattstratton))
+- Speaking page [\#157](https://github.com/devopsdays/devopsdays-theme/pull/157) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Update netlify commands [\#156](https://github.com/devopsdays/devopsdays-theme/pull/156) ([mattstratton](https://github.com/mattstratton))
+- Make city names clickable on homepage [\#155](https://github.com/devopsdays/devopsdays-theme/pull/155) ([mattstratton](https://github.com/mattstratton))
+- Change homepage grid images\#149 [\#152](https://github.com/devopsdays/devopsdays-theme/pull/152) ([mattstratton](https://github.com/mattstratton))
+- Change homepage grid images\#149 [\#151](https://github.com/devopsdays/devopsdays-theme/pull/151) ([mattstratton](https://github.com/mattstratton))
+- Whitespace cleanup [\#148](https://github.com/devopsdays/devopsdays-theme/pull/148) ([mattstratton](https://github.com/mattstratton))
+- Add support for Description to blog posts [\#147](https://github.com/devopsdays/devopsdays-theme/pull/147) ([mattstratton](https://github.com/mattstratton))
+- Change menu to be driven from config.toml [\#145](https://github.com/devopsdays/devopsdays-theme/pull/145) ([mattstratton](https://github.com/mattstratton))
+- Fix preprod [\#144](https://github.com/devopsdays/devopsdays-theme/pull/144) ([mattstratton](https://github.com/mattstratton))
+- Remove gulp from deploy previews [\#143](https://github.com/devopsdays/devopsdays-theme/pull/143) ([mattstratton](https://github.com/mattstratton))
+- Remove html min for speed [\#131](https://github.com/devopsdays/devopsdays-theme/pull/131) ([mattstratton](https://github.com/mattstratton))
+- Greenkeeper/initial [\#129](https://github.com/devopsdays/devopsdays-theme/pull/129) ([mattstratton](https://github.com/mattstratton))
 
 ## [0.5.1](https://github.com/devopsdays/devopsdays-theme/tree/0.5.1) (2017-01-30)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.4.1...0.5.1)
