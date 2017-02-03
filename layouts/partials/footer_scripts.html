@@ -3,6 +3,14 @@
   {{  $.Scratch.Set "twitter_handle" "devopsdays" }}
   {{  $.Scratch.Set "sharing_title" "DevOpsDays" }}
 {{ end }}
+
+<!-- set strutured metadata -->
+{{ if .IsPage }}
+  {{ if or (eq .Type "welcome") (eq .Type "event") }}
+    {{ partial "events/event_metadata.html" . }}
+  {{ end }}
+{{ end }}
+<!-- end metadata -->
 <script src="/js/devopsdays-min.js"></script>
 <!-- <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1bvNK9qFJGEhoWNbQuojmJJ1Tg0DoOew&callback=initMap">
