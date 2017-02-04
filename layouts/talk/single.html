@@ -66,7 +66,7 @@
         <h2>Speaker</h2>
       {{- end -}}
     {{- end -}}
-  {{- end -}}
+
 
   {{ range .Params.speakers }}
     {{ $.Scratch.Set "speakername" . }}
@@ -89,6 +89,26 @@
       {{- end -}} <!-- end if eq $talk_slug $event_slug -->
     {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
   {{ end }}
+  {{ else }}<!-- now show the old stuff -->
+  <h2>Speaker</h2>
+  {{ range $fname, $s := index .Site.Data.speakers (print (chomp $e.year)) $city_slug }}
+  {{ if in ($.LinkTitle | urlize) $fname }}
+<div class="row">
+   <div class="col-md-12">
+       <img alt = "{{ $s.name }}" src = "/events/{{ $event_slug }}/speakers/{{$fname}}.jpg" class="img-responsive" width = "250px">
+   </div>
+</div>
+<div class = "row">
+   <div class= "col-md-8">
+      <h3>{{ $s.name }}</h3>
+      {{ if $s.twitter }} <a href="https://twitter.com/{{ $s.twitter }}">@{{ $s.twitter }}</a><br>{{ end }}
+    <br>
+    {{ $s.bio | markdownify }}
+   </div>
+</div>
+  {{ end }}
+{{ end }}
+{{- end -}} <!-- end check for speakers being set -->
 </div>
 </div>
 
