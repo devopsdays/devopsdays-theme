@@ -41,7 +41,14 @@
     {{- end -}}
   </div>
   <div class = "col-md-6">
-    <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="speaker image"/>
+    {{ if isset .Params "image" }}
+      {{ if ne .Params.image "" }}
+        <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="speaker image"/><br />
+      {{ end }}
+      {{ else }}
+        <img src = "/img/speaker-default.jpg" class="img-fluid"  alt="speaker image"/><br />
+    {{ end }}
+    <!-- <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="speaker image"/> -->
   </div>
 </div>
 <div class = "row">
