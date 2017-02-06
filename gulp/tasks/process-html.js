@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 gulp.task('process-html', function(callback) {
-    runSequence('copy-html', 'retina-html',
+    runSequence('retina-html', 'min-html',
         callback
     )
 })
@@ -18,17 +18,17 @@ var retinaOpts = {
     // Your options here.
 };
 
-// gulp.task('min-html', function() {
-//     return gulp.src('public/**/*.html')
-//         .pipe(htmlmin({
-//             collapseWhitespace: true
-//         }))
-//         .pipe(gulp.dest('staging'));
-// })
+gulp.task('min-html', function() {
+    return gulp.src('public/**/*.html')
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('staging'));
+})
 // min-html was taking forever
 
 gulp.task('retina-html', function() {
-    return gulp.src(['staging/**/*.html'])
+    return gulp.src(['public/**/*.html'])
         .pipe(imgRetina(retinaOpts))
         .on('error', function(e) {
             console.log(e.message);
