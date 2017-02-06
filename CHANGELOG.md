@@ -1,12 +1,20 @@
 # Change Log
 
-## [Unreleased](https://github.com/devopsdays/devopsdays-theme/tree/HEAD)
-
-[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.0...HEAD)
+## [0.6.1](https://github.com/devopsdays/devopsdays-theme/tree/0.6.1) (2017-02-05)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.0...0.6.1)
 
 **Implemented enhancements:**
 
 - Add google analytics support [\#136](https://github.com/devopsdays/devopsdays-theme/issues/136)
+
+**Fixed bugs:**
+
+- events with the same dates don't show on main site sidebar [\#140](https://github.com/devopsdays/devopsdays-theme/issues/140)
+
+**Merged pull requests:**
+
+- Fix release stuff for travis [\#196](https://github.com/devopsdays/devopsdays-theme/pull/196) ([mattstratton](https://github.com/mattstratton))
+- Make old-style talks compatible [\#191](https://github.com/devopsdays/devopsdays-theme/pull/191) ([mattstratton](https://github.com/mattstratton))
 
 ## [0.6.0](https://github.com/devopsdays/devopsdays-theme/tree/0.6.0) (2017-02-03)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.5.1...0.6.0)
