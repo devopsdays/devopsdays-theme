@@ -4880,7 +4880,7 @@
 		"opt": 1
 		},
 	"\/static\/scss\/custom-variables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -4893,7 +4893,7 @@
 		"uL": 1
 		},
 	"\/static\/scss\/custom.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -4906,7 +4906,7 @@
 		"uL": 1
 		},
 	"\/static\/scss\/site.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -6822,7 +6822,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},

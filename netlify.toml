@@ -3,8 +3,8 @@
 [context.production]
 #  command = "bin/netlify-production.sh"
 #  publish = "exampleSite/dist"
-   command = "bin/netlify.sh"
-   publish = "exampleSite/public/"
+   command = "bin/netlify-production.sh"
+   publish = "exampleSite/dist/"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
