@@ -12,7 +12,7 @@
     <div class="row">
         {{- range sort $.Site.Data.events "startdate" -}}
           {{- if .startdate -}}
-            {{- if ge (dateFormat "2006-01-02" .startdate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
+            {{- if ge (dateFormat "2006-01-02" .enddate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
                 <div class="col-md-3 homepage-grid-col">
                   <a href = "/events/{{ .name }}">
                     {{- if .event_logo_square }}
