@@ -75,6 +75,7 @@
       {{- $talk_slug := index $talk_path 1 -}}
       {{- if eq $talk_slug $event_slug -}}
         {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}
+        <a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
             <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid"  alt="speaker image"/><br />
@@ -82,7 +83,7 @@
           {{ else }}
             <img src = "/img/speaker-default.png" class="img-fluid"  alt="speaker image"/><br />
         {{ end }}
-          <a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}"><b>{{ .Title }}</a></b><br />
+          <b>{{ .Title }}</a></b><br />
           {{ .Content }}
         {{ end }}
 
