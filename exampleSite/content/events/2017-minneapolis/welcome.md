@@ -6,6 +6,7 @@ aliases = ["/events/2017-minneapolis"]
 
 +++
 
+**devopsdays is returning to {{< event_location >}} for a fourth year!**
 
 <div class = "row">
   <div class = "col-md-2">

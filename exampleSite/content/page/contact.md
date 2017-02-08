@@ -13,5 +13,6 @@ The devopsdays global core team guides local organizers in hosting their own dev
 
 **Core Organizers**
 
+{{< list_core >}}
 
 If you have questions about hosting your own event or about potential future events you don't see listed, [email the core organizers](mailto:info@devopsdays.org). The core organizers cannot answer questions about sponsorships or registration for individual cities.
