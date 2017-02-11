@@ -4099,12 +4099,6 @@
 		"oAP": "\/layouts\/404.html",
 		"oF": 0
 		},
-	"\/layouts\/_default\/baseof.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/_default\/baseof.html",
-		"oF": 0
-		},
 	"\/layouts\/_default\/list.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4133,12 +4127,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/events\/single.html",
-		"oF": 0
-		},
-	"\/layouts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/index.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/blog_pagination.html": {
@@ -4175,12 +4163,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/footer_scripts.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/future.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/future.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/global_navbar.html": {
@@ -4231,22 +4213,10 @@
 		"oAP": "\/layouts\/partials\/head_includes.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/map.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/map.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/meta.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/meta.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/past.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/past.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/search_modal.html": {
@@ -4391,12 +4361,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/speaking\/single.html",
-		"oF": 0
-		},
-	"\/layouts\/talk\/single.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/talk\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/welcome\/single.html": {
@@ -4771,11 +4735,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/static\/img\/speaker-default.png": {
-		"ft": 32768,
-		"iS": 201388,
+	"\/static\/img\/speaker-default.jpg": {
+		"ft": 16384,
+		"iS": 92454,
 		"oA": 1,
-		"oAP": "\/static\/img\/speaker-default.png",
+		"oAP": "\/static\/img\/speaker-default.jpg",
 		"oF": 0,
 		"opt": 0
 		},
