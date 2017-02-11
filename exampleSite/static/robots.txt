@@ -1,2 +1,5 @@
+# robots.txt for https://dev.devopsdays.org/
 User-Agent: *
+# Remove the / to allow all robots
 Disallow: /
+# Sitemap: https://www.devopsdays.org/sitemap.xml
