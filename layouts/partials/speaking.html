@@ -9,7 +9,7 @@
     {{ if ge (dateFormat "2006-01-02" .cfp_date_end) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) }}
       {{ $.Scratch.Add "events" "<tr><td><a href = '/events/" }}
       {{ $.Scratch.Add "events" .name }}
-      {{ $.Scratch.Add "events" "/welcome' class = 'speaking'>" }}
+      {{ $.Scratch.Add "events" "/' class = 'speaking'>" }}
       {{ $.Scratch.Add "events" .city }}
       {{ $.Scratch.Add "events" "</a></td><td data-dateformat='YYYY-MM-DD'>&nbsp;&nbsp;" }}
       {{ $.Scratch.Add "events" .cfp_date_end}}
