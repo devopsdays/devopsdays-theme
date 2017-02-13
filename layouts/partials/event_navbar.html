@@ -12,16 +12,15 @@
   <!-- <div class="collapse navbar-collapse event-nav" id="eventNavBar"> -->
     <ul class="navbar-nav mr-auto collapse">
       <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/">{{ $e.city }}</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/program">Program</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/register">Register</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/speakers">Speakers</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/sponsor">Sponsor</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/volunteer">Volunteer</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/location">Location</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/contact">Contact</a></li>
-      <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/conduct">Conduct</a></li>
-
-
+{{ if $e.nav_elements }}
+          {{ range $e.nav_elements }}
+            {{ if .url }}
+              <li class="nav-item event-navigation"><a class="nav-link" href="{{ .url}}">{{ .name }}</a></li>
+            {{ else }}
+              <li class="nav-item event-navigation"><a class="nav-link" href="/events/{{ $event_slug }}/{{ .name }}">{{ .name }}</a></li>
+            {{ end }}
+         {{ end }}
+{{ end }}
     </ul>
   <!-- </div> -->
 </nav>
