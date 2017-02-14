@@ -19,28 +19,28 @@ weight = 0
 languageName = "English"
 
 [[languages.en.menu.main]]
-  name = "contact"
-  url = "/contact"
-  weight = -150
-[[languages.en.menu.main]]
   name = "events"
   url = "/events"
-  weight = -140
+  weight = -150
 [[languages.en.menu.main]]
   name = "blog"
   url = "/blog"
-  weight = -130
+  weight = -140
 [[languages.en.menu.main]]
   name = "sponsor"
   url = "/sponsor"
-  weight = -120
+  weight = -130
 [[languages.en.menu.main]]
   name = "speaking"
   url = "/speaking"
-  weight = -110
+  weight = -120
 [[languages.en.menu.main]]
   name = "organizing"
   url = "/organizing"
+  weight = -110
+[[languages.en.menu.main]]
+  name = "about"
+  url = "/about"
   weight = -100
 
 [languages.es]
@@ -49,28 +49,28 @@ languageName = "español"
 title = "los dias de devops"
 
 [[languages.es.menu.main]]
-  name = "contact"
-  url = "/contact"
-  weight = -150
-[[languages.es.menu.main]]
   name = "events"
   url = "/events"
-  weight = -140
+  weight = -150
 [[languages.es.menu.main]]
   name = "blog"
   url = "/blog"
-  weight = -130
+  weight = -140
 [[languages.es.menu.main]]
   name = "sponsor"
   url = "/sponsor"
-  weight = -120
+  weight = -130
 [[languages.es.menu.main]]
   name = "speaking"
   url = "/speaking"
-  weight = -110
+  weight = -120
 [[languages.es.menu.main]]
   name = "organizing"
   url = "/organizing"
+  weight = -110
+[[languages.es.menu.main]]
+  name = "about"
+  url = "/about"
   weight = -100
 # Set to "/" on *nix and Mac, "\\" on Windows
 # Refer to https://github.com/spf13/hugo/issues/2394 for more information
