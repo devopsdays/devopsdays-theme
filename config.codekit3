@@ -4099,6 +4099,12 @@
 		"oAP": "\/layouts\/404.html",
 		"oF": 0
 		},
+	"\/layouts\/_default\/baseof.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/_default\/baseof.html",
+		"oF": 0
+		},
 	"\/layouts\/_default\/list.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4109,6 +4115,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/_default\/single.html",
+		"oF": 0
+		},
+	"\/layouts\/about\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/about\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/blog\/summary.html": {
@@ -4129,16 +4141,22 @@
 		"oAP": "\/layouts\/events\/single.html",
 		"oF": 0
 		},
+	"\/layouts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/index.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/about.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/blog_pagination.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/blog_pagination.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/event_navbar.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/event_navbar.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/events\/cta.html": {
@@ -4213,22 +4231,28 @@
 		"oAP": "\/layouts\/partials\/head_includes.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/map.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/meta.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/meta.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/past.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/past.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/search_modal.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/search_modal.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/speaking.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/speaking.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/sponsors.html": {
@@ -4309,12 +4333,6 @@
 		"oAP": "\/layouts\/shortcodes\/event_start.html",
 		"oF": 0
 		},
-	"\/layouts\/shortcodes\/event_twitter.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/shortcodes\/event_twitter.html",
-		"oF": 0
-		},
 	"\/layouts\/shortcodes\/list_core.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -4361,6 +4379,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/speaking\/single.html",
+		"oF": 0
+		},
+	"\/layouts\/talk\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/talk\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/welcome\/single.html": {
