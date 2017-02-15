@@ -20,10 +20,10 @@
       <a href = "{{ .Permalink }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="speaker image"/><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.jpg" class="img-fluid"  alt="speaker image"/><br />
+            <img src = "/img/speaker-default.jpg" class="img-fluid"  alt="{{ .Title }}"/><br />
         {{ end }}
         {{ .Title }}
       </a>

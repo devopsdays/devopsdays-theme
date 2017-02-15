@@ -17,11 +17,11 @@
                   <a href = "/events/{{ .name }}">
                     {{- if .event_logo_square }}
                       {{- if ne .event_logo_square "" }}
-                        <img src = "/events/{{ .name }}/{{ .event_logo_square }}" class="img-fluid"/>
+                        <img src = "/events/{{ .name }}/{{ .event_logo_square }}" class="img-fluid" alt="DevOpsDays {{ .city }}"/>
 
                       {{- end -}}
                       {{- else -}}
-                        <img src="/img/event-logo-default.png" class="img-fluid"/>
+                        <img src="/img/event-logo-default.png" class="img-fluid" alt="DevOpsDays {{ .city }}"/>
                     {{- end -}}
                   </a>
                     <br/>
