@@ -16,17 +16,27 @@
   {{- $speaker_slug := index $speaker_path 1 -}}
   {{- if eq $speaker_slug $event_slug -}}
     <!-- Now we can display stuff! -->
-    <div class="col-md-3">
+    <div class="col-lg-3">
+      <div class = "card">
+        <div class = "card-block">
+
+
+
       <a href = "{{ .Permalink }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}"/><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="card-img-top img-fluid" alt="{{ .Title }}"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.jpg" class="img-fluid"  alt="{{ .Title }}"/><br />
+            <img src = "/img/speaker-default.jpg" class="card-img-top img-fluid"  alt="{{ .Title }}"/><br />
         {{ end }}
-        {{ .Title }}
       </a>
+      <div class = "card-block">
+        <a href = "{{ .Permalink }}"><h3 class="card-title speakers-page">{{ .Title }}</h3></a>
+        <span class="speakers-page">{{ .Content }}</span>
+      </div>
+      </div>
+      </div>
     </div>
     {{ if modBool ($.Scratch.Get "i") 4 }}
       </div>
