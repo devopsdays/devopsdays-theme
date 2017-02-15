@@ -78,10 +78,10 @@
         <a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid"  alt="speaker image"/><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid"  alt="{{ $.Scratch.Get "speakername" }}"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.png" class="img-fluid"  alt="speaker image"/><br />
+            <img src = "/img/speaker-default.png" class="img-fluid"  alt="{{ $.Scratch.Get "speakername" }}"/><br />
         {{ end }}
           <b>{{ .Title }}</a></b><br />
           {{ .Content }}
