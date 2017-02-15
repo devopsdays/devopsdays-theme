@@ -7,12 +7,12 @@
 {{- partial "event_navbar.html" . -}}
 
 <div class = "row">
-  <div class = "col-md-12">
+  <div class = "col-md-12 offset-md-1">
     <h2>{{ .Title }}</h2>
   </div>
 </div>
 <div class = "row">
-  <div class = "col-md-6">
+  <div class = "col-md-4 offset-md-1">
     {{ .Content }}
     {{- if isset .Params "pronouns" -}}
       {{- if ne .Params.pronouns "" -}}
@@ -40,7 +40,7 @@
       {{- end -}}
     {{- end -}}
   </div>
-  <div class = "col-md-6">
+  <div class = "col-md-3 offset-md-1">
     {{ if isset .Params "image" }}
       {{ if ne .Params.image "" }}
         <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}"/><br />
