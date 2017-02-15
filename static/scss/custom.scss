@@ -8,6 +8,10 @@ body {
   font-size: 1em;
 }
 
+a {
+  color: #0082AB;
+}
+
 .event-logo-homepage {
     position:relative;
     padding: 0;
@@ -136,6 +140,16 @@ a.footer-content {
 
 .sponsor-image {
 
+}
+
+.sponsor-cta {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+a.sponsor-cta {
+  color: #0082AB;
 }
 
 /* Homepage */
@@ -344,4 +358,8 @@ h3.speakers-page {
   font-size: 1.5em;
   font-weight: 300;
   text-transform: capitalize;
+}
+img.speakers-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

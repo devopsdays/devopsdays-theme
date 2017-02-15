@@ -15,28 +15,36 @@
   {{- $speaker_path := split .File.Path .Site.Params.pathseperator -}}
   {{- $speaker_slug := index $speaker_path 1 -}}
   {{- if eq $speaker_slug $event_slug -}}
+
+  {{ $bio := .Content }}
+  {{ $subStr := split $bio " "}}
+  {{ $subStrLen := len $subStr }}
+  {{ if ge $subStrLen 51 }}
+      {{ $subStrTrim := first 51 $subStr }}
+      {{ $.Scratch.Set "bio" (delimit ($subStrTrim) " ") }}
+      {{ $.Scratch.Add "bio" "..." }}
+  {{ else }}
+    {{ $.Scratch.Set "bio" .Content }}
+  {{ end }}
+
     <!-- Now we can display stuff! -->
-    <div class="col-lg-3">
-      <div class = "card">
-        <div class = "card-block">
+    <div class="col-lg-3 col-md-6">
 
 
 
       <a href = "{{ .Permalink }}">
         {{ if isset .Params "image" }}
           {{ if ne .Params.image "" }}
-            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="card-img-top img-fluid" alt="{{ .Title }}"/><br />
+            <img src = "/events/{{ $event_slug }}/speakers/{{ .Params.image }}" class="speakers-page img-fluid" alt="{{ .Title }}"/><br />
           {{ end }}
           {{ else }}
-            <img src = "/img/speaker-default.jpg" class="card-img-top img-fluid"  alt="{{ .Title }}"/><br />
+            <img src = "/img/speaker-default.jpg" class="speakers-page img-fluid"  alt="{{ .Title }}"/><br />
         {{ end }}
       </a>
-      <div class = "card-block">
+
         <a href = "{{ .Permalink }}"><h3 class="card-title speakers-page">{{ .Title }}</h3></a>
-        <span class="speakers-page">{{ .Content }}</span>
-      </div>
-      </div>
-      </div>
+        <span class="speakers-page">{{ ($.Scratch.Get "bio") | markdownify }}</span>
+
     </div>
     {{ if modBool ($.Scratch.Get "i") 4 }}
       </div>
