@@ -8,18 +8,36 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-This project includes bootstrap and which is available under a 'MIT' License.
+This project includes bootstrap, which is available under a 'MIT' License.
 For details, see:
 /LICENSES/BOOTSTRAP-MIT-LICENSE
 
-This project includes bootstrap-sortable and which is available under a 'MIT' License.
+This project includes bootstrap-sortable, which is available under a 'MIT' License.
 For details, see:
 /LICENSES/BOOTSTRAP-SORTABLE-LICENSE
 
-This project includes hugo-snippets and which is available under a 'MIT' License.
+This project includes hugo-snippets, which is available under a 'MIT' License.
 For details, see:
 /LICENSES/HUGO-SNIPPETS-MIT-LICENSE
 
-This project includes moment and which is available under a 'MIT' License.
+This project includes moment, which is available under a 'MIT' License.
 For details, see:
 /LICENSES/MOMENT-MIT-LICENSE
+
+This project includes jssocials, which is available under a 'MIT' License.
+For details, see:
+/LICENSES/JSSOCIALS-MIT-LICENSE
+
+This project includes fonts from Font Awesome, which are available under a 'SIL OFL 1.1' license.
+For details, see http://fontawesome.io/license/
+
+This project includes font-awesome, which is available under a 'MIT' license.
+For details, see http://fontawesome.io/license/
+
+This project includes jquery, which is available under a 'MIT' license.
+For details, see
+/LICENSES/JQUERY-MIT-LICENSE
+
+This project includes portions of the v3-utility-library for Google Maps, which is available under a 'Apache 2' license.
+For details, see
+/LICENSES/V3-UTILITY-LIBRARY-APACHE-LICENSE
