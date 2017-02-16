@@ -1,5 +1,54 @@
 # Change Log
 
+## [0.7.0](https://github.com/devopsdays/devopsdays-theme/tree/0.7.0) (2017-02-16)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.1...0.7.0)
+
+**Implemented enhancements:**
+
+- Add jssocials to license file [\#195](https://github.com/devopsdays/devopsdays-theme/issues/195)
+- Speaker image should be clickable on talk page [\#194](https://github.com/devopsdays/devopsdays-theme/issues/194)
+- Change from png to jpg for images as much as possible [\#150](https://github.com/devopsdays/devopsdays-theme/issues/150)
+- Move "past events" from top of sidebar to bottom [\#142](https://github.com/devopsdays/devopsdays-theme/issues/142)
+- Add styling to talk page [\#58](https://github.com/devopsdays/devopsdays-theme/issues/58)
+- Add styling to individual speaker page [\#57](https://github.com/devopsdays/devopsdays-theme/issues/57)
+- Add styling to speakers page [\#56](https://github.com/devopsdays/devopsdays-theme/issues/56)
+
+**Fixed bugs:**
+
+- Update image references with alt tags for accessiblity [\#217](https://github.com/devopsdays/devopsdays-theme/issues/217)
+- Speaker images are way too big on speaker page [\#193](https://github.com/devopsdays/devopsdays-theme/issues/193)
+- Default speaker image is broken on speaker page [\#192](https://github.com/devopsdays/devopsdays-theme/issues/192)
+- Speakerdeck embed is throwing errors [\#96](https://github.com/devopsdays/devopsdays-theme/issues/96)
+
+**Closed issues:**
+
+- Provide a robots.txt [\#210](https://github.com/devopsdays/devopsdays-theme/issues/210)
+- prevent events from disappearing from main page after their first day [\#203](https://github.com/devopsdays/devopsdays-theme/issues/203)
+- adjust event page layout [\#179](https://github.com/devopsdays/devopsdays-theme/issues/179)
+
+**Merged pull requests:**
+
+- Update licenses [\#226](https://github.com/devopsdays/devopsdays-theme/pull/226) ([mattstratton](https://github.com/mattstratton))
+- Style talk page [\#225](https://github.com/devopsdays/devopsdays-theme/pull/225) ([mattstratton](https://github.com/mattstratton))
+- Make some more things pretty [\#224](https://github.com/devopsdays/devopsdays-theme/pull/224) ([mattstratton](https://github.com/mattstratton))
+- Add styling to speaker and speakers pages [\#223](https://github.com/devopsdays/devopsdays-theme/pull/223) ([mattstratton](https://github.com/mattstratton))
+- Change divs on speaker page to make image not so bad [\#222](https://github.com/devopsdays/devopsdays-theme/pull/222) ([mattstratton](https://github.com/mattstratton))
+- Add alt tags to all images [\#219](https://github.com/devopsdays/devopsdays-theme/pull/219) ([mattstratton](https://github.com/mattstratton))
+- Navigation improvements [\#216](https://github.com/devopsdays/devopsdays-theme/pull/216) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Updating about page to clarify distributed nature [\#215](https://github.com/devopsdays/devopsdays-theme/pull/215) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Changing event twitter to use data file [\#213](https://github.com/devopsdays/devopsdays-theme/pull/213) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Updating content [\#209](https://github.com/devopsdays/devopsdays-theme/pull/209) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Updates [\#208](https://github.com/devopsdays/devopsdays-theme/pull/208) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Syncing with content from prod [\#207](https://github.com/devopsdays/devopsdays-theme/pull/207) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Syncing up data files [\#206](https://github.com/devopsdays/devopsdays-theme/pull/206) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Sync from live site [\#205](https://github.com/devopsdays/devopsdays-theme/pull/205) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Day two problems - fixed [\#204](https://github.com/devopsdays/devopsdays-theme/pull/204) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Syncing up with current. [\#202](https://github.com/devopsdays/devopsdays-theme/pull/202) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Moving past events to bottom of column [\#201](https://github.com/devopsdays/devopsdays-theme/pull/201) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Adding clickable speaker image to talk page. [\#200](https://github.com/devopsdays/devopsdays-theme/pull/200) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Re-add the gulp stuff for possible use in prod [\#199](https://github.com/devopsdays/devopsdays-theme/pull/199) ([mattstratton](https://github.com/mattstratton))
+- Tweak default speaker image code [\#198](https://github.com/devopsdays/devopsdays-theme/pull/198) ([mattstratton](https://github.com/mattstratton))
+
 ## [0.6.1](https://github.com/devopsdays/devopsdays-theme/tree/0.6.1) (2017-02-05)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.0...0.6.1)
 
