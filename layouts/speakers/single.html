@@ -42,7 +42,7 @@
         {{ end }}
       </a>
 
-        <a href = "{{ .Permalink }}"><h3 class="card-title speakers-page">{{ .Title }}</h3></a>
+        <h3 class="card-title speakers-page"><a href = "{{ .Permalink }}">{{ .Title }}</a></h3>
         <span class="speakers-page">{{ ($.Scratch.Get "bio") | markdownify }}</span>
 
     </div>

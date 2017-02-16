@@ -8,8 +8,8 @@
 
 
 <div class = "row">
-  <div class = "col-md-8">
-    <h2>{{ title .Title }}</h2>
+    <div class = "col-md-5 offset-md-1">
+    <h2 class="talk-page">{{ .Title }}</h2>
 
     {{ if isset .Params "youtube" }}
       {{ if ne .Params.youtube "" }}
@@ -23,25 +23,17 @@
           </div>
         {{ end }}
     {{ end }}
+    <br />
+    <h3 class="talk-page">Talk Abstract</h3>
 
-    <h3>Talk Abstract</h3>
-
-      <div>
+      <span class="talk-page">
         {{ .Content }}
-      </div>
-      {{ if isset .Params "speakerdeck" }}
-        {{ if ne .Params.speakerdeck ""}}
-          <div>
-            <h2>Speakerdeck</h2>
-            <a href="{{ .Params.speakerdeck}}" class="embed"></a>
-          </div>
-        {{ end }}
-      {{ end }}
+      </span>
 
       {{ if isset .Params "slideshare" }}
         {{ if ne .Params.slideshare ""}}
           <div>
-            <h2>Slideshare</h2>
+            <h2 class="talk-page">Slideshare</h2>
             <a href="{{ .Params.slideshare }}" class="embed"></a>
           </div>
         {{ end }}
@@ -50,20 +42,20 @@
       {{ if isset .Params "slides" }}
         {{ if ne .Params.slides ""}}
         <div>
-          <h2>Slides</h2>
+          <h2 class="talk-page">Slides</h2>
           <a href = "{{ .Params.slides }}">Link to Slides</a>
         </div>
         {{ end }}
       {{ end }}
 
   </div>
-<div class = "col-md-4">
+  <div class = "col-md-3 offset-md-1">
   {{- if isset .Params "speakers" -}}
     {{- if ne .Params.speakers "" -}}
       {{- if gt (.Params.speakers | len) 1 -}}
-        <h2>Speakers</h2>
+        <h2 class="talk-page">Speakers</h2>
       {{- else -}}
-        <h2>Speaker</h2>
+        <h2 class="talk-page">Speaker</h2>
       {{- end -}}
     {{- end -}}
 
@@ -83,15 +75,17 @@
           {{ else }}
             <img src = "/img/speaker-default.png" class="img-fluid"  alt="{{ $.Scratch.Get "speakername" }}"/><br />
         {{ end }}
-          <b>{{ .Title }}</a></b><br />
-          {{ .Content }}
+          <h4 class="talk-page"><a href = "/events/{{ $event_slug }}/speakers/{{ $.Scratch.Get "speakername" }}">
+            {{ .Title }}
+          </a></h4>
+          <span class="talk-page">{{ .Content }}</span>
         {{ end }}
 
       {{- end -}} <!-- end if eq $talk_slug $event_slug -->
     {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
   {{ end }}
   {{ else }}<!-- now show the old stuff -->
-  <h2>Speaker</h2>
+  <h2 class="talk-page">Speaker</h2>
   {{ range $fname, $s := index .Site.Data.speakers (print (chomp $e.year)) $city_slug }}
   {{ if in ($.LinkTitle | urlize) $fname }}
 <div class="row">
