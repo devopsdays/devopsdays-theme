@@ -31,6 +31,9 @@ A new template is being created to generate a program page. A work in progress e
 
 This is an opt-in feature; the page will need to be set for the type of program in order to generate it.
 
+## Social Sharing Images
+An event can create a sharing image for use on social media (when the url is shared on Facebook, for instance). This image must be named `sharing.jpg` and located in the `static/events/YYYY-CITY/` directory. It should be a minimum 1200 x 630px, and use ratio: 1.91:1.
+
 ## Blog
 Blog posts now support setting an "author" name in the frontmatter; for example, like this:
 
