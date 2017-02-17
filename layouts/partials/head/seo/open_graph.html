@@ -6,7 +6,7 @@
 {{ if or (eq .Type "welcome") (eq .Type "event") }}
   <meta property="og:image" content="{{ $.Site.Params.weburl }}{{ .Permalink | relURL }}sharing.jpg" />
 {{ else }}
-  <meta property="og:image" content="{{ $.Site.Params.weburl }}img/sharing.jpg" />  	
+  <meta property="og:image" content="{{ $.Site.Params.weburl }}/img/sharing.jpg" />  	
 {{- end -}}
 
 <!-- Optional Open Graph Markup -->
