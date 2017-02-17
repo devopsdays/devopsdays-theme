@@ -87,3 +87,4 @@ title = "los dias de devops"
   # Set to "/" on *nix and Mac, "\\" on Windows
   # Refer to https://github.com/spf13/hugo/issues/2394 for more information
   pathseperator = "/"
+  weburl = "https://dev.devopsdays.org"
