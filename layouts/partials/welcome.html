@@ -5,10 +5,13 @@
 {{/* end site data query */}}
 
 <div class="row">
+  <div class = "col-md-12 welcome-page-masthead">
 
+
+  <div class = "row">
     <div class="col-xs-12 col-md-8">
-      <h1>DevOpsDays {{$e.city}}</h1>
-
+      <h1 class = "welcome-page">DevOpsDays {{$e.city}}</h1>
+        <span class="welcome-page-date">
         {{ if $e.startdate }}
           {{- if ne $e.startdate $e.enddate }}
             {{- dateFormat "January 2" $e.startdate -}} - {{- dateFormat "2, 2006" $e.enddate -}}
@@ -16,6 +19,7 @@
             {{- dateFormat "January 2" $e.startdate -}}
           {{- end }}
         {{ end }}
+        </span>
         <br />
 
         {{if $e.location }}
@@ -27,14 +31,6 @@
           {{ $e.description | markdownify }}
            <br /><br />
         {{ end }}
-</div>
-
- <div class="col-xs-12 col-md-4">
-        {{ partial "events/cta.html" . }}
-    </div>
-
- <div class="col-xs-12 col-md-8">
-
 
         {{if $e.city }}
           {{- $.Scratch.Set "past-counter" 0 -}}
@@ -47,7 +43,7 @@
                 {{- end -}}
               {{- if eq (lower .city) (lower $e.city)}}
                 {{- if ne .startdate $e.startdate -}}
-                  <a href = "/events/{{ .name }}">{{ dateFormat "2006" .startdate }}</a> &nbsp;&nbsp;
+                  <a href = "/events/{{ .name }}" class="welcome-page-masthead-link">{{ dateFormat "2006" .startdate }}</a> &nbsp;&nbsp;
                 {{- end -}}
               {{- end -}}
               {{- end -}}
@@ -55,12 +51,13 @@
           {{- end -}}
           <br /><br />
         {{ end }}
+</div>
 
-
+ <div class="col-xs-12 col-md-4 ">
+        {{ partial "events/cta.html" . }}
     </div>
-    <div class="col-xs-12 col-md-4">
-    </div>
-
+  </div>
+</div>
 </div>
 <div class="row">
   <div class="col-md-12">
