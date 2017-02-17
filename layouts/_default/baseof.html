@@ -11,14 +11,8 @@
   <div class="container-fluid">
         <div class="row">
           {{ if .IsPage }}
-
-            {{ $url_path := split $.Permalink "/" }}
-            My permalink is {{ $.Permalink }}
-            <br />
-            My $url_path is {{ $url_path }}
-            <br />
-            My index 3 is {{ (index $url_path 3) }}
-            {{ if eq (index $url_path 3) "events" }}
+            {{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+            {{ if or (eq (index $path 0) "events") (eq .Type "events") }}
 
               <div class="col-md-12">
                   <!-- Main Content -->
