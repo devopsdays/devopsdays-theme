@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 
 gulp.task('responsive-images', function() {
     return gulp.src(['public/**/*.png', 'public/**/*.jpg',
-            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*'
+            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/**/sharing.jpg'
         ])
         .pipe(responsive({
             // produce multiple images from one source
