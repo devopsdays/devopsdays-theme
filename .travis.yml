@@ -1,13 +1,15 @@
 sudo: false
-language: go
-install: go get -v github.com/spf13/hugo
+language: node_js
+node_js:
+  - "6"
 before_script:
 - npm install -g gulp
 - npm install
 - cd exampleSite
 
 script:
-- hugo
+- "$TRAVIS_BUILD_DIR/bin/hugo version"
+- "$TRAVIS_BUILD_DIR/bin/hugo"
 - gulp min-html --cwd .
 
 
@@ -25,8 +27,3 @@ deploy:
   on:
     repo: devopsdays/devopsdays-theme
     tags: true
-
-addons:
-  apt:
-    packages:
-    - nodejs
