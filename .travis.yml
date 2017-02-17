@@ -25,3 +25,8 @@ deploy:
   on:
     repo: devopsdays/devopsdays-theme
     tags: true
+
+addons:
+  apt:
+    packages:
+    - nodejs
