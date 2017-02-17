@@ -3,18 +3,33 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 
+{{ $.Scratch.Add "url" $.Site.Params.weburl }}
+{{ $.Scratch.Add "url" "/events/"}}
+{{ $.Scratch.Add "url" $event_slug }}
+
+
+
 {{- if $e.startdate -}}
 
+
+  {{ $url := $.Scratch.Get "url" }}
+  {{ $.Scratch.Add "image_url" $url }}
+  {{ $.Scratch.Add "image_url" "/logo.png" }}
+  {{ $image_url := $.Scratch.Get "image_url" }}
   <script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "ExhibitionEvent",
+    {{ if $e.description }}
+      "description": {{ $e.description }}
+    {{ else }}
       "description": "The conference that brings development and operations together.",
+    {{ end }}
     "name": "DevOpsDays {{ $e.city }} {{ $e.year }}",
     "startDate": "{{ $e.startdate }}",
     "endDate": "{{ $e.enddate }}",
-    "url": {{ .Permalink }},
-    "image": {{ string ( delimit ( slice "/events/" $event_slug "/logo.png") "" ) | absURL }},
+    "url": {{ $url }},
+    "image": {{ $image_url }},
     "location": {
       "@type": "Place",
       {{ if eq $e.city $e.location }}
