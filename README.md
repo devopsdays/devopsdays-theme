@@ -24,7 +24,7 @@ Bear in mind that this theme lives in a separate repo from the main [devopsdays-
 
 ## Frontpage Logo
 
-On the new homepage, upcoming events are listed with a square thumbnail. If this is not set (the way it is to be set is TBD), then the default logo is displayed instead.
+On the new homepage, upcoming events are listed with a square thumbnail. If this is not set in the `event_logo_square` parameter in the `YYYY-CITY.yml` file (filename is relative to `static/events/YYYY-CITY/`, then the default logo is displayed instead.
 
 ## Program Page
 A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
@@ -73,7 +73,7 @@ The design and layout can be found in [here](https://drive.google.com/file/d/0Bz
 All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
 
 ### CSS and SCSS
-All CSS must be generated with SCSS. The LESS files are located in `static/scss`.
+All CSS must be generated with SCSS. The SCSS files are located in `static/scss`.
 
 #### `site.scss`
 This is the file that imports all the other SCSS files, including Bootstrap, font-awesome (TBD; it seems that BS 4 brings this in for us), and the jquery oembed. It also imports our custom variables and any other customizations.
@@ -85,7 +85,7 @@ Use this to set any SCSS variables, or to over-ride any variables used by Bootst
 This is the only place you should declare custom SCSS or CSS code.
 
 ## Continuous Integration
-The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written. The Appveyor tests ensure that the site can build with Windows.
+The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written). The Appveyor tests ensure that the site can build with Windows.
 
 All changes are built by Netlify to https://dev.devopsdays.org
 
@@ -110,10 +110,10 @@ Once the Travis build has succeeded, update the changelog:
 
 
 # dev examples
-This is just a list of some scaffold/POC urls since they aren't easy to get to via nav:
-- [Home Page](http://devopsdays-theme.netlify.com/)
-- [Event Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/welcome/)
-- [Talk Page with Single Speaker](http://devopsdays-theme.netlify.com/events/2017-hoofington/program/twilight-sparkle/)
-- [Talk Page With Multiple Speakers](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/rainbow-dash/)
-- [Speaker Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/speakers/fluttershy/)
-- [Program Page](http://devopsdays-theme.netlify.com/events/2017-ponyville/program/)
+This is just a list of some POC urls to see examples:
+- [Home Page](https://dev.devopsdays.org/)
+- [Event Page](https://dev.devopsdays.org/events/2017-ponyville/welcome/)
+- [Talk Page with Single Speaker](https://dev.devopsdays.org/events/2017-hoofington/program/twilight-sparkle/)
+- [Talk Page With Multiple Speakers](https://dev.devopsdays.org/events/2017-ponyville/program/rainbow-dash/)
+- [Speaker Page](https://dev.devopsdays.org/events/2017-ponyville/speakers/fluttershy/)
+- [Program Page](https://dev.devopsdays.org/events/2017-ponyville/program/)
