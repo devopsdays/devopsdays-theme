@@ -402,3 +402,33 @@ h3.talk-page {
   font-weight: 300;
   text-transform: capitalize;
 }
+
+h1.welcome-page {
+  color: #FFF;
+  // text-shadow: 1px 1px 2px #000000;
+  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.welcome-page-date {
+  text-transform: uppercase;
+}
+
+.welcome-page-masthead {
+  background: #bfbfc1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0082AB, #bfbfc1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0082AB, #bfbfc1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0082AB, #bfbfc1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0082AB, #bfbfc1); /* Standard syntax */
+  padding: 20px;
+  margin-bottom:20px;
+}
+
+a.welcome-page-masthead-link {
+  color: white;
+}
+
+a:hover.welcome-page-masthead-link {
+  color: #bfbfc1;
+  border-color: #bfbfc1;
+  text-decoration: none;
+}
