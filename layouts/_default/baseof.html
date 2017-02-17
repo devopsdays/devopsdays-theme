@@ -11,9 +11,9 @@
   <div class="container-fluid">
         <div class="row">
           {{ if .IsPage }}
+            {{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+            {{ if or (eq (index $path 0) "events") (eq .Type "events") }}
 
-            {{ $url_path := split $.Permalink "/" }}
-            {{ if eq (index $url_path 3) "events" }}
               <div class="col-md-12">
                   <!-- Main Content -->
                   {{- block "main" . }} {{- end -}}
