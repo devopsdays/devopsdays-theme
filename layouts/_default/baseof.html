@@ -13,10 +13,13 @@
           {{ if .IsPage }}
 
             {{ $url_path := split $.Permalink "/" }}
-            My $url_path is {{ $url_path }}
-            {{ if eq (index $url_path 3) "events" }}
+            My permalink is {{ $.Permalink }}
             <br />
-            My index 3 is {{ (index $url_path 3) }} 
+            My $url_path is {{ $url_path }}
+            <br />
+            My index 3 is {{ (index $url_path 3) }}
+            {{ if eq (index $url_path 3) "events" }}
+
               <div class="col-md-12">
                   <!-- Main Content -->
                   {{- block "main" . }} {{- end -}}
