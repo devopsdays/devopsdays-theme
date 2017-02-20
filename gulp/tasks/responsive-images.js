@@ -11,15 +11,18 @@ gulp.task('responsive-images', function() {
 
             '**/logo_square.jpg': [{
                 width: '250px',
+                height: '250px,
                 quality: 80
             }, {
                 width: '500px',
+                height: '500px,
                 quality: 80,
                 rename: {
                     suffix: '@2x'
                 }
             }, {
                 width: '1500px',
+                height: '500px,                   
                 quality: 80,
                 rename: {
                     suffix: '@3x'
