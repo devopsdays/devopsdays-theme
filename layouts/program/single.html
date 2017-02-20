@@ -2,7 +2,7 @@
 
 <h2>Program</h2>
 
-{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 
@@ -14,7 +14,7 @@
         <!-- main content -->
 
 {{- range where $.Site.Pages "Type" "talk" -}}
-  {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+  {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
   {{- $talk_slug := index $talk_path 1 -}}
   {{- if eq $talk_slug $event_slug -}}
     {{- $.Scratch.Set "base_file_name" .File.BaseFileName }}
@@ -29,7 +29,7 @@
       {{ $.Scratch.Set "speaker_count" (add ($.Scratch.Get "speaker_count") 1)}}
       {{ $.Scratch.Set "speakername" . }}
       {{- range where $.Site.Pages "Type" "speaker" -}}
-        {{- $speaker_path := split .File.Path .Site.Params.pathseperator -}}
+        {{- $speaker_path := split .File.Path .Site.Params.PathSeparator -}}
         {{- $speaker_slug := index $speaker_path 1 -}}
         {{- if eq $speaker_slug $event_slug -}}
           {{ if eq .File.BaseFileName ($.Scratch.Get "speakername") }}

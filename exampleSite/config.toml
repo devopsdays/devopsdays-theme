@@ -72,8 +72,6 @@ title = "los dias de devops"
   name = "about"
   url = "/about"
   weight = -100
-# Set to "/" on *nix and Mac, "\\" on Windows
-# Refer to https://github.com/spf13/hugo/issues/2394 for more information
 
 [permalinks]
 	page = "/:filename/"
@@ -87,4 +85,5 @@ title = "los dias de devops"
   # Set to "/" on *nix and Mac, "\\" on Windows
   # Refer to https://github.com/spf13/hugo/issues/2394 for more information
   pathseperator = "/"
+  pathSeparator = "/"
   weburl = "https://dev.devopsdays.org"

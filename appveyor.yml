@@ -12,7 +12,7 @@ install:
 
     $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
 
-    $content = $content -replace 'pathseperator = "/"','pathseperator = "\\"'
+    $content = $content -replace 'PathSeparator = "/"','PathSeparator = "\\"'
 
     Write-Output "config.toml content changed to:`n----`n$($content)"
 
