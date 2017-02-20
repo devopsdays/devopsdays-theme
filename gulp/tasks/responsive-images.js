@@ -9,7 +9,7 @@ gulp.task('responsive-images', function() {
         .pipe(responsive({
             // produce multiple images from one source
 
-            '**/logo_square.jpg': [{
+            '**/logo-square.jpg': [{
                 width: '250px',
                 height: '250px',
                 quality: 80
