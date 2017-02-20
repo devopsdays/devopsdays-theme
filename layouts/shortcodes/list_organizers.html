@@ -2,17 +2,18 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index .Page.Site.Data.events $event_slug) }}
 
-<ul>
   {{ if $e.team_members }}
 
 
     <div class = "row">
+      <div class = "card-deck">
+
       {{ range $e.team_members }}
         <div class="col-lg-3 col-md-6 organizer-card">
-          <div class = "card">
+          <div class = "card" style="max-width: 300px;">
             <h3 class = "card-header">{{ .name }}</h3>
             {{ if .image }}
-              <img class="card-img-top" src="/events/{{$event_slug}}/organizers/{{.image}}" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="/events/{{$event_slug}}/organizers/{{.image}}" alt="Card image cap">
             {{ end }}
             <div class = "card-block">
               {{ if .employer }}
@@ -40,10 +41,12 @@
           </div>
         </div>
     {{ end }}
-
+      </div>
     </div>
 
   {{ else }}
+  <ul>
+
     {{ range $event_organizers := $e.team }}
       <li>{{ $event_organizers }}</li>
     {{ end }}
