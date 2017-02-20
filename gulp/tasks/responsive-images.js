@@ -43,14 +43,14 @@ gulp.task('responsive-images', function() {
                 }
             }],
             '**/img/sponsors/*.*': [{
-                width: '100px'
+                width: '200px'
             }, {
-                width: '200px',
+                width: '400px',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '300px',
+                width: '600px',
                 rename: {
                     suffix: '@3x'
                 }
