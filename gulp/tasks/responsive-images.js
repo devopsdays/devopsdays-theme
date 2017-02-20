@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 runSequence = require('run-sequence');
 
 gulp.task('responsive-images', function(callback) {
-    runSequence('responsive-images-logos', 'responsive-sponsor-images', 'responsive-images-remaining',
+    runSequence('responsive-images-logos', 'responsive-images-remaining',
         callback
     )
 })
@@ -36,18 +36,32 @@ gulp.task('responsive-images-logos', function() {
             withoutEnlargement: false,
             progressive: true,
             silent: true,
-            witheMetadate: false,
+            withMetadata: false,
             ignoreAspectRatio: true,
         }))
         .pipe(gulp.dest('staging/events'));
 });
 
 gulp.task('responsive-sponsor-images', function() {
-    return gulp.src(['public/img/**/sponsors/*.png', 'public/img/**/sponsors/*.jpg'])
+    return gulp.src(['public/img/sponsors/*.png', 'public/img/sponsors/*.jpg'])
         .pipe(responsive({
             // produce multiple images from one source
 
-            '**/*.*': [{
+            '**/*.png': [{
+                width: 200
+            }, {
+                width: 400,
+                rename: {
+                    suffix: '@2x'
+                }
+            }, {
+                width: 600,
+                rename: {
+                    suffix: '@3x'
+                }
+            }],
+        }, {
+            '**/*.jpg': [{
                 width: 200
             }, {
                 width: 400,
@@ -67,9 +81,9 @@ gulp.task('responsive-sponsor-images', function() {
             withoutEnlargement: false,
             progressive: true,
             silent: true,
-            witheMetadate: false,
+            withMetadata: false,
         }))
-        .pipe(gulp.dest('staging/img'));
+        .pipe(gulp.dest('staging/img/sponsors'));
 });
 
 
@@ -112,7 +126,7 @@ gulp.task('responsive-images-remaining', function() {
             withoutEnlargement: false,
             progressive: true,
             silent: true,
-            witheMetadate: false,
+            withMetadata: false,
         }))
         .pipe(gulp.dest('staging'));
 });
