@@ -22,7 +22,7 @@ gulp.task('responsive-images', function() {
                 }
             }, {
                 width: '1500px',
-                height: '1500px,                   
+                height: '1500px',                   
                 quality: 80,
                 rename: {
                     suffix: '@3x'
