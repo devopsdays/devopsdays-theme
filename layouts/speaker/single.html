@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $path := split $.Source.File.Path .Site.Params.pathseperator }}
+{{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{ $city_slug := substr $e.name 5 }}
@@ -47,7 +47,7 @@
           <ul class="list-group list-group-flush">
             {{ $.Scratch.Set "speaker" .File.BaseFileName }}
             {{- range where $.Site.Pages "Type" "talk" -}}
-              {{- $talk_path := split .File.Path .Site.Params.pathseperator -}}
+              {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
               {{- $talk_slug := index $talk_path 1 -}}
               {{- if eq $talk_slug $event_slug -}}
                 <!-- Now we can display stuff! -->

@@ -1,28 +1,28 @@
 version: 1.0.{build}
-
-branches:
-  # whitelist
-  only:
-    - master
-
 install:
-# Change the Path seperator to a Windows version (backslash)
+#  Install Hugo from chocolatey and display the version number
+- cmd: >-
+    choco install hugo -y
+
+    hugo version
+
+# Change the Path seperator to a Windows version (backslash)    
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
 
     $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
 
-    $content = $content -replace 'pathseperator = "/"','pathseperator = "\\"'
+    $content = $content -replace 'PathSeparator = "/"','PathSeparator = "\\"'
 
     Write-Output "config.toml content changed to:`n----`n$($content)"
 
     $content | Set-Content ($buildRoot + '\exampleSite\config.toml')
 
 build_script:
-# Build the devopsdays-web site once
+#  Build the devopsdays-web site once
 - cmd: >-
     cd exampleSite
     
-    %APPVEYOR_BUILD_FOLDER%\bin\hugo.exe -v
+    hugo --verbose
 
 test: off
