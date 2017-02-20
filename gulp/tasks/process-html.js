@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 gulp.task('process-html', function(callback) {
-    runSequence('retina-html', 'min-html',
+    runSequence('min-html', 'retina-html',
         callback
     )
 })
@@ -28,7 +28,7 @@ gulp.task('min-html', function() {
 // min-html was taking forever
 
 gulp.task('retina-html', function() {
-    return gulp.src(['public/**/*.html'])
+    return gulp.src(['staging/**/*.html'])
         .pipe(imgRetina(retinaOpts))
         .on('error', function(e) {
             console.log(e.message);
