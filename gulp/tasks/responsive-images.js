@@ -11,7 +11,7 @@ gulp.task('responsive-images', function() {
 
             '**/logo_square.jpg': [{
                 width: '250px',
-                height: '250px,
+                height: '250px',
                 quality: 80
             }, {
                 width: '500px',
