@@ -52,6 +52,19 @@ nav_elements:
     icon: "handshake-o"
 ```
 
+## Improved Organizer List Page
+ New elements are available via the `list_organizers` shortcode. These include a bio, a photo, and Facebook, Linkedin, and website links (in addition to the existing Twitter links). Example usage:
+ ```
+ team_members:
+  - name: "George Michael Bluth"
+    employer: "Fakeblock"
+    website: "http://www.fakebook.com"
+    image: "george-michael-bluth.jpg"
+    bio: "At high school, George Michael is hardly known by any other students but gets good grades. He is paid to tutor Maeby, but instead, she plagiarizes from him. He briefly develops a crush on his teacher Beth Baerly because she paid attention to him. (\"Shock and Aww\") He lost the student council election, receiving only 3% of the votes. (\"The Immaculate Election\")<p>
+    George Michael's good grades continue through college. To get into Julliard, George Michael develops a fake woodblock app with his roommate P-Hound called [Fakeblock](http://arresteddevelopment.wikia.com/wiki/Fakeblock). One small lie causes the app to get blown out of proportion by Maeby who thinks it is privacy software."
+```
+Please note that quotation marks in the bio need to be escaped.
+
 ## Program Page
 A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
