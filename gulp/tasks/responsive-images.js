@@ -9,7 +9,7 @@ gulp.task('responsive-images', function(callback) {
 })
 
 gulp.task('responsive-images-logos', function() {
-    return gulp.src(['public/events/**/logo-square.*', 'public/events/**/logo-square.', '!public/**/sharing.jpg'])
+    return gulp.src(['public/events/**/logo-square.*', '!public/**/sharing.jpg'])
         .pipe(responsive({
             // produce multiple images from one source
 
