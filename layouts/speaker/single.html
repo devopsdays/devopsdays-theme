@@ -4,7 +4,7 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{ $city_slug := substr $e.name 5 }}
-{{- partial "event_navbar.html" . -}}
+{{- partial "events/event_navbar.html" . -}}
 
 <div class = "row">
   <div class = "col-md-12 offset-md-1">

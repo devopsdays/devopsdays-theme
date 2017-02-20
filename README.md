@@ -26,6 +26,32 @@ Bear in mind that this theme lives in a separate repo from the main [devopsdays-
 
 On the new homepage, upcoming events are listed with a square thumbnail. If this is not set in the `event_logo_square` parameter in the `YYYY-CITY.yml` file (filename is relative to `static/events/YYYY-CITY/`, then the default logo is displayed instead.
 
+## Event Menu Icons
+
+When on a smaller screen, the event menu collapses to icons. These icons are named from ones available at [Font Awesome](http://fontawesome.io/icons/) and need to be added as optional parameters to the list of event nav elements for the event in its data file. If no icon is set, a plus sign will be displayed.
+
+Example:
+
+```
+nav_elements:
+  - name: program
+    icon: "book"
+  - name: speakers
+    icon: "microphone"
+  - name: registration
+    icon: "pencil"
+  - name: sponsor
+    icon: "money"
+  - name: volunteer
+    icon: "smile-o"
+  - name: location
+    icon: "map-o"
+  - name: contact
+    icon: "envelope-o"
+  - name: conduct
+    icon: "handshake-o"
+```
+
 ## Program Page
 A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
