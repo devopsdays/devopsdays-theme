@@ -7999,12 +7999,6 @@
 		"oAP": "\/layouts\/partials\/blog_pagination.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/event_navbar.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/event_navbar.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/events\/cta.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8015,6 +8009,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/events\/event_metadata.html",
+		"oF": 0
+		},
+	"\/layouts\/partials\/events\/event_navbar.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/events\/event_navbar.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/footer.html": {
