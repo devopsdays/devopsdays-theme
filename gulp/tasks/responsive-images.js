@@ -15,14 +15,14 @@ gulp.task('responsive-images', function() {
                 quality: 80
             }, {
                 width: '500px',
-                height: '500px,
+                height: '500px',
                 quality: 80,
                 rename: {
                     suffix: '@2x'
                 }
             }, {
                 width: '1500px',
-                height: '500px,                   
+                height: '1500px,                   
                 quality: 80,
                 rename: {
                     suffix: '@3x'
