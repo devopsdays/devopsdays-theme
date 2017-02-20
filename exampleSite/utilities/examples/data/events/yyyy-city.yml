@@ -20,7 +20,7 @@ registration_open: "false"
 registration_link: ""
 
 event_logo: "logo.jpg"
-event_logo_square: "logo-square.jpg"
+square_logo_default: "false" # Set to "true" to use the default logo on the homepage instead of logo-square.jpg in your static directory 
 
 # Location
 #
