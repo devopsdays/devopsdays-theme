@@ -4,18 +4,45 @@
 
 <ul>
   {{ if $e.team_members }}
-    {{ range $e.team_members }}
-      <li>
-        {{ .name }}
-        {{ if .twitter }}
-          {{ $twitter := replace .twitter "@" "" }}
-          - <a href="http://twitter.com/{{ $twitter }}">@{{ $twitter }}</a>
-        {{ end }}
-        {{ if .employer }}
-          - <em>{{ .employer }}</em>
-        {{ end}}
-      </li>
+
+
+    <div class = "row">
+      {{ range $e.team_members }}
+        <div class="col-lg-3 col-md-6 organizer-card">
+          <div class = "card">
+            <h3 class = "card-header">{{ .name }}</h3>
+            {{ if .image }}
+              <img class="card-img-top" src="/events/{{$event_slug}}/organizers/{{.image}}" alt="Card image cap">
+            {{ end }}
+            <div class = "card-block">
+              {{ if .employer }}
+                <h6 class="card-subtitle mb-2 text-muted">{{ .employer }}</h6>
+              {{ end }}
+              <p class = "card-text">
+                {{ if .bio }}
+                  {{ .bio | markdownify }}
+                {{ end }}
+              </p>
+                {{ if .twitter }}
+                  {{ $twitter := replace .twitter "@" "" }}
+                  <a href="http://twitter.com/{{ $twitter }}" class="card-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>&nbsp;
+                {{ end }}
+                {{- if .website -}}
+                    <a href = "{{ .website }}"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>&nbsp;
+                {{- end -}}
+                {{- if .facebook -}}
+                    <a href = "{{ .facebook }}"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>&nbsp;
+                {{- end -}}
+                {{- if .linkedin -}}
+                    <a href = "{{ .linkedin }}"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>&nbsp;
+                {{- end -}}
+            </div>
+          </div>
+        </div>
     {{ end }}
+
+    </div>
+
   {{ else }}
     {{ range $event_organizers := $e.team }}
       <li>{{ $event_organizers }}</li>
