@@ -10,7 +10,7 @@ install:
 - ps: >-
     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
 
-    $content = (Get-Content ($buildRoot + '\config.toml')) -join "`n"
+    $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
 
     $content = $content -replace 'PathSeparator = "/"','PathSeparator = "\\"'
 
