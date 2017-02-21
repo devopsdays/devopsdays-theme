@@ -134,6 +134,7 @@ a {
   font-size: 1.3em;
   text-transform: uppercase;
   color: #0082AB;
+  margin-bottom: 1.5rem;
 }
 
 .footer-heading {
@@ -145,12 +146,12 @@ a {
 
 h1.footer-heading {
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h2.footer-heading {
   font-size: 1.1em;
-  font-weight: 300i;
+  font-weight: 300;
 }
 
 .footer-content {
@@ -160,7 +161,7 @@ h2.footer-heading {
   color: #000;
 }
 a.footer-content {
-  font-weight: 700;
+  font-weight: 300;
   color: #0082AB;
 }
 
@@ -169,14 +170,13 @@ a.footer-content {
   padding-top: 20px;
   border-top: 5px solid #0082AB;
   // background-color: desaturate( #0082AB, 80% );
+  padding-left:40px;
+  padding-right:40px;
 }
 
- // .footer-nav-col {
- //   padding: 2px;
- //   margin-left: 5px;
- //   margin-right: 5px;
- //   margin-top: 20px;
- // }
+ .footer-nav-col {
+   padding-bottom: 30px;
+ }
  //
  // .footer-nav-col:first-child {
  //  //  margin-left: 50 !important;
