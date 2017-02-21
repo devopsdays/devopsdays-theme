@@ -131,37 +131,66 @@ a {
 .footer-nav {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 11px;
+  font-size: 1.3em;
   text-transform: uppercase;
   color: #0082AB;
+  margin-bottom: 1.5rem;
 }
 
 .footer-heading {
   font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
-  color: #000000;
+  color: #0082AB;
+  font-size: 1.3em;
 }
 
 h1.footer-heading {
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 h2.footer-heading {
-  font-size: 10px;
-  font-weight: 300i;
+  font-size: 1.1em;
+  font-weight: 300;
 }
 
 .footer-content {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 9px;
+  font-size: .9em;
+  color: #000;
 }
 a.footer-content {
-  font-weight: 700;
+  font-weight: 300;
   color: #0082AB;
 }
 
+.footer-nav-background {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  border-top: 5px solid #0082AB;
+  // background-color: desaturate( #0082AB, 80% );
+  padding-left:40px;
+  padding-right:40px;
+}
+
+ .footer-nav-col {
+   padding-bottom: 30px;
+ }
+ //
+ // .footer-nav-col:first-child {
+ //  //  margin-left: 50 !important;
+ //   border-top-width:thick;
+ //   border-top-color:red;
+ // }
+ //
+ // .footer-nav-col:last-child {
+ //   margin-right: 0 !important;
+ // }
+
+.footer-nav-row {
+  margin-top:20px;
+}
 
 /* Sponsors */
 
