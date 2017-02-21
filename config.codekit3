@@ -7939,12 +7939,6 @@
 		"oAP": "\/layouts\/404.html",
 		"oF": 0
 		},
-	"\/layouts\/_default\/baseof.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/_default\/baseof.html",
-		"oF": 0
-		},
 	"\/layouts\/_default\/list.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -7981,12 +7975,6 @@
 		"oAP": "\/layouts\/events\/single.html",
 		"oF": 0
 		},
-	"\/layouts\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/index.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/about.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8015,12 +8003,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/events\/event_navbar.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/footer.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/footer.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/footer_scripts.html": {
@@ -8203,12 +8185,6 @@
 		"oAP": "\/layouts\/shortcodes\/list_core.html",
 		"oF": 0
 		},
-	"\/layouts\/shortcodes\/list_organizers.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/shortcodes\/list_organizers.html",
-		"oF": 0
-		},
 	"\/layouts\/shortcodes\/privacy_policy.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8303,12 +8279,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSES\/V3-UTILITY-LIBRARY-APACHE-LICENSE",
-		"oF": 0
-		},
-	"\/netlify.toml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/netlify.toml",
 		"oF": 0
 		},
 	"\/node_modules": {
@@ -8504,22 +8474,6 @@
 		"oAP": "\/static\/css\/googlemaps-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/static\/css\/site.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/static\/css\/site-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/static\/css\/site.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/css\/site.css.map",
-		"oF": 0
 		},
 	"\/static\/favicon-16x16.png": {
 		"ft": 32768,
@@ -8766,19 +8720,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/static\/css\/custom-variables.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/static\/scss\/custom.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/static\/css\/custom.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
