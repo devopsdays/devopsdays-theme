@@ -3,10 +3,10 @@ var gulp = require('gulp'),
 runSequence = require('run-sequence');
 
 gulp.task('responsive-images', function(callback) {
-    runSequence('responsive-images-logos', 'responsive-images-remaining',
+    runSequence('responsive-images-logos','responsive-sponsor-images', 'responsive-images-remaining',
         callback
     )
-})
+});
 
 gulp.task('responsive-images-logos', function() {
     return gulp.src(['public/events/**/logo-square.*', '!public/**/sharing.jpg'])
@@ -45,9 +45,7 @@ gulp.task('responsive-images-logos', function() {
 gulp.task('responsive-sponsor-images', function() {
     return gulp.src(['public/img/sponsors/*.png', 'public/img/sponsors/*.jpg'])
         .pipe(responsive({
-            // produce multiple images from one source
-
-            '**/*.png': [{
+            '*.png': [{
                 width: 200
             }, {
                 width: 400,
@@ -60,8 +58,7 @@ gulp.task('responsive-sponsor-images', function() {
                     suffix: '@3x'
                 }
             }],
-        }, {
-            '**/*.jpg': [{
+            '*.jpg': [{
                 width: 200
             }, {
                 width: 400,
@@ -73,7 +70,7 @@ gulp.task('responsive-sponsor-images', function() {
                 rename: {
                     suffix: '@3x'
                 }
-            }],
+            }]
         }, {
             // global configuration
             quality: 80,
@@ -94,27 +91,27 @@ gulp.task('responsive-images-remaining', function() {
         .pipe(responsive({
             // produce multiple images from one source
             '**/*.png': [{
-                width: '50%'
+                width: '100%'
             }, {
-                width: '100%',
+                width: '200%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '150%',
+                width: '300%',
                 rename: {
                     suffix: '@3x'
                 }
             }],
             '**/*.jpg': [{
-                width: '50%'
+                width: '100%'
             }, {
-                width: '100%',
+                width: '200%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '150%',
+                width: '300%',
                 rename: {
                     suffix: '@3x'
                 }
