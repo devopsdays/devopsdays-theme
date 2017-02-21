@@ -1,7 +1,9 @@
 
 <nav class="navbar bottom navbar-light footer-nav-row" style="background-color: #bfbfc1;">
   <div class = "row">
-    <div class = "col-md-3 footer-nav-col">
+    <div class = "col-md-12 footer-nav-background">
+      <div class = "row">
+            <div class = "col-md-6 col-lg-3 footer-nav-col">
       <h3 class="footer-nav">@DEVOPSDAYS</h3>
       <div>
           <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/devopsdays/lists/devopsdays" data-chrome="noheader" height="440"></a>
@@ -20,7 +22,7 @@
           </script>
       </div>
   </div>
-  <div class="col-md-3 footer-nav-col">
+  <div class="col-md-6 col-lg-3 footer-nav-col footer-content">
     <h3 class="footer-nav">BLOG</h3>
     {{- range first 2 (where .Site.Pages "Type" "blog") -}}
       <a href = "{{ .Permalink }}"><h1 class = "footer-heading">{{ .Title }}</h1></a>
@@ -41,24 +43,27 @@
     {{- end -}}
     <a href="https://www.devopsdays.org/blog/index.xml">Feed</a>
   </div>
-  <div class="col-md-3 footer-nav-col">
+  <div class="col-md-6 col-lg-3 footer-nav-col">
       <h3 class="footer-nav">CFP OPEN</h3>
       {{ range sort $.Site.Data.events "startdate" }}
         {{ if .cfp_date_end }}
           {{ if ge (dateFormat "2006-01-02" .cfp_date_end) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) }}
-            <a href = "/events/{{ .name }}/">{{ .city }}</a><br />
+            <a href = "/events/{{ .name }}/" class = "footer-content">{{ .city }}</a><br />
           {{ end }} {{/* end: date is now or afterwards */}}
         {{ end }} {{/* end: if .cfp_date_end */}}
       {{ end }} {{/* end: range sort $.Site.Data.events "startdate" */}}
       <br />Propose a talk at an event near you!<br />
   </div>
-  <div class="col-md-3 footer-nav-col">
+  <div class="col-md-6 col-lg-3 footer-nav-col">
     <h3 class="footer-nav">About</h3>
     devopsdays is a worldwide community conference series for anyone interested in IT improvement.<br /><br />
-    <a href="/about/">About devopsdays</a><br />
-    <a href="/privacy/">Privacy Policy</a><br />
-    <a href="/conduct/">Code of Conduct</a>
+    <a href="/about/" class = "footer-content">About devopsdays</a><br />
+    <a href="/privacy/" class = "footer-content">Privacy Policy</a><br />
+    <a href="/conduct/" class = "footer-content">Code of Conduct</a>
 </div>
+    </div>
+  </div>
+
   </div>
 
 </nav>
