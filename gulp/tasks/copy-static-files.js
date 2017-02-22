@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 gulp.task('copy-misc-files', function() {
-    return gulp.src(['staging/sitemap.xml', 'staging/tags/**/*.xml', 'public/**/sharing.jpg', 'public/favicon*', 'public/apple-icon*', 'public/android-icon*', 'public/ms-icon*', 'public/manifest.json', 'public/browserconfig.xml', 'public/**/*.pdf'])
+    return gulp.src(['staging/sitemap.xml', 'staging/tags/**/*.xml', 'public/**/sharing.jpg', 'public/favicon*', 'public/apple-icon*', 'public/android-icon*', 'public/ms-icon*', 'public/manifest.json', 'public/browserconfig.xml', 'public/**/*.pdf','public/_redirects'])
         .pipe(gulp.dest('dist'));
 });
 
@@ -31,4 +31,3 @@ gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps'
 //         ])
 //         .pipe(gulp.dest('staging'));
 // })
-
