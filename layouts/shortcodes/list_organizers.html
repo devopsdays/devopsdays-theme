@@ -5,15 +5,15 @@
   {{ if $e.team_members }}
 
 
-    <div class = "row">
-      <div class = "card-deck">
+<div class="row" style="width:100%">
+      <!-- <div class = "card-deck"> -->
 
       {{ range $e.team_members }}
         <div class="col-xl-3 col-lg-4 col-md-6 organizer-card">
-          <div class = "card" style="max-width: 300px;">
+          <div class = "card" style="max-width: 300px;padding-left:0px;padding-right:0px">
             <h3 class = "card-header">{{ .name }}</h3>
             {{ if .image }}
-              <img class="card-img-top organizer-image" src="/events/{{$event_slug}}/organizers/{{.image}}" alt="Card image cap">
+              <img class="card-img-top img-fluid" src="/events/{{$event_slug}}/organizers/{{.image}}" alt="Card image cap">
             {{ end }}
             <div class = "card-block">
               {{ if .employer }}
@@ -44,7 +44,7 @@
           </div>
         </div>
     {{ end }}
-      </div>
+      <!-- </div> -->
     </div>
 
   {{ else }}
@@ -57,12 +57,12 @@
 </ul>
 
 <style>
-.card {
+/*.card {
   display: block !important;
 }
 .organizer-image {
   max-width: 100%;
   height: auto;
-}
+}*/
 
 </style>
