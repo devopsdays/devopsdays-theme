@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/.github\/ISSUE_TEMPLATE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.github\/ISSUE_TEMPLATE",
+		"oF": 0
+		},
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
