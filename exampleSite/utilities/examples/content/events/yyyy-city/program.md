@@ -1,5 +1,5 @@
 +++
-title = "program"
-type = "program"
-Description = ""
+Title = "Program"
+Type = "program"
+Description = "Program for devopsdays CITY YYYY"
 +++

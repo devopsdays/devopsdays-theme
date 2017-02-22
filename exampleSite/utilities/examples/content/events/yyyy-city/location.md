@@ -1,7 +1,7 @@
 +++
 Title = "Location"
 Type = "event"
-Description = ""
+Description = "Location for devopsdays CITY YYYY"
 +++
 
 Watch this space for information about the venue including address, map/direction, parking/transit, and any hotel details.

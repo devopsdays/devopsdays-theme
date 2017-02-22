@@ -49,6 +49,8 @@ cp -r examples/content/events/yyyy-city ../content/events/$event_slug
 datestamp=$(date +%Y-%m-%dT%H:%M:%S%z | sed 's/^\(.\{22\}\)/\1:/')
 sed -i '' "s/2000-01-01T01:01:01-06:00/$datestamp/" ../content/events/$event_slug/*.md
 sed -i '' "s/yyyy-city/$event_slug/" ../content/events/$event_slug/index.md
+sed -i '' "s/CITY/$city/" ../content/events/$event_slug/*.md
+sed -i '' "s/YYYY/$year/" ../content/events/$event_slug/*.md
 
 echo " "
 echo "Check your event at http://localhost:1313/events/$event_slug/"

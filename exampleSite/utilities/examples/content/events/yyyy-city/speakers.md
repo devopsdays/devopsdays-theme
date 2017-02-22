@@ -1,5 +1,5 @@
 +++
 Title = "Speakers"
 Type = "speakers"
-Description = ""
+Description = "Speakers for devopsdays CITY YYYY"
 +++
