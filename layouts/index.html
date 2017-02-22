@@ -13,17 +13,21 @@
         {{- range sort $.Site.Data.events "startdate" -}}
           {{- if .startdate -}}
             {{- if ge (dateFormat "2006-01-02" .enddate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
+            {{ $.Scratch.Set "city" .city }}
+            {{ $.Scratch.Set "year" .year }}
+            {{ $.Scratch.Set "logo" "unset" }}
                 <div class="col-md-3 homepage-grid-col">
-                  <a href = "/events/{{ .name }}">
-                    {{- if .event_logo_square }}
-                      {{- if ne .event_logo_square "" }}
-                        <img src = "/events/{{ .name }}/{{ .event_logo_square }}" class="img-fluid" alt="DevOpsDays {{ .city }}"/>
-
-                      {{- end -}}
-                      {{- else -}}
-                        <img src="/img/event-logo-default.png" class="img-fluid" alt="DevOpsDays {{ .city }}"/>
-                    {{- end -}}
-                  </a>
+                  {{ $.Scratch.Set "subdir" .name }}
+                  {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
+                  {{ if (where (readDir "static/events") "Name" ($.Scratch.Get "subdir"))}}
+                    {{if (where (readDir ($.Scratch.Get "contentdir")) "Name" "logo-square.jpg") }}
+                      <a href = "/events/{{ .name }}"><img src = "/events/{{ .name }}/logo-square.jpg" class="img-fluid" alt="DevOpsDays {{ .city }}"/></a>
+                      {{ $.Scratch.Set "logo" "set" }}
+                    {{ end }}
+                  {{ end }}
+                  {{ if ne ($.Scratch.Get "logo") "set" }}
+                        <a href = "/events/{{ .name }}"><img src="/img/event-logo-default.png" class="img-fluid" alt="DevOpsDays {{ .city }}"/></a>
+                  {{- end -}}
                     <br/>
                     <span class = "homepage-grid-date">
                       {{- dateFormat "Jan 2" .startdate -}}
