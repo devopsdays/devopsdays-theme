@@ -24,7 +24,7 @@ Bear in mind that this theme lives in a separate repo from the main [devopsdays-
 
 ## Frontpage Logo
 
-On the new homepage, upcoming events are listed with a square thumbnail. If this is not set in the `event_logo_square` parameter in the `YYYY-CITY.yml` file (filename is relative to `static/events/YYYY-CITY/`, then the default logo is displayed instead.
+On the new homepage, upcoming events are listed with a square thumbnail. The image must be square and named `logo-square.jpg` in the `static/events/YYYY-CITY/` directory. If this file does not exist, then the default logo is displayed instead.
 
 ## Event Menu Icons
 
@@ -53,13 +53,15 @@ nav_elements:
 ```
 
 ## Improved Organizer List Page
- New elements are available via the `list_organizers` shortcode. These include a bio, a photo, and Facebook, Linkedin, and website links (in addition to the existing Twitter links). Example usage:
+ New elements are available via the `list_organizers` shortcode. These include a bio, a photo, and Facebook, Linkedin, GitHub, and website links (in addition to the existing Twitter links). Example usage:
  ```
  team_members:
   - name: "George Michael Bluth"
     employer: "Fakeblock"
     website: "http://www.fakebook.com"
     image: "george-michael-bluth.jpg"
+    github: "fakeblock"
+    twitter: "thegeorgemichaelbluth"
     bio: "At high school, George Michael is hardly known by any other students but gets good grades. He is paid to tutor Maeby, but instead, she plagiarizes from him. He briefly develops a crush on his teacher Beth Baerly because she paid attention to him. (\"Shock and Aww\") He lost the student council election, receiving only 3% of the votes. (\"The Immaculate Election\")<p>
     George Michael's good grades continue through college. To get into Julliard, George Michael develops a fake woodblock app with his roommate P-Hound called [Fakeblock](http://arresteddevelopment.wikia.com/wiki/Fakeblock). One small lie causes the app to get blown out of proportion by Maeby who thinks it is privacy software."
 ```
@@ -139,16 +141,11 @@ Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp i
 To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:
 
 1. Update the `theme_version` key in `theme.toml` to the new version.
+1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system.
+1. Inside the repository, run `github_changelog_generator --future-release "x.x.x`. 
+1. Run `git add CHANGELOG.md`
 1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
 1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
-
-Once the Travis build has succeeded, update the changelog:
-
-1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system
-1. Inside the repository, run `github_changelog_generator`.
-1. Run `git add CHANGELOG.md`
-1. Commit the changed file
-1. Push to `origin master`
 
 
 # dev examples
