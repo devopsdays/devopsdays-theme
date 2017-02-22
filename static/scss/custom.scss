@@ -495,3 +495,14 @@ a:hover.welcome-page-masthead-link {
   font-size: 11pt;
   text-transform: capitalize;
 }
+
+.event-cta-button:first-child {
+  margin-left: 0px;
+}
+
+// .event-cta-button:last-child {
+//   margin-left: 5px;
+// }
+.event-cta-button {
+  margin-left: 5px;
+}

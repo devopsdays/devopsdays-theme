@@ -4,6 +4,11 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 <!-- register button -->
+<div class = "row">
+
+<div class = "col-md-12">
+
+
 {{ if $e.registration_open }}
   {{ if eq $e.registration_open "true" }}
     {{ if $e.registration_link }}
@@ -16,7 +21,7 @@
       {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
 
   {{ end }}
-    <a href="{{ $.Scratch.Get "registration_link" }}" class="btn btn-primary active" role="button" aria-pressed="true">Register</a>
+    <a href="{{ $.Scratch.Get "registration_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Register</a>
   {{ end }}
 {{ end }}
 
@@ -34,16 +39,18 @@
       {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
 
   {{ end }}
-    <a href="{{ $.Scratch.Get "cfp_link" }}" class="btn btn-primary active" role="button" aria-pressed="true">Propose</a>
+    <a href="{{ $.Scratch.Get "cfp_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Propose</a>
   {{ end }}
 {{ end }}
 
 <!-- follow on twitter button -->
 {{ if $e.event_twitter }}
   {{ if ne $e.event.twitter "" }}
-  <a href="https://twitter.com/{{$e.event_twitter}}" class="btn btn-primary active" role="button" aria-pressed="true">Follow</a>
+  <a href="https://twitter.com/{{$e.event_twitter}}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Follow</a>
   {{ end }}
 {{ end }}
+</div>
+</div>
 <style>
 a.jssocials-share-link {
   color: white;
@@ -54,4 +61,9 @@ a:hover.jssocials-share-link {
   border-color: #bfbfc1;
 }
 </style>
-<div id="share"></div>
+<div class = "row">
+  <div class = "col-md-12">
+    <div id="share"></div>
+  </div>
+
+</div>
