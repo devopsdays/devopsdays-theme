@@ -17,7 +17,7 @@ gulp.task('copy-css-maps', function() {
 })
 
 gulp.task('copy-static-files', function(callback) {
-    runSequence('copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-images',
+    runSequence('copy-misc-files', 'copy-fonts', 'copy-css-maps',
         callback
     )
 })
