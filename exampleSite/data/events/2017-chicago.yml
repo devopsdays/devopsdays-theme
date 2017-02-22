@@ -48,6 +48,7 @@ team_members:
   - name: "Sasha Rosenbaum"
   - name: "Matt Stratton"
     twitter: "mattstratton"
+    github: "mattstratton"
 organizer_email: "organizers-chicago-2017@devopsdays.org"
 proposal_email: "cfp@devopsdayschi.org"
 

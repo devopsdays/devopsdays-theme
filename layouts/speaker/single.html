@@ -40,10 +40,18 @@
         <a href = "{{ .Params.linkedin }}"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>&nbsp;
       {{- end -}}
     {{- end -}}
+    {{- if isset .Params "github" -}}
+      {{- if ne .Params.github "" -}}
+        <a href = "https://github.com/{{ .Params.github }}"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>&nbsp;
+      {{- end -}}
+    {{- end -}}
     </span>
-    <div class = "card">
-      <div class = "card-block">
-        <h3 class = "card-title speaker-page">Talks by {{ .Title }}</h3>
+    <!-- <div class = "card">
+      <div class = "card-block"> -->
+<div class="speaker-bio-talks">
+
+
+     <h3>Talks by {{ .Title }}</h3>
           <ul class="list-group list-group-flush">
             {{ $.Scratch.Set "speaker" .File.BaseFileName }}
             {{- range where $.Site.Pages "Type" "talk" -}}
@@ -65,8 +73,9 @@
               {{- end -}} <!-- end if eq $talk_slug $event_slug -->
             {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
           </ul>
-      </div>
-    </div>
+          </div>
+      <!-- </div>
+    </div> -->
   </div>
   <div class = "col-md-3 offset-md-1">
     {{ if isset .Params "image" }}
