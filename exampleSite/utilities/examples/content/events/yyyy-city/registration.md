@@ -1,6 +1,7 @@
 +++
 Title = "Registration"
 Type = "event"
+Description = ""
 +++
 
 <div style="width:100%; text-align:left;">

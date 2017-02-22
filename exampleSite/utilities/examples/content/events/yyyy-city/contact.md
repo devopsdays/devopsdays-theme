@@ -1,6 +1,7 @@
 +++
 Title = "Contact"
 Type = "event"
+Description = ""
 +++
 
 If you'd like to contact us by email: {{< email_organizers >}}

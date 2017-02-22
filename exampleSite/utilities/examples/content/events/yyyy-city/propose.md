@@ -1,6 +1,7 @@
 +++
 Title = "Propose"
 Type = "event"
+Description = ""
 +++
   {{< cfp_dates >}}
 
@@ -30,5 +31,5 @@ Choosing talks is part art, part science; here are some factors we consider when
 <ol>
 	<li>Type (presentation, panel discussion, ignite)</li>
 	<li>Proposal Title (can be changed later)</li>
-	<li>Description (several sentences explaining what attendees will learn)</li> 
+	<li>Description (several sentences explaining what attendees will learn)</li>
 </ol>

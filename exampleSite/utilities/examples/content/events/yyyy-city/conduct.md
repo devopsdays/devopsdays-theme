@@ -1,6 +1,7 @@
 +++
 Title = "Conduct"
 Type = "event"
+Description = ""
 +++
 
 ## ANTI-HARASSMENT POLICY

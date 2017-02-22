@@ -42,11 +42,18 @@ Guidelines regarding sponsor logo files and formatting:
 
 * The dimensions of the image file must be 200px square.
 * The background must be either white or transparent.
-* There must *not* be a border (one will be added using CSS).
 
-All logos will be constrained, via markup, to 100px square; combined with the image file dimensions, this allows for high-density display (ex. Retina) compatibility.
+All logos will be resized at release time, to 200px wide. Versions for high-density display (ex. Retina) will also be created. It is recommended that you do not use a sponsor logo that is smaller than 200px wide to keep from quality degradation at resize time.
 
-Use [contrib/resize_sponsor_logo.sh](resize_sponsor_logo.sh) to convert a logo centered into the right dimensions.
+## Team members
+
+See the example team members listed in the generated data file. You can now add additional fields for each team member, as well as a photo. The photo must be in JPG format, and should be 300px x 300px. These images are located in the `static/events/YYYY-CITY/organizers` directory.
+
+## Social sharing image
+
+A sharing image is added to the Open Graph tags for your event pages, to improve the sharing on social networks such as Facebook (or in Slack). This image must be named `sharing.jpg` and located in `static/events/YYYY-CITY`. It should be a minimum 1200px x 630px, and use ratio: 1.91:1.
+
+If no image is provided, then the meta tag will not be created. Facebook might try to infer it, but the links shared will just likely have no images.
 
 ## Speakers
 
@@ -59,6 +66,8 @@ Website = ""
 Facebook = ""
 Linkedin = ""
 Pronouns = ""
+Github = ""
+Twitter = ""
 ```
 
 If you have a two-speaker talk, create both speakers, add the talk under one of them, and set the talk file in `content/events/2017-ponyville/program/rainbow-dash.md` with a Speakers attribute like this:
@@ -73,7 +82,7 @@ Use [add_program.sh](add_program.sh) to add the program for your event. The prog
 
 
 ### Speaker Images
-The headshots for your speaker images should be exactly 500px wide. (They display at 250px wide, but add them at 500px wide in order to make them look good on retina displays.) They must be in JPG format and named with the `.jpg` extension.
+The headshots for your speaker images should be approximately 500px wide. They will display fluidly based upon the screen size and versions for high-density display (ex. Retina) will also be created at build time. They must be in JPG format and named with the `.jpg` extension.
 
 # Adding slides and video
 
@@ -86,4 +95,3 @@ speakerdeck = ""
 slideshare = ""
 slides = ""
 ```
-
