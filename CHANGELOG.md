@@ -1,5 +1,78 @@
 # Change Log
 
+## [0.8.0](https://github.com/devopsdays/devopsdays-theme/tree/0.8.0) (2017-02-22)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.7.0...0.8.0)
+
+**Implemented enhancements:**
+
+- Add github account parameter for speakers and organizers [\#279](https://github.com/devopsdays/devopsdays-theme/issues/279)
+- Change homepage to use hard-coded file names [\#255](https://github.com/devopsdays/devopsdays-theme/issues/255)
+- Update image processing in gulp [\#252](https://github.com/devopsdays/devopsdays-theme/issues/252)
+- Make contact shortcodes display in a prettier manner [\#231](https://github.com/devopsdays/devopsdays-theme/issues/231)
+- Event home page needs more styling [\#227](https://github.com/devopsdays/devopsdays-theme/issues/227)
+- Style footer so it looks different than rest of page [\#141](https://github.com/devopsdays/devopsdays-theme/issues/141)
+- Make sponsor layout look pretty [\#137](https://github.com/devopsdays/devopsdays-theme/issues/137)
+- Add social sharing images [\#123](https://github.com/devopsdays/devopsdays-theme/issues/123)
+- Add styling to blog page list [\#48](https://github.com/devopsdays/devopsdays-theme/issues/48)
+- Create properly-styled blog post page [\#45](https://github.com/devopsdays/devopsdays-theme/issues/45)
+
+**Fixed bugs:**
+
+- Make events page look pretty [\#289](https://github.com/devopsdays/devopsdays-theme/issues/289)
+- Path to sharing image is not correct on sub-pages [\#280](https://github.com/devopsdays/devopsdays-theme/issues/280)
+- Fix aspect ratio issue on local event contact page [\#266](https://github.com/devopsdays/devopsdays-theme/issues/266)
+- event pages need titles [\#243](https://github.com/devopsdays/devopsdays-theme/issues/243)
+- Structured metadata returns invalid info [\#236](https://github.com/devopsdays/devopsdays-theme/issues/236)
+- Structured metadata cannot pull from event description with special characters [\#234](https://github.com/devopsdays/devopsdays-theme/issues/234)
+- Add privacy policy to footer [\#218](https://github.com/devopsdays/devopsdays-theme/issues/218)
+- Ensure structured metadata only shows with items with startdate [\#212](https://github.com/devopsdays/devopsdays-theme/issues/212)
+- Refactor event nav on small devices [\#185](https://github.com/devopsdays/devopsdays-theme/issues/185)
+- Consider processing sponsor image sizes in gulp [\#153](https://github.com/devopsdays/devopsdays-theme/issues/153)
+- Text alignment of events on homepage is weird [\#134](https://github.com/devopsdays/devopsdays-theme/issues/134)
+
+**Closed issues:**
+
+- determine contents of footer [\#263](https://github.com/devopsdays/devopsdays-theme/issues/263)
+
+**Merged pull requests:**
+
+- Clean up events page [\#290](https://github.com/devopsdays/devopsdays-theme/pull/290) ([mattstratton](https://github.com/mattstratton))
+- Change to use file path for homepage images [\#285](https://github.com/devopsdays/devopsdays-theme/pull/285) ([mattstratton](https://github.com/mattstratton))
+- Update social graph tags for sub-pages [\#284](https://github.com/devopsdays/devopsdays-theme/pull/284) ([mattstratton](https://github.com/mattstratton))
+- Add github parameters to bios [\#283](https://github.com/devopsdays/devopsdays-theme/pull/283) ([mattstratton](https://github.com/mattstratton))
+- Update ponyville so we can see it again [\#282](https://github.com/devopsdays/devopsdays-theme/pull/282) ([mattstratton](https://github.com/mattstratton))
+- Add concurrent image processing to speed up gulp [\#281](https://github.com/devopsdays/devopsdays-theme/pull/281) ([mattstratton](https://github.com/mattstratton))
+- Update responsive-images.js [\#276](https://github.com/devopsdays/devopsdays-theme/pull/276) ([mattstratton](https://github.com/mattstratton))
+- Optimize image processing [\#275](https://github.com/devopsdays/devopsdays-theme/pull/275) ([mattstratton](https://github.com/mattstratton))
+- Updates from prod [\#274](https://github.com/devopsdays/devopsdays-theme/pull/274) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Forgot to update netlify config file [\#271](https://github.com/devopsdays/devopsdays-theme/pull/271) ([mattstratton](https://github.com/mattstratton))
+- Fix responsive images [\#270](https://github.com/devopsdays/devopsdays-theme/pull/270) ([mattstratton](https://github.com/mattstratton))
+- Footer styling and content [\#269](https://github.com/devopsdays/devopsdays-theme/pull/269) ([mattstratton](https://github.com/mattstratton))
+- Make contact page look nicer [\#268](https://github.com/devopsdays/devopsdays-theme/pull/268) ([mattstratton](https://github.com/mattstratton))
+- Fix gulp stuff again [\#267](https://github.com/devopsdays/devopsdays-theme/pull/267) ([mattstratton](https://github.com/mattstratton))
+- Fix gulp stuff again [\#264](https://github.com/devopsdays/devopsdays-theme/pull/264) ([mattstratton](https://github.com/mattstratton))
+- fix gulp stuff [\#261](https://github.com/devopsdays/devopsdays-theme/pull/261) ([mattstratton](https://github.com/mattstratton))
+- Revert "Testing larger images." [\#260](https://github.com/devopsdays/devopsdays-theme/pull/260) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Make organizers look pretty [\#259](https://github.com/devopsdays/devopsdays-theme/pull/259) ([mattstratton](https://github.com/mattstratton))
+- Style event pages\#243 [\#258](https://github.com/devopsdays/devopsdays-theme/pull/258) ([mattstratton](https://github.com/mattstratton))
+- Update image processing\#252 [\#257](https://github.com/devopsdays/devopsdays-theme/pull/257) ([mattstratton](https://github.com/mattstratton))
+- Update image processing\#252 [\#256](https://github.com/devopsdays/devopsdays-theme/pull/256) ([mattstratton](https://github.com/mattstratton))
+- Make event nav look pretty on small screens. Fixes \#185 [\#254](https://github.com/devopsdays/devopsdays-theme/pull/254) ([mattstratton](https://github.com/mattstratton))
+- Fix spelling of path separator key [\#253](https://github.com/devopsdays/devopsdays-theme/pull/253) ([mattstratton](https://github.com/mattstratton))
+- Testing larger images. [\#251](https://github.com/devopsdays/devopsdays-theme/pull/251) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Revert "Trying a different logo for Seattle" [\#250](https://github.com/devopsdays/devopsdays-theme/pull/250) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Trying a different logo for Seattle [\#249](https://github.com/devopsdays/devopsdays-theme/pull/249) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Event, speaker, sponsor, and program generation [\#248](https://github.com/devopsdays/devopsdays-theme/pull/248) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- This page needs to be excluded from updates. [\#247](https://github.com/devopsdays/devopsdays-theme/pull/247) ([bridgetkromhout](https://github.com/bridgetkromhout))
+- Add social sharing image feature [\#245](https://github.com/devopsdays/devopsdays-theme/pull/245) ([mattstratton](https://github.com/mattstratton))
+- Correct some issues with open graph and schema [\#242](https://github.com/devopsdays/devopsdays-theme/pull/242) ([mattstratton](https://github.com/mattstratton))
+- Update exampleSite data [\#240](https://github.com/devopsdays/devopsdays-theme/pull/240) ([mattstratton](https://github.com/mattstratton))
+- Change travis to container-based [\#238](https://github.com/devopsdays/devopsdays-theme/pull/238) ([mattstratton](https://github.com/mattstratton))
+- Add debug for event page [\#237](https://github.com/devopsdays/devopsdays-theme/pull/237) ([mattstratton](https://github.com/mattstratton))
+- Make schema metadata only show on events with a startdate [\#233](https://github.com/devopsdays/devopsdays-theme/pull/233) ([mattstratton](https://github.com/mattstratton))
+- Add some style to the welcome page for events [\#232](https://github.com/devopsdays/devopsdays-theme/pull/232) ([mattstratton](https://github.com/mattstratton))
+- Add blog page styling [\#228](https://github.com/devopsdays/devopsdays-theme/pull/228) ([mattstratton](https://github.com/mattstratton))
+
 ## [0.7.0](https://github.com/devopsdays/devopsdays-theme/tree/0.7.0) (2017-02-16)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.6.1...0.7.0)
 
