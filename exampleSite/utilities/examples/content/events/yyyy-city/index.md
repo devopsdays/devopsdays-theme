@@ -2,6 +2,7 @@
 Title = "Welcome"
 Type = "welcome"
 aliases = ["/events/yyyy-city/welcome"]
+Description = ""
 +++
 
 <!-- <div style="text-align:center;">
