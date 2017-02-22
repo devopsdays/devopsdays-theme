@@ -3,10 +3,11 @@ var gulp = require('gulp'),
 runSequence = require('run-sequence');
 
 gulp.task('responsive-images', function(callback) {
-    runSequence('responsive-images-logos','responsive-sponsor-images', 'responsive-images-remaining',
+    runSequence('responsive-images-logos','responsive-sponsor-images',
         callback
     )
 });
+
 
 gulp.task('responsive-images-logos', function() {
     return gulp.src(['public/events/**/logo-square.*', '!public/**/sharing.jpg'])
