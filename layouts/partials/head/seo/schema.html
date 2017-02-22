@@ -1,7 +1,10 @@
 <!-- Schema.org markup -->
 <meta itemprop="name" content="{{ .Title }}">
-<meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
-
+{{ if .IsHome }}
+  <meta itemprop="description" content="devopsdays is a worldwide community conference series for anyone interested in IT improvement." />
+{{ else }}
+  <meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
+{{ end }}
 
 {{ if or (eq .Type "welcome") (eq .Type "event") (eq .Type "speaker") (eq .Type "speakers") (eq .Type "talk") (eq .Type "program")}}
   {{ $path := split ( .Permalink | relURL) "/" }}
