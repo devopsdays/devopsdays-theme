@@ -45,8 +45,6 @@ Guidelines regarding sponsor logo files and formatting:
 
 All logos will be resized at release time, to 200px wide. Versions for high-density display (ex. Retina) will also be created. It is recommended that you do not use a sponsor logo that is smaller than 200px wide to keep from quality degradation at resize time.
 
-Use [contrib/resize_sponsor_logo.sh](resize_sponsor_logo.sh) to convert a logo centered into the right dimensions. *Note - this script is no longer needed in the new theme*
-
 ## Team members
 
 See the example team members listed in the generated data file. You can now add additional fields for each team member, as well as a photo. The photo must be in JPG format, and should be 300px x 300px. These images are located in the `static/events/YYYY-CITY/organizers` directory.
