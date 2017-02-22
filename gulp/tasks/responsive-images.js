@@ -2,11 +2,14 @@ var gulp = require('gulp'),
     responsive = require('gulp-responsive');
 runSequence = require('run-sequence');
 
-gulp.task('responsive-images', function(callback) {
-    runSequence('responsive-images-logos','responsive-sponsor-images','responsive-images-remaining',
-        callback
-    )
-});
+// gulp.task('responsive-images', function(callback) {
+//     runSequence('responsive-images-logos','responsive-sponsor-images',
+//         callback
+//     )
+// });
+
+gulp.task('responsive-images', ['responsive-images-logos', 'responsive-sponsor-images', 'responsive-images-remaining'])
+
 
 
 gulp.task('responsive-images-logos', function() {
@@ -94,12 +97,12 @@ gulp.task('responsive-images-remaining', function() {
             '**/*.png': [{
                 width: '100%'
             }, {
-                width: '200%',
+                width: '100%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '300%',
+                width: '100%',
                 rename: {
                     suffix: '@3x'
                 }
@@ -107,12 +110,12 @@ gulp.task('responsive-images-remaining', function() {
             '**/*.jpg': [{
                 width: '100%'
             }, {
-                width: '200%',
+                width: '100%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '300%',
+                width: '100%',
                 rename: {
                     suffix: '@3x'
                 }
