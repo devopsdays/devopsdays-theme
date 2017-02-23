@@ -13,11 +13,11 @@ gulp.task('responsive-images', ['responsive-images-logos', 'responsive-sponsor-i
 
 
 gulp.task('responsive-images-logos', function() {
-    return gulp.src(['public/events/**/logo-square.*', '!public/**/sharing.jpg'])
+    return gulp.src('public/**/*logo-square.jpg')
         .pipe(responsive({
             // produce multiple images from one source
 
-            '**/logo-square.*': [{
+            '**/*logo-square.jpg': [{
                 width: 250,
                 height: 250,
             }, {
@@ -43,7 +43,7 @@ gulp.task('responsive-images-logos', function() {
             withMetadata: false,
             ignoreAspectRatio: true,
         }))
-        .pipe(gulp.dest('staging/events'));
+        .pipe(gulp.dest('staging'));
 });
 
 gulp.task('responsive-sponsor-images', function() {
