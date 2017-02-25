@@ -23,21 +23,15 @@ nav_elements:
   # - name: propose
   #   url: http://cfp.devopsdayschi.org
   - name: program
-    icon: "book"
   - name: speakers
-    icon: "microphone"
   - name: registration
     icon: "pencil"
   - name: sponsor
-    icon: "money"
   - name: volunteer
     icon: "smile-o"
   - name: location
-    icon: "map-o"
   - name: contact
-    icon: "envelope-o"
   - name: conduct
-    icon: "handshake-o"
 
 team_members:
   - name: "George Bluth"
