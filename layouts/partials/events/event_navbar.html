@@ -29,7 +29,7 @@
                   {{ if .icon }}
                     <a href = "{{ .url}}"><i class="fa fa-{{.icon}} fa-2x"></i></a>
                   {{ else }}
-                    <a href = "{{ .url}}"><i class="fa fa-plus fa-2x"></i></a>
+                    <a href = "{{ .url}}"><i class="fa fa-external-link fa-2x"></i></a>
                   {{ end }}
                 </span></li>
             {{ else }}
@@ -41,7 +41,25 @@
                   {{ if .icon }}
                     <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-{{ .icon }} fa-2x"></i></a>
                   {{ else }}
+                    {{ if eq .name "registration" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-user-plus fa-2x"></i></a>
+                    {{ else if eq .name "program" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-book fa-2x"></i></a>
+                    {{ else if eq .name "speakers" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-microphone fa-2x"></i></a>
+                    {{ else if eq .name "sponsor" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-money fa-2x"></i></a>
+                    {{ else if eq .name "contact" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-envelope-o fa-2x"></i></a>
+                    {{ else if eq .name "conduct" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-handshake-o fa-2x"></i></a>
+                    {{ else if eq .name "location" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-map-o fa-2x"></i></a>
+                    {{ else if eq .name "propose" }}
+                      <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-lightbulb-o fa-2x"></i></a>
+                    {{ else }}
                     <a href = "/events/{{ $event_slug }}/{{ .name }}"><i class="fa fa-plus fa-2x"></i></a>
+                   {{ end }}
                   {{ end }}
                 </span>
               </li>
