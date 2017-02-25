@@ -46,6 +46,38 @@ gulp.task('responsive-images-logos', function() {
         .pipe(gulp.dest('staging'));
 });
 
+gulp.task('responsive-organizer-images', function() {
+  return gulp.src('public/**/organizers/*.jpg')
+    .pipe(responsive({
+      '**/*.jpg': [{
+        width: 300,
+        height: 300,
+      }, {
+        width: 600,
+        height: 600,
+        rename: {
+          suffix: '@2x'
+        }
+      }, {
+        width: 900,
+        height: 900,
+        rename: {
+          suffix: '@3x'
+        }
+      }],
+    }, {
+      // global configuration
+      quality: 80,
+      errorOnEnlargement: false,
+      withoutEnlargement: false,
+      progressive: true,
+      silent: true,
+      withMetadata: false,
+      ignoreAspectRatio: true,
+    }))
+    .pipe(gulp.dest('staging'));
+});
+
 gulp.task('responsive-sponsor-images', function() {
     return gulp.src(['public/img/sponsors/*.png', 'public/img/sponsors/*.jpg'])
         .pipe(responsive({
