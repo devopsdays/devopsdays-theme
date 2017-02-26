@@ -7,7 +7,7 @@
 		"uuidString": "E3C4E44D-7016-46F9-B7E7-F0DAD416E2AB"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.github\/ISSUE_TEMPLATE": {
 		"ft": 8192,
@@ -7798,6 +7798,32 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/contributing.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/contributing-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/exampleSite": {
 		"ft": 65536,
 		"oA": 1,
@@ -8639,11 +8665,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/static\/img\/event-logo-default.png": {
-		"ft": 32768,
-		"iS": 199806,
+	"\/static\/img\/event-logo-square.jpg": {
+		"ft": 16384,
+		"iS": 189983,
 		"oA": 1,
-		"oAP": "\/static\/img\/event-logo-default.png",
+		"oAP": "\/static\/img\/event-logo-square.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -9723,6 +9749,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -10051,6 +10081,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -10144,6 +10178,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
