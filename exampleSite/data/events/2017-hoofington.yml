@@ -14,7 +14,6 @@ location: "Hoofington Palace"
 newnav: "yes"
 # navigationelements: ["welcome", "contact", "location", "program", "propose", "proposals", "conduct", "sponsor"]
 nav_elements:
-  - name: welcome
   # - name: propose
   #   url: http://cfp.devopsdayschi.org
   - name: program
