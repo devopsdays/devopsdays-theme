@@ -16,6 +16,10 @@ Use [add_new_event.sh](add_new_event.sh) to add a new event.
 1. The script will populate your event directory in `content/events/yyyy-city` with default content. You should edit it as desired.
 1. Once you have created a logo graphic, place it in `static/events/yyyy-city/logo.png`. (The file MUST be called `logo.png`.) The sample welcome page has a commented-out element to display a logo named in this way. For front-page use, you also need a square version in `static/events/yyyy-city/logo-square.jpg` (url configurable in your datafile).
 
+### Event Square Logo
+
+To customize the logo that appears on the root of devopsdays.org, place a square file (jpg format only) in `static/events/yyyy-city`. It must be named `logo-square.jpg` and should be a minimum 300px x 300px, but optimizally should be 600px x 600px. 
+
 ## Sponsors
 
 Many sponsors are sponsors for multiple devopsdays. If a sponsor listing already exists with the correct information, you can just add them to your datafile.
@@ -40,14 +44,14 @@ If you want to update a sponsor, keep in mind that we don't want to retroactivel
 
 Guidelines regarding sponsor logo files and formatting:
 
-* The dimensions of the image file must be 200px square.
+* The dimensions of the image file must be at least 200px wide.
 * The background must be either white or transparent.
 
 All logos will be resized at release time, to 200px wide. Versions for high-density display (ex. Retina) will also be created. It is recommended that you do not use a sponsor logo that is smaller than 200px wide to keep from quality degradation at resize time.
 
 ## Team members
 
-See the example team members listed in the generated data file. You can now add additional fields for each team member, as well as a photo. The photo must be in JPG format, and should be 300px x 300px. These images are located in the `static/events/YYYY-CITY/organizers` directory.
+See the example team members listed in the generated data file. You can now add additional fields for each team member, as well as a photo. The photo must be in JPG format, and should be a minimum 300px x 300px, but optimially 600px x 600px. These images are located in the `static/events/YYYY-CITY/organizers` directory.
 
 ## Social sharing image
 
