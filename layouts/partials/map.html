@@ -65,9 +65,8 @@ function initialize() {
             labelClass: "labels",
             labelStyle: { opacity: 1 }
         });
-        // cityLink = markers[i][4]
-        // This isn't working right now btw
-        // google.maps.event.addListener(marker, "click", function (e) { location.href=cityLink});
+        cityLink = location.protocol + "//" + location.host + markers[i][4]
+        google.maps.event.addListener(marker, "click", function (e) { location.href=cityLink});
 
         // refocus
         map.fitBounds(bounds);
