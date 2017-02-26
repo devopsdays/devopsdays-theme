@@ -122,7 +122,7 @@ gulp.task('responsive-sponsor-images', function() {
 
 gulp.task('responsive-images-remaining', function() {
     return gulp.src(['public/**/*.png', 'public/**/*.jpg',
-            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/**/sharing.jpg', '!**/logo-square.*', '!public/img/sponsor/*.*'
+            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/**/sharing.jpg', '!**/logo-square.*', '!public/img/sponsor/*.*', '!public/**/organizers/*.jpg',
         ])
         .pipe(responsive({
             // produce multiple images from one source
