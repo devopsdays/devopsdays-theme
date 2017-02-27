@@ -76,6 +76,9 @@
                       <div class = "col-md-6">
                         {{ if eq .type "custom" }}
                           {{ .title }}<br />
+                          {{ if .comments }}
+                            <span class = "program-page-desc">{{ .comments | markdownify }}<br /></span>
+                          {{ end }}
                         {{ else }}
                         <a href = "/events/{{ $event_slug}}/program/{{ .title }}">
                           {{ $.Scratch.Get (printf "%s-speaker" .title) }} -
@@ -160,14 +163,14 @@
   {{ if .ignites }}
     <div class = "row">
       <div class = "col-md-12">
-        <h3>Ignite Sessions</h3>
+        <h3 class = "program-page">Ignite Sessions</h3>
       </div>
     </div>
     <div class = "row">
       <div class = "col-md-6">
         <h4>{{- dateFormat "January 2, 2006" $e.startdate -}}</h4>
         <div class = "row">
-          <div class = "col-md-4">
+          <div class = "col-md-6">
             <ul>
     {{ $ignites := (where .ignites "date" $e.startdate) }}
     {{ $ignites_len := (len $ignites) }}
@@ -192,7 +195,7 @@
         </div>
         {{- if eq (div ($.Scratch.Get "ignites_len") 2) ($.Scratch.Get "ignites_counter") }}
         </div>
-        <div class = "col-md-4">
+        <div class = "col-md-6">
         {{- end -}}
       </div>
 
@@ -202,7 +205,7 @@
       <div class = "col-md-6">
         <h4>{{- dateFormat "January 2, 2006" $e.enddate -}}</h4>
         <div class = "row">
-          <div class = "col-md-4">
+          <div class = "col-md-6">
             <ul>
               {{ $ignites := (where .ignites "date" $e.enddate) }}
               {{ $ignites_len := (len $ignites) }}
@@ -227,7 +230,7 @@
         </div>
         {{- if eq (div ($.Scratch.Get "ignites_len") 2) ($.Scratch.Get "ignites_counter") }}
         </div>
-        <div class = "col-md-4">
+        <div class = "col-md-6">
         {{- end -}}
       </div>
       {{ end }}

@@ -20,6 +20,11 @@ Use [add_new_event.sh](add_new_event.sh) to add a new event.
 
 To customize the logo that appears on the root of devopsdays.org, place a square file (jpg format only) in `static/events/yyyy-city`. It must be named `logo-square.jpg` and should be a minimum 300px x 300px, but optimizally should be 600px x 600px. 
 
+### Reference Content
+
+* The gears logo is available in AI, PSD and SVG format in the repo at [devopsdays/devopsdays-assets](https://github.com/devopsdays/devopsdays-assets)
+* Prospectuses for other events you may want to reference are also available in the [devopsdays/devopsdays-assets](https://github.com/devopsdays/devopsdays-assets) repo.
+
 ## Sponsors
 
 Many sponsors are sponsors for multiple devopsdays. If a sponsor listing already exists with the correct information, you can just add them to your datafile.

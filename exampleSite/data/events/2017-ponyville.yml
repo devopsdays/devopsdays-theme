@@ -225,6 +225,55 @@ program:
     date: 2017-02-27
     start_time: "11:50"
     end_time: "13:00"
+  - title: "Ignites"
+    type: custom
+    date: 2017-02-27
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-02-27
+    start_time: "13:30"
+    end_time: "13:40"
+  - title: "Open Space Opening"
+    type: custom
+    date: 2017-02-27
+    start_time: "13:40"
+    end_time: "14:15"
+  - title: "Open Space #1"
+    type: custom
+    date: 2017-02-27
+    start_time: "14:15"
+    end_time: "15:00"
+  - title: "Break"
+    type: custom
+    date: 2017-02-27
+    start_time: "15:00"
+    end_time: "15:15"
+  - title: "Open Space #2"
+    type: custom
+    date: 2017-02-27
+    start_time: "15:15"
+    end_time: "16:00"
+  - title: "Open Space #3"
+    type: custom
+    date: 2017-02-27
+    start_time: "16:15"
+    end_time: "17:00"
+  - title: "Close Day & Logistics"
+    type: custom
+    date: 2017-02-27
+    start_time: "17:00"
+    end_time: "17:15"
+  - title: "Evening Event"
+    type: custom
+    date: 2017-02-27
+    start_time: "18:30"
+    end_time: "21:30"
+    comments: "This will be at the [Pony Club](http://www.mattstratton.com)<br>
+    1005 Ponyville Drive<br>
+    Ponyville, IL<br>
+    60612"
   - title: "Registration, Breakfast, and Sponsor Booths Open"
     type: custom
     date: 2017-02-28
@@ -275,6 +324,47 @@ program:
     date: 2017-02-28
     start_time: "11:50"
     end_time: "13:00"
+  - title: "Ignites"
+    type: custom
+    date: 2017-02-28
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-02-28
+    start_time: "13:30"
+    end_time: "13:40"
+  - title: "Open Space Opening"
+    type: custom
+    date: 2017-02-28
+    start_time: "13:40"
+    end_time: "14:15"
+  - title: "Open Space #1"
+    type: custom
+    date: 2017-02-28
+    start_time: "14:15"
+    end_time: "15:00"
+  - title: "Break"
+    type: custom
+    date: 2017-02-28
+    start_time: "15:00"
+    end_time: "15:15"
+  - title: "Open Space #2"
+    type: custom
+    date: 2017-02-28
+    start_time: "15:15"
+    end_time: "16:00"
+  - title: "Open Space #3"
+    type: custom
+    date: 2017-02-28
+    start_time: "16:15"
+    end_time: "17:00"
+  - title: "Close Day & Farewell"
+    type: custom
+    date: 2017-02-28
+    start_time: "17:00"
+    end_time: "17:15"
+
 ignites:
   - title: "spike"
     date: 2017-02-27
