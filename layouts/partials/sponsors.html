@@ -30,9 +30,9 @@
 
             {{ if isset $.Site.Data.sponsors .id }}
 
-              <div class = "col-lg-2 col-md-3 col-sm-6 col-xs-6">
+              <div class = "col-lg-1 col-md-2 col-4">
                 <a href = "{{ $s.url }}"><img src = "/img/sponsors/{{ .id }}.png" alt = "{{ $s.name }}" title = "{{ $s.name }}" class="img-fluid"></a>
-              </div>{{ "<!-- close individusal sponsor div-->" | safeHTML}}
+              </div>{{ "<!-- close individual sponsor div-->" | safeHTML}}
             {{- end -}}
           {{- end -}}
         </div>{{ "<!-- close sponsor content row -->" | safeHTML}}
