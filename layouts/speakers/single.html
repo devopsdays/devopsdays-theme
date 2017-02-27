@@ -6,7 +6,6 @@
 {{- $e :=  (index $.Site.Data.events $event_slug) -}}
 {{- $city_slug := substr $e.name 5 -}}
 {{ $.Scratch.Set "i" 1 }}
-{{- partial "events/event_navbar.html" . -}}
 
 
 <div class = "row">
