@@ -76,6 +76,9 @@
                       <div class = "col-md-6">
                         {{ if eq .type "custom" }}
                           {{ .title }}<br />
+                          {{ if .comments }}
+                            <span class = "program-page-desc">{{ .comments | markdownify }}<br /></span>
+                          {{ end }}
                         {{ else }}
                         <a href = "/events/{{ $event_slug}}/program/{{ .title }}">
                           {{ $.Scratch.Get (printf "%s-speaker" .title) }} -
@@ -160,7 +163,7 @@
   {{ if .ignites }}
     <div class = "row">
       <div class = "col-md-12">
-        <h3>Ignite Sessions</h3>
+        <h3 class = "program-page">Ignite Sessions</h3>
       </div>
     </div>
     <div class = "row">
