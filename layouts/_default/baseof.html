@@ -8,6 +8,10 @@
 <body lang="{{ .Site.Params.Lang }}">
 
   {{- partial "global_navbar.html" . -}}
+  {{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
+  {{ if or (eq (index $path 0) "events") (eq .Type "events") }}
+    {{- partial "events/event_navbar.html" . -}}
+  {{ end }}
   <div class="container-fluid">
         <div class="row">
           {{ if .IsPage }}
