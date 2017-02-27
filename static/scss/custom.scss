@@ -474,6 +474,28 @@ a:hover.welcome-page-masthead-link {
   text-decoration: none;
 }
 
+.welcome-page-cta {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.welcome-page-cta:first-child {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .welcome-page-cta:first-child {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+
+}
+
+
 .organizer-card {
   padding-bottom: 20px;
 }

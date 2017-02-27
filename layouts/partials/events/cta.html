@@ -4,52 +4,62 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 <!-- register button -->
+
 <div class = "row">
 
-<div class = "col-md-12">
+    <!-- register button -->
+    {{ if $e.registration_open }}
+      {{ if eq $e.registration_open "true" }}
+        {{ if $e.registration_link }}
+          {{ if eq $e.registration_link "" }}
+            {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
+          {{ else }}
+            {{ $.Scratch.Set "registration_link" $e.registration_link }}
+          {{ end }}
+        {{ else }}
+          {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
 
-
-{{ if $e.registration_open }}
-  {{ if eq $e.registration_open "true" }}
-    {{ if $e.registration_link }}
-      {{ if eq $e.registration_link "" }}
-        {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
-      {{ else }}
-        {{ $.Scratch.Set "registration_link" $e.registration_link }}
       {{ end }}
-    {{ else }}
-      {{ $.Scratch.Set "registration_link" (printf "/events/%s/register" $event_slug)}}
+      <div class = "col-auto  offset-1 offset-md-0 welcome-page-cta">
+        <a href="{{ $.Scratch.Get "registration_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Register</a>
+          </div>
+      {{ end }}
+    {{ end }}
 
-  {{ end }}
-    <a href="{{ $.Scratch.Get "registration_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Register</a>
-  {{ end }}
-{{ end }}
 
-<!-- propose button -->
-<!-- register button -->
-{{ if $e.cfp_open }}
-  {{ if eq $e.cfp_open "true" }}
-    {{ if $e.cfp_link }}
-      {{ if eq $e.cfp_link "" }}
+
+  <!-- propose button -->
+
+  {{ if $e.cfp_open }}
+    {{ if eq $e.cfp_open "true" }}
+      {{ if $e.cfp_link }}
+        {{ if eq $e.cfp_link "" }}
+          {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
+        {{ else }}
+          {{ $.Scratch.Set "cfp_link" $e.cfp_link }}
+        {{ end }}
+      {{ else }}
         {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
-      {{ else }}
-        {{ $.Scratch.Set "cfp_link" $e.cfp_link }}
-      {{ end }}
-    {{ else }}
-      {{ $.Scratch.Set "cfp_link" (printf "/events/%s/propose" $event_slug)}}
 
+    {{ end }}
+    <div class = "col-auto offset-1 offset-md-0 welcome-page-cta">
+      <a href="{{ $.Scratch.Get "cfp_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Propose</a>
+    </div>
+    {{ end }}
   {{ end }}
-    <a href="{{ $.Scratch.Get "cfp_link" }}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Propose</a>
-  {{ end }}
-{{ end }}
 
-<!-- follow on twitter button -->
-{{ if $e.event_twitter }}
-  {{ if ne $e.event.twitter "" }}
-  <a href="https://twitter.com/{{$e.event_twitter}}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Follow</a>
+
+
+  <!-- follow on twitter button -->
+  {{ if $e.event_twitter }}
+    {{ if ne $e.event.twitter "" }}
+    <div class = "col-auto  offset-1 offset-md-0 welcome-page-cta">
+    <a href="https://twitter.com/{{$e.event_twitter}}" class="btn jssocials-share-link event-cta-button" role="button" aria-pressed="true">Follow</a>
+    </div>
+    {{ end }}
   {{ end }}
-{{ end }}
-</div>
+
+
 </div>
 <style>
 a.jssocials-share-link {
@@ -62,7 +72,7 @@ a:hover.jssocials-share-link {
 }
 </style>
 <div class = "row">
-  <div class = "col-md-12">
+  <div class = "col-md-12 offset-1 offset-md-0  welcome-page-cta">
     <div id="share"></div>
   </div>
 
