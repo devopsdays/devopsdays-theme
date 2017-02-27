@@ -1,7 +1,7 @@
 {{ if .IsHome }}
   {{ partial "map.html" . }}
   {{  $.Scratch.Set "twitter_handle" "devopsdays" }}
-  {{  $.Scratch.Set "sharing_title" "DevOpsDays" }}
+  {{  $.Scratch.Set "sharing_title" "devopsdays" }}
 {{ end }}
 
 <!-- set strutured metadata -->
@@ -34,7 +34,7 @@
         {{- $.Scratch.Set "sharing_title" .Params.Title -}}
       {{- end -}}
     {{- else -}}
-      {{ $sharing_title := (printf "DevOpsDays %s - %s" $e.city $e.year)}}
+      {{ $sharing_title := (printf "devopsdays %s - %s" $e.city $e.year)}}
       {{- $.Scratch.Set "sharing_title" $sharing_title -}}
     {{- end -}}
   {{ else }}
@@ -44,7 +44,7 @@
         {{- $.Scratch.Set "sharing_title" .Params.Title -}}
       {{- end -}}
     {{- else -}}
-      {{- $.Scratch.Set "sharing_title" "DevOpsDays" -}}
+      {{- $.Scratch.Set "sharing_title" "devopsdays" -}}
     {{- end -}}
   {{ end }}
 {{ end }}
