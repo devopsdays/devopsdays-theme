@@ -12,7 +12,7 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 
 # devopsdays-theme
 
-devopsdays-theme is the Hugo theme for the [DevOpsDays](https://www.devopsdays.org) website.
+devopsdays-theme is the Hugo theme for the [devopsdays](https://www.devopsdays.org) website.
 
 # QA Testing the New Theme
 While we are in development, your help is appreciated in identifying outstanding issues or defects. Please browse through the example site at https://dev.devopsdays.org, and if you idenfity something that is broken or missing, please [log an issue](https://github.com/devopsdays/devopsdays-theme/issues). We may mark it as a duplicate, etc, but log anything you find that seems wrong or broken.
