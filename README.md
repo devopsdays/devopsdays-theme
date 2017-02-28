@@ -28,28 +28,21 @@ On the new homepage, upcoming events are listed with a square thumbnail. The ima
 
 ## Event Menu Icons
 
-When on a smaller screen, the event menu collapses to icons. These icons are named from ones available at [Font Awesome](http://fontawesome.io/icons/) and need to be added as optional parameters to the list of event nav elements for the event in its data file. If no icon is set, a plus sign will be displayed.
+When on a smaller screen, the event menu collapses to icons. These icons are named from ones available at [Font Awesome](http://fontawesome.io/icons/) and custom ones can be added as optional parameters to the list of event nav elements for the event in its data file. The common menu items have default icons for each type.
 
 Example:
 
 ```
 nav_elements:
   - name: program
-    icon: "book"
   - name: speakers
-    icon: "microphone"
   - name: registration
-    icon: "pencil"
   - name: sponsor
-    icon: "money"
-  - name: volunteer
+  - name: stuff
     icon: "smile-o"
   - name: location
-    icon: "map-o"
   - name: contact
-    icon: "envelope-o"
   - name: conduct
-    icon: "handshake-o"
 ```
 
 ## Improved Organizer List Page
@@ -65,12 +58,12 @@ nav_elements:
     bio: "At high school, George Michael is hardly known by any other students but gets good grades. He is paid to tutor Maeby, but instead, she plagiarizes from him. He briefly develops a crush on his teacher Beth Baerly because she paid attention to him. (\"Shock and Aww\") He lost the student council election, receiving only 3% of the votes. (\"The Immaculate Election\")<p>
     George Michael's good grades continue through college. To get into Julliard, George Michael develops a fake woodblock app with his roommate P-Hound called [Fakeblock](http://arresteddevelopment.wikia.com/wiki/Fakeblock). One small lie causes the app to get blown out of proportion by Maeby who thinks it is privacy software."
 ```
-Please note that quotation marks in the bio need to be escaped.
+Please note that quotation marks in the bio need to be escaped. The image is relative to the `static/events/YYYY-CITY/organizers/` directory, and must be in jpg format.
 
 ## Program Page
-A new template is being created to generate a program page. A work in progress example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
+A new template has been created to generate a program page. An example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
-This is an opt-in feature; the page will need to be set for the type of program in order to generate it.
+This is an opt-in feature; the page will need to be set for the type of `program` in order to generate it.
 
 ## Social Sharing Images
 An event can create a sharing image for use on social media (when the url is shared on Facebook, for instance). This image must be named `sharing.jpg` and located in the `static/events/YYYY-CITY/` directory. It should be a minimum 1200 x 630px, and use ratio: 1.91:1.
@@ -143,7 +136,7 @@ To cut a new release, a tag must be created. This will trigger Travis to deploy 
 1. Update the `theme_version` key in `theme.toml` to the new version.
 1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system.
 1. Inside the repository, run `github_changelog_generator --future-release "x.x.x`. 
-1. Run `git add CHANGELOG.md`
+1. Run `git add CHANGELOG.md theme.toml`
 1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
 1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
 
