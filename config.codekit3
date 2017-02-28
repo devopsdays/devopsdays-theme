@@ -8169,6 +8169,24 @@
 		"oAP": "\/layouts\/section\/blog.html",
 		"oF": 0
 		},
+	"\/layouts\/section\/blog.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/section\/blog.rss.xml",
+		"oF": 0
+		},
+	"\/layouts\/section\/events.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/section\/events.rss.xml",
+		"oF": 0
+		},
+	"\/layouts\/section\/speaking.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/section\/speaking.rss.xml",
+		"oF": 0
+		},
 	"\/layouts\/shortcodes\/cfp_dates.html": {
 		"ft": 8192,
 		"oA": 2,
