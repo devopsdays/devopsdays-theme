@@ -11,6 +11,7 @@
 <title>Upcoming devopsdays events</title>
 <atom:link href="{{ $.Site.Params.weburl }}/events/index.xml" rel="self" type="application/rss+xml" />
 <link>{{ $.Site.Params.weburl }}</link>
+    <description>Upcoming devopsdays events</description>
 <lastBuildDate>{{ dateFormat "Mon, 2 Jan 2006 15:04:05 -0700" .Now }}</lastBuildDate>
 <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -22,11 +23,11 @@
     {{- if ge (dateFormat "2006-01-02" .enddate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
     <item>
       <title>devopsdays {{ .city }} {{ .year }}</title>
-      <link>{{ $.Site.Params.weburl }}/events/{{ .year}}-{{.city}}</link>
-      <guid>{{ $.Site.Params.weburl }}/events/{{ .year}}-{{.city}}</guid>
+      <link>{{ $.Site.Params.weburl }}/events/{{ .name}}</link>
+      <guid>{{ $.Site.Params.weburl }}/events/{{ .name}}</guid>
       <pubDate>{{ dateFormat "Mon, 2 Jan 2006 15:04:05 -0700" $.Now }}</pubDate>
       {{ if .description }}
-        <description>{{.description }}</description>
+        <description>{{.description | markdownify | htmlEscape}}</description>
       {{ else }}
         {{ if eq .startdate .enddate }}
           <description>devopsdays {{ .city }} {{ .year }} will be taking place {{ dateFormat "Mon, 2 Jan 2006" .startdate }}.</description>
