@@ -500,6 +500,20 @@ a:hover.welcome-page-masthead-link {
   padding-bottom: 20px;
 }
 
+.event-page-nav-home{
+  padding-left: .9rem;
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .event-page-nav-home {
+    padding-left: 1.25rem;
+
+  }
+
+}
+
 .events-page-col {
   padding: 30px;
 }

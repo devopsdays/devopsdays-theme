@@ -12,10 +12,10 @@
     <ul class="nav">
       <li class="nav-item event-navigation">
         <span class = "hidden-md-down">
-          <a class="nav-link" href="/events/{{ $event_slug }}/">{{ $e.city }}</a>
+          <a class="nav-link event-page-nav-home" href="/events/{{ $event_slug }}/">{{ $e.city }}</a>
         </span>
         <span class = "hidden-lg-up event-navigation-icon">
-          <a href="/events/{{ $event_slug }}/"><i class="fa fa-home fa-2x"></i></a>
+          <a href="/events/{{ $event_slug }}/" class = "event-page-nav-home"><i class="fa fa-home fa-2x"></i></a>
         </span>
       </li>
 {{ if $e.nav_elements }}
