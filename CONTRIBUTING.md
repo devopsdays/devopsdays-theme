@@ -20,6 +20,34 @@ hugo server -w --baseUrl="http://localhost:1313"
 
 NOTE: If you also load the existing `devopsdays-web` project, it is highly suggested that you use the `-p` flag on `hugo server` to load this theme on a different port. This will prevent your browser from caching assets like stylesheets, etc, from the other instance.
 
+## Design Principles
+
+### Blocks
+All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
+
+### CSS and SCSS
+All CSS must be generated with SCSS. The SCSS files are located in `static/scss`.
+
+#### `site.scss`
+This is the file that imports all the other SCSS files, including Bootstrap, font-awesome (TBD; it seems that BS 4 brings this in for us), and the jquery oembed. It also imports our custom variables and any other customizations.
+
+#### `custom-variables.scss`
+Use this to set any SCSS variables, or to over-ride any variables used by Bootstrap.
+
+#### `custom.scss`
+This is the only place you should declare custom SCSS or CSS code.
+
+### Colors and Layout
+The design and layout can be found in [here](https://drive.google.com/file/d/0BzljU_vIF4BoOHhLV2Yzd2xicEk/view?usp=sharing). Please refer to the [Style Guide](https://github.com/devopsdays/devopsdays-theme/blob/master/STYLE.md) for all colors, fonts, and sizes of text elements, etc.
+
+## Continuous Integration
+The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written). The Appveyor tests ensure that the site can build with Windows.
+
+All changes are built by Netlify to https://dev.devopsdays.org
+
+### Asset Pipeline
+Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp is only called when changes are merged to master. Pull requests, and local changes will not trigger gulp.
+
 
 ## Workflow
 
