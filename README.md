@@ -83,62 +83,8 @@ Author = "Bridget Kromhout"
 If an author is not specified, attempts to display it are ignored.
 
 
-# Developing devopsdays-theme
-Working with a Hugo theme outside of a content-based repo has a few challenges. The `devopsdays-theme` repo contains a directory called `exampleSite`, which is what is used for testing theme development. The `config.toml` for the `exampleSite` contains the following value:
-
-```
-themesdir = "../.."
-```
-
-This tells Hugo where to look for its theme directories. This requires Hugo 0.18 or later.
-
-You will need to run your watch command from the `exampleSite` directory; use something like this:
-
-```
-hugo server -w --baseUrl="http://localhost:1313"
-```
-
 ## Contributing
-Please submit your proposed changes as a Pull Request against this repository. If the PR will resolve an issue, please add `Fixes #123` to the PR.
-
-## v3 Design
-The design and layout can be found in [here](https://drive.google.com/file/d/0BzljU_vIF4BoOHhLV2Yzd2xicEk/view?usp=sharing). Please refer to the [Style Guide](https://github.com/devopsdays/devopsdays-theme/blob/master/STYLE.md) for all colors, fonts, and sizes of text elements, etc.
-
-## Design Principles
-
-### Blocks
-All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
-
-### CSS and SCSS
-All CSS must be generated with SCSS. The SCSS files are located in `static/scss`.
-
-#### `site.scss`
-This is the file that imports all the other SCSS files, including Bootstrap, font-awesome (TBD; it seems that BS 4 brings this in for us), and the jquery oembed. It also imports our custom variables and any other customizations.
-
-#### `custom-variables.scss`
-Use this to set any SCSS variables, or to over-ride any variables used by Bootstrap.
-
-#### `custom.scss`
-This is the only place you should declare custom SCSS or CSS code.
-
-## Continuous Integration
-The `devopsdays-theme` repo has hooks into Travis, Appveyor, and Netlify. Currently, the Travis build doesn’t do very much (the intent is to add some testing using Casper.js for web testing, but no tests have been written). The Appveyor tests ensure that the site can build with Windows.
-
-All changes are built by Netlify to https://dev.devopsdays.org
-
-### Asset Pipeline
-Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp is only called when changes are merged to master. Pull requests, and local changes will not trigger gulp.
-
-# Releasing `devopsdays-theme`
-
-To cut a new release, a tag must be created. This will trigger Travis to deploy a new release. Follow these steps:
-
-1. Update the `theme_version` key in `theme.toml` to the new version.
-1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system.
-1. Inside the repository, run `github_changelog_generator --future-release "x.x.x`. 
-1. Run `git add CHANGELOG.md theme.toml`
-1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
-1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
+See [CONTRIBUTING.md](https://github.com/devopsdays/devopsdays-theme/blob/master/CONTRIBUTING.md) for details on our workflow, dev setup, and how to release new versions of the theme.
 
 
 # dev examples
