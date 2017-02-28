@@ -62,6 +62,6 @@ To cut a new release, a tag must be created. This will trigger Travis to deploy 
 1. Update the `theme_version` key in `theme.toml` to the new version.
 1. Make sure you have the [`github_changelog_generator`](https://github.com/skywinder/github-changelog-generator) gem installed on your system.
 1. Inside the repository, run `github_changelog_generator --future-release "x.x.x`.
-1. Run `git add CHANGELOG.md`
+1. Run `git add CHANGELOG.md theme.toml`
 1. Add the appropriate tag to the latest commit. The tags are named by the SemVer version number of the theme, with only numbers (that is, `1.1.31` vs `v1.1.31`)
 1. Push to `origin master`, including tags (if you don't know how to do this, ask!)
