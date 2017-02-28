@@ -14,19 +14,19 @@ You can see progress on tasks at http://waffle.io/devopsdays/devopsdays-theme
 
 devopsdays-theme is the Hugo theme for the [devopsdays](https://www.devopsdays.org) website.
 
-# QA Testing the New Theme
+## QA Testing the New Theme
 While we are in development, your help is appreciated in identifying outstanding issues or defects. Please browse through the example site at https://dev.devopsdays.org, and if you idenfity something that is broken or missing, please [log an issue](https://github.com/devopsdays/devopsdays-theme/issues). We may mark it as a duplicate, etc, but log anything you find that seems wrong or broken.
 
-# Theme Layout
+## Theme Layout
 Bear in mind that this theme lives in a separate repo from the main [devopsdays-web repo](https://github.com/devopsdays/devopsdays-web). No changes should be made to the `themes/devopsdays-theme` directory in `devopsdays-web`. If changes need to be made to the theme, they should be made in this repo, and a new version released, and the theme installed into `devopsdays-web`.
 
-# New Features
+## New Features
 
-## Frontpage Logo
+### Frontpage Logo
 
 On the new homepage, upcoming events are listed with a square thumbnail. The image must be square and named `logo-square.jpg` in the `static/events/YYYY-CITY/` directory. If this file does not exist, then the default logo is displayed instead.
 
-## Event Menu Icons
+### Event Menu Icons
 
 When on a smaller screen, the event menu collapses to icons. These icons are named from ones available at [Font Awesome](http://fontawesome.io/icons/) and custom ones can be added as optional parameters to the list of event nav elements for the event in its data file. The common menu items have default icons for each type.
 
@@ -45,7 +45,7 @@ nav_elements:
   - name: conduct
 ```
 
-## Improved Organizer List Page
+### Improved Organizer List Page
  New elements are available via the `list_organizers` shortcode. These include a bio, a photo, and Facebook, Linkedin, GitHub, and website links (in addition to the existing Twitter links). Example usage:
  ```
  team_members:
@@ -60,15 +60,15 @@ nav_elements:
 ```
 Please note that quotation marks in the bio need to be escaped. The image is relative to the `static/events/YYYY-CITY/organizers/` directory, and must be in jpg format.
 
-## Program Page
+### Program Page
 A new template has been created to generate a program page. An example can be seen at https://dev.devopsdays.org/events/2017-ponyville/program
 
 This is an opt-in feature; the page will need to be set for the type of `program` in order to generate it.
 
-## Social Sharing Images
+### Social Sharing Images
 An event can create a sharing image for use on social media (when the url is shared on Facebook, for instance). This image must be named `sharing.jpg` and located in the `static/events/YYYY-CITY/` directory. It should be a minimum 1200 x 630px, and use ratio: 1.91:1.
 
-## Blog
+### Blog
 Blog posts now support setting an "author" name in the frontmatter; for example, like this:
 
 ```
@@ -87,7 +87,7 @@ If an author is not specified, attempts to display it are ignored.
 See [CONTRIBUTING.md](https://github.com/devopsdays/devopsdays-theme/blob/master/CONTRIBUTING.md) for details on our workflow, dev setup, and how to release new versions of the theme.
 
 
-# dev examples
+## dev examples
 This is just a list of some POC urls to see examples:
 - [Home Page](https://dev.devopsdays.org/)
 - [Event Page](https://dev.devopsdays.org/events/2017-ponyville/welcome/)
