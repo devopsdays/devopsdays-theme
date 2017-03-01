@@ -12,8 +12,6 @@ cfp_date_start: 2016-12-21 # start accepting talk proposals.
 cfp_date_end:  2017-02-07 # close your call for proposals.
 cfp_date_announce: 2017-03-07 # inform proposers of status.
 
-event_logo_square: "logo-square.jpg"
-
 # Location
 #
 coordinates: "43.644489,-79.388044" # The corrodinates of your venue. Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
@@ -21,6 +19,7 @@ location: "Glenn Gould Studio" # The name of your location
 #
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
+  - name: welcome
 #  - name: program
   - name: propose
 #    url: http://mycfp.com # The url setting is optional, and only if you want the navigation to link off-site
@@ -58,6 +57,8 @@ sponsors:
   - id: pivotal
     level: gold
   - id: hpe
+    level: gold
+  - id: capitalonecanada
     level: gold
   - id: sourcedgroup
     level: lunch
