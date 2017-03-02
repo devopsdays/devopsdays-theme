@@ -1,5 +1,18 @@
 # Change Log
 
+## [0.9.1](https://github.com/devopsdays/devopsdays-theme/tree/0.9.1) (2017-03-02)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.9.0...0.9.1)
+
+**Implemented enhancements:**
+
+- Create RSS feeds for events and CFP's [\#15](https://github.com/devopsdays/devopsdays-theme/issues/15)
+
+**Fixed bugs:**
+
+- Legacy program pages are missing styling [\#363](https://github.com/devopsdays/devopsdays-theme/issues/363)
+- Some static files are not copied to dist folder [\#354](https://github.com/devopsdays/devopsdays-theme/issues/354)
+- Alignment tweaks to navbars [\#344](https://github.com/devopsdays/devopsdays-theme/issues/344)
+
 ## [0.9.0](https://github.com/devopsdays/devopsdays-theme/tree/0.9.0) (2017-02-27)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.8.0...0.9.0)
 
