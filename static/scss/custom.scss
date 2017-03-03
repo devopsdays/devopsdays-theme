@@ -205,7 +205,7 @@ a.footer-content {
 }
 
 .cta-row {
-  background-color: #bfbfc1;
+  background-color: lighten(#bfbfc1, 20%);
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
@@ -213,8 +213,8 @@ a.footer-content {
 }
 
 a.sponsor-cta {
-  // color: #0082AB;
-  color: #fff;
+  color: #0082AB;
+  // color: #fff;
 }
 
 /* Homepage */
