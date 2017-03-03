@@ -204,8 +204,17 @@ a.footer-content {
   color: #000000;
 }
 
+.cta-row {
+  background-color: lighten(#bfbfc1, 20%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 a.sponsor-cta {
   color: #0082AB;
+  // color: #fff;
 }
 
 /* Homepage */
