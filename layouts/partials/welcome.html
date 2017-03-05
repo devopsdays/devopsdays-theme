@@ -23,8 +23,12 @@
         <br />
 
         {{if $e.location }}
-          <span>{{- $e.location -}}</span>
+          <span class = "welecome-page-masthead-venue">{{- $e.location -}}</span>
           <br />
+          {{ if $e.location_address }}
+            <span><a href = "http://maps.google.com/?q={{$e.location_address}}" class = "welcome-page-masthead-link">{{ $e.location_address }}</a></span>
+                        <br />
+          {{ end }}
         {{ end }}
 
         {{ if $e.description }}
