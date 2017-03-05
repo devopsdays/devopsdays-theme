@@ -21,15 +21,15 @@
     "@context": "http://schema.org",
     "@type": "ExhibitionEvent",
     {{ if $e.description }}
-      "description": {{ $e.description }}
+      "description": "{{ $e.description | htmlEscape | htmlUnescape | safeHTML}}",
     {{ else }}
       "description": "The conference that brings development and operations together.",
     {{ end }}
     "name": "devopsdays {{ $e.city }} {{ $e.year }}",
     "startDate": "{{ $e.startdate }}",
     "endDate": "{{ $e.enddate }}",
-    "url": {{ $url }},
-    "image": {{ $image_url }},
+    "url": "{{ $url }}",
+    "image": "{{ $image_url }}",
     "location": {
       "@type": "Place",
       {{ if eq $e.city $e.location }}
@@ -37,7 +37,13 @@
       {{ else }}
         "name": "{{ $e.location }}, {{ $e.city }}",
       {{ end }}
-      "address": "{{ $e.coordinates }}"
+      {{ if $e.location_address }}
+        {{ if ne $e.location_address "" }}
+          "address": "{{ $e.location_address }}"
+        {{ else }}
+          "address": "{{ $e.coordinates }}"
+        {{ end }}
+      {{ end }}
     }
   }
   </script>
