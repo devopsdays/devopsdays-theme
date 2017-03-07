@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.9.2](https://github.com/devopsdays/devopsdays-theme/tree/0.9.2) (2017-03-07)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.9.1...0.9.2)
+
+**Implemented enhancements:**
+
+- Display of sponsor rows could be more delightful [\#366](https://github.com/devopsdays/devopsdays-theme/issues/366)
+- Add optional address field in YAML file [\#241](https://github.com/devopsdays/devopsdays-theme/issues/241)
+
 ## [0.9.1](https://github.com/devopsdays/devopsdays-theme/tree/0.9.1) (2017-03-02)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/0.9.0...0.9.1)
 
