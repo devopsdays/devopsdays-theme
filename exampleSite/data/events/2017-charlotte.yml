@@ -12,8 +12,6 @@ cfp_date_start:  # start accepting talk proposals.
 cfp_date_end:  # close your call for proposals.
 cfp_date_announce:  # inform proposers of status
 
-event_logo_square: "logo-square.jpg"
-
 # Location
 #
 coordinates: "35.2271, -80.8431" # The coordinates of your city. Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
@@ -21,6 +19,7 @@ location: "Mint Museum Uptown" # Defaults to city, but you can make it the venue
 #
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
+  - name: welcome
   - name: program
   - name: propose
     url: https://www.papercall.io/dod-clt

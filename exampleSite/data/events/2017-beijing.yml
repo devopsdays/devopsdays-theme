@@ -12,8 +12,6 @@ cfp_date_start:  # start accepting talk proposals.
 cfp_date_end:  # close your call for proposals.
 cfp_date_announce:  # inform proposers of status
 
-event_logo_square: "logo-square.jpg"
-
 # Location
 #
 coordinates: "39.905523, 116.455078" # The coordinates of your city. Get Latitude and Longitude of a Point: http://itouchmap.com/latlong.html
@@ -21,6 +19,7 @@ location: "Sofitel Wanda Beijing hotel" # Defaults to city, but you can make it 
 #
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
+  - name: welcome
 #  - name: program
 #  - name: propose
 #    url: http://mycfp.com # The url setting is optional, and only if you want the navigation to link off-site
