@@ -7,7 +7,7 @@
 		"uuidString": "E3C4E44D-7016-46F9-B7E7-F0DAD416E2AB"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/.github\/ISSUE_TEMPLATE": {
 		"ft": 8192,
@@ -7375,18 +7375,22 @@
 	"\/bower_components\/tether\/examples\/chosen\/chosen-sprite.png": {
 		"ft": 32768,
 		"iS": 646,
+		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/tether\/examples\/chosen\/chosen-sprite.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/tether\/examples\/chosen\/chosen-sprite@2x.png": {
 		"ft": 32768,
 		"iS": 738,
+		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/tether\/examples\/chosen\/chosen-sprite@2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/tether\/examples\/chosen\/chosen.css": {
 		"aP": 0,
@@ -8396,138 +8400,172 @@
 	"\/static\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 31970,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-144x144.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 47867,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-192x192.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/android-icon-36x36.png": {
 		"ft": 32768,
 		"iS": 2944,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-36x36.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/android-icon-48x48.png": {
 		"ft": 32768,
 		"iS": 4875,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-48x48.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/android-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 9784,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-72x72.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/android-icon-96x96.png": {
 		"ft": 32768,
 		"iS": 16079,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/android-icon-96x96.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-114x114.png": {
 		"ft": 32768,
 		"iS": 21834,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-114x114.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-120x120.png": {
 		"ft": 32768,
 		"iS": 23799,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-120x120.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 31970,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-144x144.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-152x152.png": {
 		"ft": 32768,
 		"iS": 35007,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-152x152.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-180x180.png": {
 		"ft": 32768,
 		"iS": 45100,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-180x180.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-57x57.png": {
 		"ft": 32768,
 		"iS": 6550,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-57x57.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-60x60.png": {
 		"ft": 32768,
 		"iS": 7059,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-60x60.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-72x72.png": {
 		"ft": 32768,
 		"iS": 9784,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-72x72.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-76x76.png": {
 		"ft": 32768,
 		"iS": 10720,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-76x76.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon-precomposed.png": {
 		"ft": 32768,
 		"iS": 47979,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon-precomposed.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/apple-icon.png": {
 		"ft": 32768,
 		"iS": 47979,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/apple-icon.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/browserconfig.xml": {
 		"ft": 8192,
@@ -8574,26 +8612,32 @@
 	"\/static\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1034,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 2464,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 16079,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/favicon-96x96.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/favicon.ico": {
 		"ft": 8192,
@@ -8678,10 +8722,12 @@
 	"\/static\/img\/devopsdays-brain.png": {
 		"ft": 32768,
 		"iS": 26429,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/img\/devopsdays-brain.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/static\/img\/event-logo-square.jpg": {
 		"ft": 16384,
@@ -8689,7 +8735,8 @@
 		"oA": 1,
 		"oAP": "\/static\/img\/event-logo-square.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/static\/img\/sharing.jpg": {
 		"ft": 16384,
@@ -8697,7 +8744,8 @@
 		"oA": 1,
 		"oAP": "\/static\/img\/sharing.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/static\/img\/speaker-default.jpg": {
 		"ft": 16384,
@@ -8705,7 +8753,8 @@
 		"oA": 1,
 		"oAP": "\/static\/img\/speaker-default.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/static\/js\/bootstrap-sortable.js": {
 		"ft": 64,
@@ -8778,34 +8827,42 @@
 	"\/static\/ms-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 31970,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/ms-icon-144x144.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/ms-icon-150x150.png": {
 		"ft": 32768,
 		"iS": 34183,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/ms-icon-150x150.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/ms-icon-310x310.png": {
 		"ft": 32768,
 		"iS": 106630,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/ms-icon-310x310.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/ms-icon-70x70.png": {
 		"ft": 32768,
 		"iS": 9277,
+		"l": 1,
 		"oA": 1,
 		"oAP": "\/static\/ms-icon-70x70.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/static\/scss\/custom-variables.scss": {
 		"aP": 1,
@@ -9567,6 +9624,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -10046,6 +10107,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -10646,7 +10711,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 1,
@@ -10739,7 +10805,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 1,
