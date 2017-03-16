@@ -8397,6 +8397,955 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/release\/devopsdays-theme.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme.zip",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/.travis.yml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/blog.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/blog.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/event.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/event.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/program.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/speaker.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/speaker.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/talk.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/talk.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/archetypes\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/archetypes\/welcome.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/404.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/404.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/_default\/baseof.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/_default\/baseof.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/_default\/list.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/_default\/list.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/_default\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/_default\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/about\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/about\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/blog\/summary.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/blog\/summary.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/event\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/event\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/events\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/events\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/index.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/about.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/blog_pagination.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/blog_pagination.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/events\/cta.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/events\/cta.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/events\/event_metadata.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/events\/event_metadata.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/events\/event_navbar.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/events\/event_navbar.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/footer.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/footer.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/footer_scripts.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/footer_scripts.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/future.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/future.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/global_navbar.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/global_navbar.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head\/seo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head\/seo.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/google_news.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/google_news.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/open_graph.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/open_graph.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/schema.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/schema.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/twitter_cards.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head\/seo\/twitter_cards.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/head_includes.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/head_includes.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/map.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/meta.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/meta.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/past.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/past.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/search_modal.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/search_modal.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/speaking.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/speaking.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/sponsors.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/sponsors.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/partials\/welcome.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/partials\/welcome.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/program\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/program\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/section\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/section\/blog.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/section\/blog.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/section\/blog.rss.xml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/section\/events.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/section\/events.rss.xml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/section\/speaking.rss.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/section\/speaking.rss.xml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/cfp_dates.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/cfp_dates.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/email_organizers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/email_organizers.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/email_proposals.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/email_proposals.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_end.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_end.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_link.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_location.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_location.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_logo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_logo.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_map.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_map.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_start.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_start.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/event_twitter.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/event_twitter.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/list_core.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/list_core.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/list_organizers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/list_organizers.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/privacy_policy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/privacy_policy.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/program_entry.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/program_entry.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/shortcodes\/program_link.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/shortcodes\/program_link.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/speaker\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/speaker\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/speakers\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/speakers\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/speaking\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/speaking\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/talk\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/talk\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/layouts\/welcome\/single.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/layouts\/welcome\/single.html",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/README.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 31838,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-144x144.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 47846,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-192x192.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 2825,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-36x36.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 4748,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-48x48.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 9663,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-72x72.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 15967,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/android-icon-96x96.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 21722,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-114x114.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 23687,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-120x120.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 31838,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-144x144.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 34868,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-152x152.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 44988,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-180x180.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 6427,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-57x57.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 6936,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-60x60.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 9663,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-72x72.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 10597,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-76x76.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 47846,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon-precomposed.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 47846,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/apple-icon.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/css\/googlemaps.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/css\/googlemaps-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/release\/devopsdays-theme\/static\/css\/site.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/css\/site-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/release\/devopsdays-theme\/static\/css\/site.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/css\/site.css.map",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 923,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2344,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 15967,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/favicon.ico",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/img\/devopsdays-brain.png": {
+		"ft": 32768,
+		"iS": 22947,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/img\/devopsdays-brain.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/img\/event-logo-square.jpg": {
+		"ft": 16384,
+		"iS": 189983,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/img\/event-logo-square.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/img\/sharing.jpg": {
+		"ft": 16384,
+		"iS": 125862,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/img\/sharing.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/img\/speaker-default.jpg": {
+		"ft": 16384,
+		"iS": 92454,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/img\/speaker-default.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/js\/devopsdays-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/js\/devopsdays-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/release\/devopsdays-theme\/static\/js\/devopsdays-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/js\/devopsdays-min.js.map",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/static\/js\/googlemaps_label-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/js\/googlemaps_label-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/release\/devopsdays-theme\/static\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/release\/devopsdays-theme\/static\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 31838,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/ms-icon-144x144.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 34046,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/ms-icon-150x150.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 106397,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/ms-icon-310x310.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 9147,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/release\/devopsdays-theme\/static\/ms-icon-70x70.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/release\/devopsdays-theme\/static\/theme.toml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/static\/theme.toml",
+		"oF": 0
+		},
+	"\/release\/devopsdays-theme\/theme.toml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/release\/devopsdays-theme\/theme.toml",
+		"oF": 0
+		},
 	"\/static\/android-icon-144x144.png": {
 		"ft": 32768,
 		"iS": 31970,
@@ -8573,16 +9522,6 @@
 		"oAP": "\/static\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/static\/css\/bootstrap-sortable.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/static\/css\/bootstrap-sortable-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/static\/css\/googlemaps.css": {
 		"aP": 0,
 		"bl": 0,
@@ -8756,15 +9695,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/static\/js\/bootstrap-sortable.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/static\/js\/bootstrap-sortable-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/static\/js\/devopsdays-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -8794,24 +9724,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/static\/js\/googlemaps_label-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/static\/js\/googlemaps_label.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/static\/js\/googlemaps_label-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/static\/js\/moment.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/static\/js\/moment.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -8889,6 +9801,16 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/static\/scss\/googlemaps.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/static\/scss\/googlemaps-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/static\/scss\/site.scss": {
 		"aP": 1,
