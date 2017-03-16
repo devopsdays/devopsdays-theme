@@ -3,6 +3,8 @@
 [![GitHub release](https://img.shields.io/github/release/devopsdays/devopsdays-theme.svg)](https://github.com/qubyte/rubidium/releases)
 [![license](https://img.shields.io/github/license/devopsdays/devopsdays-theme.svg)]()
 [![Greenkeeper badge](https://badges.greenkeeper.io/devopsdays/devopsdays-theme.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://img.shields.io/badge/roadmap-available-blue.svg)](https://www.devopsdays.org/roadmap)
+[![Greenkeeper badge](https://img.shields.io/badge/feedback-welcome-blue.svg)](https://www.devopsdays.org/ideas)
 
 [![Stories in Ready](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=ready&title=Ready)](http://waffle.io/devopsdays/devopsdays-theme) [![Stories in Progress](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=in%progress&title=In%20Progress)](http://waffle.io/devopsdays/devopsdays-theme) [![Needs Review](https://badge.waffle.io/devopsdays/devopsdays-theme.svg?label=needs-review&title=Needs%20Review)](http://waffle.io/devopsdays/devopsdays-theme)
 
