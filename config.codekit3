@@ -8065,6 +8065,12 @@
 		"oAP": "\/layouts\/partials\/global_navbar.html",
 		"oF": 0
 		},
+	"\/layouts\/partials\/google_analytics.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/partials\/google_analytics.html",
+		"oF": 0
+		},
 	"\/layouts\/partials\/head.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -9667,7 +9673,7 @@
 		},
 	"\/static\/img\/sharing.jpg": {
 		"ft": 16384,
-		"iS": 125862,
+		"iS": 497434,
 		"oA": 1,
 		"oAP": "\/static\/img\/sharing.jpg",
 		"oF": 0,
