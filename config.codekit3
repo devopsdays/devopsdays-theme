@@ -147,18 +147,6 @@
 		"oAP": "\/bin\/hugo",
 		"oF": 0
 		},
-	"\/bin\/hugo-osx": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bin\/hugo-osx",
-		"oF": 0
-		},
-	"\/bin\/hugo.exe": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bin\/hugo.exe",
-		"oF": 0
-		},
 	"\/bin\/netlify-production.sh": {
 		"ft": 8192,
 		"oA": 2,
