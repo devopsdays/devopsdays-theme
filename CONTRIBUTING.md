@@ -26,6 +26,10 @@ Sort the existing GitHub issues for the tag of `ready`. These are issues that ca
 
 ## Design Principles
 
+### Frameworks
+
+We use [Boostrap v4 Alpha](http://v4-alpha.getbootstrap.com/) as our basic framework. 
+
 ### Blocks
 All page templates should make use of the `layouts/_default/baseof.html` file. This file contains all wrappers for the content. Anything within the `{{- block "main" . }} {{- end -}}` section is what will be displayed on a sub-template. Include a `{{ define "main" }}` block in your template to include what should be rendered.
 
