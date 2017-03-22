@@ -9857,6 +9857,48 @@
 		"oA": 2,
 		"oAP": "\/theme.toml",
 		"oF": 0
+		},
+	"\/utils\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/.gitignore",
+		"oF": 0
+		},
+	"\/utils\/dod-release.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/dod-release.sh",
+		"oF": 0
+		},
+	"\/utils\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/README.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/release-theme.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/release-theme.sh",
+		"oF": 0
+		},
+	"\/utils\/update-content.sh": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/update-content.sh",
+		"oF": 0
 		}
 	},
 "hooks": [
