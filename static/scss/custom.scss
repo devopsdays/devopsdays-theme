@@ -592,3 +592,8 @@ h3.program-page {
   margin-bottom:1.5em;
   background:#E5ECF9;
 }
+
+//formatting for content provided by events, pages, etc
+.content-text h1, h2, h3 {
+  text-transform: none;
+}
