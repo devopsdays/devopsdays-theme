@@ -42,11 +42,12 @@ case $version_level in
   ;;
 esac
 
+cd ..
 git stash
 git checkout master
 git pull origin master
 github_changelog_generator --future-release "$new_version" --no-pull-requests
-sed -i '' "s/$current_version/$new_version/g" ../theme.toml
+sed -i '' "s/$current_version/$new_version/g" ./theme.toml
 
 git add .
 git commit -m "Update theme to version $new_version"
