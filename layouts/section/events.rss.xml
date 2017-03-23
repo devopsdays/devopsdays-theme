@@ -20,12 +20,12 @@
 <generator>Hugo -- gohugo.io</generator>
 {{- range sort $.Site.Data.events "startdate" -}}
   {{- if .startdate -}}
-    {{- if ge (dateFormat "2006-01-02" .enddate) (dateFormat "2006-01-02" ($.Now.Format "2006-01-02")) -}}
+    {{- if ge (dateFormat "2006-01-02" .enddate) (dateFormat "2006-01-02" (dateFormat "2006-01-02" now)) -}}
     <item>
       <title>devopsdays {{ .city }} {{ .year }}</title>
       <link>{{ $.Site.Params.weburl }}/events/{{ .name}}</link>
       <guid>{{ $.Site.Params.weburl }}/events/{{ .name}}</guid>
-      <pubDate>{{ dateFormat "Mon, 2 Jan 2006 15:04:05 -0700" $.Now }}</pubDate>
+      <pubDate>{{ dateFormat "Mon, 2 Jan 2006 15:04:05 -0700" now }}</pubDate>
       {{ if .description }}
         <description>{{.description | markdownify | htmlEscape}}</description>
       {{ else }}
