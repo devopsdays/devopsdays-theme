@@ -7858,15 +7858,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/gulp\/tasks\/copy-static-files.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/gulp\/tasks\/copy-static-files-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/gulp\/tasks\/default.js": {
 		"ft": 64,
 		"mi": 1,
@@ -7926,15 +7917,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/gulp\/tasks\/process-html-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/gulp\/tasks\/responsive-images.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/gulp\/tasks\/responsive-images-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

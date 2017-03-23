@@ -2,8 +2,13 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence');
 
 gulp.task('copy-misc-files', function() {
-    return gulp.src(['public/sitemap.xml', 'public/**/index.xml', 'public/tags/**/*.xml', 'public/**/sharing.jpg', 'public/favicon*', 'public/apple-icon*', 'public/android-icon*', 'public/ms-icon*', 'public/manifest.json', 'public/browserconfig.xml', 'public/**/*.pdf','public/_redirects', 'public/robots.txt'])
+    return gulp.src(['public/sitemap.xml', 'public/**/index.xml', 'public/tags/**/*.xml', 'public/**/sharing.jpg', 'public/favicon*', 'public/apple-icon*', 'public/android-icon*', 'public/ms-icon*', 'public/manifest.json', 'public/browserconfig.xml', 'public/**/*.pdf', 'public/_redirects', 'public/robots.txt'])
         .pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy-gif', function() {
+  return gulp.src(['public/**/*.gif'])
+    pipe(gulp.dest('staging'));
 });
 
 gulp.task('copy-fonts', function() {
@@ -22,7 +27,7 @@ gulp.task('copy-css-maps', function() {
 //     )
 // })
 
-gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps'])
+gulp.task('copy-static-files', ['copy-misc-files', 'copy-gif', 'copy-fonts', 'copy-css-maps'])
 
 
 // gulp.task('copy-images', function(callback) {
