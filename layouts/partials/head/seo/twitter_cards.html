@@ -26,5 +26,6 @@
 {{ else }}
     {{ $.Scratch.Set "sharing_url" (printf "%s/img/sharing.jpg" $.Site.Params.weburl ) }}
 {{ end }}
-<meta name="twitter:card" content="{{ $.Scratch.Get "sharing_url" }}" />
+<meta name="twitter:card" content="summary_large_image"
+<meta name="twitter:image" content="{{ $.Scratch.Get "sharing_url" }}" />
 <!-- Optional Open Graph Markup -->
