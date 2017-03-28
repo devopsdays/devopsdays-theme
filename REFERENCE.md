@@ -12,7 +12,7 @@ The YYYY-CITY.yml file is the main configuration file for your event. This is wh
 | `name`           | String | Yes      | The name of the event. Four digit year with the city name in lower-case, with no spaces.              | "2017-chicago"                                |
 | `year`           | String | Yes      | The year of the event. Make sure it is in quotes.                                                     | "2017"                                        |
 | `city`           | String | Yes      | The displayed city name of the event. Capitalize it.                                                  | "Salt Lake City"                              |
-| `event_twitter`  | String | Yes      | The twitter handle for your event, Exclude the "@" symbol. | "devopsdayschi"                               |
+| `event_twitter`  | String | Yes      | The twitter handle for your event. Exclude the "@" symbol. | "devopsdayschi"                               |
 | `description`    | String | No       | Overall description of your event. Quotation marks need to be escaped.                                | "It's time for more DevOpsDays at Ponyville!" |
 | `ga_tracking_id` | String | No       | If you have your own Google Analytics tracking ID, enter it here.                                     | "UA-74738648-1"                               |
 
