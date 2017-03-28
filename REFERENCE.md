@@ -7,35 +7,45 @@ The YYYY-CITY.yml file is the main configuration file for your event. This is wh
 
 ### General Fields
 
-- `name:` - The name of the event. Four digit year with the city name in lower-case, with no spaces. Example: "2017-chicago"
-- `year:` - The year of the event. Make sure it is in quotes. Example: "2017"
-- `city:` - The displayed city name of the event. Capitalize it. Example: "Chicago" or "Salt Lake City"
-- `event_twitter:` - The twitter handle for your event such as "devopsdayschi" or "devopsdaysmsp". Exclude the "@" symbol
-- `description:` - Overall description of your event. Quotation marks need to be escaped.
-- `ga_tracking_id:` - If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1"
+| Field Name       | Type   | Required | Description                                                                                                       |
+|------------------|--------|----------|-------------------------------------------------------------------------------------------------------------------|
+| `name`           | String | Yes      | The name of the event. Four digit year with the city name in lower-case, with no spaces. Example: "2017-chicago". |
+| `year`           | String | Yes      | The year of the event. Make sure it is in quotes. Example: "2017".                                                |
+| `city`           | String | Yes      | The displayed city name of the event. Capitalize it. Example: "Chicago" or "Salt Lake City".                      |
+| `event_twitter`  | String | Yes      | The twitter handle for your event such as "devopsdayschi" or "devopsdaysmsp". Exclude the "@" symbol.             |
+| `description`    | String | No       | Overall description of your event. Quotation marks need to be escaped.                                            |
+| `ga_tracking_id` | String | No       | If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1".                       |
 
 ### Date-related Fields
-All dates are in unquoted YYYY-MM-DD, like this:   variable: `2016-01-05`
+All dates are in unquoted YYYY-MM-DD, like this: `variable: 2016-01-05`
 
-- `startdate:`  # The start date of your event. Leave blank if you don't have a venue reserved yet.
-- `enddate:`  # The end date of your event. Leave blank if you don't have a venue reserved yet.
-- `cfp_date_start:` - The date you will start accepting talk proposals. Can be a blank value. Must be unquoted YYYY-MM-DD.
-- `cfp_date_end:`  - The date you will close your call for proposals. Can be a blank value. Must be unquoted YYYY-MM-DD.
-- `cfp_date_announce:` The date you will inform proposers of status. Can be a blank value. Must be unquoted YYYY-MM-DD.
-- `cfp_open:` - Either "true" or "false". Can be blank. This controls whether or not the "propose" button shows on your event page. *Deprecated field; if you have set `cfp_date_start` and `cfp_date_end` they will serve the same purpose.*
-- `cfp_link:` "" - If you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
-- `registration_date_start:` - The date you will start accepting registration. Can be a blank value. Must be unquoted YYYY-MM-DD.
-- `registration_date_end:` - The date you will close registration. Can be a blank value. Must be unquoted YYYY-MM-DD.
-- `registration_closed:` "" - Set this to "true" if you need to manually close registration before your registration end date
-- `registration_link:` "" - If you have a custom registration link, enter it here. This will control the Registration menu item as well as the "Register" button.
+| Field Name                | Type       | Required | Description                                                                                                                                                                                                                   |
+|---------------------------|------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `startdate`               | YYYY-MM-DD | No       | The start date of your event. Leave blank if you don't have a venue reserved yet.                                                                                                                                             |
+| `enddate`                 | YYYY-MM-DD | No       | The end date of your event. Leave blank if you don't have a venue reserved yet.                                                                                                                                               |
+| `cfp_date_start`          | YYYY-MM-DD | No       | The date you will start accepting talk proposals. Can be a blank value.                                                                                                                                                       |
+| `cfp_date_end`            | YYYY-MM-DD | No       | The date you will close your call for proposals. Can be a blank value.                                                                                                                                                        |
+| `cfp_date_announce`       | YYYY-MM-DD | No       | The date you will inform proposers of status. Can be a blank value.                                                                                                                                                           |
+| `cfp_open`                | String     | No       | Either "true" or "false". Can be blank. This controls whether or not the "propose" button shows on your event page. *Deprecated field; if you have set `cfp_date_start` and `cfp_date_end` they will serve the same purpose.* |
+| `cfp_link`                | String     | No       | If you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.                                                                                     |
+| `registration_date_start` | YYYY-MM-DD | No       | The date you will start accepting registration. Can be a blank value.                                                                                                                                                         |
+| `registration_date_end`   | YYYY-MM-DD | No       | The date you will close registration. Can be a blank value.                                                                                                                                                                   |
+| `registration_closed`     | String     | No       | Set this to "true" if you need to manually close registration before your registration end date.                                                                                                                              |
+| `registration_link`       | String     | No       | If you have a custom registration link, enter it here. This will control the Registration menu item as well as the "Register" button.                                                                                         |
 
 ### Branding Fields
-- `event_logo:` - The filename of your event's logo, relative to `static/events/YYYY-CITY/`. JPEG format is preferred. Example: "logo.jpg"
+
+| Field Name   | Type   | Required | Description                                                                                                              |
+|--------------|--------|----------|--------------------------------------------------------------------------------------------------------------------------|
+| `event_logo` | String | No       | The filename of your event's logo, relative to `static/events/YYYY-CITY/`. JPEG format is preferred. Example: "logo.jpg" |
 
 ### Location Fields
-- `coordinates:` - String. The coordinates of your city. [Get Latitude and Longitude of a Point](http://itouchmap.com/latlong.html).
-- `location:` String. Required. The generator scripts will default to the value of City, but you can make it the venue name.
-- `location_address:` - String. Optional. Use the street address of your venue. This will show up on the welcome page if set.
+
+| Field Name         | Type   | Required | Description                                                                                                                                     |
+|--------------------|--------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| `coordinates`      | String | Yes      | The coordinates of your city. [Get Latitude and Longitude of a Point](http://itouchmap.com/latlong.html). Required to display event on the map. |
+| `location`         | String | Yes      | The generator scripts will default to the value of `City`, but you can make it the venue name. Example: "Chicago Mart West"                     |
+| `location_address` | String | Yes      | Use the street address of your venue. This will show up on the welcome page if set. Example: "350 West Mart Center Drive, Chicago, IL 60654"    |
 
 ### Navigation Fields
 These fields are used to control the navigation elements (menu) of your event's page. The syntax for navigation is thus:
