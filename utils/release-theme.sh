@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_version=`grep theme_version ../theme.toml | cut -d '=' -f2 | xargs`
+current_version=`grep theme_version theme.toml | cut -d '=' -f2 | xargs`
 major_version=`echo $current_version | cut -d '.' -f1 | xargs`
 minor_version=`echo $current_version | cut -d '.' -f2 | xargs`
 patch_version=`echo $current_version | cut -d '.' -f3 | xargs`
@@ -42,7 +42,6 @@ case $version_level in
   ;;
 esac
 
-cd ..
 git stash
 git checkout master
 git pull origin master
