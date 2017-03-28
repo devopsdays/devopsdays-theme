@@ -7,14 +7,14 @@ The YYYY-CITY.yml file is the main configuration file for your event. This is wh
 
 ### General Fields
 
-| Field Name       | Type   | Required | Description                                                                                                       |
-|------------------|--------|----------|-------------------------------------------------------------------------------------------------------------------|
-| `name`           | String | Yes      | The name of the event. Four digit year with the city name in lower-case, with no spaces. Example: "2017-chicago". |
-| `year`           | String | Yes      | The year of the event. Make sure it is in quotes. Example: "2017".                                                |
-| `city`           | String | Yes      | The displayed city name of the event. Capitalize it. Example: "Chicago" or "Salt Lake City".                      |
-| `event_twitter`  | String | Yes      | The twitter handle for your event such as "devopsdayschi" or "devopsdaysmsp". Exclude the "@" symbol.             |
-| `description`    | String | No       | Overall description of your event. Quotation marks need to be escaped.                                            |
-| `ga_tracking_id` | String | No       | If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1".                       |
+| Field Name       | Type   | Required | Description                                                                                           | Example                                       |
+|------------------|--------|----------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| `name`           | String | Yes      | The name of the event. Four digit year with the city name in lower-case, with no spaces.              | "2017-chicago"                                |
+| `year`           | String | Yes      | The year of the event. Make sure it is in quotes.                                                     | "2017"                                        |
+| `city`           | String | Yes      | The displayed city name of the event. Capitalize it.                                                  | "Salt Lake City"                              |
+| `event_twitter`  | String | Yes      | The twitter handle for your event such as "devopsdayschi" or "devopsdaysmsp". Exclude the "@" symbol. | "devopsdayschi"                               |
+| `description`    | String | No       | Overall description of your event. Quotation marks need to be escaped.                                | "It's time for more DevOpsDays at Ponyville!" |
+| `ga_tracking_id` | String | No       | If you have your own Google Analytics tracking ID, enter it here.                                     | "UA-74738648-1"                               |
 
 ### Date-related Fields
 All dates are in unquoted YYYY-MM-DD, like this: `variable: 2016-01-05`
@@ -35,17 +35,15 @@ All dates are in unquoted YYYY-MM-DD, like this: `variable: 2016-01-05`
 
 ### Branding Fields
 
-| Field Name   | Type   | Required | Description                                                                                                              |
-|--------------|--------|----------|--------------------------------------------------------------------------------------------------------------------------|
-| `event_logo` | String | No       | The filename of your event's logo, relative to `static/events/YYYY-CITY/`. JPEG format is preferred. Example: "logo.jpg" |
+TBD once we have them.
 
 ### Location Fields
 
-| Field Name         | Type   | Required | Description                                                                                                                                     |
-|--------------------|--------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| `coordinates`      | String | Yes      | The coordinates of your city. [Get Latitude and Longitude of a Point](http://itouchmap.com/latlong.html). Required to display event on the map. |
-| `location`         | String | Yes      | The generator scripts will default to the value of `City`, but you can make it the venue name. Example: "Chicago Mart West"                     |
-| `location_address` | String | No      | Use the street address of your venue. This will show up on the welcome page if set. Example: "350 West Mart Center Drive, Chicago, IL 60654"    |
+| Field Name         | Type   | Required | Description                                                                                                                                     | Example                                         |
+|--------------------|--------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| `coordinates`      | String | Yes      | The coordinates of your city. [Get Latitude and Longitude of a Point](http://itouchmap.com/latlong.html). Required to display event on the map. | "41.882219, -87.640530"                         |
+| `location`         | String | Yes      | The generator scripts will default to the value of `City`, but you can make it the venue name.                                                  | "Chicago Mart West"                             |
+| `location_address` | String | No       | Use the street address of your venue. This will show up on the welcome page if set.                                                             | "350 West Mart Center Drive, Chicago, IL 60654" |
 
 ### Navigation Fields
 These fields are used to control the navigation elements (menu) of your event's page. The syntax for navigation is thus:
