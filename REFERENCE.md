@@ -75,7 +75,8 @@ nav_elements
 
 Remember, the organizers listed are are the same people you have on the mailing list and Slack channel.
 
-team_members: # Name is the only required field for team members.
+```
+team_members:
   - name: "John Doe"
   - name: "Jane Smith"
     twitter: "devopsdays"
@@ -86,28 +87,41 @@ team_members: # Name is the only required field for team members.
     linkedin: "https://www.linkedin.com/in/sallyfields"
     website: "https://mattstratton.com"
     image: "sally-fields.jpg"
-organizer_email: "organizers-city-year@devopsdays.org" # Put your organizer email address here
-proposal_email: "proposals-city-year@devopsdays.org" # Put your proposal email address here
+    bio: "Thought leader paradigm affordances physical computing quantitative vs. qualitative disrupt thought leader disrupt. Venture capital Steve Jobs pitch deck moleskine sticky note agile Steve Jobs pivot disrupt grok driven. Human-centered design bootstrapping agile driven grok food-truck ship it long shadow."
+```
+The only required field for an organizer is the "name" field, but it is highly recommended to populate the image and the bio. Markdown is supported in the `bio` field. Quotation marks must be escaped.
 
-# List all of your sponsors here along with what level of sponsorship they have.
-# Check data/sponsors/ to use sponsors already added by others.
+`organizer_email:` - Organizer email address. String. Required.
+`proposal_email:` Proposal email address. String. Required.
+
+### Sponsor fields
+
+The list of sponsors looks like this:
+```
 sponsors:
   - id: samplesponsorname
     level: gold
- #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.   
+    url: http://mysponsor.com/?campaign=me   
   - id: arresteddevops
     level: community
+```
 
-sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
+The optional `url` parameter allows for overriding the default URL for that sponsor.
 
-# In this section, list the level of sponsorships and the label to use.
-# You may optionally include a "max" attribute to limit the number of sponsors per level. For
-# unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
-# sponsorship for a specific level, it is best to remove the level.
+`sponsors_accepted:` - String. Set to "yes" if you want "Become a XXX Sponsor!" link
+
+#### Sponsor Levels
+
+In this section, list the level of sponsorships and the label to use.
+You may optionally include a "max" attribute to limit the number of sponsors per level. For
+unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
+sponsorship for a specific level, it is best to remove the level.
+
+```
 sponsor_levels:
   - id: gold
     label: Gold
-#    max: 10
+    max: 10
   - id: silver
     label: Silver
     max: 0 # This is the same as omitting the max limit.
@@ -115,3 +129,4 @@ sponsor_levels:
     label: Bronze
   - id: community
     label: Community
+```
