@@ -43183,6 +43183,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/hidora.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/highvail.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/highvail.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/hired.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -52772,6 +52778,60 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/davidbock.jpg": {
+		"ft": 16384,
+		"iS": 27039,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/davidbock.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/derek-daczewitz.jpg": {
+		"ft": 16384,
+		"iS": 275745,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/derek-daczewitz.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/jeff-gallimore.jpg": {
+		"ft": 16384,
+		"iS": 94698,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/jeff-gallimore.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/mark-cornick.jpg": {
+		"ft": 16384,
+		"iS": 37431,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/mark-cornick.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/nathenharvey.jpg": {
+		"ft": 16384,
+		"iS": 55966,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/nathenharvey.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/victoria-guido.jpg": {
+		"ft": 16384,
+		"iS": 168325,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/victoria-guido.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-zurich\/logo-square.jpg": {
 		"ft": 16384,
 		"iS": 71593,
@@ -58569,6 +58629,16 @@
 		"l": 1,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/hidora.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/highvail.png": {
+		"ft": 32768,
+		"iS": 25097,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/highvail.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100

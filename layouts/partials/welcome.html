@@ -4,6 +4,39 @@
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{/* end site data query */}}
 
+{{ if $e.background }}
+  {{ if ne $e.background "" }}
+    <style>
+      .welcome-page-masthead:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.2;
+        background-image: url('/events/2017-chicago/skyline.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+      }
+
+      .cta-override {
+        border: 10px;
+        border-color: black;
+      }
+    </style>
+
+  {{ end }}
+{{ end }}
+
 <div class="row">
   <div class = "col-md-12 welcome-page-masthead">
 
@@ -57,7 +90,7 @@
         {{ end }}
 </div>
 
- <div class="col-xs-12 col-md-4 ">
+ <div class="col-xs-12 col-md-4">
         {{ partial "events/cta.html" . }}
     </div>
   </div>
