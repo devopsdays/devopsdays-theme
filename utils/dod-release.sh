@@ -8,7 +8,7 @@ fi
 version=$1
 branch=release-theme-version-$version
 rm -rf devopsdays-web
-git clone https://github.com/devopsdays/devopsdays-web.git
+git clone git@github.com:devopsdays/devopsdays-web.git
 cd devopsdays-web
 git checkout -b $branch
 wget https://github.com/devopsdays/devopsdays-theme/releases/download/$version/devopsdays-theme-$version.zip
