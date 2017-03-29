@@ -1,5 +1,22 @@
 # Reference for devopsdays-theme
 
+# Table of contents
+<!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:0 updateOnSave:1 -->
+
+[Fields in YYYY-CITY.yml](#fields-in-yyyy-cityyml)   
+&emsp;[General Fields](#general-fields)   
+&emsp;[Date-related Fields](#date-related-fields)   
+&emsp;[Branding Fields](#branding-fields)   
+&emsp;[Location Fields](#location-fields)   
+&emsp;[Navigation Fields](#navigation-fields)   
+&emsp;[Organizer Fields](#organizer-fields)   
+&emsp;&emsp;[Team Members](#team-members)   
+&emsp;&emsp;[Organizer Emails](#organizer-emails)   
+&emsp;[Sponsor fields](#sponsor-fields)   
+&emsp;&emsp;[Sponsor Levels](#sponsor-levels)   
+
+<!-- /MDTOC -->
+
 Introductory text goes here.
 
 ## Fields in YYYY-CITY.yml
