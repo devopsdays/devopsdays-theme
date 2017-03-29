@@ -10,8 +10,8 @@ description = "The group that brought you DevOpsDays Chicago 2014-2016 is back t
 <div class = "row">
   <div class = "col-md-6 push-md-6">
     {{< event_logo >}}
-    <h3>"I have an army."</h3>
-    <h3>"We have a yak."</h3>
+    <h3 class = "nav-item">"I have an army."</h3>
+    <h3 class = "nav-item">"We have a yak."</h3>
   </div>
   <div class = "col-md-6 pull-md-6">
 
