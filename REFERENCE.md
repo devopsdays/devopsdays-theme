@@ -12,7 +12,7 @@ The YYYY-CITY.yml file is the main configuration file for your event. This is wh
 | `name`           | String | Yes      | The name of the event. Four digit year with the city name in lower-case, with no spaces.              | "2017-chicago"                                |
 | `year`           | String | Yes      | The year of the event. Make sure it is in quotes.                                                     | "2017"                                        |
 | `city`           | String | Yes      | The displayed city name of the event. Capitalize it.                                                  | "Salt Lake City"                              |
-| `event_twitter`  | String | Yes      | The twitter handle for your event. Exclude the "@" symbol. | "devopsdayschi"                               |
+| `event_twitter`  | String | Yes      | The twitter handle for your event such as "devopsdayschi" or "devopsdaysmsp". Exclude the "@" symbol. | "devopsdayschi"                               |
 | `description`    | String | No       | Overall description of your event. Quotation marks need to be escaped.                                | "It's time for more DevOpsDays at Ponyville!" |
 | `ga_tracking_id` | String | No       | If you have your own Google Analytics tracking ID, enter it here.                                     | "UA-74738648-1"                               |
 
@@ -81,60 +81,52 @@ nav_elements
 
 ### Organizer Fields
 
+#### Team Members
+
 Remember, the organizers listed are are the same people you have on the mailing list and Slack channel.
 
-```
-team_members:
-  - name: "John Doe"
-  - name: "Jane Smith"
-    twitter: "devopsdays"
-  - name: "Sally Fields"
-    employer: "Acme Anvil Co."
-    github: "devopsdays"
-    facebook: "https://www.facebook.com/sally.fields"
-    linkedin: "https://www.linkedin.com/in/sallyfields"
-    website: "https://mattstratton.com"
-    image: "sally-fields.jpg"
-    bio: "Thought leader paradigm affordances physical computing quantitative vs. qualitative disrupt thought leader disrupt. Venture capital Steve Jobs pitch deck moleskine sticky note agile Steve Jobs pivot disrupt grok driven. Human-centered design bootstrapping agile driven grok food-truck ship it long shadow."
-```
-The only required field for an organizer is the "name" field, but it is highly recommended to populate the image and the bio. Markdown is supported in the `bio` field. Quotation marks must be escaped.
+Each team member is an element of `team_members`.
 
-`organizer_email:` - Organizer email address. String. Required.
-`proposal_email:` Proposal email address. String. Required.
+| Field Name | Type   | Required | Description                                                                           | Example                                                                                                                                                                                                                                                                                                             |
+|------------|--------|----------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `name`     | String | Yes      | The person's full name.                                                               | "John Doe"                                                                                                                                                                                                                                                                                                          |
+| `twitter`  | String | No       | The twitter handle of the person, without the `@` symbol                              | "johndoe"                                                                                                                                                                                                                                                                                                           |
+| `employer` | String | No       | The name of the person's employer.                                                    | "Acme Anvil Co."                                                                                                                                                                                                                                                                                                    |
+| `github`   | String | No       | The GitHub username of the person                                                     | "johndoe"                                                                                                                                                                                                                                                                                                           |
+| `facebook` | String | No       | The full URL to the person's Facebook page                                            | "https://www.facebook.com/sally.fields"                                                                                                                                                                                                                                                                             |
+| `linkedin` | String | No       | The full URL to the person's LinkedIn page                                            | "https://www.linkedin.com/in/sallyfields"                                                                                                                                                                                                                                                                           |
+| `website`  | String | No       | The full URL to the person's webpage                                                  | "https://mattstratton.com"                                                                                                                                                                                                                                                                                          |
+| `image`    | String | No       | The name of the image for this user, located in `static/events/YYYY-CITY/organizers/` | "sally-fields.jpg"                                                                                                                                                                                                                                                                                                  |
+| `bio`      | String | No       | The bio for the user. Markdown is supported. Quotation marks must be escaped.         | "Thought leader paradigm affordances physical computing quantitative vs. qualitative disrupt thought leader disrupt. Venture capital Steve Jobs pitch deck moleskine sticky note agile Steve Jobs pivot disrupt grok driven. Human-centered design bootstrapping agile driven grok food-truck ship it long shadow." |
+
+#### Organizer Emails
+
+| Field Name         | Type   | Required | Description             | Example                                    |
+|--------------------|--------|----------|-------------------------|--------------------------------------------|
+| `organizer_email` | String | Yes      | Organizer email address | "organizers-ponyville-2017@devopsdays.org" |
+| `proposal_email`   | String | Yes      | Proposal email address  | "proposals-ponyville-2017@devopsdays.org"  |
 
 ### Sponsor fields
 
-The list of sponsors looks like this:
-```
-sponsors:
-  - id: samplesponsorname
-    level: gold
-    url: http://mysponsor.com/?campaign=me   
-  - id: arresteddevops
-    level: community
-```
+Each team member is an element of `sponsors`.
 
-The optional `url` parameter allows for overriding the default URL for that sponsor.
+| Field Name | Type   | Required | Description                                                                                                 | Example                           |
+|------------|--------|----------|-------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| `id`       | String | Yes      | The name of the sponsor; matches to a file in `date/sponsors                                                | arresteddevops                    |
+| `level`    | String | Yes      | The level of sponsorship for this sponsor.                                                                  | gold                              |
+| `url`      | String | No       | Will override the URL specified in the sponsor file. Useful if you have event-specific URL's for a sponsor. | http://mysponsor.com/?campaign=me |
 
-`sponsors_accepted:` - String. Set to "yes" if you want "Become a XXX Sponsor!" link
+
+| Field Name          | Type   | Required | Description                                                               | Example |
+|---------------------|--------|----------|---------------------------------------------------------------------------|---------|
+| `sponsors_accepted` | String | No       | Set this to "yes" if you would like the "become a sponsor" link to appear | "yes"   |
 
 #### Sponsor Levels
 
-In this section, list the level of sponsorships and the label to use.
-You may optionally include a "max" attribute to limit the number of sponsors per level. For
-unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
-sponsorship for a specific level, it is best to remove the level.
+All sponsorship levels are elements of `sponsor_levels`.
 
-```
-sponsor_levels:
-  - id: gold
-    label: Gold
-    max: 10
-  - id: silver
-    label: Silver
-    max: 0 # This is the same as omitting the max limit.
-  - id: bronze
-    label: Bronze
-  - id: community
-    label: Community
-```
+| Field Name | Type   | Required | Description                                                                                                                                                                                                                                 | Example |
+|------------|--------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| `id`       | String | Yes      | Identifies the sponsor level as mapped to your list of sponsors. No spaces.                                                                                                                                                                 | gold    |
+| `label`    | String | Yes      | How the sponsor level appears on the site. Spaces are allowed.                                                                                                                                                                              | Gold    |
+| `max`      | String | No       | The maximum amount of sponsors allowed for this level. Once this has been reached, the "become a sponsor" link for that level will no longer appear. Setting this to "0", or leaving it blank, results in unlimited sponsors for that level | 10      |
