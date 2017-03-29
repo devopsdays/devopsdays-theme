@@ -17,7 +17,6 @@
 
 <!-- /MDTOC -->
 
-Introductory text goes here.
 
 ## Fields in YYYY-CITY.yml
 The YYYY-CITY.yml file is the main configuration file for your event. This is what each field does.
