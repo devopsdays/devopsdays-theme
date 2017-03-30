@@ -51,7 +51,9 @@ All dates are in unquoted YYYY-MM-DD, like this: `variable: 2016-01-05`
 
 ### Branding Fields
 
-TBD once we have them.
+| Field Name            | Type   | Required | Description                                                                                                     | Example             |
+|-----------------------|--------|----------|-----------------------------------------------------------------------------------------------------------------|---------------------|
+| `masthead_background` | String | No       | The image, relative to `static/events/YYYY-CITY` that you want to be the background of the header on your page. | `skyline-night.jpg` |
 
 ### Location Fields
 

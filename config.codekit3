@@ -8391,6 +8391,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/REFERENCE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/REFERENCE.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/release\/devopsdays-theme.zip": {
 		"ft": 8192,
 		"oA": 2,
@@ -33689,6 +33707,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/radhika-gummadi.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/radhika-gummadi.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/ram-jothikumar.md": {
 		"cS": 0,
 		"eF": 1,
@@ -33735,6 +33771,42 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/scott-nasello.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/soo-choi.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/soo-choi.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/suzanne-nielsen.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-seattle\/program\/suzanne-nielsen.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -39859,6 +39931,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/nell-shamrell-harrington.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/radhika-gummadi.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/radhika-gummadi.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/ram-jothikumar.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -39875,6 +39953,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/scott-nasello.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/soo-choi.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/soo-choi.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/speakers\/2017\/seattle\/suzanne-nielsen.yml": {
@@ -41821,12 +41905,6 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2016-zappistore-cape-town.yml",
 		"oF": 0
 		},
-	"\/utils\/devopsdays-web\/data\/sponsors\/2017-atlanta-opsgenie.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-atlanta-opsgenie.yml",
-		"oF": 0
-		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/2017-carsdotcom.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -41837,18 +41915,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-datadog.yml",
-		"oF": 0
-		},
-	"\/utils\/devopsdays-web\/data\/sponsors\/2017-denver-dellemc.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-denver-dellemc.yml",
-		"oF": 0
-		},
-	"\/utils\/devopsdays-web\/data\/sponsors\/2017-denver-opsgenie.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-denver-opsgenie.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/2017-devopsturkey.yml": {
@@ -41869,16 +41935,10 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-openx.yml",
 		"oF": 0
 		},
-	"\/utils\/devopsdays-web\/data\/sponsors\/2017-slc-opsgenie.yml": {
+	"\/utils\/devopsdays-web\/data\/sponsors\/2017-redhat.yml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-slc-opsgenie.yml",
-		"oF": 0
-		},
-	"\/utils\/devopsdays-web\/data\/sponsors\/2017-stockholm-opsgenie.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-stockholm-opsgenie.yml",
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-redhat.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/2017-vdms.yml": {
@@ -43139,6 +43199,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/hidora.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/highvail.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/highvail.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/hired.yml": {
@@ -52416,6 +52482,15 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/radhika-gummadi.jpg": {
+		"ft": 16384,
+		"iS": 225261,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/radhika-gummadi.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/ram-jothikumar.jpg": {
 		"ft": 16384,
 		"iS": 63591,
@@ -52439,6 +52514,15 @@
 		"iS": 33949,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/scott-nasello.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/soo-choi.jpg": {
+		"ft": 16384,
+		"iS": 125709,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-seattle\/speakers\/soo-choi.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -52708,6 +52792,60 @@
 		"iS": 16536,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/logo-square.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/davidbock.jpg": {
+		"ft": 16384,
+		"iS": 27039,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/davidbock.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/derek-daczewitz.jpg": {
+		"ft": 16384,
+		"iS": 275745,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/derek-daczewitz.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/jeff-gallimore.jpg": {
+		"ft": 16384,
+		"iS": 94698,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/jeff-gallimore.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/mark-cornick.jpg": {
+		"ft": 16384,
+		"iS": 37431,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/mark-cornick.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/nathenharvey.jpg": {
+		"ft": 16384,
+		"iS": 55966,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/nathenharvey.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/victoria-guido.jpg": {
+		"ft": 16384,
+		"iS": 168325,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/victoria-guido.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -56424,36 +56562,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-atlanta-opsgenie.png": {
-		"ft": 32768,
-		"iS": 30914,
-		"l": 1,
-		"oA": 1,
-		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-atlanta-opsgenie.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-denver-dellemc.png": {
-		"ft": 32768,
-		"iS": 35033,
-		"l": 1,
-		"oA": 1,
-		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-denver-dellemc.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-denver-opsgenie.png": {
-		"ft": 32768,
-		"iS": 58100,
-		"l": 1,
-		"oA": 1,
-		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-denver-opsgenie.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-instruct.png": {
 		"ft": 32768,
 		"iS": 6762,
@@ -56474,22 +56582,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-slc-opsgenie.png": {
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-redhat.png": {
 		"ft": 32768,
-		"iS": 30914,
+		"iS": 36056,
 		"l": 1,
 		"oA": 1,
-		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-slc-opsgenie.png",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-stockholm-opsgenie.png": {
-		"ft": 32768,
-		"iS": 30914,
-		"l": 1,
-		"oA": 1,
-		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-stockholm-opsgenie.png",
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/2017-redhat.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
@@ -58549,6 +58647,16 @@
 		"l": 1,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/hidora.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/highvail.png": {
+		"ft": 32768,
+		"iS": 25097,
+		"l": 1,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/highvail.png",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
