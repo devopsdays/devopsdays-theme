@@ -7772,24 +7772,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/CHANGELOG.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/contributing.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -8023,12 +8005,6 @@
 		"oAP": "\/layouts\/partials\/blog_pagination.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/events\/cta.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/events\/cta.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/events\/event_metadata.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -8125,34 +8101,16 @@
 		"oAP": "\/layouts\/partials\/meta.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/past.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/past.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/search_modal.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/search_modal.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/speaking.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/speaking.html",
-		"oF": 0
-		},
 	"\/layouts\/partials\/sponsors.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/sponsors.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/welcome.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/welcome.html",
 		"oF": 0
 		},
 	"\/layouts\/program\/single.html": {
@@ -9526,22 +9484,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/static\/css\/site.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/static\/css\/site-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/static\/css\/site.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/css\/site.css.map",
-		"oF": 0
-		},
 	"\/static\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1034,
@@ -9783,19 +9725,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/static\/scss\/custom.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/static\/css\/custom.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/static\/scss\/googlemaps.css": {
 		"aP": 0,
 		"bl": 0,
@@ -9851,12 +9780,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"\/theme.toml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/theme.toml",
-		"oF": 0
 		},
 	"\/utils\/.gitignore": {
 		"ft": 8192,
@@ -62981,12 +62904,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/utils\/dod-release.sh": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/dod-release.sh",
-		"oF": 0
 		},
 	"\/utils\/README.md": {
 		"cS": 0,
