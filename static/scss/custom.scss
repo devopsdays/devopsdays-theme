@@ -485,6 +485,7 @@ h1.welcome-page {
   text-transform: uppercase;
 }
 
+// Note that welcome-page-masthead is also defined in templates/welcome.html so we cannot use SCSS here
 .welcome-page-masthead {
   background: #bfbfc1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#0082AB, #bfbfc1); /* For Safari 5.1 to 6.0 */
