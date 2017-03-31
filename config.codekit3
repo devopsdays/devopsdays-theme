@@ -9837,12 +9837,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/static\/theme.toml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/static\/theme.toml",
-		"oF": 0
-		},
 	"\/STYLE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -51014,6 +51008,15 @@
 		"iS": 212739,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-chicago\/sharing.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-chicago\/skyline-night.jpg": {
+		"ft": 16384,
+		"iS": 144064,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-chicago\/skyline-night.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100
