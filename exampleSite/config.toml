@@ -12,6 +12,7 @@ PaginatePath = "blog"
 buildDrafts = false
 # Language support
 weburl = "https://dev.devopsdays.org"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 
 [[menu.main]]
