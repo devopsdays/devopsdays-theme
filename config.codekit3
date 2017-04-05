@@ -8215,6 +8215,12 @@
 		"oAP": "\/layouts\/shortcodes\/event_link.html",
 		"oF": 0
 		},
+	"\/layouts\/shortcodes\/event_location.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/layouts\/shortcodes\/event_location.html",
+		"oF": 0
+		},
 	"\/layouts\/shortcodes\/event_logo.html": {
 		"ft": 8192,
 		"oA": 2,
