@@ -3,6 +3,7 @@ date = "2016-08-28T14:00:07-07:00"
 title = "welcome"
 type = "event"
 aliases = ["/events/2017-portland"]
+Description = "devopsdays Portland 2017"
 
 +++
 
@@ -44,14 +45,14 @@ Our event will be August 1st and 2nd. However, keep an eye out for a special fol
   </div>
 </div> -->
 
-<!-- <div class = "row">
+<div class = "row">
   <div class = "col-md-2">
     <strong>Propose</strong>
   </div>
   <div class = "col-md-8">
-    {{< event_link page="propose" text="Propose a talk!" >}}
+    <a href="https://devopsdayspdx2017.busyconf.com/proposals/new">Propose a talk!</a>
   </div>
-</div> -->
+</div>
 
 <!-- <div class = "row">
   <div class = "col-md-2">
@@ -90,6 +91,4 @@ Our event will be August 1st and 2nd. However, keep an eye out for a special fol
 </div>
 
 
-<!--
 {{< event_twitter >}}
--->
