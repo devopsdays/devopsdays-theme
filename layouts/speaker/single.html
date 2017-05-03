@@ -72,6 +72,30 @@
               {{- end -}} <!-- end if eq $talk_slug $event_slug -->
             {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
           </ul>
+    <br>
+      <h3>Workshops by {{ .Title }}</h3>
+           <ul class="list-group list-group-flush">
+             {{ $.Scratch.Set "speaker" .File.BaseFileName }}
+             {{- range where $.Site.Pages "Type" "workshop" -}}
+               {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
+               {{- $talk_slug := index $talk_path 1 -}}
+               {{- if eq $talk_slug $event_slug -}}
+                 <!-- Now we can display stuff! -->
+                 {{ range .Params.speakers }}
+                   {{ if eq . ($.Scratch.Get "speaker") }}
+                     {{ $.Scratch.Set "display" "true" }}
+                   {{ end }}
+                 {{ end }}
+                 {{ if eq ($.Scratch.Get "display") "true" }}
+                 <li class= "list-group-item">
+                   <a href = "{{ .Permalink }}">{{ .Title }}</a>
+                 </li>
+                   {{ $.Scratch.Set "display" "false" }}
+                 {{ end }}
+               {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+             {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+           </ul>
+
           </div>
       <!-- </div>
     </div> -->
