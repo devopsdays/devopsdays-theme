@@ -4,6 +4,7 @@
 {{ $event_slug := index $path 1 }}
 {{ $e :=  (index $.Site.Data.events $event_slug) }}
 {{ $city_slug := substr $e.name 5 }}
+{{ $speakername := .Title }}
 
 <div class = "row">
   <div class = "col-md-12 offset-md-1">
@@ -49,54 +50,53 @@
       <div class = "card-block"> -->
 <div class="speaker-bio-talks">
 
+        {{ $.Scratch.Set "speaker" .File.BaseFileName }}
+        {{- range where $.Site.Pages "Type" "talk" -}}
+          {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
+          {{- $talk_slug := index $talk_path 1 -}}
+          {{- if eq $talk_slug $event_slug -}}
+            <!-- Now we can display stuff! -->
+            {{ range .Params.speakers }}
+              {{ if eq . ($.Scratch.Get "speaker") }}
+                {{ $.Scratch.Set "display" "true" }}
+              {{ end }}
+            {{ end }}
+            {{ if eq ($.Scratch.Get "display") "true" }}
+            <h3>Talks by {{ $speakername }}</h3>
+            <ul class="list-group list-group-flush">
+            <li class= "list-group-item" style="border: none">
+              <a href = "{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+            </ul>
+              {{ $.Scratch.Set "display" "false" }}
+            {{ end }}
+          {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+        {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
 
-     <h3>Talks by {{ .Title }}</h3>
-          <ul class="list-group list-group-flush">
-            {{ $.Scratch.Set "speaker" .File.BaseFileName }}
-            {{- range where $.Site.Pages "Type" "talk" -}}
-              {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
-              {{- $talk_slug := index $talk_path 1 -}}
-              {{- if eq $talk_slug $event_slug -}}
-                <!-- Now we can display stuff! -->
-                {{ range .Params.speakers }}
-                  {{ if eq . ($.Scratch.Get "speaker") }}
-                    {{ $.Scratch.Set "display" "true" }}
-                  {{ end }}
-                {{ end }}
-                {{ if eq ($.Scratch.Get "display") "true" }}
-                <li class= "list-group-item">
-                  <a href = "{{ .Permalink }}">{{ .Title }}</a>
-                </li>
-                  {{ $.Scratch.Set "display" "false" }}
-                {{ end }}
-              {{- end -}} <!-- end if eq $talk_slug $event_slug -->
-            {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
-          </ul>
-    <br>
-      <h3>Workshops by {{ .Title }}</h3>
-           <ul class="list-group list-group-flush">
-             {{ $.Scratch.Set "speaker" .File.BaseFileName }}
-             {{- range where $.Site.Pages "Type" "workshop" -}}
-               {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
-               {{- $talk_slug := index $talk_path 1 -}}
-               {{- if eq $talk_slug $event_slug -}}
-                 <!-- Now we can display stuff! -->
-                 {{ range .Params.speakers }}
-                   {{ if eq . ($.Scratch.Get "speaker") }}
-                     {{ $.Scratch.Set "display" "true" }}
-                   {{ end }}
-                 {{ end }}
-                 {{ if eq ($.Scratch.Get "display") "true" }}
-                 <li class= "list-group-item">
-                   <a href = "{{ .Permalink }}">{{ .Title }}</a>
-                 </li>
-                   {{ $.Scratch.Set "display" "false" }}
-                 {{ end }}
-               {{- end -}} <!-- end if eq $talk_slug $event_slug -->
-             {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
-           </ul>
-
-          </div>
+         {{ $.Scratch.Set "speaker" .File.BaseFileName }}
+         {{- range where $.Site.Pages "Type" "workshop" -}}
+           {{- $talk_path := split .File.Path .Site.Params.PathSeparator -}}
+           {{- $talk_slug := index $talk_path 1 -}}
+           {{- if eq $talk_slug $event_slug -}}
+             <!-- Now we can display stuff! -->
+             {{ range .Params.speakers }}
+               {{ if eq . ($.Scratch.Get "speaker") }}
+                 {{ $.Scratch.Set "display" "true" }}
+               {{ end }}
+             {{ end }}
+             {{ if eq ($.Scratch.Get "display") "true" }}
+             <br>
+             <h3>Workshops by {{ $speakername }}</h3>
+             <ul class="list-group list-group-flush">
+             <li class= "list-group-item" style="border: none">
+               <a href = "{{ .Permalink }}">{{ .Title }}</a>
+             </li>
+             </ul>
+               {{ $.Scratch.Set "display" "false" }}
+             {{ end }}
+           {{- end -}} <!-- end if eq $talk_slug $event_slug -->
+         {{- end -}} <!-- end range where $.Site.Pages "Type" "speaker" -->
+      </div>
       <!-- </div>
     </div> -->
   </div>
