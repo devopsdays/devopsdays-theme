@@ -2,6 +2,8 @@
 
   <h2>Program</h2>
 
+  {{ $.Scratch.Set "first" "true" }}
+
   {{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
   {{ $event_slug := index $path 1 }}
   {{ $e :=  (index $.Site.Data.events $event_slug) }}
@@ -44,7 +46,7 @@
   {{- end -}}
   <!-- end range where $.Site.Pages "Type" "speaker" -->
 
-    <!-- Get the dates for the program --->
+    <!-- Get the dates for the program -->
     {{ with $e }}
       {{ range .program }}
         {{ $.Scratch.SetInMap "dates" .date .date }}
@@ -59,22 +61,22 @@
     {{ $.Scratch.Set "date" . }}
 
 
-                    <!-- first column -->
-                    {{ with $e }}
-                      {{ if .program }}
-                      <div class="card">
-                        <div class="card-header" role="tab" id="{{printf "headingOne-%s" ($.Scratch.Get "date") }}">
-                          <h5 class="mb-0">
-                            <a data-toggle="collapse" data-parent="#accordion" href="{{printf "#collapse-%s" ($.Scratch.Get "date") }}" aria-expanded="true" aria-controls="{{printf "#collapse-%s" ($.Scratch.Get "date") }}">
-                              {{- dateFormat "January 2, 2006" ($.Scratch.Get "date") -}}
-                            </a>
-                          </h5>
-                        </div>
+            {{ with $e }}
+              {{ if .program }}
+              <div class="card">
+                <div class="card-header" role="tab" id="{{printf "headingOne-%s" ($.Scratch.Get "date") }}">
+                  <h5 class="mb-0">
 
-                        <div id="{{printf "#collapse-%s" ($.Scratch.Get "date") }}" class="collapse show" role="tabpanel" aria-labelledby="{{printf "headingOne-%s" ($.Scratch.Get "date") }}">
-                          <div class="card-block">
-                            <div class="row">
-                              <div class="col-md-6">
+                    <a data-toggle="collapse" data-parent="#accordion" href="{{printf "#collapse-%s" ($.Scratch.Get "date") }}" aria-expanded="true" aria-controls="{{printf "#collapse-%s" ($.Scratch.Get "date") }}">
+                      {{- dateFormat "January 2, 2006" ($.Scratch.Get "date") -}}
+                    </a>
+                  </h5>
+                </div>
+
+                <div id="{{printf "#collapse-%s" ($.Scratch.Get "date") }}" class="collapse show" role="tabpanel" aria-labelledby="{{printf "headingOne-%s" ($.Scratch.Get "date") }}">
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-md-6">
                         {{ $program := (where .program "date" ($.Scratch.Get "date")) }}
                         {{ $program_len := (len $program) }}
                         {{- $.Scratch.Set "program_len" $program_len -}}
