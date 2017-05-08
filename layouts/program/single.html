@@ -148,7 +148,6 @@
             <h4>{{- dateFormat "January 2, 2006" ($.Scratch.Get "date") -}}</h4>
             <div class = "row">
               <div class = "col-md-6">
-              {{ . }}
                 <ul>
                   {{- range where $e.ignites "date" ($.Scratch.Get "date") -}}
 
