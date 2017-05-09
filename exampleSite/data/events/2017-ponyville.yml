@@ -233,7 +233,7 @@ program:
     start_time: "11:50"
     end_time: "13:00"
   - title: "Ignites"
-    type: custom
+    type: ignite
     date: 2017-06-16
     start_time: "13:00"
     end_time: "13:30"
@@ -243,12 +243,12 @@ program:
     start_time: "13:30"
     end_time: "13:40"
   - title: "Open Space Opening"
-    type: custom
+    type: open-space
     date: 2017-06-16
     start_time: "13:40"
     end_time: "14:15"
   - title: "Open Space #1"
-    type: custom
+    type: open-space
     date: 2017-06-16
     start_time: "14:15"
     end_time: "15:00"
@@ -258,12 +258,12 @@ program:
     start_time: "15:00"
     end_time: "15:15"
   - title: "Open Space #2"
-    type: custom
+    type: open-space
     date: 2017-06-16
     start_time: "15:15"
     end_time: "16:00"
   - title: "Open Space #3"
-    type: custom
+    type: open-space
     date: 2017-06-16
     start_time: "16:15"
     end_time: "17:00"
@@ -332,7 +332,7 @@ program:
     start_time: "11:50"
     end_time: "13:00"
   - title: "Ignites"
-    type: custom
+    type: ignite
     date: 2017-06-17
     start_time: "13:00"
     end_time: "13:30"
@@ -342,12 +342,12 @@ program:
     start_time: "13:30"
     end_time: "13:40"
   - title: "Open Space Opening"
-    type: custom
+    type: open-space
     date: 2017-06-17
     start_time: "13:40"
     end_time: "14:15"
   - title: "Open Space #1"
-    type: custom
+    type: open-space
     date: 2017-06-17
     start_time: "14:15"
     end_time: "15:00"
@@ -357,12 +357,12 @@ program:
     start_time: "15:00"
     end_time: "15:15"
   - title: "Open Space #2"
-    type: custom
+    type: open-space
     date: 2017-06-17
     start_time: "15:15"
     end_time: "16:00"
   - title: "Open Space #3"
-    type: custom
+    type: open-space
     date: 2017-06-17
     start_time: "16:15"
     end_time: "17:00"

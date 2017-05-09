@@ -600,6 +600,58 @@ h3.program-page {
   font-size: .85em;
 }
 
+
+.program-element {
+  overflow: hidden;
+  height: 1%
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .program-element {
+    border-radius: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    height: 1%
+
+  }
+}
+
+.program-custom {
+  background-color:  #bfbfc1;
+}
+
+.program-talk {
+  background-color: #0082AB;
+}
+
+.program-talk>a{
+  color: #fff;
+}
+
+.program-ignite {
+  background-color: #00C342;
+  color: #fff;
+}
+
+.program-ignite>ul>li{
+  color: #fff;
+}
+
+.program-ignite>ul>li>a{
+  color: #fff;
+}
+
+.program-open-space {
+  background-color: #FF8300;
+  color: #000;
+}
+
+.program-row {
+  padding-top: 5px;
+}
+
 // legacy styles
 
 .box {
