@@ -21,12 +21,12 @@
             {{ $.Scratch.Set "contentdir" (printf "static/events/%s/" ($.Scratch.Get "subdir")) }}
             {{ if (where (readDir "static/events") "Name" ($.Scratch.Get "subdir"))}}
                 {{if (where (readDir ($.Scratch.Get "contentdir")) "Name" "logo-square.jpg") }}
-                    <a href="/events/{{ .name }}"><img src="/events/{{ .name }}/logo-square.jpg" class="img-fluid" alt="devopsdays {{ .city }}"/></a>
+                    <a href="{{$.Site.BaseURL}}events/{{ .name }}"><img src="{{$.Site.BaseURL}}events/{{ .name }}/logo-square.jpg" class="img-fluid" alt="devopsdays {{ .city }}"/></a>
                     {{ $.Scratch.Set "logo" "set" }}
                 {{ end }}
             {{ end }}
             {{ if ne ($.Scratch.Get "logo") "set" }}
-                <a href="/events/{{ .name }}"><img src="/img/event-logo-square.jpg" class="img-fluid" alt="devopsdays {{ .city }}"/></a>
+                <a href="{{$.Site.BaseURL}}events/{{ .name }}"><img src="{{$.Site.BaseURL}}img/event-logo-square.jpg" class="img-fluid" alt="devopsdays {{ .city }}"/></a>
                 {{- end -}}
                 <br/>
 
@@ -47,7 +47,7 @@
       {{- end -}}
 
                 <span class="homepage-grid-city">
-                    <a href="/events/{{ .name }}">{{ .city }}</a>
+                    <a href="{{$.Site.BaseURL}}events/{{ .name }}">{{ .city }}</a>
                 </span>
             </div>
             {{- if modBool ($.Scratch.Get "i") 4 -}}
