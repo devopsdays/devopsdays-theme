@@ -1,4 +1,4 @@
 ln -s /opt/build/repo /opt/build/devopsdays-theme
 cd exampleSite
-bin/hugo --theme=devopsdays-theme --buildDrafts=false --baseURL="$URL"
+../bin/hugo --theme=devopsdays-theme --buildDrafts=false --baseURL="$URL"
 gulp --cwd .
