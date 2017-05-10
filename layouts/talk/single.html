@@ -38,6 +38,15 @@
         {{ end }}
       {{ end }}
 
+      {{ if isset .Params "speakerdeck" }}
+        {{ if ne .Params.speakerdeck ""}}
+          <div>
+            <h2 class="talk-page">Speakerdeck</h2>
+            <a href="{{ .Params.speakerdeck }}" class="embed"></a>
+          </div>
+        {{ end }}
+      {{ end }}
+
       {{ if isset .Params "slides" }}
         {{ if ne .Params.slides ""}}
         <div>
