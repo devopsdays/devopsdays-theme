@@ -42,7 +42,7 @@
         {{ if ne .Params.speakerdeck ""}}
           <div>
             <h2 class="talk-page">Speakerdeck</h2>
-            <a href="{{ .Params.speakerdeck }}" class="embed"></a>
+            <a href="{{ (printf "http://speakerdeck.com/oembed.json?url=%s" .Params.speakerdeck) }}" class="embed"></a>
           </div>
         {{ end }}
       {{ end }}
