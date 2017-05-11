@@ -194,6 +194,14 @@ The current colors for program types (click on a link to see the color):
 - workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
 - open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
 
+The current colors for program types (click on a link to see the color):
+
+- custom: [#bfbfc1](http://www.perbang.dk/rgb/BFBFC1/)
+- talk: [#0082AB](http://www.perbang.dk/rgb/0082AB/)
+- ignite: [#00C342](http://www.perbang.dk/rgb/00C342/)
+- workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
+- open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
+
 #### Ignite Fields
 
 The Ignite elements are set in the `ignites` section. Example:
