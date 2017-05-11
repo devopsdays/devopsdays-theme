@@ -620,37 +620,48 @@ h3.program-page {
 }
 
 .program-custom {
-  background-color:  #bfbfc1;
+  background-color: lighten( $devopsdays-gray, 15% );
+  color: #000;
 }
 
 .program-talk {
-  background-color: #0082AB;
+  background-color: lighten( $devopsdays-blue, 50% );
+  color: #000;
 }
 
 .program-talk>a{
-  color: #fff;
+  color: #000;
 }
 
 .program-ignite {
-  background-color: #00C342;
-  color: #fff;
+  background-color: lighten(#00C342, 50%);
+  color: #000;
 }
 
 .program-ignite>ul>li{
-  color: #fff;
+  color: #000;
+}
+
+.program-ignite>ul {
+  margin-bottom: 0px;
 }
 
 .program-ignite>ul>li>a{
-  color: #fff;
+  color: #000;
 }
 
 .program-open-space {
-  background-color: #FF8300;
+  background-color: lighten( #FF8300, 20%);
   color: #000;
 }
 
 .program-workshop {
-  background-color: #99E6FF;
+  background-color: #FFFA99;
+  color: #000
+}
+
+.program-workshop>a{
+  color: #000;
 }
 
 .program-row {
