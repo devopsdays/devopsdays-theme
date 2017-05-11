@@ -253,7 +253,7 @@ program:
     start_time: "14:15"
     end_time: "15:00"
   - title: "Break"
-    type: custom
+    type: workshop
     date: 2017-06-16
     start_time: "15:00"
     end_time: "15:15"
