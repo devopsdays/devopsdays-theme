@@ -301,6 +301,7 @@ program:
     date: 2017-06-17
     start_time: "09:45"
     end_time: "09:55"
+    background_color: "#FFFA99"
   - title: "apple-jack"
     type: talk
     date: 2017-06-17
