@@ -10018,6 +10018,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/bin\/hugo": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/bin\/hugo",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/bin\/netlify-production.sh": {
 		"ft": 8192,
 		"oA": 2,
@@ -31094,6 +31100,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/leadership.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/leadership.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/location.md": {
 		"cS": 0,
 		"eF": 1,
@@ -34848,6 +34872,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-ohio\/contact.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-ohio\/location.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-ohio\/location.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -46641,6 +46683,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/dellemc.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/deloitte-digital.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/deloitte-digital.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/deloitte.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -55918,6 +55966,12 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-boston\/Boston2017SponsorProspectus.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-boston\/Boston2017SponsorProspectus.pdf",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-boston\/cycloramaskylight.jpg": {
 		"ft": 16384,
 		"iS": 118895,
@@ -56618,6 +56672,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-edinburgh\/organizers\/matt.png": {
+		"ft": 32768,
+		"iS": 371167,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-edinburgh\/organizers\/matt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-edinburgh\/organizers\/nick.jpg": {
@@ -57578,6 +57643,17 @@
 		"iS": 710923,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-nashville\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-ohio\/logo.png": {
+		"ft": 32768,
+		"iS": 32392,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-ohio\/logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -64651,6 +64727,17 @@
 		"iS": 36386,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/dellemc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/deloitte-digital.png": {
+		"ft": 32768,
+		"iS": 39009,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/deloitte-digital.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
