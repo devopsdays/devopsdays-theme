@@ -180,6 +180,14 @@ program:
 | `comments`         | No       | Additional comments/notes about the program element (for example, location of an evening event). Markdown is supported.                                                                                                                     | "This will be at the [Pony Club](http://www.mattstratton.com),1005 Ponyville Drive,Ponyville, IL,60612" |
 | `background_color` | No       | Allows the ability to override the color of the program element. Only the background color can be changed; please test to make sure the color works with the displayed text colors. Color is expressed in RGB HEX value. Must be in quotes. | "#FFFA99"                                                                                               |
 
+The current colors for program types (click on a link to see the color):
+
+- custom: [#bfbfc1](http://www.perbang.dk/rgb/BFBFC1/)
+- talk: [#0082AB](http://www.perbang.dk/rgb/0082AB/)
+- ignite: [#00C342](http://www.perbang.dk/rgb/00C342/)
+- workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
+- open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
+
 #### Ignite Fields
 
 The Ignite elements are set in the `ignites` section. Example:
