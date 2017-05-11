@@ -3,21 +3,21 @@
 # Table of contents
 <!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:0 updateOnSave:1 -->
 
-[Fields in YYYY-CITY.yml](#fields-in-yyyy-cityyml)   
-&emsp;[General Fields](#general-fields)   
-&emsp;[Date-related Fields](#date-related-fields)   
-&emsp;[Branding Fields](#branding-fields)   
-&emsp;[Location Fields](#location-fields)   
-&emsp;[Navigation Fields](#navigation-fields)   
-&emsp;[Organizer Fields](#organizer-fields)   
-&emsp;&emsp;[Team Members](#team-members)   
-&emsp;&emsp;[Organizer Emails](#organizer-emails)   
-&emsp;[Sponsor fields](#sponsor-fields)   
-&emsp;&emsp;[Sponsor Levels](#sponsor-levels)   
-&emsp;[Program Fields](#program-fields)   
-&emsp;&emsp;[Program Items](#program-items)   
-&emsp;&emsp;&emsp;[Program Element Colors](#program-element-colors)   
-&emsp;&emsp;[Ignite Fields](#ignite-fields)   
+[Fields in YYYY-CITY.yml](#fields-in-yyyy-cityyml)
+&emsp;[General Fields](#general-fields)
+&emsp;[Date-related Fields](#date-related-fields)
+&emsp;[Branding Fields](#branding-fields)
+&emsp;[Location Fields](#location-fields)
+&emsp;[Navigation Fields](#navigation-fields)
+&emsp;[Organizer Fields](#organizer-fields)
+&emsp;&emsp;[Team Members](#team-members)
+&emsp;&emsp;[Organizer Emails](#organizer-emails)
+&emsp;[Sponsor fields](#sponsor-fields)
+&emsp;&emsp;[Sponsor Levels](#sponsor-levels)
+&emsp;[Program Fields](#program-fields)
+&emsp;&emsp;[Program Items](#program-items)
+&emsp;&emsp;&emsp;[Program Element Colors](#program-element-colors)
+&emsp;&emsp;[Ignite Fields](#ignite-fields)
 
 <!-- /MDTOC -->
 
@@ -194,13 +194,6 @@ The current colors for program types (click on a link to see the color):
 - workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
 - open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
 
-The current colors for program types (click on a link to see the color):
-
-- custom: [#bfbfc1](http://www.perbang.dk/rgb/BFBFC1/)
-- talk: [#0082AB](http://www.perbang.dk/rgb/0082AB/)
-- ignite: [#00C342](http://www.perbang.dk/rgb/00C342/)
-- workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
-- open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
 
 #### Ignite Fields
 
