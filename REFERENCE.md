@@ -3,17 +3,21 @@
 # Table of contents
 <!-- MDTOC maxdepth:6 firsth1:0 numbering:0 flatten:0 bullets:0 updateOnSave:1 -->
 
-[Fields in YYYY-CITY.yml](#fields-in-yyyy-cityyml)
-&emsp;[General Fields](#general-fields)
-&emsp;[Date-related Fields](#date-related-fields)
-&emsp;[Branding Fields](#branding-fields)
-&emsp;[Location Fields](#location-fields)
-&emsp;[Navigation Fields](#navigation-fields)
-&emsp;[Organizer Fields](#organizer-fields)
-&emsp;&emsp;[Team Members](#team-members)
-&emsp;&emsp;[Organizer Emails](#organizer-emails)
-&emsp;[Sponsor fields](#sponsor-fields)
-&emsp;&emsp;[Sponsor Levels](#sponsor-levels)
+[Fields in YYYY-CITY.yml](#fields-in-yyyy-cityyml)   
+&emsp;[General Fields](#general-fields)   
+&emsp;[Date-related Fields](#date-related-fields)   
+&emsp;[Branding Fields](#branding-fields)   
+&emsp;[Location Fields](#location-fields)   
+&emsp;[Navigation Fields](#navigation-fields)   
+&emsp;[Organizer Fields](#organizer-fields)   
+&emsp;&emsp;[Team Members](#team-members)   
+&emsp;&emsp;[Organizer Emails](#organizer-emails)   
+&emsp;[Sponsor fields](#sponsor-fields)   
+&emsp;&emsp;[Sponsor Levels](#sponsor-levels)   
+&emsp;[Program Fields](#program-fields)   
+&emsp;&emsp;[Program Items](#program-items)   
+&emsp;&emsp;&emsp;[Program Element Colors](#program-element-colors)   
+&emsp;&emsp;[Ignite Fields](#ignite-fields)   
 
 <!-- /MDTOC -->
 
@@ -178,7 +182,17 @@ program:
 | `start_time`       | Yes      | The start time of the program element.                                                                                                                                                                                                      | "08:00"                                                                                                 |
 | `end_time`         | Yes      | The end time of the program element.                                                                                                                                                                                                        | "13:40"                                                                                                 |
 | `comments`         | No       | Additional comments/notes about the program element (for example, location of an evening event). Markdown is supported.                                                                                                                     | "This will be at the [Pony Club](http://www.mattstratton.com),1005 Ponyville Drive,Ponyville, IL,60612" |
-| `background_color` | No       | Allows the ability to override the color of the program element. Only the background color can be changed; please test to make sure the color works with the displayed text colors. Color is expressed in RGB HEX value. Must be in quotes. | "#FFFA99"                                                                                               |
+| `background_color` | No       | Allows the ability to override the color of the program element. Only the background color can be changed; please test to make sure the color works with the displayed text colors. Color is expressed in RGB HEX value. Must be in quotes. | "#FFFA99"                                                                                            |
+
+##### Program Element Colors
+
+The current colors for program types (click on a link to see the color):
+
+- custom: [#bfbfc1](http://www.perbang.dk/rgb/BFBFC1/)
+- talk: [#0082AB](http://www.perbang.dk/rgb/0082AB/)
+- ignite: [#00C342](http://www.perbang.dk/rgb/00C342/)
+- workshop: [#99E6FF](http://www.perbang.dk/rgb/99E6FF/)
+- open-space: [#FF8300](http://www.perbang.dk/rgb/FF8300/)
 
 #### Ignite Fields
 
