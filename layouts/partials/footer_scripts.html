@@ -36,7 +36,11 @@
         {{- $.Scratch.Set "sharing_title" .Params.Title -}}
       {{- end -}}
     {{- else -}}
-      {{- $.Scratch.Set "sharing_title" "devopsdays" -}}
+      {{- if eq .Type "blog" -}}
+        {{- $.Scratch.Set "sharing_title" .Params.Title -}}
+      {{- else -}}
+        {{- $.Scratch.Set "sharing_title" "devopsdays" -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
