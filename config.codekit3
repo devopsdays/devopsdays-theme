@@ -9720,6 +9720,17 @@
 		"oAP": "\/static\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
+	"\/static\/img\/404-yak.png": {
+		"ft": 32768,
+		"iS": 284932,
+		"oA": 1,
+		"oAP": "\/static\/img\/404-yak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/static\/img\/devopsdays-brain.png": {
 		"ft": 32768,
 		"iS": 26429,
