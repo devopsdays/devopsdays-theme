@@ -1,12 +1,6 @@
 {{ define "main" }}
 
-    <div class="row">
-        <div class="col-md-12">
-            <div class="embed-responsive embed-responsive-16by9">
-                <div id="map_canvas" class="embed-responsive-item"></div>
-            </div>
-        </div>
-    </div>
+
 
     {{ $.Scratch.Add "i" 1 }}
     <div class="row">
@@ -61,4 +55,11 @@
         </div>
         <!-- <div id="share"></div> -->
 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div id="map_canvas" class="embed-responsive-item"></div>
+                </div>
+            </div>
+        </div>
 {{- end -}}
