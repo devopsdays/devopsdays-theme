@@ -10018,12 +10018,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/utils\/devopsdays-web\/bin\/hugo": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/bin\/hugo",
-		"oF": 0
-		},
 	"\/utils\/devopsdays-web\/bin\/netlify-production.sh": {
 		"ft": 8192,
 		"oA": 2,
@@ -10145,6 +10139,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/blog\/2016-minneapolis.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/blog\/2017-seattle.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/blog\/2017-seattle.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -58050,6 +58062,16 @@
 		"iS": 26234,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-raleigh\/organizers\/chrisshort.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-raleigh\/organizers\/josh-atwell.jpg": {
+		"ft": 16384,
+		"iS": 132621,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-raleigh\/organizers\/josh-atwell.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
