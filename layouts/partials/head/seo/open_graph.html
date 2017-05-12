@@ -6,7 +6,7 @@
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
 {{ end }}
 <meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ $.Site.Params.weburl }}{{ .Permalink | relURL }}" />
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
 {{ if or (eq .Type "welcome") (eq .Type "event") (eq .Type "speaker") (eq .Type "speakers") (eq .Type "talk") (eq .Type "program")}}
   {{/* site data query copypasta */}}
   {{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
@@ -16,13 +16,13 @@
   {{/* end site data query */}}
   {{if (where (readDir "static/events") "Name" $event_slug)}}
     {{ if (where (readDir ($.Scratch.Get "contentdir")) "Name" "sharing.jpg") }}
-      {{ $.Scratch.Set "sharing_url" (printf "%s/events/%s/sharing.jpg" $.Site.Params.weburl $event_slug ) }}
+      {{ $.Scratch.Set "sharing_url" ((printf "events/%s/sharing.jpg" $event_slug ) | absURL) }}
     {{ else }}
-      {{ $.Scratch.Set "sharing_url" (printf "%s/img/sharing.jpg" $.Site.Params.weburl ) }}
+      {{ $.Scratch.Set "sharing_url" ("img/sharing.jpg" | absURL ) }}
     {{ end }}
   {{ end }}
 {{ else }}
-    {{ $.Scratch.Set "sharing_url" (printf "%s/img/sharing.jpg" $.Site.Params.weburl ) }}
+    {{ $.Scratch.Set "sharing_url" ("img/sharing.jpg" | absURL ) }}
 {{ end }}
 <meta property="og:image" content="{{ $.Scratch.Get "sharing_url" }}" />
 <meta property="fb:app_id" content="1904065206497317" />
