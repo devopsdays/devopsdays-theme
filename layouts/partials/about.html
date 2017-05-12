@@ -19,12 +19,12 @@
         {{- $.Scratch.Set "month-displayed" "true" -}}
       {{- end -}}
       {{- if ne .startdate .enddate }}
-      <a href = "/events/{{ .name }}/contact" class = "left-nav-event">
+      <a href = "{{ (printf "events/%s/contact" .name ) | absURL }}" class = "left-nav-event">
         {{ dateFormat "Jan 2" .startdate }} - {{ dateFormat "Jan 2" .enddate }}:
         Contact {{ .city }} organizers
       </a><br />
       {{- else -}}
-      <a href = "/events/{{ .name }}/contact" class = "left-nav-event">
+      <a href = "{{ (printf "events/%s/contact" .name ) | absURL }}" class = "left-nav-event">
         {{ dateFormat "Jan 2" .startdate }}:
         Contact {{ .city }} organizers
       </a><br />
@@ -35,6 +35,6 @@
 <h3 class="left-nav-year">TBD</h3>
 {{- range $.Site.Data.events -}}
   {{- if not .startdate -}}
-    <a href = "/events/{{ .name }}/contact" class = "left-nav-event">Contact {{ .city }} organizers</a><br />
+    <a href = "{{ (printf "events/%s/contact" .name) | absURL }}" class = "left-nav-event">Contact {{ .city }} organizers</a><br />
   {{- end -}}
 {{- end -}}
