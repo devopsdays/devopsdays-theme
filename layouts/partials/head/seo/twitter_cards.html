@@ -18,13 +18,13 @@
   {{ end }}
   {{if (where (readDir "static/events") "Name" $event_slug)}}
     {{ if (where (readDir ($.Scratch.Get "contentdir")) "Name" "sharing.jpg") }}
-      {{ $.Scratch.Set "sharing_url" (printf "%s/events/%s/sharing.jpg" $.Site.Params.weburl $event_slug ) }}
+      {{ $.Scratch.Set "sharing_url" ((printf "events/%s/sharing.jpg" $event_slug ) | absURL) }}
     {{ else }}
-      {{ $.Scratch.Set "sharing_url" (printf "%s/img/sharing.jpg" $.Site.Params.weburl ) }}
+      {{ $.Scratch.Set "sharing_url" ("img/sharing.jpg" | absURL ) }}
     {{ end }}
   {{ end }}
 {{ else }}
-    {{ $.Scratch.Set "sharing_url" (printf "%s/img/sharing.jpg" $.Site.Params.weburl ) }}
+    {{ $.Scratch.Set "sharing_url" ("img/sharing.jpg" | absURL ) }}
 {{ end }}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="{{ $.Scratch.Get "sharing_url" }}" />

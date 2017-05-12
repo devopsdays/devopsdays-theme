@@ -13,5 +13,5 @@
       {{- end -}}
     {{- end -}}
 </title>
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink | absURL }}">
 {{ partial "head_includes.html" . }}
