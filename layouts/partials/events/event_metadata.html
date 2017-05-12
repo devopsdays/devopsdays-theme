@@ -1,25 +1,22 @@
-{{ $path := split $.Source.File.Path .Site.Params.PathSeparator }}
-{{ $event_slug := index $path 1 }}
-{{ $e :=  (index $.Site.Data.events $event_slug) }}
-{{/* end site data query */}}
+{{- $e := (index $.Site.Data.events (index (split (.Permalink | relURL) "/") 2)) -}}
 
-{{ $.Scratch.Set "contentdir" (printf "static/events/%s/" $event_slug) }}
+{{- $.Scratch.Set "contentdir" (printf "static/events/%s/" $e.name) -}}
 
-{{ if (where (readDir "static/events") "Name" $event_slug)}}
+{{- if (where (readDir "static/events") "Name" $e.name) -}}
 
-  {{ if (where (readDir ($.Scratch.Get "contentdir")) "Name" "logo.jpg") }}
-    {{ $.Scratch.Set "image_url" ((printf "events/%s/logo.jpg" $event_slug) | absURL) }}
-  {{ else }}
-    {{ $.Scratch.Set "image_url" ((printf "events/%s/logo.png" $event_slug) | absURL) }}
-  {{ end }}
+  {{- if (where (readDir ($.Scratch.Get "contentdir")) "Name" "logo.jpg") -}}
+    {{- $.Scratch.Set "image_url" ((printf "events/%s/logo.jpg" $e.name) | absURL) -}}
+  {{- else -}}
+    {{- $.Scratch.Set "image_url" ((printf "events/%s/logo.png" $e.name) | absURL) -}}
+  {{- end -}}
 
-{{ else }}
-    {{$.Scratch.Set "image_url" ("img/event-logo-square.jpg" | absURL) }}
-{{ end}}
+{{- else -}}
+    {{- $.Scratch.Set "image_url" ("img/event-logo-square.jpg" | absURL) -}}
+{{- end -}}
 
 
 
-{{- if  and $e.startdate $e.location_address -}}
+{{- if and $e.startdate $e.location_address -}}
 
   <script type="application/ld+json">
   {
