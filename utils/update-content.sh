@@ -9,7 +9,7 @@ git stash
 git checkout -b $branch
 echo "making new branch"
 rsync -rv --update --exclude=.git utils/devopsdays-web/content/ exampleSite/content/
-rsync -rv --update --exclude=.git utils/devopsdays-web/static/ /exampleSite/static/
+rsync -rv --update --exclude=.git utils/devopsdays-web/static/ exampleSite/static/
 rsync -rv --update --exclude=.git utils/devopsdays-web/data/ exampleSite/data/
 echo "Completed sync of files"
 git add .
