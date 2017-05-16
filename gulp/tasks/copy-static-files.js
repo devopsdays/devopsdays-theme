@@ -28,7 +28,7 @@ gulp.task('copy-other-images', function() {
 //     )
 // })
 
-gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-other-images'])
+gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps'])
 
 
 // gulp.task('copy-images', function(callback) {
