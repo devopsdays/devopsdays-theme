@@ -25,30 +25,37 @@
 
       {{- if isset .Params "slideshare" -}}
         {{- if ne .Params.slideshare "" -}}
-          <div>
-            <h2 class="talk-page">Slideshare</h2>
-            <a href="{{ .Params.slideshare }}" class="embed"></a>
+          <div class = "row">
+            <div class = "col">
+              <h2 class="talk-page">Slideshare</h2>
+              <a href="{{ .Params.slideshare }}" class="embed"></a>
+            </div>
           </div>
         {{- end -}}
       {{- end -}}
 
       {{- if isset .Params "speakerdeck" -}}
         {{- if ne .Params.speakerdeck "" -}}
-          <div>
+        <div class = "row">
+          <div class = "col" style="max-width:100%">
             <h2 class="talk-page">Speakerdeck</h2>
-            {{ $sdUrl := (print "http://speakerdeck.com/oembed.json?url=" print .Params.speakerdeck "&format=json" ) }}
-            {{ $dataJ := getJSON $sdUrl }}
-            {{ $dataJ.html | safeHTML }}
+              {{/* {{- $dataJ := getJSON "http://speakerdeck.com/oembed.json?url=" .Params.speakerdeck "&format=json" -}}
+              {{ $dataJ.html | safeHTML }} */}}
+<a class="embedly-card" data-card-controls="0" href="{{.Params.speakerdeck}}">{{ .Title }}</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
           </div>
+        </div>
         {{- end -}}
       {{- end -}}
 
       {{- if isset .Params "slides" -}}
         {{- if ne .Params.slides "" -}}
-          <div>
+        <div class = "row">
+          <div class = "col">
             <h2 class="talk-page">Slides</h2>
             <a href = "{{ .Params.slides }}">Link to Slides</a>
           </div>
+        </div>
         {{- end -}}
       {{- end -}}
 
