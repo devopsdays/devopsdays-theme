@@ -682,3 +682,18 @@ h3.program-page {
 .content-text h1, h2, h3 {
   text-transform: none;
 }
+
+// 404 page
+
+.page-404-header {
+  color: $devopsdays-blue;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.page-404-content {
+  color: darken($devopsdays-gray, 50%);
+  font-size: 1.5em;
+  font-weight: 300;
+}

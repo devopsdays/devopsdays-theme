@@ -7983,10 +7983,10 @@
 		"oAP": "\/layouts\/_default\/single.html",
 		"oF": 0
 		},
-	"\/layouts\/about\/single.html": {
+	"\/layouts\/blog\/single.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/layouts\/about\/single.html",
+		"oAP": "\/layouts\/blog\/single.html",
 		"oF": 0
 		},
 	"\/layouts\/blog\/summary.html": {
@@ -8011,12 +8011,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/index.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/about.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/blog_pagination.html": {
@@ -8083,12 +8077,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/layouts\/partials\/head\/seo.html",
-		"oF": 0
-		},
-	"\/layouts\/partials\/head\/seo\/google_news.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/layouts\/partials\/head\/seo\/google_news.html",
 		"oF": 0
 		},
 	"\/layouts\/partials\/head\/seo\/open_graph.html": {
@@ -9719,6 +9707,17 @@
 		"oA": 2,
 		"oAP": "\/static\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
+		},
+	"\/static\/img\/404-yak.png": {
+		"ft": 32768,
+		"iS": 284932,
+		"oA": 1,
+		"oAP": "\/static\/img\/404-yak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/static\/img\/devopsdays-brain.png": {
 		"ft": 32768,

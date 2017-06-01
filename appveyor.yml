@@ -6,23 +6,23 @@ install:
 
     hugo version
 
-# Change the Path seperator to a Windows version (backslash)    
-- ps: >-
-    $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
-
-    $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
-
-    $content = $content -replace 'PathSeparator = "/"','PathSeparator = "\\"'
-
-    Write-Output "config.toml content changed to:`n----`n$($content)"
-
-    $content | Set-Content ($buildRoot + '\exampleSite\config.toml')
+# Change the Path seperator to a Windows version (backslash)
+# - ps: >-
+#     $buildRoot = $ENV:APPVEYOR_BUILD_FOLDER
+#
+#     $content = (Get-Content ($buildRoot + '\exampleSite\config.toml')) -join "`n"
+#
+#     $content = $content -replace 'PathSeparator = "/"','PathSeparator = "\\"'
+#
+#     Write-Output "config.toml content changed to:`n----`n$($content)"
+#
+#     $content | Set-Content ($buildRoot + '\exampleSite\config.toml')
 
 build_script:
 #  Build the devopsdays-web site once
 - cmd: >-
     cd exampleSite
-    
+
     hugo --verbose
 
 test: off
