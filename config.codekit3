@@ -9957,6 +9957,14 @@
 		"oAP": "\/utils\/devopsdays-web\/.travis.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/.vscode\/cSpell.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/.vscode\/cSpell-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/utils\/devopsdays-web\/appveyor.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -10046,12 +10054,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/utils\/devopsdays-web\/config-windows.toml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/config-windows.toml",
-		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/config.toml": {
 		"ft": 8192,
@@ -27604,6 +27606,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/program\/david-mytton.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/program\/david-mytton.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/program\/dirk-lehmann.md": {
 		"cS": 0,
 		"eF": 1,
@@ -28010,6 +28030,24 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/speakers\/berry-kersten.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/speakers\/david-mytton.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-amsterdam\/speakers\/david-mytton.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -29829,6 +29867,132 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/conduct.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/conduct.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/contact.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/contact.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/index.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/index.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/location.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/location.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/propose.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/propose.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/registration.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/registration.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/sponsor.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-bangalore\/sponsor.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-beijing\/conduct.md": {
 		"cS": 0,
 		"eF": 1,
@@ -31165,6 +31329,42 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/program\/adam-jacob.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/program\/adam-jacob.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/program\/john-willis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/program\/john-willis.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/propose.md": {
 		"cS": 0,
 		"eF": 1,
@@ -31211,6 +31411,60 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/scholarship.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers\/adam-jacob.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers\/adam-jacob.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers\/john-willis.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-dallas\/speakers\/john-willis.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -34920,6 +35174,24 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-ohio\/propose.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-ohio\/propose.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/utils\/devopsdays-web\/content\/events\/2017-ohio\/sponsor.md": {
 		"cS": 0,
 		"eF": 1,
@@ -35902,6 +36174,168 @@
 		"ft": 4096,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-raleigh\/welcome.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/conduct.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/conduct.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/contact.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/contact.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/location.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/location.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/program.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/program.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/propose.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/propose.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/registration.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/registration.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/speakers.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/speakers.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/sponsor.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/sponsor.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/utils\/devopsdays-web\/content\/events\/2017-riga\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/content\/events\/2017-riga\/welcome.html",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
@@ -41096,6 +41530,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/events\/2017-baltimore.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/events\/2017-bangalore.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/events\/2017-bangalore.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/events\/2017-beijing.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -41268,6 +41708,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/events\/2017-raleigh.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/events\/2017-riga.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/events\/2017-riga.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/events\/2017-saint-louis.yml": {
@@ -45800,6 +46246,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/2017-vdms.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/4armed.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/4armed.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/6connect.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -46736,6 +47188,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/devopsdotcom.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/devopsguys.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/devopsguys.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/devopslive.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -46982,6 +47440,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/foxpass.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/freeagent.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/freeagent.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/frenchweb.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -46998,6 +47462,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/gcp.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/geekettes-tc.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/geekettes-tc.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/geekwire.yml": {
@@ -47078,6 +47548,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/gradwerk.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/granicus.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/granicus.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/groundfloor.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -47112,6 +47588,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/harmonia.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/hashicorp.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/hashicorp.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/hays.yml": {
@@ -47216,6 +47698,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/ibm.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/icagile.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/icagile.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/icc.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -47250,6 +47738,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/ihub.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/improving.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/improving.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/indigo.yml": {
@@ -47346,6 +47840,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/itglue.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/ithaka.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/ithaka.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/itmotives.yml": {
@@ -47502,6 +48002,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/linuxmagazin.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/loggly.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/loggly.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/logicmonitor.yml": {
@@ -48218,6 +48724,12 @@
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/scalar.yml",
 		"oF": 0
 		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/scalefactory.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/scalefactory.yml",
+		"oF": 0
+		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/scalyr.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -48456,6 +48968,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/spark.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/sparkpost.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/sparkpost.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/split-software.yml": {
@@ -48744,6 +49262,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/trace3.yml",
+		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/data\/sponsors\/transip.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/utils\/devopsdays-web\/data\/sponsors\/transip.yml",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/data\/sponsors\/trinimbus.yml": {
@@ -55453,6 +55977,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-amsterdam\/speakers\/david-mytton.jpg": {
+		"ft": 16384,
+		"iS": 56060,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-amsterdam\/speakers\/david-mytton.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-amsterdam\/speakers\/dirk-lehmann.jpg": {
 		"ft": 16384,
 		"iS": 7998,
@@ -56023,6 +56557,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-boston\/organizers\/edrousseau.jpg": {
+		"ft": 16384,
+		"iS": 102145,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-boston\/organizers\/edrousseau.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-boston\/organizers\/jamesmeickle.jpg": {
 		"ft": 16384,
 		"iS": 147360,
@@ -56391,6 +56935,26 @@
 		"iS": 44259,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-dallas\/organizers\/mike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-dallas\/speakers\/adam-jacob.jpg": {
+		"ft": 16384,
+		"iS": 68747,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-dallas\/speakers\/adam-jacob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-dallas\/speakers\/john-willis.jpg": {
+		"ft": 16384,
+		"iS": 59063,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-dallas\/speakers\/john-willis.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -58076,6 +58640,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-riga\/logo-square.jpg": {
+		"ft": 16384,
+		"iS": 127778,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-riga\/logo-square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-riga\/logo.png": {
+		"ft": 32768,
+		"iS": 102259,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-riga\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/events\/2017-saint-louis\/logo-square.jpg": {
 		"ft": 16384,
 		"iS": 40129,
@@ -58994,6 +59579,16 @@
 		"iS": 37431,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/mark-cornick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/michaelbarbine.jpg": {
+		"ft": 16384,
+		"iS": 64503,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/events\/2017-washington-dc\/organizers\/michaelbarbine.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -63159,6 +63754,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/4armed.png": {
+		"ft": 32768,
+		"iS": 7592,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/4armed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/6connect.png": {
 		"ft": 32768,
 		"iS": 3237,
@@ -64831,6 +65437,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/devopsguys.png": {
+		"ft": 32768,
+		"iS": 78891,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/devopsguys.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/devopslive.png": {
 		"ft": 32768,
 		"iS": 8547,
@@ -65281,6 +65898,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/freeagent.png": {
+		"ft": 32768,
+		"iS": 12755,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/freeagent.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/frenchweb.png": {
 		"ft": 32768,
 		"iS": 41528,
@@ -65308,6 +65936,17 @@
 		"iS": 24312,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/gcp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/geekettes-tc.png": {
+		"ft": 32768,
+		"iS": 146610,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/geekettes-tc.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -65457,6 +66096,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/granicus.png": {
+		"ft": 32768,
+		"iS": 121661,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/granicus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/groundfloor.png": {
 		"ft": 32768,
 		"iS": 44568,
@@ -65517,6 +66167,17 @@
 		"iS": 5137,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/harmonia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/hashicorp.png": {
+		"ft": 32768,
+		"iS": 7701,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/hashicorp.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -65710,6 +66371,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/icagile.png": {
+		"ft": 32768,
+		"iS": 85274,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/icagile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/icc.png": {
 		"ft": 32768,
 		"iS": 13640,
@@ -65770,6 +66442,17 @@
 		"iS": 5916,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/ihub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/improving.png": {
+		"ft": 32768,
+		"iS": 89657,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/improving.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -65946,6 +66629,17 @@
 		"iS": 15184,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/itglue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/ithaka.png": {
+		"ft": 32768,
+		"iS": 5109,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/ithaka.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -66221,6 +66915,17 @@
 		"iS": 13822,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/linuxmagazin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/loggly.png": {
+		"ft": 32768,
+		"iS": 72252,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/loggly.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -67535,6 +68240,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/scalefactory.png": {
+		"ft": 32768,
+		"iS": 17669,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/scalefactory.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/utils\/devopsdays-web\/static\/img\/sponsors\/scalyr.png": {
 		"ft": 32768,
 		"iS": 4479,
@@ -67969,6 +68685,17 @@
 		"iS": 11710,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/spark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/sparkpost.png": {
+		"ft": 32768,
+		"iS": 7438,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/sparkpost.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -68497,6 +69224,17 @@
 		"iS": 78009,
 		"oA": 1,
 		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/trace3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/utils\/devopsdays-web\/static\/img\/sponsors\/transip.png": {
+		"ft": 32768,
+		"iS": 8159,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/static\/img\/sponsors\/transip.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -69304,10 +70042,10 @@
 		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/_default\/single.html",
 		"oF": 0
 		},
-	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/about\/single.html": {
+	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/blog\/single.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/about\/single.html",
+		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/blog\/single.html",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/blog\/summary.html": {
@@ -69332,12 +70070,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/index.html",
-		"oF": 0
-		},
-	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/about.html",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/blog_pagination.html": {
@@ -69404,12 +70136,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/head\/seo.html",
-		"oF": 0
-		},
-	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/head\/seo\/google_news.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/head\/seo\/google_news.html",
 		"oF": 0
 		},
 	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/layouts\/partials\/head\/seo\/open_graph.html": {
@@ -70043,6 +70769,17 @@
 		"oA": 2,
 		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/static\/fonts\/glyphicons-halflings-regular.woff2",
 		"oF": 0
+		},
+	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/static\/img\/404-yak.png": {
+		"ft": 32768,
+		"iS": 284932,
+		"oA": 1,
+		"oAP": "\/utils\/devopsdays-web\/themes\/devopsdays-theme\/static\/img\/404-yak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/utils\/devopsdays-web\/themes\/devopsdays-theme\/static\/img\/devopsdays-brain.png": {
 		"ft": 32768,
