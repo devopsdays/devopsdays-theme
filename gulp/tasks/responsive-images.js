@@ -177,12 +177,10 @@ gulp.task('responsive-images-remaining', function() {
             '**/*.png': [{
                 width: '100%'
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@3x'
                 }
@@ -190,12 +188,10 @@ gulp.task('responsive-images-remaining', function() {
             '**/*.jpeg': [{
                 width: '100%'
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@3x'
                 }
@@ -203,12 +199,10 @@ gulp.task('responsive-images-remaining', function() {
             '**/*.jpg': [{
                 width: '100%'
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@2x'
                 }
             }, {
-                width: '100%',
                 rename: {
                     suffix: '@3x'
                 }
