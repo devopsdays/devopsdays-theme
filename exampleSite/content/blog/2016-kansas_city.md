@@ -5,7 +5,6 @@ Tags = ["2016"]
 date = "2017-03-21T16:31:00-06:00"
 title = "Kansas City 2016 in review"
 Author = "Aaron Blythe"
-sharing_image = ""
 
 +++
 
@@ -15,9 +14,9 @@ You can check out a recap here:
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/dyOaK7N0qf4">
-</iframe>
+</iframe> 
 
-The conference was a mixture of presentations and open spaces. Speakers came from both coasts and included viewpoints ranging from a high school student to a PhD, from seasoned executives to software and system engineers, from first time presenters to presenters with over 60 conferences speaking slots. Open spaces were held in the afternoon. This is where the conference takes a turn from organized formal content to informal self-organizing content. Attendees suggested topics and voted throughout the day. They then voted with their feet throughout the afternoon by moving from the 5 simultaneous discussions.
+The conference was a mixture of presentations and open spaces. Speakers came from both coasts and included viewpoints ranging from a high school student to a PhD, from seasoned executives to software and system engineers, from first time presenters to presenters with over 60 conferences speaking slots. Open spaces were held in the afternoon. This is where the conference takes a turn from organized formal content to informal self-organizing content. Attendees suggested topics and voted throughout the day. They then voted with their feet throughout the afternoon by moving from the 5 simultaneous discussions. 
 
 The [videos](https://confreaks.tv/events/devopsdayskansascity2016) and [slides](https://www.devopsdays.org/events/2016-kansascity/program/) of all talks are linked on our [program](https://www.devopsdays.org/events/2016-kansascity/program/).
 
@@ -49,3 +48,4 @@ Bert Weidt, CJ Obermaier, Chris Stein (back), Dan Barker, Tom Martin, Chase Pett
 </div>
 
 </div>
+

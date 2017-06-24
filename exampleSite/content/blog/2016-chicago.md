@@ -5,7 +5,6 @@ Tags = []
 date = "2016-12-12T16:31:00-06:00"
 title = "Chicago 2016 in review"
 Author = "Matt Stratton"
-sharing_image = "img/your-mom.jpg"
 
 +++
 
