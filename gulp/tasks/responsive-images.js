@@ -136,7 +136,7 @@ gulp.task('responsive-sponsor-images', function() {
 
 gulp.task('responsive-images-remaining', function() {
     return gulp.src(['public/**/*.png', 'public/**/*.jpg','public/**/*.jpeg',
-            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/**/sharing.jpg', '!**/logo-square.*', '!public/img/sponsor/*.*', '!public/**/organizers/*.jpg','!public/**/speakers/*.jpg','!public/**/organizers/*.png'
+            '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*', '!public/**/sharing.jpg', '!**/logo-square.*', '!public/img/sponsor/*.*', '!public/**/organizers/*.jpg','!public/**/speakers/*.jpg','!public/**/speakers/*.png','!public/**/organizers/*.png'
         ])
         .pipe(responsive({
             // produce multiple images from one source
@@ -152,10 +152,6 @@ gulp.task('responsive-images-remaining', function() {
             }, {
                 rename: {
                     suffix: '@2x'
-                }
-            }, {
-                rename: {
-                    suffix: '@3x'
                 }
             }],
             '**/*.jpg': [{
