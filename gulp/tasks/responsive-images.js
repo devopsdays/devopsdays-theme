@@ -26,12 +26,6 @@ gulp.task('responsive-images-logos', function() {
                 rename: {
                     suffix: '@2x'
                 }
-            }, {
-                width: 1500,
-                height: 1500,
-                rename: {
-                    suffix: '@3x'
-                }
             }],
         }, {
             // global configuration
@@ -57,12 +51,6 @@ gulp.task('responsive-organizer-images', function() {
         height: 600,
         rename: {
           suffix: '@2x'
-        }
-      }, {
-        width: 900,
-        height: 900,
-        rename: {
-          suffix: '@3x'
         }
       }],
     }, {
@@ -90,12 +78,6 @@ gulp.task('responsive-speaker-images', function() {
                 rename: {
                     suffix: '@2x'
                 }
-            }, {
-                width: 900,
-                height: 900,
-                rename: {
-                    suffix: '@3x'
-                }
             }],
             '**/*.jpg': [{
                 width: 300,
@@ -105,12 +87,6 @@ gulp.task('responsive-speaker-images', function() {
                 height: 600,
                 rename: {
                     suffix: '@2x'
-                }
-            }, {
-                width: 900,
-                height: 900,
-                rename: {
-                    suffix: '@3x'
                 }
             }]
         }, {
@@ -136,11 +112,6 @@ gulp.task('responsive-sponsor-images', function() {
                 rename: {
                     suffix: '@2x'
                 }
-            }, {
-                width: 600,
-                rename: {
-                    suffix: '@3x'
-                }
             }],
             '*.jpg': [{
                 width: 200
@@ -148,11 +119,6 @@ gulp.task('responsive-sponsor-images', function() {
                 width: 400,
                 rename: {
                     suffix: '@2x'
-                }
-            }, {
-                width: 600,
-                rename: {
-                    suffix: '@3x'
                 }
             }]
         }, {
@@ -180,10 +146,6 @@ gulp.task('responsive-images-remaining', function() {
                 rename: {
                     suffix: '@2x'
                 }
-            }, {
-                rename: {
-                    suffix: '@3x'
-                }
             }],
             '**/*.jpeg': [{
                 width: '100%'
@@ -201,10 +163,6 @@ gulp.task('responsive-images-remaining', function() {
             }, {
                 rename: {
                     suffix: '@2x'
-                }
-            }, {
-                rename: {
-                    suffix: '@3x'
                 }
             }]
         }, {
