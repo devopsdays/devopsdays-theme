@@ -22,18 +22,9 @@ gulp.task('copy-other-images', function() {
       .pipe(gulp.dest('dist'));
 })
 
-// gulp.task('copy-static-files', function(callback) {
-//     runSequence('copy-misc-files', 'copy-fonts', 'copy-css-maps',
-//         callback
-//     )
-// })
+gulp.task('copy-old-images', function () {
+  return gulp.src(['public/events/2015*/**/*.png', 'public/events/2015*/**/*.jpg', 'public/events/2016*/**/*.png', 'public/events/2016*/**/*.jpg'])
+    .pipe(gulp.dest('dist'));
+});
 
-gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps'])
-
-
-// gulp.task('copy-images', function(callback) {
-//     return gulp.src(['public/**/*.png', 'public/**/*.jpg',
-//             '!public/favicon*', '!public/apple-icon*', '!public/android-icon*', '!public/ms-icon*','!public/img/sponsors/*.png', '!public/img/sponsors/*.jpg','!public/events/**/logo-square.*'
-//         ])
-//         .pipe(gulp.dest('staging'));
-// })
+gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-old-images'])
