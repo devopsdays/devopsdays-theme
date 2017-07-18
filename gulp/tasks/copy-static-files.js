@@ -23,8 +23,8 @@ gulp.task('copy-other-images', function() {
 })
 
 gulp.task('copy-old-images', function () {
-  return gulp.src(['public/events/2015*/**/*.png', 'public/events/2015*/**/*.jpg', 'public/events/2016*/**/*.png', 'public/events/2016*/**/*.jpg'])
-    .pipe(gulp.dest('dist'));
+  return gulp.src(['public/events/2015*/**/', 'public/events/**/2016*/**/', '!**/*.html'])
+    .pipe(gulp.dest('dist/events'));
 });
 
 gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-old-images'])
