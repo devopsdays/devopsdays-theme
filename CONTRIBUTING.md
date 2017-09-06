@@ -85,7 +85,7 @@ Peruse the `gulpfile.js` to see what is processed for the asset pipeline. Gulp i
 
 If you are manipulating JavaScript or SCSS files, please be sure to use Gulp. If you run `gulp dev` inside the repo, it will build the CSS and JS files, and also start a `watch` task for you.
 
-If you need help with this, as @mattstratton.
+If you need help with this, ask @mattstratton.
 
 ## Workflow
 
