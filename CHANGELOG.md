@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.14.1](https://github.com/devopsdays/devopsdays-theme/tree/1.14.1) (2017-10-07)
+[Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/1.14.0...1.14.1)
+
+**Implemented enhancements:**
+
+- change organizers page to use https for twitter and github [\#595](https://github.com/devopsdays/devopsdays-theme/issues/595)
+
 ## [1.14.0](https://github.com/devopsdays/devopsdays-theme/tree/1.14.0) (2017-08-31)
 [Full Changelog](https://github.com/devopsdays/devopsdays-theme/compare/1.13.1...1.14.0)
 
