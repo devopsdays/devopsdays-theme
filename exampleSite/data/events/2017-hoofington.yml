@@ -203,6 +203,8 @@ program:
     date: 2017-06-02
     start_time: "09:15"
     end_time: "09:45"
+    video: "https://www.youtube.com/watch?v=emGKB8TABvI"
+    slides: "https://speakerdeck.com/mattstratton/shifting-left-securely"
   - title: "Sponsors"
     type: custom
     date: 2017-06-02
