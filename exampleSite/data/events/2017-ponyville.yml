@@ -2,8 +2,8 @@ name: 2017-ponyville
 year: "2017"
 city: "Ponyville"
 friendly: "2017-ponyville"
-startdate: 2017-07-16
-enddate: 2017-07-17
+startdate: 2017-12-07
+enddate: 2017-12-08
 cfp_date_start: 2017-03-01
 cfp_date_end: 2017-06-15
 cfp_date_announce: 2017-01-01
@@ -184,97 +184,97 @@ sponsor_levels:
 program:
   - title: "Registration, Breakfast, and Sponsor Booths Open"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "08:00"
     end_time: "09:00"
   - title: "Opening Welcome"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "09:15"
     end_time: "09:00"
   - title: "rainbow-dash"
     type: talk
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "09:15"
     end_time: "09:45"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "09:45"
     end_time: "09:55"
   - title: "apple-jack"
     type: talk
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "09:55"
     end_time: "10:25"
   - title: "Break"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "10:25"
     end_time: "10:40"
   - title: "fluttershy"
     type: talk
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "10:40"
     end_time: "11:10"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "11:10"
     end_time: "11:20"
   - title: "twilight-sparkle"
     type: talk
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "11:20"
     end_time: "11:50"
   - title: "Lunch (catered)"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "11:50"
     end_time: "13:00"
   - title: "Ignites"
     type: ignite
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "13:00"
     end_time: "13:30"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "13:30"
     end_time: "13:40"
   - title: "Open Space Opening"
     type: open-space
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "13:40"
     end_time: "14:15"
   - title: "Open Space #1"
     type: open-space
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "14:15"
     end_time: "15:00"
   - title: "Break"
     type: workshop
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "15:00"
     end_time: "15:15"
   - title: "Open Space #2"
     type: open-space
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "15:15"
     end_time: "16:00"
   - title: "Open Space #3"
     type: open-space
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "16:15"
     end_time: "17:00"
   - title: "Close Day & Logistics"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "17:00"
     end_time: "17:15"
   - title: "Evening Event"
     type: custom
-    date: 2017-07-16
+    date: 2017-12-07
     start_time: "18:30"
     end_time: "21:30"
     comments: "This will be at the [Pony Club](http://www.mattstratton.com)<br>
@@ -283,93 +283,93 @@ program:
     60712"
   - title: "Registration, Breakfast, and Sponsor Booths Open"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "08:00"
     end_time: "09:00"
   - title: "Opening Welcome"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "09:15"
     end_time: "09:00"
   - title: "rainbow-dash"
     type: talk
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "09:15"
     end_time: "09:45"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "09:45"
     end_time: "09:55"
     background_color: "#FFFA99"
   - title: "apple-jack"
     type: talk
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "09:55"
     end_time: "10:25"
   - title: "Break"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "10:25"
     end_time: "10:40"
   - title: "fluttershy"
     type: talk
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "10:40"
     end_time: "11:10"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "11:10"
     end_time: "11:20"
   - title: "twilight-sparkle"
     type: talk
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "11:20"
     end_time: "11:50"
   - title: "Lunch (catered)"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "11:50"
     end_time: "13:00"
   - title: "Ignites"
     type: ignite
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "13:00"
     end_time: "13:30"
   - title: "Sponsors"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "13:30"
     end_time: "13:40"
   - title: "Open Space Opening"
     type: open-space
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "13:40"
     end_time: "14:15"
   - title: "Open Space #1"
     type: open-space
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "14:15"
     end_time: "15:00"
   - title: "Break"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "15:00"
     end_time: "15:15"
   - title: "Open Space #2"
     type: open-space
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "15:15"
     end_time: "16:00"
   - title: "Open Space #3"
     type: open-space
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "16:15"
     end_time: "17:00"
   - title: "Close Day & Farewell"
     type: custom
-    date: 2017-07-17
+    date: 2017-12-08
     start_time: "17:00"
     end_time: "17:15"
   - title: "Open Space #2"
@@ -390,25 +390,25 @@ program:
 
 ignites:
   - title: "spike"
-    date: 2017-07-16
+    date: 2017-12-07
   - title: "DevOps With Delight"
-    date: 2017-07-16
+    date: 2017-12-07
   - title: "Refactoring Pony Code"
-    date: 2017-07-16
+    date: 2017-12-07
   - title: "Docker With Chaos"
-    date: 2017-07-16
+    date: 2017-12-07
   - title: "How To Be A Thought Leader"
-    date: 2017-07-16
+    date: 2017-12-07
   - title: "Wither Pete Cheslock?"
-    date: 2017-07-17
+    date: 2017-12-08
   - title: "The Mane Focus of DevOps"
-    date: 2017-07-17
+    date: 2017-12-08
   - title: "Prancing With Pivotal"
-    date: 2017-07-17
+    date: 2017-12-08
   - title: "Cheffing Your Pony"
-    date: 2017-07-17
+    date: 2017-12-08
   - title: "Memes and How To Use Them"
-    date: 2017-07-17
+    date: 2017-12-08
   - title: "Measuring Mane Metrics"
     date: 2017-07-18
   - title: "Puppetize Your Ponies"
