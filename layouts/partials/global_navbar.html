@@ -11,7 +11,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       {{- range .Site.Menus.main -}}
-          <li class="nav-item global-navigation"><a class = "nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          <li class="nav-item global-navigation"><a class = "nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
       {{- end -}}
     </ul>
   </div>

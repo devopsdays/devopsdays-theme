@@ -2,7 +2,7 @@ theme = "devopsdays-theme"
 baseurl = "https://dev.devopsdays.org/"
 #baseurl = "http://localhost:1313/"
 themesdir = "../.."
-languageCode = "en-us"
+# languageCode = "en-us"
 GoogleAnalytics = "UA-9713393-1"
 title = "devopsdays"
 canonifyurls = false
@@ -10,35 +10,7 @@ dataDir = "data"
 archetypedir = "archetypes"
 PaginatePath = "blog"
 buildDrafts = false
-# Language support
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
-
-[[menu.main]]
-  name = "events"
-  url = "/events"
-  weight = -150
-[[menu.main]]
-  name = "blog"
-  url = "/blog"
-  weight = -140
-[[menu.main]]
-  name = "sponsor"
-  url = "/sponsor"
-  weight = -130
-[[menu.main]]
-  name = "speaking"
-  url = "/speaking"
-  weight = -120
-[[menu.main]]
-  name = "organizing"
-  url = "/organizing"
-  weight = -110
-[[menu.main]]
-  name = "about"
-  url = "/about"
-  weight = -100
-
 
 [permalinks]
 	page = "/:filename/"
@@ -50,3 +22,66 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 	Twitter = "http://www.twitter.com/devopsdays"
 	Linkedin = "http://www.linkedin.com/groups?home=&gid=2445279"
 	Groups = "http://groups.google.com/group/devopsdays"
+
+DefaultContentLanguage = "en"
+# I18n
+[Languages]
+
+# English
+[Languages.en]
+weight = 1
+
+[[Languages.en.menu.main]]
+  name = "events"
+  url = "/events"
+  weight = -150
+[[Languages.en.menu.main]]
+  name = "blog"
+  url = "/blog"
+  weight = -140
+[[Languages.en.menu.main]]
+  name = "sponsor"
+  url = "/sponsor"
+  weight = -130
+[[Languages.en.menu.main]]
+  name = "speaking"
+  url = "/speaking"
+  weight = -120
+[[Languages.en.menu.main]]
+  name = "organizing"
+  url = "/organizing"
+  weight = -110
+[[Languages.en.menu.main]]
+  name = "about"
+  url = "about"
+  weight = -100
+
+# French
+[Languages.fr]
+weight = 2
+languageName = "Français"
+
+[[Languages.fr.menu.main]]
+  name = "événements"
+  url = "/events"
+  weight = -150
+[[Languages.fr.menu.main]]
+  name = "blog"
+  url = "/blog"
+  weight = -140
+[[Languages.fr.menu.main]]
+  name = "parrainer"
+  url = "/sponsor"
+  weight = -130
+[[Languages.fr.menu.main]]
+  name = "parlant"
+  url = "/speaking"
+  weight = -120
+[[Languages.fr.menu.main]]
+  name = "organiser"
+  url = "/organizing"
+  weight = -110
+[[Languages.fr.menu.main]]
+  name = "À propos"
+  url = "/a-propos"
+  weight = -100
