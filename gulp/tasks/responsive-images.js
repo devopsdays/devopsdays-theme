@@ -67,7 +67,7 @@ gulp.task('responsive-organizer-images', function() {
 });
 
 gulp.task('responsive-speaker-images', function() {
-    return gulp.src(['public/**/speakers/*.jpg', 'public/**/speakers/*.png', '!public/events/2015*/**', '!public/events/2016*/**'])
+    return gulp.src(['public/**/speakers/*.jpg', 'public/**/speakers/*.png', 'public/**/speaker-default.jpg''!public/events/2015*/**', '!public/events/2016*/**'])
         .pipe(responsive({
             '**/*.png': [{
                 width: 300,
