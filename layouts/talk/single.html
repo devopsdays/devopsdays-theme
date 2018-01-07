@@ -128,10 +128,16 @@
           </a></h4>
         {{- if isset .Params "twitter" -}}
           {{- if ne .Params.twitter "" -}}
-            <a href = "https://twitter.com/{{ .Params.twitter }}"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>&nbsp;
+            <a href = "https://twitter.com/{{ .Params.twitter }}"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a><br />
           {{- end -}}
         {{- end -}}
-          <span class="talk-page content-text">{{ .Content }}</span>
+          <span class="talk-page content-text">
+          {{- if ge (countrunes .Content ) 200 -}}
+            {{ .Content | markdownify | truncate 200 " "}}<a href = "{{ .Permalink | absURL }}">...</a>
+          {{- else -}}
+            {{ .Content | markdownify }}
+          {{- end -}}
+          </span>
         {{- end -}}
 
       {{- end -}}
