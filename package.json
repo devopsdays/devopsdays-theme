@@ -34,7 +34,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-useref": "^3.1.2",
     "gulp-util": "latest",
-    "gulp-watch": "^4.3.11",
+    "gulp-watch": "^5.0.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^2.0.0"
   }
