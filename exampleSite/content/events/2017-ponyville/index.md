@@ -8,4 +8,10 @@ Pivot paradigm sticky note agile grok unicorn waterfall is so 2000 and late resp
 
 # This is our thing!
 
+Tickets
+: {{< event_link url-key="registration_link" text="Register here!" >}}
+
+Location
+: {{< event_link text-key="location_address" page="location" >}}
+
 <img src ="/events/2017-ponyville/want.gif">
