@@ -197,6 +197,7 @@ program:
     date: 2017-07-16
     start_time: "09:15"
     end_time: "09:45"
+    comments: "Talk located in Main Room"
   - title: "Sponsors"
     type: custom
     date: 2017-07-16
@@ -252,6 +253,12 @@ program:
     date: 2017-07-16
     start_time: "14:15"
     end_time: "15:00"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-07-16
+    start_time: "14:15"
+    end_time: "15:00"
+    comments: "Alternative Track | Located in other room"
   - title: "Break"
     type: workshop
     date: 2017-07-16
