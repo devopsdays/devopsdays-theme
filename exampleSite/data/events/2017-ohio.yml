@@ -2,6 +2,7 @@ name: "2017-ohio" # The name of the event. Four digit year with the city name in
 year: 2017 # The year of the event. Make sure it is in quotes.
 city: "Ohio" # The city name of the event. Capitalize it.
 event_twitter: "DevOpsDaysOhio"
+event_group: "Columbus"
 
 startdate: "2017-11-08" # The start date of your event, in YYYY-MM-DD format. Leave blank if you don't have a date yet.
 enddate: "2017-11-09" # The end date of your event, in YYYY-MM-DD format. Leave blank if you don't have a date yet.
@@ -13,6 +14,7 @@ location: "The Bluestone" # The name of your location
 nav_elements: # List of pages you want to show up in the navigation of your page.
   - name: contact
   - name: program
+  - name: speakers
   - name: conduct
   - name: sponsor
   - name: "location/parking"
@@ -70,9 +72,9 @@ sponsors: # List all of your sponsors here along with what level of sponsorship 
     level: gold
   - id: chef
     level: gold
-  - id: appdynamics
+  - id: appdynamics-before-20180316
     level: gold
-  - id: servicenow
+  - id: servicenow-before-20180620
     level: silver
   - id: teksystems
     level: silver

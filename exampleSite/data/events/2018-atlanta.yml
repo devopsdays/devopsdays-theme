@@ -14,7 +14,7 @@ cfp_date_start:  "2017-10-01"
 cfp_date_end:  "2018-02-28"
 cfp_date_announce:  "2018-03-05"
 
-cfp_open: "true"
+cfp_open: "false"
 cfp_link: "https://www.papercall.io/devopsdaysatl2018" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
 registration_date_start: # start accepting registration. Leave blank if registration is not open yet
@@ -31,7 +31,6 @@ location: "The Historic Academy of Medicine" # Defaults to city, but you can mak
 location_address: "875 W Peachtree St NE, Atlanta, GA 30309" #Optional - use the street address of your venue. This will show up on the welcome page if set.
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
- - name: propose
  - name: location
  - name: registration
  - name: program
@@ -47,34 +46,84 @@ nav_elements: # List of pages you want to show up in the navigation of your page
 # These are the same people you have on the mailing list and Slack channel.
 team_members: # Name is the only required field for team members.
   - name: "Chris Corriere"
+    image: "chris-corriere.jpg"
+    twitter: "cacorriere"
+
   - name: "John Dyer"
-  - name: "Jeremy Duvall"
+    image: "john-dyer.jpg"
+    twitter: "thedyers"
+
   - name: "Andre Thenot"
+    image: "andre-thenot.jpg"
+    twitter: "athenot"
+
   - name: "John Willis"
+    image: "john-willis.jpg"
+    twitter: "botchagalupe"
+
+  - name: "Ann Vu"
+    image: "ann-vu.jpg"
+    twitter: "ann_vu9"
+
+  - name: "Claire Moss"
+    image: "claire-moss.jpg"
+    twitter: "aclairefication"
+
 organizer_email: "organizers-atlanta-2018@devopsdays.org" # Put your organizer email address here
 proposal_email: "proposals-atlanta-2018@devopsdays.org" # Put your proposal email address here
 
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: samplesponsorname
-    level: gold
-
+  - id: microsoft
+    level: platinum
   - id: rigor
     level: gold
   - id: instana
     level: gold
+  - id: chef
+    level: gold
+  - id: appdynamics
+    level: gold
+  - id: opsgenie
+    level: gold
+  - id: scalyr
+    level: gold
+  - id: dellemc
+    level: gold
+  - id: mesosphere
+    level: gold
+  - id: launch-darkly-before-20180423
+    level: gold
+  - id: mailchimp
+    level: gold
+  - id: sonatype
+    level: silver
+  - id: sjtechcorp
+    level: silver
+  - id: macstadium
+    level: silver
+  - id: suntrust
+    level: silver
+  - id: experitest
+    level: bronze
+  - id: countryfinancial
+    level: bronze
  #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.
   - id: arresteddevops
     level: community
+  - id: devopsdotcom
+    level: community
 
-sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
+sponsors_accepted : "no" # Whether you want "Become a XXX Sponsor!" link
 
 # In this section, list the level of sponsorships and the label to use.
 # You may optionally include a "max" attribute to limit the number of sponsors per level. For
 # unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
 # sponsorship for a specific level, it is best to remove the level.
 sponsor_levels:
+  - id: platinum
+    label: Platinum
   - id: gold
     label: Gold
 #    max: 10
@@ -105,15 +154,13 @@ program:
     date: "2018-04-17"
     start_time: "9:15"
     end_time: "9:45"
-    start_time: "09:00"
-    end_time: "09:15"
 
-  - title: "Sponsors"
+  - title: "Sponsors - Microsoft, Rigor, Instana"
     type: custom
     date: "2018-04-17"
     start_time: "09:45"
     end_time: "09:55"
-  - title: "talk-2"
+  - title: "jamie-knight"
     type: talk
     date: "2018-04-17"
     start_time: "09:55"
@@ -123,12 +170,12 @@ program:
     date: "2018-04-17"
     start_time: "10:25"
     end_time: "10:40"
-  - title: "talk-3"
+  - title: "seth-vargo"
     type: talk
     date: "2018-04-17"
     start_time: "10:40"
     end_time: "11:10"
-  - title: "Sponsors"
+  - title: "Sponsors - App Dynamics, Chef, Dell EMC"
     type: custom
     date: "2018-04-17"
     start_time: "11:10"
@@ -143,8 +190,8 @@ program:
     date: "2018-04-17"
     start_time: "11:50"
     end_time: "13:00"
-  - title: "Ignites"
-    type: custom
+  - title: "Ignite Talks:"
+    type: ignite
     date: "2018-04-17"
     start_time: "13:00"
     end_time: "13:30"
@@ -174,7 +221,7 @@ program:
     date: "2018-04-17"
     start_time: "16:45"
     end_time: "17:00"
-  - title: "Evening event"
+  - title: "Evening event at Taco Mac"
     type: custom
     date: "2018-04-17"
     start_time: "19:00"
@@ -189,17 +236,17 @@ program:
     date: "2018-04-18"
     start_time: "09:00"
     end_time: "09:15"
-  - title: "talk-5"
+  - title: "elissa-shevinsky"
     type: talk
     date: "2018-04-18"
     start_time: "09:15"
     end_time: "09:45"
-  - title: "Sponsors"
+  - title: "Sponsors - Launch Darkly, Scalyr, Mail Chimp"
     type: custom
     date: "2018-04-18"
     start_time: "09:45"
     end_time: "09:55"
-  - title: "talk-6"
+  - title: "alex-harms"
     type: talk
     date: "2018-04-18"
     start_time: "09:55"
@@ -209,17 +256,17 @@ program:
     date: "2018-04-18"
     start_time: "10:25"
     end_time: "10:40"
-  - title: "talk-7"
+  - title: "chris-short"
     type: talk
     date: "2018-04-18"
     start_time: "10:40"
     end_time: "11:10"
-  - title: "Sponsors"
+  - title: "Sponsors - Ops Genie, Mesosphere"
     type: custom
     date: "2018-04-18"
     start_time: "11:10"
     end_time: "11:20"
-  - title: "talk-8"
+  - title: "nathen-harvey"
     type: talk
     date: "2018-04-18"
     start_time: "11:20"
@@ -229,8 +276,8 @@ program:
     date: "2018-04-18"
     start_time: "11:50"
     end_time: "13:00"
-  - title: "Ignites"
-    type: custom
+  - title: "Ignite Talks:"
+    type: ignite
     date: "2018-04-18"
     start_time: "13:00"
     end_time: "13:30"
@@ -259,3 +306,25 @@ program:
     date: "2018-04-18"
     start_time: "16:45"
     end_time: "17:00"
+ignites:
+
+  - title: "brian-pitts"
+    date: "2018-04-17"
+  - title: "kayla-rodriguez"
+    date: "2018-04-17"
+  - title: "ravi-lachhman"
+    date: "2018-04-17"
+  - title: "bennett-gaddes"
+    date: "2018-04-17"
+  - title: "alicia-carr"
+    date: "2018-04-17"
+  - title: "valarie-regas"
+    date: "2018-04-18"
+  - title: "rob-marlow"
+    date: "2018-04-18"
+  - title: "rebecca-wheeler"
+    date: "2018-04-18"
+  - title: "david-cameron"
+    date: "2018-04-18"
+  - title: "ryan-lockard"
+    date: "2018-04-18"

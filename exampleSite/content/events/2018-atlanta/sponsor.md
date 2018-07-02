@@ -4,10 +4,9 @@ Type = "event"
 Description = "Sponsor devopsdays Atlanta 2018"
 +++
 
-We greatly value sponsors for this open event.  If you are interested in sponsoring, please drop us an email at [{{< email_organizers >}}].
+<h3 style="color:blue;">Thanks for your support! We are sold out of platinum, gold, and silver sonsporships. Only bronze sponsorships still are available.</h3>
 
 <hr>
-
 devopsdays is a self-organizing conference for practitioners that depends on sponsorships. We do not have vendor booths, sell product presentations, or distribute attendee contact lists. Sponsors have the opportunity to have short elevator pitches during the program and will get recognition on the website and social media before, during and after the event. Sponsors are encouraged to represent themselves by actively participating and engaging with the attendees as peers. Any attendee also has the opportunity to demo products/projects as part of an open space session.
 <p>
 At devopsdays Atlanta <strong>Gold sponsors get a full table</strong> where they can interact with those interested to come visit during breaks.
@@ -27,24 +26,6 @@ The best thing to do is send engineers to interact with the experts at devopsday
 </td>
 </tr>
 <tr>
-<td>
-<h3>Gold</h3>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="RGSWZ6BR3PKD2">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</td>
-<td>
-<h3>Silver</h3>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SANTAA77C2SRJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</td>
 <td>
 <h3>Bronze</h3>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
