@@ -14,8 +14,8 @@ Please keep in mind, that you accept our Code of Conduct with sponsoring this ev
   <tr>
     <th><b>Packages</b></th>
     <th><center><b><u>Evening<br /><font color="red">SOLD OUT</font></center></b></th>
-    <th><center><b><u>Gold<br />6'000.- CHF</u></center></b></th>
-    <th><center><b><u>Silver<br />3'000.- CHF</u></center></b></th>
+    <th><center><b><u>Gold<br /><font color="red">SOLD OUT</font></u></center></b></th>
+    <th><center><b><u>Silver<br /><font color="red">SOLD OUT</font></u></center></b></th>
     <th><center><b><u>Bronze<br />1'500.- CHF</u></center></b></th>
   </tr>
 
@@ -107,11 +107,28 @@ Please keep in mind, that you accept our Code of Conduct with sponsoring this ev
     <td bgcolor="#1581AB">&nbsp;</td>
   </tr>
 
+
+  <tr>
+   <td>Shared table for stickers and brochures</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td bgcolor="#1581AB">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td>Promotional present distributed with goodie bag</td>
+    <td bgcolor="#1581AB">&nbsp;</td>
+    <td bgcolor="#1581AB">&nbsp;</td>
+    <td bgcolor="#1581AB">&nbsp;</td>
+    <td bgcolor="#1581AB">&nbsp;</td>
+ </tr>
+
   <tr>
     <td>Maximum Packages available</td>
-    <td><center>1</center></td>
-    <td><center>6</center></td>
-    <td><center>8</center></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td><center>12</center></td>
   </tr>
 

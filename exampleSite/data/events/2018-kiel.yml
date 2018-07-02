@@ -33,9 +33,10 @@ location_address: "Fraunhoferstraße 13, 24118 Kiel" #Optional - use the street 
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
  # - name: propose
- # - name: registration
+  - name: registration
+  - name: workshop
   - name: program
- # - name: speakers
+  - name: speakers
   - name: location
   - name: sponsor
   - name: contact
@@ -81,17 +82,21 @@ proposal_email: "proposals-kiel-2018@devopsdays.org" # Put your proposal email a
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: 2018-coreadmin
+  - id: coreadmin
     level: silver
     # url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.   
   - id: arresteddevops
     level: community
   - id: diwish
     level: supporter
-  - id: kiwi
+  - id: kiwi-kiel
     level: venue
   - id: wobe-systems
     level: tshirt
+  - id: thoughtworks-gocd
+    level: gold
+  - id: objektspektrum
+    level: media
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 
@@ -118,6 +123,9 @@ sponsor_levels:
   - id: tshirt
     label: T-Shirt
     max: 1
+  - id: media
+    label: Media
+    max: 2
   - id: contributor
     label: Contributor
   - id: supporter
@@ -129,99 +137,100 @@ program:
     date: 2018-05-16
     start_time: "08:00"
     end_time: "09:00"    
-  - title: "Welcome! - MC Sabine Wojcieszak & (tba)"
+  - title: "Welcome by MC Sabine Wojcieszak - Daniel Günther, Minister-President of Schleswig-Holstein - Dr. Ulf Kämpfer, Mayor of the Land Capital Kiel"
     type: custom
     date: 2018-05-16
     start_time: "09:00"
-    end_time: "09:15"        
-  - title: "Key Note (tba)"
-    type: custom
+    end_time: "09:40"        
+  - title: "frank-hollenberg"
+    type: talk
     date: 2018-05-16
-    start_time: "09:15"
-    end_time: "09:50"
-  - title: "Talk (tba)"
-    type: custom
+    start_time: "09:40"
+    end_time: "10:15"
+  - title: "geetika-tandon"
+    type: talk
     date: 2018-05-16
-    start_time: "09:55"
-    end_time: "10:30"                
+    start_time: "10:20"
+    end_time: "10:55"                
   - title: "Sponsor Pitches"
     type: custom
     date: 2018-05-16
-    start_time: "10:30"
-    end_time: "10:40"                    
-  - title: "Coffee Break"
-    type: custom
-    date: 2018-05-16
-    start_time: "10:40"
+    start_time: "10:55"
     end_time: "11:00"                    
-    comments: "powered by KPS-Concepts GmbH"
-  - title: "Talk (tba)"
+  - title: "Coffee Break"
     type: custom
     date: 2018-05-16
     start_time: "11:00"
-    end_time: "11:35"                    
-  - title: "Talk (tba)"
-    type: custom
+    end_time: "11:20"                    
+    comments: "powered by KPS-Concepts GmbH"
+  - title: "matteo-emili"
+    type: talk
     date: 2018-05-16
-    start_time: "11:40"
-    end_time: "12:15"                    
-  - title: "Talk (tba)"
-    type: custom
+    start_time: "11:20"
+    end_time: "11:55"                    
+  - title: "felix-elliger"
+    type: talk
     date: 2018-05-16
-    start_time: "12:20"
-    end_time: "12:55"                    
+    start_time: "12:00"
+    end_time: "12:35"                    
+  - title: "Ignites"
+    type: ignite
+    date: 2018-05-16
+    start_time: "12:40"
+    end_time: "13:00"
   - title: "Lunch Break"
     type: custom
     date: 2018-05-16
-    start_time: "12:55"
+    start_time: "13:00"
     end_time: "14:00"                    
-  - title: "Ignites (tba)"
-    type: custom
+  - title: "thiago-assuncao-de-faria"
+    type: talk
     date: 2018-05-16
     start_time: "14:00"
-    end_time: "14:20"
+    end_time: "14:35"                    
   - title: "Open Space preparation"
-    type: custom
+    type: open-space
     date: 2018-05-16
-    start_time: "14:20"
-    end_time: "14:45"                                        
+    start_time: "14:40"
+    end_time: "15:00"                                        
   - title: "Open Space Session 1"
-    type: custom
+    type: open-space
     date: 2018-05-16
-    start_time: "14:45"
-    end_time: "15:15"                    
+    start_time: "15:00"
+    end_time: "15:30"                    
   - title: "Open Space Session 2"
-    type: custom
+    type: open-space
     date: 2018-05-16
-    start_time: "15:15"
-    end_time: "15:45"                    
+    start_time: "15:30"
+    end_time: "16:00"                    
   - title: "Coffee Break"
     type: custom
     date: 2018-05-16
-    start_time: "15:45"
-    end_time: "16:00"
-    comments: "powered by KPS-Concepts GmbH"
-  - title: "Talk (tba)"
-    type: custom
-    date: 2018-05-16
     start_time: "16:00"
-    end_time: "16:35"
+    end_time: "16:15"
+    comments: "powered by KPS-Concepts GmbH"
+  - title: "moritz-eysholdt"
+    type: talk
+    date: 2018-05-16
+    start_time: "16:15"
+    end_time: "16:50"
   - title: "Reception with Beer & Soft Drinks"
     type: custom
     date: 2018-05-16
-    start_time: "16:35"
-    end_time: "17:00"
-  - title: "Talk (tba)"
+    start_time: "16:50"
+    end_time: "17:15"
+    comments: "powered by ASSPICK Versicherungsmakler GmbH"
+  - title: "sven-peters"
+    type: talk
+    date: 2018-05-16
+    start_time: "17:15"
+    end_time: "17:50"
+  - title: "Evening Event - Drinks, Food & Music!"
     type: custom
     date: 2018-05-16
-    start_time: "17:00"
-    end_time: "17:35"
-  - title: "Evening Event"
-    type: custom
-    date: 2018-05-16
-    start_time: "17:35"
+    start_time: "18:30"
     end_time: "open end" 
-    comments: "program of the evening event will be published later" 
+    comments: "Location: Pogue Mahone Irish Pub; Bergstraße 15, 24103 Kiel - Music: Riding a Dead Horse - Band from Kiel http://www.ridingadeadhorse.com" 
   - title: "Registration and Welcome Coffee"
     type: custom
     date: 2018-05-17
@@ -232,13 +241,13 @@ program:
     date: 2018-05-17
     start_time: "09:00"
     end_time: "09:05"
-  - title: "Key Note (tba)"
-    type: custom
+  - title: "avishai-ish-shalom"
+    type: talk
     date: 2018-05-17
     start_time: "09:05"
     end_time: "09:40"
-  - title: "Talk (tba)"
-    type: custom
+  - title: "reinhard-naegele"
+    type: talk
     date: 2018-05-17
     start_time: "09:45"
     end_time: "10:20"
@@ -252,18 +261,18 @@ program:
     date: 2018-05-17
     start_time: "10:30"
     end_time: "11:00"
-  - title: "Talk (tba)"
-    type: custom
+  - title: "jon-hall"
+    type: talk
     date: 2018-05-17
     start_time: "11:00"
     end_time: "11:35"
-  - title: "Talk (tba)"
-    type: custom
+  - title: "matthias-haensgen"
+    type: talk
     date: 2018-05-17
     start_time: "11:40"
     end_time: "12:15"
-  - title: "Talk (tba)"
-    type: custom
+  - title: "mateo-burillo"
+    type: talk
     date: 2018-05-17
     start_time: "12:20"
     end_time: "12:55"
@@ -272,23 +281,23 @@ program:
     date: 2018-05-17
     start_time: "12:55"
     end_time: "14:00"
-  - title: "Ignites (tba)"
-    type: custom
+  - title: "Ignites"
+    type: ignite
     date: 2018-05-17
     start_time: "14:00"
     end_time: "14:20"
   - title: "Preparation of Open Space"
-    type: custom
+    type: open-space
     date: 2018-05-17
     start_time: "14:20"
     end_time: "14:40"
   - title: "Open Space Session 3"
-    type: custom
+    type: open-space
     date: 2018-05-17
     start_time: "14:40"
     end_time: "15:10"
   - title: "Open Space Session 4"
-    type: custom
+    type: open-space
     date: 2018-05-17
     start_time: "15:10"
     end_time: "15:40"
@@ -297,13 +306,13 @@ program:
     date: 2018-05-17
     start_time: "15:40"
     end_time: "16:00"
-  - title: "Talk (tba)"
-    type: custom
+  - title: "siamak-sadeghianfar"
+    type: talk
     date: 2018-05-17
     start_time: "16:00"
     end_time: "16:35"
-  - title: "Closing Key Note (tba)"
-    type: custom
+  - title: "dirk-lehmann"
+    type: talk
     date: 2018-05-17
     start_time: "16:40"
     end_time: "17:15"
@@ -312,6 +321,18 @@ program:
     date: 2018-05-17
     start_time: "17:15"
     end_time: "17:30"
+
+ignites:
+  - title: "daiany-palacios"
+    date: 2018-05-16
+  - title: "heinrich-hartmann"
+    date: 2018-05-16
+  - title: "daniel-berman"
+    date: 2018-05-16
+  - title: "axel-giernas"
+    date: 2018-05-17
+      
+  
     
     
     
