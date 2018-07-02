@@ -20,7 +20,6 @@
     "gulp": "^3.9.1",
     "gulp-cache": "^1.0.0",
     "gulp-bower": "0.0.14",
-    "gulp-cache": "^1.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.0.0",
