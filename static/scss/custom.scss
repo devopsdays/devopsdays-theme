@@ -607,7 +607,6 @@ h3.program-page {
   font-size: .85em;
 }
 
-
 .program-element {
   overflow: hidden;
   height: 1%
@@ -628,6 +627,10 @@ h3.program-page {
 .program-custom {
   background-color: lighten( $devopsdays-gray, 15% );
   color: #000;
+
+  >a {
+    color: #000;
+  }
 }
 
 .program-talk {
