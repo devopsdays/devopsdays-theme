@@ -10,12 +10,12 @@ startdate: 2018-10-20 # The start date of your event. Leave blank if you don't h
 enddate: 2018-10-20 # The end date of your event. Leave blank if you don't have a venue reserved yet.
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start:  # start accepting talk proposals.
-cfp_date_end:  # close your call for proposals.
-cfp_date_announce:  # inform proposers of status
+cfp_date_start: 2018-07-02 # start accepting talk proposals.
+cfp_date_end: 2018-09-02 # close your call for proposals.
+cfp_date_announce: 2018-09-16 # inform proposers of status
 
-cfp_open: "false"
-cfp_link: "" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
+cfp_open: "true"
+cfp_link: "https://www.papercall.io/devopsdaysfortaleza" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
 masthead_background: "unifor.jpg"
 
@@ -35,22 +35,25 @@ location_address: "Av. Washington Soares, 1321 - Edson Queiroz" #Optional - use 
 nav_elements: # List of pages you want to show up in the navigation of your page.
 #  - name: Informações
 #    icon: "map-o"
-#  - name: Palestrantes
-#    icon: "microphone"
+  - name: Palestrantes
+    icon: "microphone"
+    url: /events/2018-fortaleza/speakers
 #  - name: Programação
 #    icon: "book"
 #  - name: Local
 #    icon: "map-o"
 #    url: /events/2018-fortaleza/location
-#  - name: Palestre (CFP)
-#    icon: "microphone"
-#    url: /events/2018-fortaleza/cfp
+  - name: Palestre (CFP)
+    icon: "user-plus"
+    url: "https://www.papercall.io/devopsdaysfortaleza"
   - name: Conduta
     icon: "handshake-o"
     url: /events/2018-fortaleza/conduta
 #  - name: Inscreva-se
-#    icon: "user-plus"
+  - name: Ingressos
+    icon: "user-plus"
 #    url: /events/2018-fortaleza/register
+    url: "https://devopsdaysfortaleza.eventize.com.br/"
   - name: Patrocinio
     icon: "money"
     url: /events/2018-fortaleza/patrocinio
@@ -81,6 +84,7 @@ He's also computer forensics expert, and regular writer of PenTest Magazine and 
     image: "mauricio-harley.jpg"
   - name: "Ana Carla Cavalcante"
     role: "IT Infrastructure Coordinator"
+    bio: "IT Infrastructure Coordinator, with more than 20 years of career. Acted in some of the main outsourcing and technology companies in the country: from occupational health ERP to infrastructural technology in the banking sector, having also worked in the oil, gas, steel, and energy sectors. She graduated in Data Processing with specializations in Strategic Management of Projects and Information Systems. Certified in ITIL Intermediate (RCV, SOA and PPO), ISO 20000, ISO 27002, Human Change Management Professional, Green It Citizen, Scrum and Kanban."
     linkedin: "https://www.linkedin.com/in/ana-carla-cavalcante-62a40725/"
     image: "ana-carla.jpg"
   - name: "Jorge Santos"
@@ -97,24 +101,58 @@ Container Management and Cluster Docker)"
     image: "renato-santos.jpg"
   - name: "Jairo Junior"
     role: "Solution Architect"
+    bio: "Solution Architect at Red Hat a contributor to open source projects - from IRC discussions, mailing lists and project maintainer issues. Fanatic by tests, automation, CLI and troubleshooting. Occasionally writing texts in Slack and Telegram."
+    website: "https://jairojunior.github.io/"
+    twitter: "jjunior0x2A"
+    github: "https://github.com/jairojunior"
     image: "jairo-junior.jpg"
   - name: "Camila Correia"
     role: "Designer/QA Analyst"
+    bio: "Quality Assurance Specialist at OSF Global Services and certified tester foundation level professional (CTFL). Designer in spare times and co founder of Coffee Design (www.coffeedesign.com.br).
+Passionate and supportive of animals rights."
     linkedin: "https://www.linkedin.com/in/camila-correia-6082bb71/"
+    website: "www.coffeedesign.com.br"
     image: "camila-correia.jpg"
+  - name: "Djavan Soeiro"
+    role: "Support Analyst"
+    bio: "IT Support Analyst with large experience in logs/monitoring the execution of processes and routines related to ​​network and data links, and support to direct customer service in help desk. Fan of open source technologies, information security, Fedora Linux user, and lover by aquarism. Chess player and novice on motocross tracks with friends."
+    linkedin: "https://www.linkedin.com/in/djavan-soeiro-74818b22/"
+    image: "djavan-soeiro.jpg"
+  - name: "Luciana Lima"
+    role: "Itil knowledge technician"
+    bio: "Itil knowledge technician, with experience of attendance in face and remote technical support to 8 years, were i attended The contact of several companies related to the Tecnology of the country.
+Graduated in analysis and development of Systems with specializations in analysis, projects and Systems Management. Certified in ITIL. It has International certifica te of article presented in an International symposium of innovation Tecnology and Systems."
+    linkedin: "https://www.linkedin.com/in/luciana-lima-a6b94226/"
+    image: "luciana-lima.jpg"
+  - name: "Camila Mamede"
+    role: "Entrepreneur"
+    bio: "MBA of Business Management, formed in Information System. He has worked in the area of ​​Project Management at Grupo Edson Queiroz and M Dias Branco and is currently undertaking projects. Owner of Carole Cozinha, which provides executive meals to over 40 companies in Fortaleza and already has more than 500 clients."
+    linkedin: "https://www.linkedin.com/in/camila-mamede-8a6b837b/"
+    image: "camila-mamede.jpeg"
+  - name: "Ana Paula Oliveira"
+    role: "QA Analyst"
+    bio: "Graduate in Analysis and systems development. Certified CTFL and ITIL Foundations. Passionate about everything in Technology, with experience in IT Support and now as a Test Analyst."
+    linkedin: "https://www.linkedin.com/in/anaoliveira5/"
+    image: "ana-paula.jpg"
 organizer_email: "organizers-fortaleza-2018@devopsdays.org" # Put your organizer email address here
 proposal_email: "proposals-fortaleza-2018@devopsdays.org" # Put your proposal email address here
 
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: samplesponsorname
+  - id: universidade-de-fortaleza
     level: gold
- #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.
+    url: https://www.unifor.br/ # Use this if you need to over-ride a sponsor URL.
+  - id: ibis-hotels
+    level: community
+    url: https://ibis.accorhotels.com/brasil/index.pt-br.shtml # Use this if you need to over-ride a sponsor URL.
   - id: arresteddevops
     level: community
+  - id: f13
+    level: silver
+    url: https://www.f13.com.br/
 
-sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
+sponsors_accepted : "no" # Whether you want "Become a XXX Sponsor!" link
 
 # In this section, list the level of sponsorships and the label to use.
 # You may optionally include a "max" attribute to limit the number of sponsors per level. For
@@ -126,7 +164,7 @@ sponsor_levels:
 #    max: 10
   - id: silver
     label: Silver
-    max: 0 # This is the same as omitting the max limit.
+#    max: 0 # This is the same as omitting the max limit.
   - id: bronze
     label: Bronze
   - id: community
