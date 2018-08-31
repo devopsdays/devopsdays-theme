@@ -17,11 +17,12 @@
   "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-bower": "0.0.14",
     "gulp-cache": "^1.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^4.0.0",
+    "gulp-hub": "^4.2.0",
     "gulp-imagemin": "^4.0.0",
     "gulp-img-retina": "0.0.4",
     "gulp-rename": "^1.2.2",
@@ -34,7 +35,6 @@
     "gulp-useref": "^3.1.5",
     "gulp-util": "latest",
     "gulp-watch": "^5.0.1",
-    "require-dir": "^1.0.0",
-    "run-sequence": "^2.0.0"
+    "require-dir": "^1.0.0"
   }
 }

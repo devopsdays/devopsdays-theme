@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     htmlmin = require('gulp-htmlmin'),
-    imgRetina = require('gulp-img-retina'),
-    runSequence = require('run-sequence');
+    imgRetina = require('gulp-img-retina');
+    // runSequence = require('run-sequence');
 
 gulp.task('process-html', function(callback) {
     runSequence('min-html', 'retina-html',
