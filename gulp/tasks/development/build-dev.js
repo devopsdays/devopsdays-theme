@@ -1,8 +1,3 @@
-var gulp = require('gulp'),
-  runSequence = require('run-sequence');
+var gulp = require('gulp');
 
-gulp.task('dev', function (callback) {
-  runSequence('bower', 'sass', 'js-concat', 'watch',
-    callback
-  )
-})
+gulp.task('dev', gulp.series('bower', 'sass', 'js-concat', 'watch'));
