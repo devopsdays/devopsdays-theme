@@ -4,6 +4,9 @@
   {{ .Content }}
 
   {{- $.Scratch.Set "first" "true" -}}
+  {{- with .Params.icons -}}
+    {{- $.Scratch.Set "icons" (. | upper ) -}}
+  {{- end -}}
 
   {{- $e := (index $.Site.Data.events (index (split (.Permalink | relURL) "/") 2)) -}}
 
@@ -113,8 +116,10 @@
                                 {{ $.Scratch.Get .title }}
 
                               </a>
-                              {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
-                              {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}                                
+                              {{- if eq  ($.Scratch.Get "icons")  "TRUE" -}}
+                                {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                                {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                              {{- end -}}                           
                               <br/>
                               <br/>
                                 {{- if .comments -}}
@@ -136,8 +141,10 @@
                                             <a href="/events/{{ $e.name}}/program/{{ .title }}">{{ $.Scratch.Get (printf "%s-speaker" .title) }}
                                               -
                                               {{ $.Scratch.Get .title }}</a>&nbsp;
-                                              {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
-                                              {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}  
+                                              {{- if eq  ($.Scratch.Get "icons")  "TRUE" -}}
+                                                  {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                                                  {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}  
+                                              {{- end -}}
                                           </li>
                                           {{- else -}}
                                           <li>

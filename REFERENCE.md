@@ -21,7 +21,8 @@
 [Pages and Frontmatter](#pages-and-frontmatter)   
 &emsp;[General Page Fields](#general-page-fields)   
 &emsp;[Talk Page Fields](#talk-page-fields)   
-&emsp;[Speaker Page Fields](#speaker-page-fields)   
+&emsp;[Speaker Page Fields](#speaker-page-fields)  
+&emsp;[Program Page Fields](#program-page-fields)  
 &emsp;[Blog Post Fields](#blog-post-fields)   
 [Shortcodes](#shortcodes)   
 &emsp;[google_form](#google_form)   
@@ -274,6 +275,14 @@ Pages of the type `speaker` have a few additional frontmatter elements available
 | `github`   | No       | Speakers' GitHub username.                                                                                                                                                                                 | "mattstratton"                              |
 | `gitlab`   | No       | Speakers' GitLab username.                                                                                                                                                                                 | "mattstratton"                              |
 | `image`    | No       | The image for the speaker. This image is relative to the `static/events/YYYY-CITY/speakers` directory. It can be either .png or .jpg. It must be square, and 300px square, 600px square, or 900px square.  | "matt-stratton.jpg"                         |
+
+### Program Page Fields
+
+The page of type `program` has one additional frontmatter element.
+
+| Field Name | Required | Description                                              | Example |
+|------------|----------|----------------------------------------------------------|---------|
+| `icons`    | No       | Toggles display of slide/video icons on the program page | "true"  |
 
 ### Blog Post Fields
 
