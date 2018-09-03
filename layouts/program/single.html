@@ -137,7 +137,7 @@
                                               -
                                               {{ $.Scratch.Get .title }}</a>&nbsp;
                                               {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
-                                              {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}  
+                                              {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}  
                                           </li>
                                           {{- else -}}
                                           <li>
