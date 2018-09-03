@@ -4,6 +4,9 @@
   {{ .Content }}
 
   {{- $.Scratch.Set "first" "true" -}}
+  {{- with .Params.icons -}}
+    {{- $.Scratch.Set "icons" (. | upper ) -}}
+  {{- end -}}
 
   {{- $e := (index $.Site.Data.events (index (split (.Permalink | relURL) "/") 2)) -}}
 
@@ -13,6 +16,28 @@
   {{- if eq (index (split (.Permalink | relURL) "/") 2) $e.name -}}
     {{- $.Scratch.Set "base_file_name" .File.BaseFileName -}}
     {{- $.Scratch.Set .File.BaseFileName .Title -}}
+    {{- with .Params.vimeo -}}
+      {{- $.Scratch.Set (printf "%s-video_link" ($.Scratch.Get "base_file_name")) (printf "https://player.vimeo.com/video/%s" .) }}
+    {{- end -}}
+    {{- with .Params.youtube -}}
+      {{- $.Scratch.Set (printf "%s-video_link" ($.Scratch.Get "base_file_name")) (printf "https://www.youtube.com/embed/%s" .) }}
+    {{- end -}}
+    {{- with .Params.speakerdeck -}}
+      {{- $.Scratch.Set (printf "%s-slides_link" ($.Scratch.Get "base_file_name")) . }}
+    {{- end -}}
+    {{- with .Params.slideshare -}}
+      {{- $.Scratch.Set (printf "%s-slides_link" ($.Scratch.Get "base_file_name")) . }}
+    {{- end -}}
+    {{- with .Params.googleslides -}}
+      {{- $.Scratch.Set (printf "%s-slides_link" ($.Scratch.Get "base_file_name")) (printf "https://docs.google.com/presentation/d/%s" .) }}
+    {{- end -}}
+    {{- with .Params.pdf -}}
+      {{- $.Scratch.Set (printf "%s-slides_link" ($.Scratch.Get "base_file_name")) . }}
+    {{- end -}}
+    {{- with .Params.slides -}}
+      {{- $.Scratch.Set (printf "%s-slides_link" ($.Scratch.Get "base_file_name")) . }}
+    {{- end -}}
+
     {{- if isset .Params "speakers" -}}
       {{- if ne .Params.speakers "" -}}
         {{- $.Scratch.Set "speaker_len" (.Params.speakers | len) -}}
@@ -89,10 +114,18 @@
                                 {{ $.Scratch.Get (printf "%s-speaker" .title) }}
                                 -
                                 {{ $.Scratch.Get .title }}
-                              </a><br/>
+
+                              </a>
+                              {{- if eq  ($.Scratch.Get "icons")  "TRUE" -}}
+                                {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                                {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                              {{- end -}}                           
+                              <br/>
+                              <br/>
                                 {{- if .comments -}}
                                   <span class="program-page-desc">{{ .comments | markdownify }}<br/></span>
                                 {{- end -}}
+
                               {{- else if eq .type "ignite" -}}
                               {{ .title }}
                               <!-- do ignite stuff here -->
@@ -107,7 +140,11 @@
                                           <li>
                                             <a href="/events/{{ $e.name}}/program/{{ .title }}">{{ $.Scratch.Get (printf "%s-speaker" .title) }}
                                               -
-                                              {{ $.Scratch.Get .title }}</a>
+                                              {{ $.Scratch.Get .title }}</a>&nbsp;
+                                              {{- if eq  ($.Scratch.Get "icons")  "TRUE" -}}
+                                                  {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
+                                                  {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}  
+                                              {{- end -}}
                                           </li>
                                           {{- else -}}
                                           <li>
