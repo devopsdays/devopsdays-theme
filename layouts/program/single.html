@@ -111,10 +111,16 @@
                                 {{ $.Scratch.Get (printf "%s-speaker" .title) }}
                                 -
                                 {{ $.Scratch.Get .title }}
+
                               </a>
                               {{- with ($.Scratch.Get (printf "%s-video_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-video-camera" aria-hidden="true"></i></a>&nbsp;{{- end -}}
                               {{- with ($.Scratch.Get (printf "%s-slides_link" .title)) -}}<a href="{{ . }}"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i></a>&nbsp;{{- end -}}                                
                               <br/>
+                              <br/>
+                                {{- if .comments -}}
+                                  <span class="program-page-desc">{{ .comments | markdownify }}<br/></span>
+                                {{- end -}}
+
                               {{- else if eq .type "ignite" -}}
                               {{ .title }}
                               <!-- do ignite stuff here -->

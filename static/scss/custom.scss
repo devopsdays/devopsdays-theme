@@ -9,6 +9,11 @@ body {
   // font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #000000;
+  // padding-top: 105px;
+}
+
+.fixed-top-2 {
+  margin-top: 56px;
 }
 
 h1 {
@@ -58,6 +63,7 @@ b, strong {
 
 .nav-link {
   color: #0082AB;
+  white-space: nowrap;
 }
 
 .navbar-brand {
@@ -468,7 +474,7 @@ color: #000000;
 h2.talk-page {
   font-size: 2em;
   font-weight: 700;
-  text-transform: capitalize;
+  // text-transform: capitalize;
 }
 h3.talk-page {
   font-size: 1.5em;

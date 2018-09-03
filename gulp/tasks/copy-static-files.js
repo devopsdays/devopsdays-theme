@@ -1,5 +1,4 @@
-var gulp = require('gulp'),
-    runSequence = require('run-sequence');
+var gulp = require('gulp');
 
 gulp.task('copy-misc-files', function() {
     return gulp.src(['public/sitemap.xml', 'public/**/index.xml', 'public/tags/**/*.xml', 'public/**/sharing.jpg', 'public/favicon*', 'public/apple-icon*', 'public/android-icon*', 'public/ms-icon*', 'public/manifest.json', 'public/browserconfig.xml', 'public/**/*.pdf', 'public/**/*.gif', 'public/_redirects', 'public/robots.txt'])
@@ -27,4 +26,4 @@ gulp.task('copy-old-images', function () {
     .pipe(gulp.dest('dist/events'));
 });
 
-gulp.task('copy-static-files', ['copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-old-images'])
+gulp.task('copy-static-files', gulp.parallel('copy-misc-files', 'copy-fonts', 'copy-css-maps', 'copy-old-images'))

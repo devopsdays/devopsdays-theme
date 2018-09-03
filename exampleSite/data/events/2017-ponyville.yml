@@ -13,7 +13,7 @@ registration_date_start: 2017-05-15
 registration_date_end: 2017-05-30
 registration_open: ""
 registration_closed: ""
-registration_link: ""
+registration_link: "https://www.example.com"
 coordinates: "41.882219, -87.640530"
 location: "Applejack House"
 location_address: "350 West Mart Center Drive, Chicago, IL 60654"
@@ -197,6 +197,7 @@ program:
     date: 2017-07-16
     start_time: "09:15"
     end_time: "09:45"
+    comments: "Talk located in Main Room"
   - title: "Sponsors"
     type: custom
     date: 2017-07-16
@@ -252,6 +253,12 @@ program:
     date: 2017-07-16
     start_time: "14:15"
     end_time: "15:00"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-07-16
+    start_time: "14:15"
+    end_time: "15:00"
+    comments: "Alternative Track | Located in other room"
   - title: "Break"
     type: workshop
     date: 2017-07-16

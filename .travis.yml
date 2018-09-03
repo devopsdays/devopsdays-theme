@@ -1,7 +1,6 @@
 sudo: false
 language: node_js
-node_js:
-  - "6"
+
 env:
   - CXX=g++-4.8
 addons:
@@ -12,6 +11,7 @@ addons:
       - g++-4.8
 before_script:
 - npm install -g gulp
+- npm i -g gulp-cli
 - npm install
 - cd exampleSite
 
@@ -24,7 +24,7 @@ script:
 before_deploy:
 - cd $TRAVIS_BUILD_DIR
 - mkdir -p release
-- zip -r release/devopsdays-theme-$TRAVIS_TAG.zip . -x \*.git\* \*exampleSite\* appveyor.yml \*.travis.ci\* \*tests\* \*bin\* \*build\* \*release\* config.codekit3 \*bower_components\* bower.json gulpfile.js netlify.toml package.json STYLE.md *\node_modules\* *\scss\* *\gulp\* contributing.json static/js/devopsdays.js .travis.yml \*utils\*
+- zip -r release/devopsdays-theme-$TRAVIS_TAG.zip . -x \*.git\* \*exampleSite\* appveyor.yml \*.travis.ci\* \*tests\* \*bin\* \*build\* \*release\* config.codekit3 \*bower_components\* bower.json gulpfile.js netlify.toml package.json package-lock.json STYLE.md *\node_modules\* *\scss\* *\gulp\* contributing.json static/js/devopsdays.js .travis.yml \*utils\*
 
 deploy:
   provider: releases
