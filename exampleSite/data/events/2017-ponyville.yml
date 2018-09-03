@@ -269,6 +269,7 @@ program:
     date: 2017-07-16
     start_time: "15:15"
     end_time: "16:00"
+    custom_url: "http://www.cnn.com"
   - title: "Open Space #3"
     type: open-space
     date: 2017-07-16
