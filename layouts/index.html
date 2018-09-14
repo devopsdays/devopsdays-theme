@@ -6,7 +6,7 @@
     <div class="row">
         {{- range sort $.Site.Data.events "startdate" -}}
         {{- if .startdate -}}
-<!-- Subtracting a day here is a patch for https://github.com/devopsdays/devopsdays-theme/issues/656 -->
+<!-- Subtracting a day is a patch for https://github.com/devopsdays/devopsdays-theme/issues/656 -->
         {{- if ge (time .enddate) (now.AddDate 0 0 -1) -}}
         {{- $.Scratch.Set "city" .city -}}
         {{- $.Scratch.Set "year" .year -}}
