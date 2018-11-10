@@ -1,0 +1,425 @@
+name: 2018-ponyville
+year: "2018"
+city: "Ponyville"
+friendly: "2018-ponyville"
+startdate: 2018-11-16
+enddate: 2018-11-17
+cfp_date_start: 2018-03-01
+cfp_date_end: 2018-06-15
+cfp_date_announce: 2018-01-01
+cfp_open: "true"
+cfp_link: ""
+registration_date_start: 2018-05-15
+registration_date_end: 2018-05-30
+registration_open: ""
+registration_closed: ""
+registration_link: "https://www.example.com"
+coordinates: "41.882219, -87.640530"
+location: "Applejack House"
+location_address: "350 West Mart Center Drive, Chicago, IL 60654"
+newnav: "yes"
+event_twitter: "mattstratton"
+description: "It's time for more DevOpsDays at Ponyville!"
+
+# navigationelements: ["welcome", "contact", "location", "program", "propose", "proposals", "conduct", "sponsor"]
+nav_elements:
+  # - name: welcome
+  # - name: propose
+  #   url: http://cfp.devopsdayschi.org
+  - name: program
+  - name: speakers
+  - name: registration
+    icon: "pencil"
+  - name: sponsor
+  - name: volunteer
+    icon: "smile-o"
+  - name: location
+  - name: contact
+  - name: conduct
+
+team_members:
+  - name: "George Bluth"
+    role: "Master Organizer"
+    twitter: "jcattell"
+    employer: "The Bluth Company"
+    bio: "Responsive pitch deck SpaceTeam food-truck responsive agile thinker-maker-doer quantitative vs. qualitative driven waterfall is so 2000 and late intuitive SpaceTeam. Integrate user story minimum viable product personas driven innovate pair programming long shadow SpaceTeam pitch deck user story fund fund. Innovate bootstrapping entrepreneur actionable insight minimum viable product latte driven entrepreneur actionable insight long shadow food-truck. Driven engaging parallax piverate entrepreneur SpaceTeam iterate responsive pair programming SpaceTeam."
+    image: "george-bluth.jpg"
+  - name: "Lucille Bluth"
+    twitter: "nilved"
+    employer: "The Bluth Company"
+    image: "lucille-bluth.jpg"
+    bio: "Cortado iterate entrepreneur fund parallax SpaceTeam personas user story. Sticky note latte sticky note venture capital waterfall is so 2000 and late pivot grok prototype. Actionable insight disrupt iterate SpaceTeam grok earned media 360 campaign affordances venture capital venture capital integrate. Experiential pivot 360 campaign entrepreneur minimum viable product personas food-truck workflow workflow latte."
+  - name: "Michael Bluth"
+    image: "michael-bluth.jpg"
+    employer: "The Bluth Company"
+    website: "http://www.phoenix.edu/"
+    bio: "User centered design 360 campaign affordances venture capital long shadow convergence Steve Jobs driven viral long shadow earned media fund. Hacker experiential thought leader hacker entrepreneur waterfall is so 2000 and late 360 campaign entrepreneur thought leader paradigm. SpaceTeam human-centered design prototype human-centered design innovate paradigm big data thought leader."
+  - name: "George Michael Bluth"
+    employer: "Fakeblock"
+    website: "http://www.fakebook.com"
+    image: "george-michael-bluth.jpg"
+    bio: "At high school, George Michael is hardly known by any other students but gets good grades. He is paid to tutor Maeby, but instead, she plagiarizes from him. He briefly develops a crush on his teacher Beth Baerly because she paid attention to him. (\"Shock and Aww\") He lost the student council election, receiving only 3% of the votes. (\"The Immaculate Election\")<p>
+    George Michael's good grades continue through college. To get into Julliard, George Michael develops a fake woodblock app with his roommate P-Hound called [Fakeblock](http://arresteddevelopment.wikia.com/wiki/Fakeblock). One small lie causes the app to get blown out of proportion by Maeby who thinks it is privacy software."
+  - name: "Tobias Fünke"
+    image: "tobias-fuenke.jpg"
+    twitter: "nilved"
+    linkedin: "https://www.linkedin.com/tobis"
+    bio: "Venture capital SpaceTeam affordances SpaceTeam intuitive human-centered design intuitive cortado intuitive minimum viable product waterfall is so 2000 and late disrupt bootstrapping disrupt. Quantitative vs. qualitative driven sticky note thinker-maker-doer minimum viable product piverate 360 campaign food-truck integrate human-centered design. Piverate viral responsive parallax minimum viable product personas user story waterfall is so 2000 and late driven. Intuitive thinker-maker-doer experiential affordances pivot waterfall is so 2000 and late pivot human-centered design viral. Engaging ship it minimum viable product long shadow long shadow 360 campaign intuitive convergence quantitative vs. qualitative."
+  - name: "Lindsay Fünke"
+    image: "lindsay-funke.jpg"
+    facebook: "https://www.facebook.com/lindysay"
+    twitter: "nilved"
+    github: "mattstratton"
+    bio: "SpaceTeam innovate integrate affordances user centered design user story workflow sticky note hacker agile pivot personas integrate. Personas waterfall is so 2000 and late SpaceTeam experiential innovate pair programming convergence entrepreneur hacker waterfall is so 2000 and late. Pair programming cortado responsive innovate user centered design thinker-maker-doer integrate physical computing latte quantitative vs. qualitative user centered design viral entrepreneur."
+  - name: "Maybe Fünke"
+    image: "maybe-funke.jpg"
+    bio: "Labore ipsum ideate labore paradigm fund driven consequat ullamco sint deserunt minim nulla. Veniam ideate adipisicing ex iterate Duis workflow in. Tempor anim waterfall is so 2000 and late occaecat experiential pitch deck cupidatat ideate thinker-maker-doer engaging elit consectetur minim hacker. Latte ex eu thinker-maker-doer ut latte physical computing dolore fugiat reprehenderit pitch deck moleskine."
+organizer_email: "organizers@devopsdayschi.org"
+proposal_email: "cfp@devopsdayschi.org"
+ga_tracking_id: "UA-74738648-1"
+
+sponsors_accepted: false
+sponsors:
+  - id: sample-sponsor
+    level: gold
+  - id: pivotal
+    level: gold
+  - id: sumologic
+    level: gold
+  - id: elastic
+    level: gold
+  - id: victorops
+    level: gold
+  - id: ahead
+    level: gold
+  - id: threatstack
+    level: gold
+  - id: chef
+    level: gold
+  - id: thoughtworks-products-before-20160908
+    level: gold
+  - id: github
+    level: gold
+  - id: 10thmagnitude
+    level: gold
+  - id: ca_tech
+    level: gold
+  - id: deis
+    level: gold
+  - id: xebialabs
+    level: gold
+  - id: 2016-carsdotcom
+    level: gold
+  - id: overops
+    level: gold
+  - id: opsgenie
+    level: gold
+  - id: panopta
+    level: gold
+  - id: pagerduty
+    level: gold
+  - id: 2016-newrelic
+    level: gold
+  - id: signalsciences
+    level: gold
+  - id: appdynamics
+    level: gold
+  - id: slalom
+    level: gold
+  - id: cloudbees-before-20161025
+    level: gold
+  - id: servercentral
+    level: silver
+  - id: morpheus_data
+    level: silver
+  - id: 2016-ns1
+    level: silver
+  - id: columntech
+    level: silver
+  - id: puppet
+    level: silver
+  - id: concurrency
+    level: silver
+  - id: herzum
+    level: silver
+  - id: atlassian
+    level: silver
+  - id: drw
+    level: bronze
+  - id: cons3rt
+    level: bronze
+  - id: arresteddevops
+    level: community
+  - id: softwaredefinedtalk
+    level: community
+  - id: devopsconferences
+    level: community
+  - id: blacksintechnology
+    level: community
+  - id: writespeakcode
+    level: community
+  - id: techwhileblack
+    level: community
+  - id: cwdevs
+    level: community
+  - id: grubhub
+    level: lunch
+  - id: appdynamics
+    level: lanyard
+
+sponsor_levels:
+  - id: gold
+    label: Gold
+  - id: silver
+    label: Silver
+  - id: bronze
+    label: Bronze
+  - id: community
+    label: Community
+  - id: lunch
+    label: Lunch
+  - id: lanyard
+    label: Lanyard
+
+program:
+  - title: "Registration, Breakfast, and Sponsor Booths Open"
+    type: custom
+    date: 2017-07-16
+    start_time: "08:00"
+    end_time: "09:00"
+  - title: "Opening Welcome"
+    type: custom
+    date: 2017-07-16
+    start_time: "09:15"
+    end_time: "09:00"
+  - title: "rainbow-dash"
+    type: talk
+    date: 2017-07-16
+    start_time: "09:15"
+    end_time: "09:45"
+    comments: "Talk located in Main Room"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-16
+    start_time: "09:45"
+    end_time: "09:55"
+  - title: "apple-jack"
+    type: talk
+    date: 2017-07-16
+    start_time: "09:55"
+    end_time: "10:25"
+  - title: "Break"
+    type: custom
+    date: 2017-07-16
+    start_time: "10:25"
+    end_time: "10:40"
+  - title: "fluttershy"
+    type: talk
+    date: 2017-07-16
+    start_time: "10:40"
+    end_time: "11:10"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-16
+    start_time: "11:10"
+    end_time: "11:20"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-07-16
+    start_time: "11:20"
+    end_time: "11:50"
+  - title: "Lunch (catered)"
+    type: custom
+    date: 2017-07-16
+    start_time: "11:50"
+    end_time: "13:00"
+  - title: "Ignites"
+    type: ignite
+    date: 2017-07-16
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-16
+    start_time: "13:30"
+    end_time: "13:40"
+  - title: "Open Space Opening"
+    type: open-space
+    date: 2017-07-16
+    start_time: "13:40"
+    end_time: "14:15"
+  - title: "Open Space #1"
+    type: open-space
+    date: 2017-07-16
+    start_time: "14:15"
+    end_time: "15:00"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-07-16
+    start_time: "14:15"
+    end_time: "15:00"
+    comments: "Alternative Track | Located in other room"
+  - title: "Break"
+    type: workshop
+    date: 2017-07-16
+    start_time: "15:00"
+    end_time: "15:15"
+  - title: "Open Space #2"
+    type: open-space
+    date: 2017-07-16
+    start_time: "15:15"
+    end_time: "16:00"
+    custom_url: "http://www.cnn.com"
+  - title: "Open Space #3"
+    type: open-space
+    date: 2017-07-16
+    start_time: "16:15"
+    end_time: "17:00"
+  - title: "Close Day & Logistics"
+    type: custom
+    date: 2017-07-16
+    start_time: "17:00"
+    end_time: "17:15"
+  - title: "Evening Event"
+    type: custom
+    date: 2017-07-16
+    start_time: "18:30"
+    end_time: "21:30"
+    comments: "This will be at the [Pony Club](http://www.mattstratton.com)<br>
+    1005 Ponyville Drive<br>
+    Ponyville, IL<br>
+    60712"
+  - title: "Registration, Breakfast, and Sponsor Booths Open"
+    type: custom
+    date: 2017-07-17
+    start_time: "08:00"
+    end_time: "09:00"
+  - title: "Opening Welcome"
+    type: custom
+    date: 2017-07-17
+    start_time: "09:15"
+    end_time: "09:00"
+  - title: "rainbow-dash"
+    type: talk
+    date: 2017-07-17
+    start_time: "09:15"
+    end_time: "09:45"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-17
+    start_time: "09:45"
+    end_time: "09:55"
+    background_color: "#FFFA99"
+  - title: "apple-jack"
+    type: talk
+    date: 2017-07-17
+    start_time: "09:55"
+    end_time: "10:25"
+  - title: "Break"
+    type: custom
+    date: 2017-07-17
+    start_time: "10:25"
+    end_time: "10:40"
+  - title: "fluttershy"
+    type: talk
+    date: 2017-07-17
+    start_time: "10:40"
+    end_time: "11:10"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-17
+    start_time: "11:10"
+    end_time: "11:20"
+  - title: "twilight-sparkle"
+    type: talk
+    date: 2017-07-17
+    start_time: "11:20"
+    end_time: "11:50"
+  - title: "Lunch (catered)"
+    type: custom
+    date: 2017-07-17
+    start_time: "11:50"
+    end_time: "13:00"
+  - title: "Ignites"
+    type: ignite
+    date: 2017-07-17
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Sponsors"
+    type: custom
+    date: 2017-07-17
+    start_time: "13:30"
+    end_time: "13:40"
+  - title: "Open Space Opening"
+    type: open-space
+    date: 2017-07-17
+    start_time: "13:40"
+    end_time: "14:15"
+  - title: "Open Space #1"
+    type: open-space
+    date: 2017-07-17
+    start_time: "14:15"
+    end_time: "15:00"
+  - title: "Break"
+    type: custom
+    date: 2017-07-17
+    start_time: "15:00"
+    end_time: "15:15"
+  - title: "Open Space #2"
+    type: open-space
+    date: 2017-07-17
+    start_time: "15:15"
+    end_time: "16:00"
+  - title: "Open Space #3"
+    type: open-space
+    date: 2017-07-17
+    start_time: "16:15"
+    end_time: "17:00"
+  - title: "Close Day & Farewell"
+    type: custom
+    date: 2017-07-17
+    start_time: "17:00"
+    end_time: "17:15"
+  - title: "Open Space #2"
+    type: custom
+    date: 2017-07-18
+    start_time: "15:15"
+    end_time: "16:00"
+  - title: "Open Space #3"
+    type: custom
+    date: 2017-07-18
+    start_time: "16:15"
+    end_time: "17:00"
+  - title: "Close Day & Farewell"
+    type: custom
+    date: 2017-07-18
+    start_time: "17:00"
+    end_time: "17:15"
+
+ignites:
+  - title: "spike"
+    date: 2017-07-16
+  - title: "DevOps With Delight"
+    date: 2017-07-16
+  - title: "Refactoring Pony Code"
+    date: 2017-07-16
+  - title: "Docker With Chaos"
+    date: 2017-07-16
+  - title: "How To Be A Thought Leader"
+    date: 2017-07-16
+  - title: "Wither Pete Cheslock?"
+    date: 2017-07-17
+  - title: "The Mane Focus of DevOps"
+    date: 2017-07-17
+  - title: "Prancing With Pivotal"
+    date: 2017-07-17
+  - title: "Cheffing Your Pony"
+    date: 2017-07-17
+  - title: "Memes and How To Use Them"
+    date: 2017-07-17
+  - title: "Measuring Mane Metrics"
+    date: 2017-07-18
+  - title: "Puppetize Your Ponies"
+    date: 2017-07-18
+  - title: "Chaos In Your Cluster"
+    date: 2017-07-18
