@@ -6,19 +6,19 @@ description: "Devopsdays is coming to Hartford!" # Edit this to suit your prefer
 ga_tracking_id: "" # If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1"
 
 # All dates are in unquoted 2018-MM-DD, like this:   variable: 2016-01-05
-startdate: 2018-10-16  # The start date of your event. Leave blank if you don't have a venue reserved yet.
-enddate: 2018-10-17  # The end date of your event. Leave blank if you don't have a venue reserved yet.
+startdate: 2018-10-16T00:00:00-04:00
+enddate: 2018-10-17T23:59:59-04:00
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start: 2018-05-21 # start accepting talk proposals.
-cfp_date_end: 2018-08-03  # close your call for proposals.
-cfp_date_announce: 2018-08-17  # inform proposers of status
+cfp_date_start: 2018-05-21T00:00:00-04:00 # start accepting talk proposals.
+cfp_date_end: 2018-08-03T23:59:59-04:00  # close your call for proposals.
+cfp_date_announce: 2018-08-17T00:00:00-04:00  # inform proposers of status
 
 cfp_open: "true"
 # cfp_link: "https://dodhart2018.busyconf.com/proposals/new" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
-registration_date_start: 2018-05-21 # start accepting registration. Leave blank if registration is not open yet
-registration_date_end: 2018-10-15 # close registration. Leave blank if registration is not open yet.
+registration_date_start: 2018-05-21T00:00:00-04:00 # start accepting registration. Leave blank if registration is not open yet
+registration_date_end: 2018-10-15T23:59:59-04:00 # close registration. Leave blank if registration is not open yet.
 
 registration_closed: "" #set this to true if you need to manually close registration before your registration end date
 # registration_link: "https://dodhart2018.busyconf.com/bookings/new" # If you have a custom registration link, enter it here. This will control the Registration menu item as well as the "Register" button.
@@ -33,8 +33,8 @@ nav_elements: # List of pages you want to show up in the navigation of your page
   - name: propose
   - name: location
   - name: registration
-  # - name: program
-  # - name: speakers
+  - name: program
+  - name: speakers
   - name: sponsor
   - name: contact
   - name: conduct
@@ -69,10 +69,10 @@ team_members: # Name is the only required field for team members.
   - name: "Kristi Bathgate"
     twitter: "happyhappy0365"
     employer: "Travelers"
-    github: ""
+    github: "kristidem"
     website: ""
-    image: ""
-    bio: ""
+    image: "kristi-bathgate.jpg"
+    bio: "Kristi leads a DevOps Transformation and AppDev Office to help a Travelers line of business transform their applications with modern technologies and DevOps practices"
   - name: "Elizabeth Tobin"
     twitter: ""
     employer: "Cigna"
@@ -92,12 +92,34 @@ proposal_email: "proposals-hartford-2018@devopsdays.org" # Put your proposal ema
 # List all of your sponsors here along with what level of sponsorship they have.
 # Check data/sponsors/ to use sponsors already added by others.
 sponsors:
-  - id: arresteddevops
-    level: community
   - id: compuware
     level: bronze
   - id: compuware
     level: mug
+  - id: sonatype
+    level: happyHour
+  - id: chef
+    level: gold
+  - id: rightstar
+    level: gold
+  - id: elastic
+    level: gold
+  - id: mesosphere
+    level: gold
+  - id: launch-darkly
+    level: gold
+  - id: dynatrace
+    level: gold
+  - id: parasoft
+    level: silver
+  - id: rightstar
+    level: mug
+  - id: launch-darkly
+    level: mug
+  - id: cgi
+    level: bronze
+  - id: ctlwv
+    level: community
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 
@@ -108,6 +130,7 @@ sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 sponsor_levels:
   - id: happyHour
     label: Happy Hour
+    max: 1
   - id: gold
     label: Gold
 #    max: 10
@@ -118,5 +141,188 @@ sponsor_levels:
     label: Bronze
   - id: mug
     label: Mug
+    max: 8
   - id: community
     label: Community
+
+program:
+  - title: "Registration, Breakfast, Sponsors"
+    type: custom
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "08:00"
+    end_time: "09:00"
+  - title: "Opening Welcome"
+    type: break
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "09:00"
+    end_time: "09:15"
+  - title: "j-paul-reed"
+    type: talk
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "09:15"
+    end_time: "10:00"
+  - title: "kelley-hedley"
+    type: talk
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "10:00"
+    end_time: "10:30"
+  - title: "Morning Break"
+    type: break
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "10:30"
+    end_time: "10:45"
+  - title: "tiffany-longworth"
+    type: talk
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "10:45"
+    end_time: "11:15"
+  - title: "john-k-sawers"
+    type: talk
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "11:15"
+    end_time: "11:45"
+  - title: "Lunch"
+    type: break
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "11:45"
+    end_time: "13:00"
+  - title: "Ignites"
+    type: ignite
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Open Spaces Kickoff & Organization"
+    type: custom
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "13:30"
+    end_time: "14:15"
+  - title: "Open Space #1"
+    type: open-space
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "14:15"
+    end_time: "15:00"
+  - title: "Afternoon Break"
+    type: break
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "15:00"
+    end_time: "15:15"
+  - title: "Open Space #2"
+    type: open-space
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "15:15"
+    end_time: "16:00"
+  - title: "Open Space #3"
+    type: open-space
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "16:05"
+    end_time: "16:50"
+  - title: "Closing and Day 1 Recap"
+    type: custom
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "16:50"
+    end_time: "17:00"
+  - title: "The Portal's Board Game Happy Hour sponsored by Sonatype"
+    type: custom
+    date: 2018-10-16T00:00:00-04:00
+    start_time: "17:00"
+    end_time: "19:00"
+  - title: "Registration, Breakfast, Sponsors"
+    type: break
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "08:00"
+    end_time: "09:00"
+  - title: "Day 2 Kickoff"
+    type: custom
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "09:00"
+    end_time: "09:15"
+  - title: "heidi-waterhouse"
+    type: talk
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "09:15"
+    end_time: "10:00"
+  - title: "timothy-bonci"
+    type: talk
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "10:00"
+    end_time: "10:30"
+  - title: "Break"
+    type: break
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "10:30"
+    end_time: "10:45"
+  - title: "peter-chestna"
+    type: talk
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "10:45"
+    end_time: "11:15"
+  - title: "mike-newswanger"
+    type: talk
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "11:15"
+    end_time: "11:45"
+  - title: "Lunch"
+    type: break
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "11:45"
+    end_time: "13:00"
+  - title: "Ignites"
+    type: ignite
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "13:00"
+    end_time: "13:30"
+  - title: "Open Space Organization"
+    type: custom
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "13:30"
+    end_time: "14:00"
+  - title: "Open Space #1"
+    type: open-space
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "14:00"
+    end_time: "14:45"
+  - title: "Afternoon Break"
+    type: break
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "14:45"
+    end_time: "15:00"
+  - title: "Open Space #2"
+    type: open-space
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "15:00"
+    end_time: "15:45"
+  - title: "Open Space #3"
+    type: open-space
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "15:50"
+    end_time: "16:35"
+  - title: "jim-jagielski"
+    type: talk
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "16:35"
+    end_time: "17:05"
+  - title: "Conference Closing & Giveaways"
+    type: custom
+    date: 2018-10-17T23:59:59-04:00
+    start_time: "17:05"
+    end_time: "17:30"
+
+ignites:
+  - title: "devils-devops"
+    date: 2018-10-16T00:00:00-04:00
+  - title: "rajasekar-narayanan"
+    date: 2018-10-16T00:00:00-04:00
+  - title: "odie-routh"
+    date: 2018-10-16T00:00:00-04:00
+  - title: "alan-kraft"
+    date: 2018-10-16T00:00:00-04:00
+  - title: "matt-westgate"
+    date: 2018-10-16T00:00:00-04:00
+  - title: "jay-gordon"
+    date: 2018-10-17T23:59:59-04:00
+  - title: "kelly-albrecht"
+    date: 2018-10-17T23:59:59-04:00
+  - title: "currently-happening"
+    date: 2018-10-17T23:59:59-04:00
+  - title: "lawrence-shea"
+    date: 2018-10-17T23:59:59-04:00

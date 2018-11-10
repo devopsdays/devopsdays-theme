@@ -5,16 +5,16 @@ event_twitter: "DevOpsDaysTLV" # Change this to the twitter handle for your even
 description: "Devopsdays is coming to Tel Aviv!" # Edit this to suit your preferences
 ga_tracking_id: "" # If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1"
 
-# All dates are in unquoted 2018-MM-DD, like this:   variable: 2016-01-05
-startdate:  2018-12-18
-enddate:  2018-12-19
+# All dates are in unquoted YYYY-MM-DDTHH:MM:SS+TZ:TZ, like this:   variable: 2016-01-05T01:02:03-05:00
+startdate:  2018-12-18T00:00:00+02:00
+enddate: 2018-12-19T23:59:59+02:00
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
 cfp_date_start:  2018-07-01
 cfp_date_end:  2018-10-01
 cfp_date_announce:  2018-10-15
 
-cfp_open: "true"
+cfp_open: "false"
 cfp_link: https://www.papercall.io/devopsdaystlv2018
 
 registration_date_start: # start accepting registration. Leave blank if registration is not open yet
@@ -31,10 +31,10 @@ location: "Tel Aviv" # Defaults to city, but you can make it the venue name.
 location_address: "Tel Aviv Convention Center, 101 Rokach Blvd" 
 
 nav_elements: # List of pages you want to show up in the navigation of your page.
- - name: propose
+# - name: propose
  - name: location
  - name: registration
- # - name: program
+ - name: program
  - name: speakers
  - name: sponsor
  - name: contact
@@ -95,15 +95,21 @@ sponsors:
     level: lanyard
   - id: cloudify
     level: silver
+  - id: microsoft
+    level: silver
+  - id: microsoft
+    level: day1happyhour
   - id: singular
     level: silver
   - id: appsflyer-2018
     level: silver
+  - id: appsflyer-2018
+    level: day2happyhour
   - id: facebook
     level: silver
+  - id: fiverr
+    level: coffee
   - id: elastic
-    level: silver
-  - id: atlassian
     level: silver
   - id: yotpo
     level: tshirt
@@ -117,6 +123,10 @@ sponsors:
     level: community
   - id: logzio
     level: silver
+  - id: taboola
+    level: giveaway
+  - id: matrix-atlassian
+    level: silver
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 
@@ -125,24 +135,24 @@ sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 # unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
 # sponsorship for a specific level, it is best to remove the level.
 sponsor_levels:
-  - id: gold
-    label: Platinum
-    max: 4
+  # - id: gold
+  #   label: Platinum
+  #   max: 4
   - id: silver
     label: Gold
     max: 12
-  - id: day1lunch
-    label: day 1 Lunch
-    max: 1
-  - id: day2lunch
-    label: day 2 Lunch
-    max: 1
-  - id: day1breakfast
-    label: day 1 breakfast
-    max: 1
-  - id: day2breakfast
-    label: day 2 breakfast
-    max: 1
+  # - id: day1lunch
+  #   label: day 1 Lunch
+  #   max: 1
+  # - id: day2lunch
+  #   label: day 2 Lunch
+  #   max: 1
+  # - id: day1breakfast
+  #   label: day 1 breakfast
+  #   max: 1
+  # - id: day2breakfast
+  #   label: day 2 breakfast
+  #   max: 1
   - id: coffee
     label: coffee
     max: 1
@@ -152,9 +162,9 @@ sponsor_levels:
   - id: day2happyhour
     label: Day 2 HappyHour
     max: 1
-  - id: workshoproom
-    label: WorkShop Room
-    max: 1
+  # - id: workshoproom
+  #   label: WorkShop Room
+  #   max: 1
   - id: tshirt
     label: tshirt
     max: 1
