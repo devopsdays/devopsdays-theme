@@ -5,17 +5,16 @@ Description = "Propose a talk for devopsdays Florianópolis 2018"
 +++
   {{< cfp_dates >}}
 
-<center>**Link para submissões:** Em breve!</center>
+<center>**Link para submissões:** https://www.papercall.io/devopsdays-fln-2018</center>
 
 <hr>
 
 ## Tipos de apresentações
 
-Há três tipos de apresentações no devopsdays:
+Há dois tipos de apresentações no devopsdays:
 
-1. Palestras de **20 a 40 minutos** apresentadas durante a conferência.
-2. **Ignite talk** durante a [seção ignite](/pages/ignite-talks-format), são slots de 5 minutos no qual os slides são alterados a cada 15 segundos (20 slides no total).
-3. **Open Space**: Se você gostaria de coordenar um grupo de discussão durante o evento, poderá fazê-lo numa sessão [Open Space](/pages/open-space-format). Não é necessário propor antes da conferência. Os tópicos são sugeridos durante a conferência. Se você quiser mostrar um produto ou serviço, você poderá fazê-lo como [patrocinador](../sponsor) e mostrar uma demo na mesa respectiva dos patrocinadores.
+1. Palestras de **50 minutos** apresentadas durante a conferência.
+2. Palestras de **25 minutos** apresentadas durante a conferência.
 
 <hr>
 
@@ -33,7 +32,4 @@ A escolha das palestras é parte arte e parte ciência; aqui estão alguns fator
 
 ## Mais informações
 
-Se você faz parte de grupos pouco representados no universo de TI e gostaria de apresentar algo, mas não se sente seguro, [contate](/events/2018-florianópolis/contato) diretamente nossos organizadores para que possamos fornecer subsídios como mentoria, por exemplo, para que faça uma grande palestra com total segurança.
-
-
-Esta página foi adaptada da [página de CFP do devopsdays SP 2018](https://www.devopsdays.org/events/2018-sao-paulo/cfp/)
+Se você faz parte de grupos pouco representados no universo de TI e gostaria de apresentar algo, mas não se sente seguro, [contate](/events/2018-florianópolis/contact/) diretamente nossos organizadores para que possamos fornecer subsídios como mentoria, por exemplo, para que faça uma grande palestra com total segurança.
