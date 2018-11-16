@@ -1,22 +1,24 @@
 name: "2019-new-york-city" # The name of the event. Four digit year with the city name in lower-case, with no spaces.
 year: "2019" # The year of the event. Make sure it is in quotes.
 city: "New York City" # The displayed city name of the event. Capitalize it.
-event_twitter: "devopsdadaysNYC" # Change this to the twitter handle for your event such as devopsdayschi or devopsdaysmsp
+event_twitter: "devopsdaysNYC" # Change this to the twitter handle for your event such as devopsdayschi or devopsdaysmsp
 description: "Devopsdays is coming to New York City!" # Edit this to suit your preferences
 ga_tracking_id: "" # If you have your own Google Analytics tracking ID, enter it here. Example: "UA-74738648-1"
 event_group: "New York City"
 
+masthead_background: "nyc-masthead.jpg"
+
 # All dates are in unquoted 2019-MM-DD, like this:   variable: 2016-01-05
-startdate:  # The start date of your event. Leave blank if you don't have a venue reserved yet.
-enddate:  # The end date of your event. Leave blank if you don't have a venue reserved yet.
+startdate: "2019-01-24"  # The start date of your event. Leave blank if you don't have a venue reserved yet.
+enddate: "2019-01-25"  # The end date of your event. Leave blank if you don't have a venue reserved yet.
 
 # Leave CFP dates blank if you don't know yet, or set all three at once.
-cfp_date_start:  # start accepting talk proposals.
-cfp_date_end:  # close your call for proposals.
-cfp_date_announce:  # inform proposers of status
+cfp_date_start:  "2018-09-14" # start accepting talk proposals.
+cfp_date_end:  "2018-10-30" # close your call for proposals.
+cfp_date_announce:  "2018-12-03"# inform proposers of status
 
-cfp_open: "false"
-cfp_link: "" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
+cfp_open: "true"
+cfp_link: "https://www.papercall.io/dodnyc2019" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
 registration_date_start: # start accepting registration. Leave blank if registration is not open yet
 registration_date_end: # close registration. Leave blank if registration is not open yet.
@@ -47,20 +49,70 @@ nav_elements: # List of pages you want to show up in the navigation of your page
 
 # These are the same people you have on the mailing list and Slack channel.
 team_members: # Name is the only required field for team members.
-  - name: "Tom Limoncelli"
-  - name: "Kristen A Olah"
-  - name: "Jaclyn M Damiano"
   - name: "Sumit Agarwal"
-  - name: "Russ Kaehler"
-  - name: "Khader Syed"
-  - name: "Jerome Moore"
+    role: "Co-Chair"
+    employer: "Broadridge Financial Solutions "
+    image: "sumit-agarwal.jpg"
+    twitter: "aga_sumit"
   - name: "James Dadd"
-  - name: "Jay Gordon"
-  - name: "Mani Soundararajan"
-  - name: "Mark Birch"
-  - name: "Tom Reingold"
+    role: "Co-Chair"
+    image: "james-dadd.jpg"
+    employer: "fourTheorem Ltd"
+    twitter: "jimmus69"
+    github: "jimmus69"
+    linkedin: "https://linkedin.com/in/daddjames"
+  - name: "Russ Kaehler"
+    role: "Co-Chair"
+    employer: "Verizon"
+    image: "russ-kaehler.jpg"
   - name: "Brian Kowalcyzk"
+    image: "brian-kowalcyzk.jpg"
+    role: "Co-Chair"
+    employer: "Verizon"
+    twitter: "Kowalcbt"
+    linkedin: "https://www.linkedin.com/in/brian-kowalczyk-b37a259a"
+  - name: "Khader Syed"
+    role: "Co-Chair"
+    employer: "AiCure"
+    image: "khader-syed.jpg"
+    linkedin: "https://www.linkedin.com/in/russ-kaehler-514187110"
+  - name: "Mark Birch"
+    image: "mark-birch.jpg"
+    employer: "Stack Overflow, Inc."
+    twitter: "marksbirch"
+    linkedin: "https://www.linkedin.com/in/marksbirch"
+  - name: "Jaclyn M Damiano"
+    employer: "Verizon"
+    image: "jacki-damiano.jpg"
   - name: "Ceren Ercen"
+    employer: "Grubhub/Seamless"
+    image: "ceren-ercen.jpg"
+  - name: "Jay Gordon"
+    image: "jay-gordon.jpg"
+    twitter: "jaydestro"
+    github: "jaydestro"
+  - name: "Matt Kuritz"
+    image: "matt-kuritz.jpg"
+  - name: "Tom Limoncelli"
+    employer: "Stack Overflow, Inc."
+    image: "tom-limoncelli.jpg"
+    twitter: "YesThatTom"
+    github: "TomOnTime"
+  - name: "Jerome Moore"
+    employer: "WeBuildBlack"
+  - name: "Kristen A Olah"
+    employer: "Verizon"
+    image: "kristen-olah.jpg"
+  - name: "Adarsh Shah"
+    image: "adarsh-shah.jpg"
+    employer: "Contino"
+    twitter: "shahadarsh"
+    linkedin: "https://www.linkedin.com/in/adarsh-shah"
+  - name: "Tom Reingold"
+  - name: "Stephen Thomas"
+    employer: "iconectiv"
+    linkedin: "https://www.linkedin.com/in/steve-thomas-4746bb/"
+    image: "stephen-thomas.jpg"
 
 organizer_email: "organizers-new-york-city-2019@devopsdays.org" # Put your organizer email address here
 proposal_email: "proposals-new-york-city-2019@devopsdays.org" # Put your proposal email address here
@@ -70,9 +122,21 @@ proposal_email: "proposals-new-york-city-2019@devopsdays.org" # Put your proposa
 sponsors:
  # - id: samplesponsorname
  #   level: gold
- #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.   
+ #  url: http://mysponsor.com/?campaign=me # Use this if you need to over-ride a sponsor URL.
   - id: arresteddevops
     level: community
+  - id: viacom
+    level: venue
+  - id: contino
+    level: silver
+  - id: instana
+    level: gold
+  - id: influxdata
+    level: gold
+  - id: microsoftazure
+    level: silver
+  - id: gitlab
+    level: silver
 
 sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 
@@ -81,13 +145,17 @@ sponsors_accepted : "yes" # Whether you want "Become a XXX Sponsor!" link
 # unlimited sponsors, omit the max attribute or set it to 0. If you want to prevent all
 # sponsorship for a specific level, it is best to remove the level.
 sponsor_levels:
+  - id: venue
+    label: Venue
+    max: 1
   - id: gold
     label: Gold
-#    max: 10
+    max: 8
   - id: silver
     label: Silver
-    max: 0 # This is the same as omitting the max limit.
+    max: 7
   - id: bronze
     label: Bronze
+    max: 5
   - id: community
     label: Community

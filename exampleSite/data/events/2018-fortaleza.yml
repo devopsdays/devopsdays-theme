@@ -14,7 +14,7 @@ cfp_date_start: 2018-07-02 # start accepting talk proposals.
 cfp_date_end: 2018-09-02 # close your call for proposals.
 cfp_date_announce: 2018-09-16 # inform proposers of status
 
-cfp_open: "true"
+cfp_open: "false"
 cfp_link: "https://www.papercall.io/devopsdaysfortaleza" #if you have a custom link for submitting proposals, add it here. This will control the Propose menu item as well as the "Propose" button.
 
 masthead_background: "unifor.jpg"
@@ -38,14 +38,15 @@ nav_elements: # List of pages you want to show up in the navigation of your page
   - name: Palestrantes
     icon: "microphone"
     url: /events/2018-fortaleza/speakers
-#  - name: Programação
-#    icon: "book"
+  - name: Programação
+    icon: "book"
+    url: /events/2018-fortaleza/program
 #  - name: Local
 #    icon: "map-o"
 #    url: /events/2018-fortaleza/location
-  - name: Palestre (CFP)
-    icon: "user-plus"
-    url: "https://www.papercall.io/devopsdaysfortaleza"
+#  - name: Palestre (CFP)
+#    icon: "user-plus"
+#    url: "https://www.papercall.io/devopsdaysfortaleza"
   - name: Conduta
     icon: "handshake-o"
     url: /events/2018-fortaleza/conduta
@@ -113,11 +114,11 @@ Passionate and supportive of animals rights."
     linkedin: "https://www.linkedin.com/in/camila-correia-6082bb71/"
     website: "www.coffeedesign.com.br"
     image: "camila-correia.jpg"
-  - name: "Djavan Soeiro"
-    role: "Support Analyst"
-    bio: "IT Support Analyst with large experience in logs/monitoring the execution of processes and routines related to ​​network and data links, and support to direct customer service in help desk. Fan of open source technologies, information security, Fedora Linux user, and lover by aquarism. Chess player and novice on motocross tracks with friends."
-    linkedin: "https://www.linkedin.com/in/djavan-soeiro-74818b22/"
-    image: "djavan-soeiro.jpg"
+  - name: "Edvaldo Junior"
+    role: "DevOps Intern"
+    bio: "Graduating in computer networks, Itil Foundation, devOps enthusiast, Grafana Monitoring, Computational Forensic Expertise, Network Internship and DevOps Adagri."
+    linkedin: "https://www.linkedin.com/in/edvaldo-junior/"
+    image: "edvaldo-junior.jpg"
   - name: "Luciana Lima"
     role: "Itil knowledge technician"
     bio: "Itil knowledge technician, with experience of attendance in face and remote technical support to 8 years, were i attended The contact of several companies related to the Tecnology of the country.
@@ -128,12 +129,17 @@ Graduated in analysis and development of Systems with specializations in analysi
     role: "Entrepreneur"
     bio: "MBA of Business Management, formed in Information System. He has worked in the area of ​​Project Management at Grupo Edson Queiroz and M Dias Branco and is currently undertaking projects. Owner of Carole Cozinha, which provides executive meals to over 40 companies in Fortaleza and already has more than 500 clients."
     linkedin: "https://www.linkedin.com/in/camila-mamede-8a6b837b/"
-    image: "camila-mamede.jpeg"
+    image: "camila-mamede.jpg"
   - name: "Ana Paula Oliveira"
     role: "QA Analyst"
     bio: "Graduate in Analysis and systems development. Certified CTFL and ITIL Foundations. Passionate about everything in Technology, with experience in IT Support and now as a Test Analyst."
     linkedin: "https://www.linkedin.com/in/anaoliveira5/"
     image: "ana-paula.jpg"
+  - name: "Wanderson Lopes"
+    role: "Support Analyst"
+    bio: "Graduated in systems analysis, where the first contact with technology was with game bots creation. Today daily experience creating scripts in vbs for automation helpdesk service."
+    linkedin: "https://www.linkedin.com/in/wandersonlopes"
+    image: "wanderson-lopes.jpg"
 organizer_email: "organizers-fortaleza-2018@devopsdays.org" # Put your organizer email address here
 proposal_email: "proposals-fortaleza-2018@devopsdays.org" # Put your proposal email address here
 
@@ -151,6 +157,18 @@ sponsors:
   - id: f13
     level: silver
     url: https://www.f13.com.br/
+  - id: 4linux
+    level: community
+    url: https://www.4linux.com.br/
+  - id: 4devops
+    level: community
+    url: http://4devops.com.br/
+  - id: mandic
+    level: gold
+    url: https://www.mandic.com.br/
+  - id: redhat
+    level: gold
+    url: https://www.redhat.com/
 
 sponsors_accepted : "no" # Whether you want "Become a XXX Sponsor!" link
 
@@ -169,3 +187,89 @@ sponsor_levels:
     label: Bronze
   - id: community
     label: Community
+program:
+  - title: "Credenciamento, Breakfast e abertura do evento"
+    type: open-space
+    date: 2018-10-20
+    start_time: "08:00"
+    end_time: "08:30"
+  - title: "jairo-junior"
+    type: talk
+    date: 2018-10-20
+    start_time: "08:30"
+    end_time: "08:55"
+  - title: "gabriela-dias"
+    type: talk
+    date: 2018-10-20
+    start_time: "09:00"
+    end_time: "09:35"
+  - title: "yuri-adams"
+    type: talk
+    date: 2018-10-20
+    start_time: "09:45"
+    end_time: "10:10"
+  - title: "misael-santos"
+    type: talk
+    date: 2018-10-20
+    start_time: "10:20"
+    end_time: "10:45"
+  - title: "daniel-romero"
+    type: talk
+    date: 2018-10-20
+    start_time: "10:55"
+    end_time: "11:20"
+  - title: "Almoço"
+    type: open-space
+    date: 2018-10-20
+    start_time: "11:20"
+    end_time: "12:30"
+  - title: "marco-antonio-aka-somatorio"
+    type: talk
+    date: 2018-10-20
+    start_time: "12:35"
+    end_time: "13:10"
+  - title: "cicero-gadelha"
+    type: talk
+    date: 2018-10-20
+    start_time: "13:20"
+    end_time: "13:45"
+  - title: "braier-alves"
+    type: talk
+    date: 2018-10-20
+    start_time: "13:55"
+    end_time: "14:20"
+  - title: "rafael-gomes-aka-gomex"
+    type: talk
+    date: 2018-10-20
+    start_time: "14:30"
+    end_time: "14:55"
+  - title: "Coffee-Break"
+    type: open-space
+    date: 2018-10-20
+    start_time: "14:55"
+    end_time: "15:25"
+  - title: "camilla-martins"
+    type: talk
+    date: 2018-10-20
+    start_time: "15:25"
+    end_time: "16:00"
+  - title: "gabriel-araujo"
+    type: talk
+    date: 2018-10-20
+    start_time: "16:10"
+    end_time: "16:35"
+  - title: "thiago-souza"
+    type: talk
+    date: 2018-10-20
+    start_time: "16:45"
+    end_time: "17:10"
+  - title: "marcelo-bill"
+    type: talk
+    date: 2018-10-20
+    start_time: "17:20"
+    end_time: "17:55"
+  - title: "Encerramento"
+    type: open-space
+    date: 2018-10-20
+    start_time: "18:00"
+    end_time: "18:30"
