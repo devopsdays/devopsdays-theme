@@ -12,7 +12,13 @@
       <a href = "{{ .Permalink | absURL }}">
         {{- if isset .Params "image" -}}
           {{- if ne .Params.image "" -}}
+            {{ $imagefile := printf "static/events/%s/speakers/%s" $e.name .Params.image }}
+            {{ $imagefile2 := printf "content/events/%s/speakers/%s" $e.name .Params.image }}
+            {{ if or (fileExists $imagefile) (fileExists $imagefile2) }}
             <img src = "{{ (printf "events/%s/speakers/%s" $e.name .Params.image) | absURL}}" class="speakers-page img-fluid" alt="{{ .Title }}"/><br />
+            {{ else }}
+              {{ errorf "%s not found" $imagefile }}
+            {{ end }}
           {{- end -}}
           {{- else -}}
             <img src = "{{"img/speaker-default.jpg" | absURL }}" class="speakers-page img-fluid"  alt="{{ .Title }}"/><br />

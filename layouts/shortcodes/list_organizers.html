@@ -13,7 +13,13 @@
               {{ end }}
             </div>
             {{- if .image -}}
+            {{ $imagefile := printf "static/events/%s/organizers/%s" $e.name .image }}
+            {{ $imagefile2 := printf "content/events/%s/organizers/%s" $e.name .image }}
+              {{ if or (fileExists $imagefile) (fileExists $imagefile2) -}}
               <img class="card-img-top organizer-image" src="{{ (printf "events/%s/organizers/%s" $e.name .image) | absURL }}" alt="{{ .name }}">
+              {{- else }}
+                {{ errorf "%s not found" $imagefile }}
+              {{- end }}
             {{- end -}}
             <div class = "card-block">
               {{- if .employer -}}
