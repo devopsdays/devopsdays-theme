@@ -27,6 +27,13 @@
                   {{- end -}}
                 {{- end -}}
               {{- end -}}
+              {{- if eq .name "sponsor" -}}
+                {{- if $e.sponsor_link -}}
+                  {{- if ne $e.sponsor_link "" -}}
+                    {{- $.Scratch.Set "url" $e.sponsor_link -}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end -}}
                 <li class="nav-item active">
                   <a class="nav-link" href="{{$.Scratch.Get "url" }}">{{ .name }}</a>
                 </li>
