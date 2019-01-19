@@ -1,5 +1,5 @@
 {{- $e := (index $.Site.Data.events (index (split ($.Page.Permalink | relURL) "/") 2)) -}}
-<script src="../../../js/devopsdays-min.js"></script>
+<script src="/js/devopsdays-min.js"></script>
 <script>
     $(window).one("load", function() {
         $("#share").jsSocials("shareOption", "email", "to", {{ $e.organizer_email }} );
