@@ -17,8 +17,8 @@
         {{- $.Scratch.Set "year" (dateFormat "2006" .startdate) -}}
         {{- $.Scratch.Set "year-displayed" "false" -}}
       {{- end -}}
-      {{- if ne ($.Scratch.Get "month") (dateFormat "January" .startdate ) -}}
-        {{- $.Scratch.Set "month" (dateFormat "January" .startdate ) -}}
+      {{- if ne ($.Scratch.Get "month") (dateFormat "January 2006" .startdate ) -}}
+        {{- $.Scratch.Set "month" (dateFormat "January 2006" .startdate ) -}}
         {{- $.Scratch.Set "month-displayed" "false" -}}
       {{- end -}}
       {{- if ne ($.Scratch.Get "month-displayed") "true" -}}
@@ -26,7 +26,7 @@
         </div>
       {{- end -}}
       <div class = "col-md-6 col-lg-3 events-page-col">
-        <h4 class="events-page-months">{{ dateFormat "January" .startdate }}</h4>
+        <h4 class="events-page-months">{{ dateFormat "January 2006" .startdate }}</h4>
         {{- $.Scratch.Set "month-displayed" "true" -}}
         {{- $.Scratch.Set "close-tag" "true" -}}
       {{- end -}}
@@ -61,6 +61,57 @@
 {{- end -}}
 </div>
   </div>
-{{- partial "past.html" . -}}
+
+<div class = "row">
+  <div class = "col-md-12">
+    <h2>Past</h2>
+  </div>
+</div>
+{{- range sort $.Site.Data.events "startdate" "desc" -}}
+  {{- if .startdate -}}
+    {{- if le (time .enddate) now -}}
+      {{- if ne ($.Scratch.Get "year") (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year" (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year-displayed" "false" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "year") (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year" (dateFormat "2006" .startdate) -}}
+        {{- $.Scratch.Set "year-displayed" "false" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "month") (dateFormat "January 2006" .startdate ) -}}
+        {{- $.Scratch.Set "month" (dateFormat "January 2006" .startdate ) -}}
+        {{- $.Scratch.Set "month-displayed" "false" -}}
+      {{- end -}}
+      {{- if ne ($.Scratch.Get "month-displayed") "true" -}}
+      {{- if eq ($.Scratch.Get "close-tag") "true"}}
+        </div>
+      {{- end -}}
+      <div class = "col-md-6 col-lg-3 events-page-col">
+        <h4 class="events-page-months">{{ dateFormat "January 2006" .startdate }}</h4>
+        {{- $.Scratch.Set "month-displayed" "true" -}}
+        {{- $.Scratch.Set "close-tag" "true" -}}
+      {{- end -}}
+      {{- if ne .startdate .enddate }}
+      {{- if eq (time .startdate).Month (time .enddate).Month -}}
+        <a href = "{{ (printf "events/%s" .name) | absURL }}" class = "events-page-event">
+      {{ dateFormat "Jan 2" .startdate }} - {{ dateFormat "2" .enddate }}:
+      {{ .city }}
+        </a><br />
+      {{- else -}}
+    <a href = "{{ (printf "events/%s" .name) | absURL }}" class = "events-page-event">
+      {{ dateFormat "Jan 2" .startdate }} - {{ dateFormat "Jan 2" .enddate }}:
+      {{ .city }}
+    </a><br />
+      {{- end -}}
+      {{- else -}}
+      <a href = "{{ (printf "events/%s" .name) | absURL }}" class = "events-page-event">
+        {{ dateFormat "Jan 2" .startdate }}:
+        {{ .city }}
+      </a><br />
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 
 {{ end }}
